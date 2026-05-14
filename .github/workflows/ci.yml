@@ -37,6 +37,11 @@ jobs:
         run: |
           python scripts/run_mypy.py
 
+      - name: Validate JSON contracts
+        shell: pwsh
+        run: |
+          python scripts/validate_json_contracts.py
+
       - name: Run operational checks
         shell: pwsh
         run: |
