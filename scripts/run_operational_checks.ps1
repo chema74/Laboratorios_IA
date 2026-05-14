@@ -45,6 +45,8 @@ foreach ($lab in $labDirs) {
 
     Write-Host "=== RUN_ALL: $($lab.Name) ==="
     $start = Get-Date
+    $prevArtifacts = $env:ARTIFACTS_DIR
+    $env:ARTIFACTS_DIR = (Join-Path $repoRoot ("artifacts\" + $lab.Name))
     Push-Location $lab.FullName
     try {
         & python @runAllArgs
@@ -52,6 +54,7 @@ foreach ($lab in $labDirs) {
     }
     finally {
         Pop-Location
+        $env:ARTIFACTS_DIR = $prevArtifacts
     }
     $duration = [Math]::Round(((Get-Date) - $start).TotalSeconds, 3)
     $status = if ($code -eq 0) { "PASS" } else { "FAIL" }

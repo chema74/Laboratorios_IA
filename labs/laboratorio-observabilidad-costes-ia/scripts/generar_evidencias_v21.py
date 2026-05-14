@@ -1,6 +1,7 @@
-﻿from __future__ import annotations
+from __future__ import annotations
 
 import json
+import os
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
@@ -14,10 +15,16 @@ from observabilidad_costes_ia.escenarios import obtener_escenario
 from observabilidad_costes_ia.motor import analizar_eventos
 from observabilidad_costes_ia.orquestador import generar_analisis_ejecutivo
 
-SALIDA = BASE / "evidencias" / "v2_1"
-LICENCIA = """\nPublicado bajo licencia Creative Commons CC BY-SA 4.0 International.  
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+LICENCIA = """\nPublicado bajo licencia Creative Commons CC BY-SA 4.0 International.
+© 2025 - Txema Rios. Todos los derechos compartidos.
 """
+
+
+def _salida_dir() -> Path:
+    custom = os.getenv("ARTIFACTS_DIR", "").strip()
+    if custom:
+        return Path(custom) / "evidencias" / "v2_1"
+    return BASE / "evidencias" / "v2_1"
 
 
 def _normalizar_texto(valor: object) -> str:
@@ -40,7 +47,7 @@ def generar_evidencias(escenario: str = "uso_normal_controlado") -> dict[str, Pa
         "categoria": "sin_diagnostico",
         "http_status": None,
         "modelo_usado": None,
-        "mensaje_seguro": "No se recibió diagnóstico Groq; se asume fallback local.",
+        "mensaje_seguro": "No se recibio diagnostico Groq; se asume fallback local.",
     }
 
     resumen_ejecutivo = _normalizar_texto(analisis.get("resumen_ejecutivo", ""))
@@ -60,10 +67,11 @@ def generar_evidencias(escenario: str = "uso_normal_controlado") -> dict[str, Pa
         "diagnostico_groq": diagnostico,
     }
 
-    SALIDA.mkdir(parents=True, exist_ok=True)
-    ruta_json = SALIDA / "evidencia_observabilidad_costes_v21.json"
-    ruta_md = SALIDA / "evidencia_observabilidad_costes_v21.md"
-    ruta_html = SALIDA / "evidencia_observabilidad_costes_v21.html"
+    salida = _salida_dir()
+    salida.mkdir(parents=True, exist_ok=True)
+    ruta_json = salida / "evidencia_observabilidad_costes_v21.json"
+    ruta_md = salida / "evidencia_observabilidad_costes_v21.md"
+    ruta_html = salida / "evidencia_observabilidad_costes_v21.html"
 
     ruta_json.write_text(json.dumps(paquete, ensure_ascii=False, indent=2), encoding="utf-8")
 
@@ -77,12 +85,12 @@ def generar_evidencias(escenario: str = "uso_normal_controlado") -> dict[str, Pa
         "## Resumen ejecutivo",
         paquete["resumen_ejecutivo"],
         "",
-        "## Diagnóstico Groq / modo de ejecución",
+        "## Diagnostico Groq / modo de ejecucion",
         "```json",
         json.dumps(paquete["diagnostico_groq"], ensure_ascii=False, indent=2),
         "```",
         "",
-        "## Métricas agregadas",
+        "## Metricas agregadas",
         "```json",
         json.dumps(paquete["metricas_agregadas"], ensure_ascii=False, indent=2),
         "```",
@@ -92,7 +100,7 @@ def generar_evidencias(escenario: str = "uso_normal_controlado") -> dict[str, Pa
     md.extend([f"- {a['tipo']}: {a['detalle']}" for a in paquete["alertas"]] or ["- Sin alertas"])
     md.extend(["", "## Recomendaciones", "### Coste"])
     md.extend([f"- {item}" for item in paquete["recomendaciones"]["coste"]])
-    md.append("### Operación")
+    md.append("### Operacion")
     md.extend([f"- {item}" for item in paquete["recomendaciones"]["operacion"]])
     md.append("### Gobernanza")
     md.extend([f"- {item}" for item in paquete["recomendaciones"]["gobernanza"]])
@@ -101,18 +109,22 @@ def generar_evidencias(escenario: str = "uso_normal_controlado") -> dict[str, Pa
     ruta_md.write_text("\n".join(md), encoding="utf-8")
 
     filas = "".join(
-        f"<tr><td>{ev['id_evento']}</td><td>{ev['caso_uso']}</td><td>{ev['proveedor']}</td><td>{ev['modelo']}</td><td>{ev['latencia_ms']}</td><td>{ev['coste_estimado_eur']:.4f}</td><td>{ev['riesgo']}</td></tr>"
+        (
+            f"<tr><td>{ev['id_evento']}</td><td>{ev['caso_uso']}</td><td>{ev['proveedor']}</td>"
+            f"<td>{ev['modelo']}</td><td>{ev['latencia_ms']}</td><td>{ev['coste_estimado_eur']:.4f}</td>"
+            f"<td>{ev['riesgo']}</td></tr>"
+        )
         for ev in paquete["eventos_analizados"]
     )
-    html = f"""<!doctype html><html lang=\"es\"><head><meta charset=\"utf-8\"><title>Evidencia V2.1</title>
+    html = f"""<!doctype html><html lang="es"><head><meta charset="utf-8"><title>Evidencia V2.1</title>
 <style>body{{font-family:Segoe UI,Arial,sans-serif;margin:20px;background:#f8fafc}}.box{{background:#fff;border:1px solid #cbd5e1;padding:12px;border-radius:8px;margin-bottom:12px}}table{{width:100%;border-collapse:collapse}}td,th{{border:1px solid #cbd5e1;padding:6px}}</style></head>
 <body><h1>Evidencia V2.1 - Observabilidad y Costes IA</h1>
-<div class=\"box\"><strong>Escenario:</strong> {escenario}<br><strong>Modo:</strong> {paquete['modo']}<br><strong>Timestamp:</strong> {marca_tiempo}</div>
-<div class=\"box\"><h2>Diagnóstico Groq / modo de ejecución</h2><pre>{json.dumps(paquete['diagnostico_groq'], ensure_ascii=False, indent=2)}</pre><p>Si Groq no está disponible o falla, el laboratorio continúa en fallback local de forma controlada.</p></div>
-<div class=\"box\"><h2>Resumen ejecutivo</h2><p>{paquete['resumen_ejecutivo']}</p></div>
-<div class=\"box\"><h2>Métricas agregadas</h2><pre>{json.dumps(paquete['metricas_agregadas'], ensure_ascii=False, indent=2)}</pre></div>
-<div class=\"box\"><h2>Eventos analizados</h2><table><thead><tr><th>ID</th><th>Caso</th><th>Proveedor</th><th>Modelo</th><th>Latencia</th><th>Coste</th><th>Riesgo</th></tr></thead><tbody>{filas}</tbody></table></div>
-<p>Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.<br>© 2025 – Txema Ríos. Todos los derechos compartidos.</p>
+<div class="box"><strong>Escenario:</strong> {escenario}<br><strong>Modo:</strong> {paquete['modo']}<br><strong>Timestamp:</strong> {marca_tiempo}</div>
+<div class="box"><h2>Diagnostico Groq / modo de ejecucion</h2><pre>{json.dumps(paquete['diagnostico_groq'], ensure_ascii=False, indent=2)}</pre><p>Si Groq no esta disponible o falla, el laboratorio continua en fallback local de forma controlada.</p></div>
+<div class="box"><h2>Resumen ejecutivo</h2><p>{paquete['resumen_ejecutivo']}</p></div>
+<div class="box"><h2>Metricas agregadas</h2><pre>{json.dumps(paquete['metricas_agregadas'], ensure_ascii=False, indent=2)}</pre></div>
+<div class="box"><h2>Eventos analizados</h2><table><thead><tr><th>ID</th><th>Caso</th><th>Proveedor</th><th>Modelo</th><th>Latencia</th><th>Coste</th><th>Riesgo</th></tr></thead><tbody>{filas}</tbody></table></div>
+<p>Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.<br>© 2025 - Txema Rios. Todos los derechos compartidos.</p>
 </body></html>"""
     ruta_html.write_text(html, encoding="utf-8")
 

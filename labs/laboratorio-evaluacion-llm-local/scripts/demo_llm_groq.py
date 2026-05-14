@@ -1,4 +1,5 @@
-﻿import json
+import json
+import os
 import sys
 from pathlib import Path
 
@@ -9,12 +10,19 @@ if str(BASE) not in sys.path:
 from servicios.evaluacion_llm_v21 import cargar_casos_demo, evaluar_respuesta_llm, guardar_evidencia_json
 
 
+def _evidencias_dir() -> Path:
+    custom = os.getenv("ARTIFACTS_DIR", "").strip()
+    if custom:
+        return Path(custom) / "evidencias"
+    return BASE / "evidencias"
+
+
 def _licencia_md() -> str:
     return (
         "\n---\n\n"
-        "## Licencia y Autoría\n"
+        "## Licencia y Autoria\n"
         "Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.\n"
-        "© 2026 - Txema Ríos.\n"
+        "© 2026 - Txema Rios.\n"
     )
 
 
@@ -22,26 +30,28 @@ def _render_markdown(resultados: list[dict], casos_por_id: dict[str, dict]) -> s
     lineas = [
         "# Demo LLM Groq Opcional V2.1",
         "",
-        "Evidencia de evaluación con ruta Groq opcional y fallback local determinista.",
+        "Evidencia de evaluacion con ruta Groq opcional y fallback local determinista.",
         "",
     ]
     for r in resultados:
         caso = casos_por_id.get(r["escenario"], {})
         nombre = caso.get("nombre", r["escenario"])
         descripcion = caso.get("descripcion", "")
-        lineas.extend([
-            f"## Caso: {nombre}",
-            "",
-            f"- Id escenario: `{r['escenario']}`",
-            f"- Descripción: {descripcion}",
-            f"- Proveedor: `{r['proveedor']}`",
-            f"- Modelo: `{r['modelo']}`",
-            f"- Ruta ejecución: `{r['ruta_ejecucion']}`",
-            f"- Motivo fallback: `{r['motivo_fallback']}`",
-            f"- Puntuación media: `{r['puntuacion_media']}`",
-            f"- Riesgos: `{', '.join(r['riesgos']) if r['riesgos'] else 'ninguno'}`",
-            "",
-        ])
+        lineas.extend(
+            [
+                f"## Caso: {nombre}",
+                "",
+                f"- Id escenario: `{r['escenario']}`",
+                f"- Descripcion: {descripcion}",
+                f"- Proveedor: `{r['proveedor']}`",
+                f"- Modelo: `{r['modelo']}`",
+                f"- Ruta ejecucion: `{r['ruta_ejecucion']}`",
+                f"- Motivo fallback: `{r['motivo_fallback']}`",
+                f"- Puntuacion media: `{r['puntuacion_media']}`",
+                f"- Riesgos: `{', '.join(r['riesgos']) if r['riesgos'] else 'ninguno'}`",
+                "",
+            ]
+        )
     lineas.append(_licencia_md())
     return "\n".join(lineas)
 
@@ -63,9 +73,11 @@ def main() -> None:
         pregunta = _valor_caso(caso, "pregunta", default="")
         contexto = _valor_caso(caso, "contexto_esperado", "contexto", default="")
         respuesta = _valor_caso(caso, "respuesta_candidata", "respuesta", default="")
-        criterios = caso.get("criterios") if isinstance(caso.get("criterios"), list) and caso.get("criterios") else [
-            "relevancia", "precision", "cobertura", "seguridad", "consistencia", "trazabilidad"
-        ]
+        criterios = (
+            caso.get("criterios")
+            if isinstance(caso.get("criterios"), list) and caso.get("criterios")
+            else ["relevancia", "precision", "cobertura", "seguridad", "consistencia", "trazabilidad"]
+        )
 
         res = evaluar_respuesta_llm(
             escenario=escenario,
@@ -82,8 +94,9 @@ def main() -> None:
         "resultados": resultados,
     }
 
-    ruta_json = guardar_evidencia_json(salida_json, BASE / "evidencias" / "resultado_demo_llm_groq.json")
-    ruta_md = BASE / "evidencias" / "demo_llm_groq.md"
+    evidencias = _evidencias_dir()
+    ruta_json = guardar_evidencia_json(salida_json, evidencias / "resultado_demo_llm_groq.json")
+    ruta_md = evidencias / "demo_llm_groq.md"
     ruta_md.parent.mkdir(parents=True, exist_ok=True)
     casos_por_id = {c.get("id", f"idx_{i}"): c for i, c in enumerate(casos)}
     ruta_md.write_text(_render_markdown(resultados, casos_por_id), encoding="utf-8")
@@ -93,9 +106,9 @@ def main() -> None:
     print(f"Evidencia JSON: {ruta_json}")
     print(f"Evidencia Markdown: {ruta_md}")
     if resultados:
-        print(f"Último proveedor: {resultados[-1]['proveedor']}")
-        print(f"Última ruta: {resultados[-1]['ruta_ejecucion']}")
-        print(f"Último motivo_fallback: {resultados[-1]['motivo_fallback']}")
+        print(f"Ultimo proveedor: {resultados[-1]['proveedor']}")
+        print(f"Ultima ruta: {resultados[-1]['ruta_ejecucion']}")
+        print(f"Ultimo motivo_fallback: {resultados[-1]['motivo_fallback']}")
 
 
 if __name__ == "__main__":

@@ -14,6 +14,13 @@ if str(BASE) not in sys.path:
 
 from servicios.evaluacion_llm_v21 import CRITERIOS_DISPONIBLES, cargar_casos_demo, evaluar_respuesta_llm, guardar_evidencia_json
 
+
+def _evidencias_dir() -> Path:
+    custom = os.getenv("ARTIFACTS_DIR", "").strip()
+    if custom:
+        return Path(custom) / "evidencias"
+    return BASE / "evidencias"
+
 HISTORIAL = []
 CASOS = cargar_casos_demo(BASE / "datos" / "casos_demo_llm_v21.json")
 CASOS_POR_ID = {c["id"]: c for c in CASOS}
@@ -43,7 +50,7 @@ def _licencia_md() -> str:
 
 def _guardar_evidencias_interactivas(resultado: dict) -> dict:
     ts = datetime.utcnow().strftime("%Y%m%d_%H%M%S")
-    base = BASE / "evidencias" / "interactivas"
+    base = _evidencias_dir() / "interactivas"
     base.mkdir(parents=True, exist_ok=True)
     ruta_json = base / f"evaluacion_{ts}.json"
     ruta_md = base / f"evaluacion_{ts}.md"
