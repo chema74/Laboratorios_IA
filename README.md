@@ -27,9 +27,13 @@ powershell -ExecutionPolicy Bypass -File scripts/run_operational_checks.ps1
 
 - detecta laboratorios bajo `labs/`;
 - configura `TMP/TEMP` local en `.tmp`;
-- ejecuta `python scripts/comprobar_salud.py` cuando existe;
-- ejecuta `python -m unittest discover tests -v` en cada laboratorio con carpeta `tests`;
+- ejecuta `python scripts/run_all.py` por laboratorio;
 - resume resultados y devuelve codigo de salida no-cero si hay fallos.
+- exporta `reports/operational_summary.json`.
+
+Variables utiles:
+
+- `RUN_DEMOS=1`: activa demos dentro de `run_all.py`.
 
 ## Matriz de operacion por laboratorio
 
@@ -52,3 +56,5 @@ powershell -ExecutionPolicy Bypass -File scripts/run_operational_checks.ps1
 - `pyproject.toml`: configuracion de `ruff`.
 - `.pre-commit-config.yaml`: hooks basicos de higiene y lint.
 - `.github/workflows/ci.yml`: pipeline de comprobaciones en cada push/PR.
+- `constraints.txt`: versionado base para tooling.
+- `CHANGELOG.md`: registro de cambios operativos.
