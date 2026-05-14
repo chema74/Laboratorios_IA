@@ -58,3 +58,9 @@ Variables utiles:
 - `.github/workflows/ci.yml`: pipeline de comprobaciones en cada push/PR.
 - `constraints.txt`: versionado base para tooling.
 - `CHANGELOG.md`: registro de cambios operativos.
+
+## Calidad avanzada
+
+- Cobertura transversal: `python scripts/run_coverage.py` (umbral minimo 70%).
+- CI en matriz: Windows y Ubuntu con Python 3.11 y 3.12.
+- Gate de limpieza: el workflow falla si quedan cambios tracked tras los checks.

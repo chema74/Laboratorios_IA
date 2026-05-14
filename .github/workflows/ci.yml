@@ -6,7 +6,12 @@ on:
 
 jobs:
   quality-and-tests:
-    runs-on: windows-latest
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [windows-latest, ubuntu-latest]
+        python-version: ["3.11", "3.12"]
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -14,7 +19,7 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.11"
+          python-version: ${{ matrix.python-version }}
 
       - name: Install base tooling
         shell: pwsh
@@ -31,3 +36,14 @@ jobs:
         shell: pwsh
         run: |
           powershell -ExecutionPolicy Bypass -File scripts/run_operational_checks.ps1
+
+      - name: Run coverage gate
+        shell: pwsh
+        run: |
+          python scripts/run_coverage.py
+
+      - name: Ensure clean tracked tree after checks
+        shell: bash
+        run: |
+          git diff --exit-code
+          git diff --cached --exit-code
