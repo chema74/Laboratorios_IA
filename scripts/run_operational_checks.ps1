@@ -22,6 +22,12 @@ if (!(Test-Path $labsRoot)) {
     throw "No existe la carpeta labs en $repoRoot"
 }
 
+Write-Host "=== CONTRATOS JSON ==="
+& python "scripts/validate_json_contracts.py"
+if ($LASTEXITCODE -ne 0) {
+    throw "Fallo en validacion de contratos JSON."
+}
+
 $withDemo = $env:RUN_DEMOS -eq "1"
 $runAllArgs = @("scripts/run_all.py")
 if ($withDemo) {
