@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "array",
+  "minItems": 1,
+  "items": {
+    "type": "object",
+    "required": ["id", "texto", "nombres_marcados"],
+    "additionalProperties": false,
+    "properties": {
+      "id": { "type": "string", "pattern": "^D-[0-9]{3}$" },
+      "texto": { "type": "string", "minLength": 1 },
+      "nombres_marcados": {
+        "type": "array",
+        "items": { "type": "string", "minLength": 1 }
+      }
+    }
+  }
+}

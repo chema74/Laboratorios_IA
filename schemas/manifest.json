@@ -1,0 +1,22 @@
+[
+  {
+    "name": "rag_documentos_corporativos",
+    "data_file": "labs/laboratorio-rag-corporativo-local/datos/brutos/documentos_corporativos.json",
+    "schema_file": "schemas/rag_documentos_corporativos.schema.json"
+  },
+  {
+    "name": "privacidad_dataset_pii",
+    "data_file": "labs/laboratorio-privacidad-datos-ia/datos/dataset_con_pii_sintetica.json",
+    "schema_file": "schemas/privacidad_dataset_pii.schema.json"
+  },
+  {
+    "name": "gobernanza_casos_uso",
+    "data_file": "labs/laboratorio-gobernanza-ai-act-local/datos/casos_uso_ia.json",
+    "schema_file": "schemas/gobernanza_casos_uso.schema.json"
+  },
+  {
+    "name": "agentes_tareas_enterprise",
+    "data_file": "labs/laboratorio-agentes-enterprise-local/datos/tareas_enterprise.json",
+    "schema_file": "schemas/agentes_tareas_enterprise.schema.json"
+  }
+]

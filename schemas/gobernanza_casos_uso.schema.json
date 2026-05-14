@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "array",
+  "minItems": 1,
+  "items": {
+    "type": "object",
+    "required": [
+      "identificador",
+      "nombre",
+      "area",
+      "descripcion",
+      "usuarios_afectados",
+      "datos_tratados",
+      "criticidad",
+      "grado_automatizacion",
+      "supervision_humana",
+      "impacto_potencial",
+      "evidencias_asociadas"
+    ],
+    "additionalProperties": false,
+    "properties": {
+      "identificador": { "type": "string", "pattern": "^CU-[0-9]{3}$" },
+      "nombre": { "type": "string", "minLength": 1 },
+      "area": { "type": "string", "minLength": 1 },
+      "descripcion": { "type": "string", "minLength": 1 },
+      "usuarios_afectados": { "type": "string", "minLength": 1 },
+      "datos_tratados": { "type": "string", "minLength": 1 },
+      "criticidad": { "type": "string", "enum": ["baja", "media", "alta"] },
+      "grado_automatizacion": { "type": "string", "enum": ["bajo", "medio", "alto"] },
+      "supervision_humana": { "type": "string", "enum": ["baja", "media", "alta"] },
+      "impacto_potencial": { "type": "string", "enum": ["bajo", "medio", "alto"] },
+      "evidencias_asociadas": {
+        "type": "array",
+        "minItems": 1,
+        "items": { "type": "string", "pattern": "^E-[0-9]{3}$" }
+      }
+    }
+  }
+}
