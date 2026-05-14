@@ -14,7 +14,8 @@ Este repositorio queda preparado para:
 ## Ejecucion rapida
 
 ```powershell
-python -m pip install -U pip pre-commit
+python -m pip install -U pip
+pip install -r requirements-dev.txt
 pre-commit install
 pre-commit run --all-files
 powershell -ExecutionPolicy Bypass -File scripts/run_operational_checks.ps1
@@ -26,8 +27,25 @@ powershell -ExecutionPolicy Bypass -File scripts/run_operational_checks.ps1
 
 - detecta laboratorios bajo `labs/`;
 - configura `TMP/TEMP` local en `.tmp`;
+- ejecuta `python scripts/comprobar_salud.py` cuando existe;
 - ejecuta `python -m unittest discover tests -v` en cada laboratorio con carpeta `tests`;
 - resume resultados y devuelve codigo de salida no-cero si hay fallos.
+
+## Matriz de operacion por laboratorio
+
+| Laboratorio | Demo principal | Tests | Salud |
+|---|---|---|---|
+| `laboratorio-agentes-enterprise-local` | `python scripts\ejecutar_demo.py` | `python -m unittest discover tests -v` | `python scripts\comprobar_salud.py` |
+| `laboratorio-backend-ia-empresarial` | `python scripts\ejecutar_demo.py` | `python -m unittest discover tests -v` | `python scripts\comprobar_salud.py` |
+| `laboratorio-empresa-sintetica-ia` | `python proyectos\10-demo-narrativa-empresa-completa\ejecutar_demo.py` | tests por proyecto en `proyectos\**\tests` | `python scripts\comprobar_salud.py` |
+| `laboratorio-evaluacion-llm-local` | `python scripts\ejecutar_demo.py` | `python -m unittest discover tests -v` | `python scripts\comprobar_salud.py` |
+| `laboratorio-gobernanza-ai-act-local` | `python scripts\ejecutar_demo.py` | `python -m unittest discover tests -v` | `python scripts\comprobar_salud.py` |
+| `laboratorio-google-ia-empresarial` | demos por proyecto en `proyectos\**\README.md` | n/a (V1 documental) | `python scripts\comprobar_salud.py` |
+| `laboratorio-microsoft-ia-empresarial` | demos por proyecto en `proyectos\**\README.md` | n/a (V1 documental) | `python scripts\comprobar_salud.py` |
+| `laboratorio-observabilidad-costes-ia` | `python scripts\ejecutar_demo.py` | `python -m unittest discover tests -v` | `python scripts\comprobar_salud.py` |
+| `laboratorio-privacidad-datos-ia` | `python scripts\ejecutar_demo.py` | `python -m unittest discover tests -v` | `python scripts\comprobar_salud.py` |
+| `laboratorio-rag-corporativo-local` | `python scripts\ejecutar_demo.py` | `python -m unittest discover tests -v` | `python scripts\comprobar_salud.py` |
+| `laboratorio-seguridad-agentes-ia` | demos por proyecto en `proyectos\**\README.md` | tests por proyecto en `proyectos\**\tests` | `python scripts\comprobar_salud.py` |
 
 ## Estandares en raiz
 

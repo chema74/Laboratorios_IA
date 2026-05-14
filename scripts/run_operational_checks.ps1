@@ -21,26 +21,54 @@ $labDirs = Get-ChildItem -Path $labsRoot -Directory | Sort-Object Name
 $results = @()
 
 foreach ($lab in $labDirs) {
+    $labOk = $true
+    $checks = @()
+
+    $healthScript = Join-Path $lab.FullName "scripts\comprobar_salud.py"
+    if (Test-Path $healthScript) {
+        Write-Host "=== SALUD: $($lab.Name) ==="
+        Push-Location $lab.FullName
+        try {
+            & python "scripts/comprobar_salud.py"
+            $healthCode = $LASTEXITCODE
+        }
+        finally {
+            Pop-Location
+        }
+        $healthStatus = if ($healthCode -eq 0) { "PASS" } else { "FAIL" }
+        $checks += "salud=$healthStatus"
+        if ($healthCode -ne 0) {
+            $labOk = $false
+        }
+    }
+
     $testsPath = Join-Path $lab.FullName "tests"
-    if (!(Test-Path $testsPath)) {
+    if (Test-Path $testsPath) {
+        Write-Host "=== TESTS: $($lab.Name) ==="
+        Push-Location $lab.FullName
+        try {
+            & python -m unittest discover tests -v
+            $testsCode = $LASTEXITCODE
+        }
+        finally {
+            Pop-Location
+        }
+        $testsStatus = if ($testsCode -eq 0) { "PASS" } else { "FAIL" }
+        $checks += "tests=$testsStatus"
+        if ($testsCode -ne 0) {
+            $labOk = $false
+        }
+    }
+
+    if ($checks.Count -eq 0) {
         continue
     }
 
-    Write-Host "=== TESTS: $($lab.Name) ==="
-    Push-Location $lab.FullName
-    try {
-        & python -m unittest discover tests -v
-        $code = $LASTEXITCODE
-    }
-    finally {
-        Pop-Location
-    }
-
-    $status = if ($code -eq 0) { "PASS" } else { "FAIL" }
+    $status = if ($labOk) { "PASS" } else { "FAIL" }
     $results += [PSCustomObject]@{
         laboratorio = $lab.Name
         estado = $status
-        exit_code = $code
+        detalle = ($checks -join ", ")
     }
 }
 
@@ -54,5 +82,5 @@ if ($fails.Count -gt 0) {
     exit 1
 }
 
-Write-Host "Todos los laboratorios con tests han pasado."
+Write-Host "Todos los laboratorios con checks han pasado."
 exit 0
