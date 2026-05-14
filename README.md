@@ -63,5 +63,6 @@ Variables utiles:
 
 - Cobertura transversal: `python scripts/run_coverage.py` (umbral minimo 70%).
 - Tipado estatico gradual: `python scripts/run_mypy.py`.
+- Contratos JSON formales: `python scripts/validate_json_contracts.py` (manifest en `schemas/manifest.json`).
 - CI en matriz: Windows y Ubuntu con Python 3.11 y 3.12.
 - Gate de limpieza: el workflow falla si quedan cambios tracked tras los checks.
