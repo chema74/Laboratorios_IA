@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "array",
+  "minItems": 1,
+  "items": {
+    "type": "object",
+    "required": ["endpoint", "metodo", "payload", "usuario", "rol", "token_ficticio", "traza_id"],
+    "additionalProperties": false,
+    "properties": {
+      "endpoint": { "type": "string", "pattern": "^/.+" },
+      "metodo": { "type": "string", "enum": ["POST", "GET", "PUT", "DELETE"] },
+      "payload": { "type": "object" },
+      "usuario": { "type": "string", "minLength": 1 },
+      "rol": { "type": "string", "minLength": 1 },
+      "token_ficticio": { "type": "string", "minLength": 1 },
+      "traza_id": { "type": "string", "pattern": "^TRZ-[0-9]{3}$" }
+    }
+  }
+}

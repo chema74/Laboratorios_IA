@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": ["retencion", "minimizacion", "validacion_salida"],
+  "additionalProperties": false,
+  "properties": {
+    "retencion": { "type": "string", "minLength": 1 },
+    "minimizacion": { "type": "string", "minLength": 1 },
+    "validacion_salida": { "type": "string", "minLength": 1 }
+  }
+}

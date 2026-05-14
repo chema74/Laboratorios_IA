@@ -18,5 +18,60 @@
     "name": "agentes_tareas_enterprise",
     "data_file": "labs/laboratorio-agentes-enterprise-local/datos/tareas_enterprise.json",
     "schema_file": "schemas/agentes_tareas_enterprise.schema.json"
+  },
+  {
+    "name": "backend_contratos_api",
+    "data_file": "labs/laboratorio-backend-ia-empresarial/datos/contratos_api.json",
+    "schema_file": "schemas/backend_contratos_api.schema.json"
+  },
+  {
+    "name": "observabilidad_eventos_ia",
+    "data_file": "labs/laboratorio-observabilidad-costes-ia/datos/eventos_ia_sinteticos.json",
+    "schema_file": "schemas/observabilidad_eventos_ia.schema.json"
+  },
+  {
+    "name": "evaluacion_llm_dataset_dorado",
+    "data_file": "labs/laboratorio-evaluacion-llm-local/datos/dataset_dorado.json",
+    "schema_file": "schemas/evaluacion_llm_dataset_dorado.schema.json"
+  },
+  {
+    "name": "rag_evaluacion_dataset_dorado",
+    "data_file": "labs/laboratorio-rag-corporativo-local/evaluacion/dataset_dorado.json",
+    "schema_file": "schemas/rag_evaluacion_dataset_dorado.schema.json"
+  },
+  {
+    "name": "backend_usuarios_roles",
+    "data_file": "labs/laboratorio-backend-ia-empresarial/datos/usuarios_roles.json",
+    "schema_file": "schemas/backend_usuarios_roles.schema.json"
+  },
+  {
+    "name": "backend_peticiones",
+    "data_file": "labs/laboratorio-backend-ia-empresarial/datos/peticiones_backend.json",
+    "schema_file": "schemas/backend_peticiones.schema.json"
+  },
+  {
+    "name": "observabilidad_presupuesto",
+    "data_file": "labs/laboratorio-observabilidad-costes-ia/datos/presupuesto_operativo.json",
+    "schema_file": "schemas/observabilidad_presupuesto.schema.json"
+  },
+  {
+    "name": "observabilidad_feedback",
+    "data_file": "labs/laboratorio-observabilidad-costes-ia/datos/feedback_usuarios.json",
+    "schema_file": "schemas/observabilidad_feedback.schema.json"
+  },
+  {
+    "name": "evaluacion_prompts_versionados",
+    "data_file": "labs/laboratorio-evaluacion-llm-local/datos/prompts_versionados.json",
+    "schema_file": "schemas/evaluacion_prompts_versionados.schema.json"
+  },
+  {
+    "name": "privacidad_salidas_ia",
+    "data_file": "labs/laboratorio-privacidad-datos-ia/datos/salidas_ia_sinteticas.json",
+    "schema_file": "schemas/privacidad_salidas_ia.schema.json"
+  },
+  {
+    "name": "privacidad_politicas",
+    "data_file": "labs/laboratorio-privacidad-datos-ia/datos/politicas_privacidad_sinteticas.json",
+    "schema_file": "schemas/privacidad_politicas.schema.json"
   }
 ]

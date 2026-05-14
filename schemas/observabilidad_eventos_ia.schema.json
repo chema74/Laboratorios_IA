@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "array",
+  "minItems": 1,
+  "items": {
+    "type": "object",
+    "required": [
+      "id_evento",
+      "caso_uso",
+      "tipo_operacion",
+      "latencia_ms",
+      "tokens_entrada_simulados",
+      "tokens_salida_simulados",
+      "coste_simulado_eur",
+      "estado",
+      "riesgo",
+      "usuario_sintetico",
+      "timestamp"
+    ],
+    "additionalProperties": true,
+    "properties": {
+      "id_evento": { "type": "string", "pattern": "^E-[0-9]{3}$" },
+      "caso_uso": { "type": "string", "minLength": 1 },
+      "tipo_operacion": { "type": "string", "minLength": 1 },
+      "latencia_ms": { "type": "integer", "minimum": 0 },
+      "tokens_entrada_simulados": { "type": "integer", "minimum": 0 },
+      "tokens_salida_simulados": { "type": "integer", "minimum": 0 },
+      "coste_simulado_eur": { "type": "number", "minimum": 0 },
+      "estado": { "type": "string", "enum": ["ok", "error"] },
+      "riesgo": { "type": "string", "enum": ["bajo", "medio", "alto"] },
+      "usuario_sintetico": { "type": "string", "minLength": 1 },
+      "timestamp": { "type": "string", "format": "date-time" }
+    }
+  }
+}
