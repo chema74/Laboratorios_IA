@@ -32,6 +32,11 @@ jobs:
         run: |
           ruff check .
 
+      - name: Mypy (gradual scope)
+        shell: pwsh
+        run: |
+          python scripts/run_mypy.py
+
       - name: Run operational checks
         shell: pwsh
         run: |
