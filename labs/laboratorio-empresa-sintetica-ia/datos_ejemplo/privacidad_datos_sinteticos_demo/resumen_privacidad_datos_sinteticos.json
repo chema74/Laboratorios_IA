@@ -1,0 +1,42 @@
+{
+  "fecha_generacion": "2026-05-09",
+  "total_datos_inventariados": 80,
+  "datos_por_nivel_sensibilidad": {
+    "confidencial": 13,
+    "interna": 24,
+    "publica": 32,
+    "critica": 11
+  },
+  "datos_que_requieren_minimizacion": 37,
+  "datos_que_requieren_anonimizacion": 26,
+  "datos_que_requieren_revision_humana": 24,
+  "riesgos_por_severidad": {
+    "alta": 1,
+    "media": 1
+  },
+  "permisos_por_rol": {
+    "direccion": 2,
+    "responsable_operaciones": 2,
+    "responsable_comercial": 2,
+    "responsable_datos": 2,
+    "responsable_privacidad": 2,
+    "responsable_tecnico": 2,
+    "auditor_simulado": 2,
+    "agente_ia_simulado": 2
+  },
+  "entradas_utilizadas": {
+    "entrada_empresa": "datos_ejemplo/empresa_sintetica_demo/empresa_sintetica.json",
+    "entrada_eventos": "datos_ejemplo/eventos_negocio_demo/eventos_negocio.json",
+    "entrada_documentos": "datos_ejemplo/documentos_sinteticos_demo/indice_documentos.json",
+    "entrada_escenarios": "datos_ejemplo/escenarios_prueba_agentes_demo/escenarios_prueba_agentes.json",
+    "entrada_crisis": "datos_ejemplo/crisis_simuladas_demo/crisis_simuladas.json",
+    "entrada_revisiones": "datos_ejemplo/revision_humana_demo/revisiones_humanas.json",
+    "entrada_registro_decisiones": "datos_ejemplo/revision_humana_demo/registro_decisiones.json",
+    "entrada_estado_operativo": "datos_ejemplo/gemelo_digital_operativo_demo/estado_operativo.json",
+    "entrada_alertas": "datos_ejemplo/gemelo_digital_operativo_demo/alertas_operativas.json",
+    "entrada_decisiones": "datos_ejemplo/gemelo_digital_operativo_demo/decisiones_simuladas.json"
+  },
+  "advertencia_sobre_datos_sinteticos": "Análisis sobre datos sintéticos. No usar como evidencia real.",
+  "advertencia_sobre_no_auditoria_legal": "No constituye auditoría legal real ni evaluación de cumplimiento real.",
+  "advertencia_sobre_anonimizacion_demostrativa": "La anonimización aplicada es demostrativa y no certificada."
+}

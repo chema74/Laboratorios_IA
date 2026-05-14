@@ -1,0 +1,16 @@
+{
+  "id_elemento": "cal-004",
+  "tipo_elemento": "tarea",
+  "prioridad_detectada": "alta",
+  "requiere_recordatorio": true,
+  "requiere_replanificacion": true,
+  "riesgo_retraso_detectado": "medio",
+  "accion_recomendada_simulada": "recordar_y_priorizar",
+  "agenda_local": "2026-05-13T09:30:00 -> 2026-05-13T11:00:00 | Conciliación sintética",
+  "registro_generado": "",
+  "usa_calendar_real": false,
+  "usa_oauth_real": false,
+  "usa_api_externa": false,
+  "usa_cloud": false,
+  "usa_ia_real": false
+}

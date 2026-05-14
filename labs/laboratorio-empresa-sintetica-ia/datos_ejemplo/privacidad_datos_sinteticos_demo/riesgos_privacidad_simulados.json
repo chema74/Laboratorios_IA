@@ -1,0 +1,26 @@
+[
+  {
+    "id_riesgo": "RGS-00001",
+    "tipo_riesgo": "exposicion_datos_confidenciales",
+    "descripcion": "Riesgo simulado detectado por reglas de laboratorio de privacidad.",
+    "origen": "eventos,documentos",
+    "severidad": "alta",
+    "datos_afectados": "inventario_sintetico",
+    "rol_afectado": "agente_ia_simulado",
+    "recomendacion_simulada": "minimizar_campos",
+    "requiere_revision_humana": true,
+    "estado_riesgo": "en_revision"
+  },
+  {
+    "id_riesgo": "RGS-00002",
+    "tipo_riesgo": "acceso_amplio_rol_no_critico",
+    "descripcion": "Riesgo simulado detectado por reglas de laboratorio de privacidad.",
+    "origen": "matriz_permisos",
+    "severidad": "media",
+    "datos_afectados": "inventario_sintetico",
+    "rol_afectado": "agente_ia_simulado",
+    "recomendacion_simulada": "restringir_acceso",
+    "requiere_revision_humana": false,
+    "estado_riesgo": "detectado"
+  }
+]

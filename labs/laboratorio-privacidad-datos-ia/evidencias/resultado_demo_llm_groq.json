@@ -1,0 +1,266 @@
+{
+  "metadata": {
+    "version": "V2.1",
+    "fecha_utc": "2026-05-13T07:01:02.779628+00:00"
+  },
+  "motor_privacidad": {
+    "analisis_casos": [
+      {
+        "id": "D-001",
+        "detecciones": [
+          {
+            "tipo": "nombre",
+            "valor": "NombreFicticio Uno",
+            "inicio": 8,
+            "severidad": "media"
+          },
+          {
+            "tipo": "email",
+            "valor": "nombre1@empresa.local",
+            "inicio": 37,
+            "severidad": "alta"
+          },
+          {
+            "tipo": "telefono",
+            "valor": "612345678",
+            "inicio": 70,
+            "severidad": "media"
+          },
+          {
+            "tipo": "direccion",
+            "valor": "Calle Falsa 123",
+            "inicio": 88,
+            "severidad": "media"
+          },
+          {
+            "tipo": "identificador",
+            "valor": "A12345678Z",
+            "inicio": 115,
+            "severidad": "alta"
+          }
+        ],
+        "anonimizacion": {
+          "texto_anonimizado": "Cliente [NOMBRE] con email [EMAIL] y telefono [TELEFONO] vive en [DIRECCION]. ID fiscal [IDENTIFICADOR].",
+          "cambios": [
+            {
+              "tipo": "nombre",
+              "original": "NombreFicticio Uno",
+              "nuevo": "[NOMBRE]"
+            },
+            {
+              "tipo": "email",
+              "original": "nombre1@empresa.local",
+              "nuevo": "[EMAIL]"
+            },
+            {
+              "tipo": "telefono",
+              "original": "612345678",
+              "nuevo": "[TELEFONO]"
+            },
+            {
+              "tipo": "direccion",
+              "original": "Calle Falsa 123",
+              "nuevo": "[DIRECCION]"
+            },
+            {
+              "tipo": "identificador",
+              "original": "A12345678Z",
+              "nuevo": "[IDENTIFICADOR]"
+            }
+          ]
+        },
+        "seudonimizacion": {
+          "texto_seudonimizado": "Cliente nombre_001 con email email_001 y telefono telefono_001 vive en direccion_001. ID fiscal identificador_001.",
+          "correspondencia": {
+            "nombre::NombreFicticio Uno": "nombre_001",
+            "email::nombre1@empresa.local": "email_001",
+            "telefono::612345678": "telefono_001",
+            "direccion::Calle Falsa 123": "direccion_001",
+            "identificador::A12345678Z": "identificador_001"
+          }
+        }
+      },
+      {
+        "id": "D-002",
+        "detecciones": [
+          {
+            "tipo": "nombre",
+            "valor": "NombreFicticio Dos",
+            "inicio": 9,
+            "severidad": "media"
+          },
+          {
+            "tipo": "email",
+            "valor": "n2@demo.local",
+            "inicio": 36,
+            "severidad": "alta"
+          },
+          {
+            "tipo": "telefono",
+            "valor": "699998877",
+            "inicio": 60,
+            "severidad": "media"
+          },
+          {
+            "tipo": "direccion",
+            "valor": "Avenida Norte 45",
+            "inicio": 81,
+            "severidad": "media"
+          }
+        ],
+        "anonimizacion": {
+          "texto_anonimizado": "Contacto [NOMBRE]: correo [EMAIL], telefono [TELEFONO], dirección [DIRECCION].",
+          "cambios": [
+            {
+              "tipo": "nombre",
+              "original": "NombreFicticio Dos",
+              "nuevo": "[NOMBRE]"
+            },
+            {
+              "tipo": "email",
+              "original": "n2@demo.local",
+              "nuevo": "[EMAIL]"
+            },
+            {
+              "tipo": "telefono",
+              "original": "699998877",
+              "nuevo": "[TELEFONO]"
+            },
+            {
+              "tipo": "direccion",
+              "original": "Avenida Norte 45",
+              "nuevo": "[DIRECCION]"
+            }
+          ]
+        },
+        "seudonimizacion": {
+          "texto_seudonimizado": "Contacto nombre_001: correo email_001, telefono telefono_001, dirección direccion_001.",
+          "correspondencia": {
+            "nombre::NombreFicticio Dos": "nombre_001",
+            "email::n2@demo.local": "email_001",
+            "telefono::699998877": "telefono_001",
+            "direccion::Avenida Norte 45": "direccion_001"
+          }
+        }
+      }
+    ],
+    "prompts_minimizados": [
+      {
+        "contexto_minimizado": {
+          "caso_uso": "atencion_cliente",
+          "objetivo": "resumen",
+          "texto": "Resumen de cliente NombreFicticio Uno"
+        },
+        "texto_minimizado": "{\"caso_uso\": \"atencion_cliente\", \"objetivo\": \"resumen\", \"texto\": \"Resumen de cliente NombreFicticio Uno\"}",
+        "explicacion": "Campos eliminados: ['email', 'telefono']"
+      },
+      {
+        "contexto_minimizado": {
+          "caso_uso": "soporte_tic",
+          "objetivo": "clasificar",
+          "texto": "Ticket de NombreFicticio Dos sobre incidencia"
+        },
+        "texto_minimizado": "{\"caso_uso\": \"soporte_tic\", \"objetivo\": \"clasificar\", \"texto\": \"Ticket de NombreFicticio Dos sobre incidencia\"}",
+        "explicacion": "Campos eliminados: ['direccion']"
+      }
+    ],
+    "validacion_salidas": [
+      {
+        "estado": "bloquear",
+        "hallazgos": [
+          {
+            "tipo": "email",
+            "valor": "nombre1@empresa.local",
+            "inicio": 42,
+            "severidad": "alta"
+          }
+        ]
+      },
+      {
+        "estado": "segura",
+        "hallazgos": []
+      }
+    ],
+    "evaluacion_exposicion": {
+      "puntuacion": 16,
+      "nivel_riesgo": "critico",
+      "recomendaciones": [
+        "Aplicar anonimización previa al procesamiento.",
+        "Minimizar campos no esenciales en prompts.",
+        "Bloquear salidas con PII de severidad alta."
+      ]
+    },
+    "politicas": {
+      "retencion": "Eliminar contexto sensible tras revisión técnica.",
+      "minimizacion": "Incluir solo campos necesarios por caso.",
+      "validacion_salida": "Bloquear PII de severidad alta."
+    },
+    "registro_tratamiento": {
+      "finalidad": "Demostración técnica de reducción de exposición de datos sintéticos.",
+      "categorias_datos": [
+        "identificadores ficticios",
+        "contacto ficticio"
+      ],
+      "base_documental_ficticia": "POL-PRIV-001",
+      "medidas_aplicadas": [
+        "conservar evidencia técnica",
+        "eliminar contexto sensible",
+        "seudonimizar identificadores",
+        "revisar salidas con riesgo"
+      ],
+      "retencion_sintetica": "30 días para evidencia técnica anonimizada.",
+      "evidencias_generadas": [
+        "informe_privacidad_datos_ia.md"
+      ],
+      "aviso": "Resumen técnico orientativo, sin valor legal definitivo."
+    },
+    "coste_simulado": {
+      "moneda": "EUR",
+      "coste_total_simulado": 0.03,
+      "coste_por_caso": 0.015
+    },
+    "trazas": [
+      {
+        "timestamp": "2026-05-13T07:00:59.140664+00:00",
+        "etapa": "carga_datos",
+        "datos": {
+          "casos": 2
+        }
+      },
+      {
+        "timestamp": "2026-05-13T07:00:59.140664+00:00",
+        "etapa": "analisis",
+        "datos": {
+          "pii": 9,
+          "riesgo": "critico"
+        }
+      }
+    ]
+  },
+  "analisis_llm": {
+    "proveedor": "fallback_local",
+    "modo": "determinista",
+    "motivo_fallback": "Error Groq (APIConnectionError): Connection error.",
+    "trazabilidad": {
+      "groq_api_key_activa": true,
+      "forzar_fallback_local": false,
+      "groq_model": "llama-3.1-8b-instant",
+      "sdk_groq_disponible": true,
+      "opener_personalizado": false,
+      "ruta_ejecucion": "groq_sdk"
+    },
+    "respuesta": {
+      "resumen": "Fallback local activo. Casos=2, hallazgos_pii=9, riesgo=critico.",
+      "riesgos": [
+        "Nivel de riesgo detectado: critico",
+        "Exposición residual posible en prompts no minimizados.",
+        "Filtración en salida si no se aplica bloqueo automático."
+      ],
+      "recomendaciones": [
+        "Aplicar anonimización previa a cualquier intercambio externo.",
+        "Reducir campos no necesarios en prompts antes del procesamiento.",
+        "Mantener validación de salida para bloquear PII de severidad alta."
+      ]
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "total_escenarios": 21,
+  "escenarios_por_tipo": {
+    "escenario_normal": 3,
+    "escenario_ambiguo": 3,
+    "escenario_limite": 3,
+    "escenario_peligroso": 3,
+    "escenario_privacidad": 3,
+    "escenario_operativo": 3,
+    "escenario_documental": 3
+  },
+  "escenarios_por_dificultad": {
+    "bajo": 3,
+    "medio": 9,
+    "alto": 6,
+    "critico": 3
+  },
+  "escenarios_que_requieren_revision_humana": 9,
+  "acciones_recomendadas": {
+    "responder": 3,
+    "pedir_aclaracion": 3,
+    "solicitar_validacion": 3,
+    "rechazar_accion": 3,
+    "escalar_a_humano": 3,
+    "registrar_incidente": 3,
+    "generar_resumen": 3
+  },
+  "entradas_utilizadas": {
+    "entrada_empresa": "datos_ejemplo/empresa_sintetica_demo/empresa_sintetica.json",
+    "entrada_eventos": "datos_ejemplo/eventos_negocio_demo/eventos_negocio.json",
+    "entrada_documentos": "datos_ejemplo/documentos_sinteticos_demo/indice_documentos.json"
+  },
+  "advertencia_sobre_datos_sinteticos": "Escenarios de datos sintéticos para evaluación técnica interna.",
+  "advertencia_sobre_no_ejecucion_de_agentes": "Este módulo no ejecuta agentes reales; solo define casos de prueba."
+}

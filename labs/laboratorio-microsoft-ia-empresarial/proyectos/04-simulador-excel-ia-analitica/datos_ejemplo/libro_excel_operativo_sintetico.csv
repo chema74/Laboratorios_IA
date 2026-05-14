@@ -1,0 +1,25 @@
+id_registro,fecha_operacion,area_negocio,cliente_ficticio,tipo_operacion,canal,importe_simulado,coste_simulado,margen_simulado,estado_operacion,prioridad,responsable_ficticio,requiere_revision,comentario_sintetico
+op-001,2026-05-01,Comercial,[CLIENTE_FICTICIO],Venta,Email,1200,700,500,Cerrada,alta,[CONTACTO_FICTICIO],si,Operacion demo 1
+op-002,2026-05-01,Soporte,[CLIENTE_FICTICIO],Incidencia,Portal,300,180,120,En curso,media,[CONTACTO_FICTICIO],no,Operacion demo 2
+op-003,2026-05-01,Operaciones,[CLIENTE_FICTICIO],Renovacion,Telefono,950,500,450,Cerrada,alta,[CONTACTO_FICTICIO],si,Operacion demo 3
+op-004,2026-05-02,Comercial,[CLIENTE_FICTICIO],Venta,Web,2000,1200,800,Cerrada,alta,[CONTACTO_FICTICIO],no,Operacion demo 4
+op-005,2026-05-02,Finanzas,[CLIENTE_FICTICIO],Cobro,Email,500,210,290,En curso,baja,[CONTACTO_FICTICIO],no,Operacion demo 5
+op-006,2026-05-02,Soporte,[CLIENTE_FICTICIO],Incidencia,Portal,450,250,200,Escalada,alta,[CONTACTO_FICTICIO],si,Operacion demo 6
+op-007,2026-05-02,Operaciones,[CLIENTE_FICTICIO],Mantenimiento,Telefono,700,410,290,Cerrada,media,[CONTACTO_FICTICIO],no,Operacion demo 7
+op-008,2026-05-03,Comercial,[CLIENTE_FICTICIO],Upsell,Email,1600,820,780,En curso,media,[CONTACTO_FICTICIO],no,Operacion demo 8
+op-009,2026-05-03,Finanzas,[CLIENTE_FICTICIO],Ajuste,Web,380,220,160,Cerrada,baja,[CONTACTO_FICTICIO],no,Operacion demo 9
+op-010,2026-05-03,Soporte,[CLIENTE_FICTICIO],Incidencia,Telefono,620,370,250,Cerrada,alta,[CONTACTO_FICTICIO],si,Operacion demo 10
+op-011,2026-05-03,Operaciones,[CLIENTE_FICTICIO],Renovacion,Portal,880,490,390,En curso,media,[CONTACTO_FICTICIO],no,Operacion demo 11
+op-012,2026-05-04,Comercial,[CLIENTE_FICTICIO],Venta,Web,2100,1300,800,Cerrada,alta,[CONTACTO_FICTICIO],si,Operacion demo 12
+op-013,2026-05-04,Finanzas,[CLIENTE_FICTICIO],Cobro,Email,540,260,280,Cerrada,baja,[CONTACTO_FICTICIO],no,Operacion demo 13
+op-014,2026-05-04,Soporte,[CLIENTE_FICTICIO],Ticket,Portal,410,230,180,En curso,media,[CONTACTO_FICTICIO],no,Operacion demo 14
+op-015,2026-05-04,Operaciones,[CLIENTE_FICTICIO],Implementacion,Telefono,1320,760,560,Escalada,alta,[CONTACTO_FICTICIO],si,Operacion demo 15
+op-016,2026-05-05,Comercial,[CLIENTE_FICTICIO],Upsell,Email,1450,840,610,Cerrada,media,[CONTACTO_FICTICIO],no,Operacion demo 16
+op-017,2026-05-05,Finanzas,[CLIENTE_FICTICIO],Ajuste,Web,460,270,190,En curso,baja,[CONTACTO_FICTICIO],no,Operacion demo 17
+op-018,2026-05-05,Soporte,[CLIENTE_FICTICIO],Incidencia,Portal,590,320,270,Cerrada,alta,[CONTACTO_FICTICIO],si,Operacion demo 18
+op-019,2026-05-05,Operaciones,[CLIENTE_FICTICIO],Mantenimiento,Telefono,760,420,340,Cerrada,media,[CONTACTO_FICTICIO],no,Operacion demo 19
+op-020,2026-05-06,Comercial,[CLIENTE_FICTICIO],Venta,Web,2250,1410,840,Cerrada,alta,[CONTACTO_FICTICIO],si,Operacion demo 20
+op-021,2026-05-06,Finanzas,[CLIENTE_FICTICIO],Cobro,Email,510,255,255,En curso,baja,[CONTACTO_FICTICIO],no,Operacion demo 21
+op-022,2026-05-06,Soporte,[CLIENTE_FICTICIO],Ticket,Portal,430,240,190,Cerrada,media,[CONTACTO_FICTICIO],no,Operacion demo 22
+op-023,2026-05-06,Operaciones,[CLIENTE_FICTICIO],Implementacion,Telefono,1280,730,550,En curso,alta,[CONTACTO_FICTICIO],si,Operacion demo 23
+op-024,2026-05-07,Comercial,[CLIENTE_FICTICIO],Upsell,Email,1700,960,740,Cerrada,media,[CONTACTO_FICTICIO],no,Operacion demo 24

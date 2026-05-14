@@ -1,0 +1,19 @@
+{
+  "id_solicitud": "CH-002",
+  "herramienta_simulada": "enviador_correo_simulado",
+  "accion_solicitada": "enviar",
+  "decision_defensiva": "bloquear",
+  "motivo_decision": "Herramienta o acción restringida por política defensiva.",
+  "controles_aplicados": [
+    "bloqueo_herramienta_restringida",
+    "bloqueo_accion_sensible"
+  ],
+  "requiere_revision_humana": true,
+  "registro_generado": "proyectos/05-control-herramientas-simuladas/registros/CH-002.json",
+  "recomendacion": "Mantener trazabilidad y revisión de casos sensibles.",
+  "usa_herramienta_real": false,
+  "ejecuta_comando_real": false,
+  "usa_ia_real": false,
+  "usa_api_externa": false,
+  "usa_cloud": false
+}

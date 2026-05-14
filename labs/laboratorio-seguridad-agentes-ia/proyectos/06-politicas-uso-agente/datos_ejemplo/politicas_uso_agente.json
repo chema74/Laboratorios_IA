@@ -1,0 +1,62 @@
+[
+  {
+    "id_politica": "P-001",
+    "nombre_politica": "No exponer datos sensibles sintéticos",
+    "descripcion": "Bloquea exposición de contenido sensible sintético.",
+    "aplica_a": "sensibles_sinteticos",
+    "condiciones": ["datos_implicados=sensibles_sinteticos"],
+    "decision": "bloquear",
+    "controles_requeridos": ["mascarado", "trazabilidad"],
+    "severidad_incumplimiento": "alta",
+    "responsable_simulado": "equipo-seguridad",
+    "nota_defensiva": "Solo entorno sintético."
+  },
+  {
+    "id_politica": "P-002",
+    "nombre_politica": "No usar herramientas restringidas sin revisión",
+    "descripcion": "Bloquea uso de exportador o enviador sin control.",
+    "aplica_a": "exportador_datos_simulado",
+    "condiciones": ["herramienta_solicitada=exportador_datos_simulado"],
+    "decision": "bloquear",
+    "controles_requeridos": ["bloqueo_herramienta", "revision_manual"],
+    "severidad_incumplimiento": "critica",
+    "responsable_simulado": "equipo-controles",
+    "nota_defensiva": "Sin herramienta real."
+  },
+  {
+    "id_politica": "P-005",
+    "nombre_politica": "No generar respuestas fuera de política",
+    "descripcion": "Bloquea respuestas que contradicen política interna ficticia.",
+    "aplica_a": "chat_interno",
+    "condiciones": ["descripcion_caso contiene POLITICA_INTERNA_FICTICIA"],
+    "decision": "bloquear",
+    "controles_requeridos": ["filtro_politicas", "registro_incidente"],
+    "severidad_incumplimiento": "alta",
+    "responsable_simulado": "equipo-gobierno",
+    "nota_defensiva": "Caso sintético."
+  },
+  {
+    "id_politica": "P-006",
+    "nombre_politica": "Exigir trazabilidad para decisiones críticas",
+    "descripcion": "Permite operación de bajo riesgo con trazabilidad obligatoria.",
+    "aplica_a": "publico_ficticio",
+    "condiciones": ["riesgo_operativo_simulado=bajo"],
+    "decision": "permitir",
+    "controles_requeridos": ["trazabilidad"],
+    "severidad_incumplimiento": "media",
+    "responsable_simulado": "equipo-auditoria",
+    "nota_defensiva": "Sin datos reales."
+  },
+  {
+    "id_politica": "P-007",
+    "nombre_politica": "Exigir revisión humana en sensibilidad alta",
+    "descripcion": "En sensibilidad alta, escalar siempre a revisión humana.",
+    "aplica_a": "alta",
+    "condiciones": ["sensibilidad_simulada=alta"],
+    "decision": "revisar",
+    "controles_requeridos": ["revision_humana_obligatoria", "trazabilidad"],
+    "severidad_incumplimiento": "alta",
+    "responsable_simulado": "equipo-supervision",
+    "nota_defensiva": "Control defensivo clave."
+  }
+]

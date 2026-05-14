@@ -1,0 +1,19 @@
+{
+  "id_permiso": "perm-006",
+  "usuario_ficticio": "dev1@empresa-sintetica.local",
+  "recurso_simulado": "conector_gemini_conceptual",
+  "permiso_asignado": "ejecucion_simulada",
+  "rol_simulado": "desarrollador",
+  "tipo_recurso": "gemini_futuro",
+  "riesgo_detectado": "alto",
+  "decision_gobierno": "reducir",
+  "motivo_decision": "Incumple mínimo privilegio o afecta recurso sensible",
+  "accion_recomendada": "Reducir privilegio simulado",
+  "requiere_revision": true,
+  "registro_generado": "",
+  "usa_google_real": false,
+  "usa_oauth_real": false,
+  "usa_api_externa": false,
+  "usa_cloud": false,
+  "usa_ia_real": false
+}

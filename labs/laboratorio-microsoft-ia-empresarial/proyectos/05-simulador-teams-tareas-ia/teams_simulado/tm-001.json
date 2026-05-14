@@ -1,0 +1,22 @@
+{
+  "id_elemento": "tm-001",
+  "tipo_elemento": "mensaje",
+  "canal_simulado": "comercial",
+  "prioridad_detectada": "alta",
+  "requiere_resumen": true,
+  "requiere_tarea": true,
+  "requiere_seguimiento": true,
+  "riesgo_bloqueo_detectado": "medio",
+  "resumen_simulado": "Mensaje para coordinar respuesta comercial de [EMPRESA_SINTETICA].",
+  "tarea_recomendada_simulada": "Crear tarea simulada para 'Seguimiento propuesta [CLIENTE_FICTICIO]' con responsable [CONTACTO_FICTICIO].",
+  "seguimiento_recomendado_simulado": "Programar seguimiento simulado del elemento tm-001 en canal comercial.",
+  "registro_generado": "",
+  "usa_teams_real": false,
+  "usa_planner_real": false,
+  "usa_todo_real": false,
+  "usa_microsoft_graph_real": false,
+  "usa_oauth_real": false,
+  "usa_api_externa": false,
+  "usa_azure": false,
+  "usa_ia_real": false
+}

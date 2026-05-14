@@ -1,0 +1,17 @@
+{
+  "id_correo": "mail-002",
+  "categoria_detectada": "soporte",
+  "prioridad_detectada": "alta",
+  "requiere_respuesta": true,
+  "requiere_tarea": true,
+  "respuesta_sugerida_simulada": "[SIMULADO] mail-002 (soporte): Responder en el mismo día laboral simulado. Sin Gmail real ni IA real.",
+  "tarea_sugerida_simulada": "[SIMULADO] Crear tarea de seguimiento para mail-002 sobre 'Incidencia simulada de acceso'.",
+  "sensibilidad_detectada": "alta",
+  "accion_recomendada": "responder_y_planificar",
+  "registro_generado": "",
+  "usa_gmail_real": false,
+  "usa_oauth_real": false,
+  "usa_api_externa": false,
+  "usa_cloud": false,
+  "usa_ia_real": false
+}

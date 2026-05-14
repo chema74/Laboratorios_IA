@@ -1,0 +1,17 @@
+{
+  "id_correo": "mail-006",
+  "categoria_detectada": "direccion",
+  "prioridad_detectada": "alta",
+  "requiere_respuesta": true,
+  "requiere_tarea": true,
+  "respuesta_sugerida_simulada": "[SIMULADO] mail-006 (direccion): Responder en el mismo día laboral simulado. Sin Gmail real ni IA real.",
+  "tarea_sugerida_simulada": "[SIMULADO] Crear tarea de seguimiento para mail-006 sobre 'Revisión urgente simulada de política interna'.",
+  "sensibilidad_detectada": "alta",
+  "accion_recomendada": "responder_y_planificar",
+  "registro_generado": "",
+  "usa_gmail_real": false,
+  "usa_oauth_real": false,
+  "usa_api_externa": false,
+  "usa_cloud": false,
+  "usa_ia_real": false
+}

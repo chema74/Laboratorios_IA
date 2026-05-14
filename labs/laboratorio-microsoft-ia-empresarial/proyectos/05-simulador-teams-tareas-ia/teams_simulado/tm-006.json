@@ -1,0 +1,22 @@
+{
+  "id_elemento": "tm-006",
+  "tipo_elemento": "tarea",
+  "canal_simulado": "operaciones",
+  "prioridad_detectada": "media",
+  "requiere_resumen": false,
+  "requiere_tarea": true,
+  "requiere_seguimiento": false,
+  "riesgo_bloqueo_detectado": "medio",
+  "resumen_simulado": "No aplica",
+  "tarea_recomendada_simulada": "Crear tarea simulada para 'Actualizar tablero de control simulado' con responsable [CONTACTO_FICTICIO].",
+  "seguimiento_recomendado_simulado": "No aplica",
+  "registro_generado": "",
+  "usa_teams_real": false,
+  "usa_planner_real": false,
+  "usa_todo_real": false,
+  "usa_microsoft_graph_real": false,
+  "usa_oauth_real": false,
+  "usa_api_externa": false,
+  "usa_azure": false,
+  "usa_ia_real": false
+}

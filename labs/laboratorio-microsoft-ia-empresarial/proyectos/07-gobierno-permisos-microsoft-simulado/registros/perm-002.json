@@ -1,0 +1,17 @@
+{
+  "id_permiso": "perm-002",
+  "usuario_ficticio": "luis.demo@empresa-sintetica.local",
+  "recurso_simulado": "Carpeta Propuestas Demo",
+  "permiso_asignado": "edicion",
+  "riesgo_detectado": "medio",
+  "decision_gobierno": "revisar",
+  "motivo_decision": "Requiere revisión por riesgo medio o marca de revisión.",
+  "accion_recomendada": "Revisar justificación y responsable.",
+  "registro_generado": "",
+  "usa_microsoft_real": false,
+  "usa_microsoft_graph_real": false,
+  "usa_oauth_real": false,
+  "usa_api_externa": false,
+  "usa_azure": false,
+  "usa_ia_real": false
+}

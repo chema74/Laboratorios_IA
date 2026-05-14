@@ -1,0 +1,26 @@
+{
+  "riesgo mínimo": [
+    "documentación mínima",
+    "revisión periódica"
+  ],
+  "riesgo limitado": [
+    "documentación mínima",
+    "comunicación a usuarios",
+    "trazabilidad"
+  ],
+  "riesgo alto orientativo": [
+    "documentación mínima",
+    "supervisión humana",
+    "trazabilidad",
+    "validación de datos",
+    "revisión periódica"
+  ],
+  "revisión obligatoria": [
+    "documentación mínima",
+    "supervisión humana",
+    "trazabilidad",
+    "comunicación a usuarios",
+    "revisión periódica",
+    "validación de datos"
+  ]
+}

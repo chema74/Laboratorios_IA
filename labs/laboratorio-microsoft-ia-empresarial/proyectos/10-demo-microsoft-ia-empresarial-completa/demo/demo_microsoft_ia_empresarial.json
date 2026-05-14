@@ -1,0 +1,48 @@
+{
+  "metadatos": {
+    "fecha_generacion": "2026-05-11T10:13:11",
+    "modo": "local-simulado",
+    "nombre_laboratorio_ficticio": "Laboratorio Microsoft IA Empresarial Simulado"
+  },
+  "resumen_ejecutivo": "Demo local completa del laboratorio Microsoft IA empresarial simulado.",
+  "narrativa_empresarial": "PYME ficticia que coordina ventas, operaciones y soporte con flujos Microsoft simulados.",
+  "modulos_representados": [
+    "01-mapa-ecosistema-microsoft-ia",
+    "02-simulador-outlook-ia-empresarial",
+    "03-simulador-onedrive-word-ia",
+    "04-simulador-excel-ia-analitica",
+    "05-simulador-teams-tareas-ia",
+    "06-conector-copilot-fallback-local",
+    "07-gobierno-permisos-microsoft-simulado",
+    "08-trazabilidad-automatizaciones-microsoft",
+    "09-informe-microsoft-ia-empresarial",
+    "10-demo-microsoft-ia-empresarial-completa"
+  ],
+  "evidencias_simuladas": {
+    "guion": "proyectos\\10-demo-microsoft-ia-empresarial-completa\\demo\\guion_demo_microsoft_ia_empresarial.md",
+    "expediente": "proyectos\\10-demo-microsoft-ia-empresarial-completa\\demo\\expediente_microsoft_ia_empresarial.md",
+    "mapa_componentes": "proyectos\\10-demo-microsoft-ia-empresarial-completa\\demo\\mapa_componentes_microsoft_ia.md"
+  },
+  "automatizaciones_simuladas": "Trazas, hashes y evidencias de automatizaciones ficticias.",
+  "permisos_y_gobierno": "Decisiones de gobierno defensivo por mínimo privilegio.",
+  "trazabilidad": "Incluida por integración conceptual del módulo 08.",
+  "recomendaciones": [
+    "narrativa_end_to_end",
+    "evidencias_reproducibles",
+    "limites_explicitos",
+    "transicion_v2_opcional"
+  ],
+  "limites": [
+    "sin_integraciones_reales",
+    "sin_servicios_pago",
+    "sin_credenciales_reales"
+  ],
+  "v2_futura_opcional": "Integración real opcional vía .env con fallback local obligatorio.",
+  "usa_microsoft_real": false,
+  "usa_microsoft_graph_real": false,
+  "usa_oauth_real": false,
+  "usa_api_externa": false,
+  "usa_azure": false,
+  "usa_ia_real": false,
+  "usa_datos_reales": false
+}

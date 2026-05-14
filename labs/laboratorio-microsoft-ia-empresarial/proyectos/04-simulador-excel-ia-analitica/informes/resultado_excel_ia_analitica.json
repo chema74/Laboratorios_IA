@@ -1,0 +1,55 @@
+{
+  "indicadores_operativos": {
+    "total_registros": 24,
+    "registros_revision": 9,
+    "prioridades_altas": 10,
+    "importe_promedio_simulado": 974.17
+  },
+  "indicadores_financieros_simulados": {
+    "importe_total_simulado": 23380.0,
+    "coste_total_simulado": 13345.0,
+    "margen_total_simulado": 10035.0,
+    "margen_porcentual_simulado": 42.92
+  },
+  "distribuciones": {
+    "por_area_negocio": {
+      "Comercial": 7,
+      "Soporte": 6,
+      "Operaciones": 6,
+      "Finanzas": 5
+    },
+    "por_canal": {
+      "Email": 7,
+      "Portal": 6,
+      "Telefono": 6,
+      "Web": 5
+    },
+    "por_estado_operacion": {
+      "Cerrada": 14,
+      "En curso": 8,
+      "Escalada": 2
+    }
+  },
+  "señales_analiticas_simuladas": [
+    "Proporción de revisión superior al máximo configurado."
+  ],
+  "resumen_ejecutivo_simulado": "Total registros: 24. Importe total simulado: 23380.00 EUR. Margen porcentual simulado: 42.92%. Registros con revisión: 9.",
+  "registros_revision": [
+    "op-001",
+    "op-003",
+    "op-006",
+    "op-010",
+    "op-012",
+    "op-015",
+    "op-018",
+    "op-020",
+    "op-023"
+  ],
+  "libro_enriquecido_generado": "proyectos\\04-simulador-excel-ia-analitica\\libros_simulados\\libro_excel_operativo_enriquecido.csv",
+  "usa_excel_real": false,
+  "usa_microsoft_graph_real": false,
+  "usa_oauth_real": false,
+  "usa_api_externa": false,
+  "usa_azure": false,
+  "usa_ia_real": false
+}

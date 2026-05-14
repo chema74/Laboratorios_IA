@@ -1,0 +1,36 @@
+{
+  "fecha_utc": "2026-05-13T09:40:19Z",
+  "escenario": "respuesta_correcta_incompleta",
+  "pregunta": "Resume la estrategia comercial para dirección.",
+  "contexto": "Objetivos: crecimiento B2B, mejora de margen y expansión regional. Riesgos: churn y presión competitiva.",
+  "respuesta_candidata": "La estrategia prioriza crecimiento B2B y mejora de margen.",
+  "criterios": [
+    "relevancia",
+    "precision",
+    "cobertura",
+    "consistencia",
+    "trazabilidad"
+  ],
+  "puntuaciones": {
+    "relevancia": 0.6,
+    "precision": 0.4,
+    "cobertura": 0.2,
+    "consistencia": 0.8,
+    "trazabilidad": 0.0
+  },
+  "puntuacion_media": 0.4,
+  "explicacion": "La respuesta candidata es parcialmente correcta, ya que prioriza crecimiento B2B y mejora de margen, pero no menciona la expansión regional como objetivo. Además, no proporciona una estrategia completa para abordar los riesgos de churn y presión competitiva.",
+  "riesgos": [
+    "churn",
+    "presión competitiva"
+  ],
+  "recomendaciones": [
+    "Mejorar la estrategia de crecimiento B2B",
+    "Incrementar la inversión en marketing",
+    "Desarrollar un plan de contingencia para mitigar el riesgo de churn"
+  ],
+  "proveedor": "groq",
+  "modelo": "llama-3.1-8b-instant",
+  "ruta_ejecucion": "groq",
+  "motivo_fallback": "no_aplica"
+}

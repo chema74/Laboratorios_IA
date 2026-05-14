@@ -1,0 +1,22 @@
+{
+  "tipos_incidente_permitidos": [
+    "intento simulado de acceso a dato sintético sensible",
+    "solicitud fuera de política simulada",
+    "uso bloqueado de herramienta simulada",
+    "decisión no trazable simulada",
+    "respuesta insegura simulada",
+    "revisión humana omitida simulada",
+    "exposición de secreto ficticio bloqueada",
+    "dependencia externa no permitida simulada"
+  ],
+  "severidades_permitidas": ["baja", "media", "alta", "critica"],
+  "estados_incidente_permitidos": ["abierto", "en_revision", "cerrado"],
+  "controles_defensivos": ["trazabilidad_registro", "revision_humana_obligatoria", "bloqueo_contextual"],
+  "reglas_trazabilidad": {
+    "min_controles": 1,
+    "campos_obligatorios": ["politica_relacionada", "evidencia_requerida", "responsable_simulado"]
+  },
+  "formato_id_evidencia": "EVI-{id_incidente}-{fecha}",
+  "responsables_simulados": ["equipo-supervision", "equipo-controles", "equipo-auditoria"],
+  "nota_alcance": "Sin ataques reales, datos reales, IA real, APIs externas ni cloud."
+}

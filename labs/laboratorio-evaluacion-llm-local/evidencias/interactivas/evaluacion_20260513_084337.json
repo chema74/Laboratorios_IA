@@ -1,0 +1,31 @@
+{
+  "fecha_utc": "2026-05-13T08:43:37Z",
+  "escenario": "self_test",
+  "pregunta": "¿Estado?",
+  "contexto": "Piloto validado",
+  "respuesta_candidata": "Según el contexto, el piloto está validado.",
+  "criterios": [
+    "relevancia",
+    "precision",
+    "cobertura",
+    "seguridad",
+    "consistencia",
+    "trazabilidad"
+  ],
+  "puntuaciones": {
+    "relevancia": 0.0,
+    "precision": 0.45,
+    "cobertura": 1.0,
+    "seguridad": 0.9,
+    "consistencia": 1.0,
+    "trazabilidad": 1.0
+  },
+  "puntuacion_media": 0.725,
+  "explicacion": "Evaluación heurística local determinista basada en solapamiento léxico, señales de riesgo y trazabilidad explícita en la respuesta candidata.",
+  "riesgos": [],
+  "recomendaciones": [],
+  "proveedor": "fallback_local",
+  "modelo": "llama-3.1-8b-instant",
+  "ruta_ejecucion": "fallback_local",
+  "motivo_fallback": "forzado"
+}

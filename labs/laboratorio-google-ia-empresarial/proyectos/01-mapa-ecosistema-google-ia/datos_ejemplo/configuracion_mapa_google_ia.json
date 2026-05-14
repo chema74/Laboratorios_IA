@@ -1,0 +1,34 @@
+{
+  "categorias_permitidas": [
+    "workspace",
+    "analitica",
+    "automatizacion",
+    "ia_opcional_futura",
+    "cloud_opcional_futura",
+    "gobierno",
+    "resiliencia"
+  ],
+  "capas_arquitectura": [
+    "aplicaciones_simuladas",
+    "orquestacion",
+    "analitica_y_reportes",
+    "gobierno_y_seguridad",
+    "resiliencia",
+    "integraciones_futuras"
+  ],
+  "criterios_portfolio": [
+    "simulacion_clara",
+    "reproducibilidad_local",
+    "limites_explicitos",
+    "sin_dependencias_de_pago"
+  ],
+  "limites_v1": [
+    "sin_google_real",
+    "sin_oauth_real",
+    "sin_apis_reales",
+    "sin_cloud_obligatorio",
+    "sin_datos_reales",
+    "sin_ia_real"
+  ],
+  "nota": "Este mapa es 100% sintético: no usa Google real, OAuth real, APIs reales, cloud real, datos reales ni IA real."
+}

@@ -1,0 +1,22 @@
+﻿[
+  {
+    "id": "Q-001",
+    "consulta": "SLA de incidencias críticas",
+    "documentos_esperados": ["DOC-003"]
+  },
+  {
+    "id": "Q-002",
+    "consulta": "política de contraseñas mínimo caracteres",
+    "documentos_esperados": ["DOC-004"]
+  },
+  {
+    "id": "Q-003",
+    "consulta": "compras TIC superiores a 2000 euros",
+    "documentos_esperados": ["DOC-002"]
+  },
+  {
+    "id": "Q-004",
+    "consulta": "solicitud de vacaciones antelación",
+    "documentos_esperados": ["DOC-006"]
+  }
+]

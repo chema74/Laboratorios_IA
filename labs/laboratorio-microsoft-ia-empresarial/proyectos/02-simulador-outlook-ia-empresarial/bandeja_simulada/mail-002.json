@@ -1,0 +1,21 @@
+{
+  "id_correo": "mail-002",
+  "carpeta_detectada": "Reuniones",
+  "categoria_detectada": "soporte",
+  "prioridad_detectada": "alta",
+  "requiere_respuesta": true,
+  "requiere_tarea": true,
+  "requiere_reunion": true,
+  "respuesta_sugerida_simulada": "Responder en ventana operativa inmediata. Mensaje generado localmente sin IA real.",
+  "tarea_sugerida_simulada": "Crear tarea critica de seguimiento.: Incidencia simulada de acceso",
+  "reunion_sugerida_simulada": "Convocar reunion de coordinacion. Tema: Incidencia simulada de acceso",
+  "sensibilidad_detectada": "restringida",
+  "accion_recomendada": "Abrir tarea critica y convocar reunion",
+  "registro_generado": "",
+  "usa_outlook_real": false,
+  "usa_microsoft_graph_real": false,
+  "usa_oauth_real": false,
+  "usa_api_externa": false,
+  "usa_azure": false,
+  "usa_ia_real": false
+}

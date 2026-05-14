@@ -1,0 +1,124 @@
+{
+  "metadata": {
+    "fecha_generacion": "2026-05-11T09:51:08",
+    "total_solicitudes": 6,
+    "modo_v1": "fallback-local",
+    "nota": "V1 local simulada: no hay Copilot real, Microsoft Graph API real, Azure, IA real ni datos reales."
+  },
+  "resumen_por_tipo_solicitud": {
+    "resumen de correo ficticio": 1,
+    "resumen de documento Word sintético": 1,
+    "análisis de libro Excel simulado": 1,
+    "resumen de reunión Teams simulada": 1,
+    "generación de tarea Planner simulada": 1,
+    "recomendación operativa simulada": 1
+  },
+  "resumen_por_origen": {
+    "outlook": 1,
+    "word": 1,
+    "excel": 1,
+    "teams": 1,
+    "planner": 1,
+    "microsoft365_conceptual": 1
+  },
+  "resumen_por_razon_fallback": {
+    "Copilot real desactivado en V1.": 1,
+    "Sin credenciales ni OAuth real.": 1,
+    "Sin API real permitida.": 1,
+    "Modo fallback-local obligatorio.": 1,
+    "Planner real no habilitado.": 1,
+    "Sin red ni APIs externas.": 1
+  },
+  "resultados": [
+    {
+      "id_solicitud": "cp-001",
+      "tipo_solicitud": "resumen de correo ficticio",
+      "origen_simulado": "outlook",
+      "modo_ejecucion": "fallback-local",
+      "respuesta_simulada": "Resumen local: priorizar respuesta y seguimiento interno simulado. Entrada sintetica: Correo sintético con solicitud de seguimiento.",
+      "razon_fallback": "Copilot real desactivado en V1.",
+      "trazabilidad_fallback": "fallback-local|cp-001|2026-05-11T09:51:08|sin-red",
+      "registro_generado": "proyectos\\06-conector-copilot-fallback-local\\respuestas_simuladas\\cp-001.json",
+      "usa_copilot_real": false,
+      "usa_microsoft_graph_real": false,
+      "usa_api_externa": false,
+      "usa_azure": false,
+      "usa_ia_real": false
+    },
+    {
+      "id_solicitud": "cp-002",
+      "tipo_solicitud": "resumen de documento Word sintético",
+      "origen_simulado": "word",
+      "modo_ejecucion": "fallback-local",
+      "respuesta_simulada": "Resumen local: extraer puntos clave documentales y riesgos simulados. Entrada sintetica: Documento de política interna simulada.",
+      "razon_fallback": "Sin credenciales ni OAuth real.",
+      "trazabilidad_fallback": "fallback-local|cp-002|2026-05-11T09:51:08|sin-red",
+      "registro_generado": "proyectos\\06-conector-copilot-fallback-local\\respuestas_simuladas\\cp-002.json",
+      "usa_copilot_real": false,
+      "usa_microsoft_graph_real": false,
+      "usa_api_externa": false,
+      "usa_azure": false,
+      "usa_ia_real": false
+    },
+    {
+      "id_solicitud": "cp-003",
+      "tipo_solicitud": "análisis de libro Excel simulado",
+      "origen_simulado": "excel",
+      "modo_ejecucion": "fallback-local",
+      "respuesta_simulada": "Analisis local: revisar margen simulado, alertas y registros de revision. Entrada sintetica: CSV con métricas sintéticas.",
+      "razon_fallback": "Sin API real permitida.",
+      "trazabilidad_fallback": "fallback-local|cp-003|2026-05-11T09:51:08|sin-red",
+      "registro_generado": "proyectos\\06-conector-copilot-fallback-local\\respuestas_simuladas\\cp-003.json",
+      "usa_copilot_real": false,
+      "usa_microsoft_graph_real": false,
+      "usa_api_externa": false,
+      "usa_azure": false,
+      "usa_ia_real": false
+    },
+    {
+      "id_solicitud": "cp-004",
+      "tipo_solicitud": "resumen de reunión Teams simulada",
+      "origen_simulado": "teams",
+      "modo_ejecucion": "fallback-local",
+      "respuesta_simulada": "Resumen local: acuerdos, responsables ficticios y pendientes simulados. Entrada sintetica: Acta de reunión simulada.",
+      "razon_fallback": "Modo fallback-local obligatorio.",
+      "trazabilidad_fallback": "fallback-local|cp-004|2026-05-11T09:51:08|sin-red",
+      "registro_generado": "proyectos\\06-conector-copilot-fallback-local\\respuestas_simuladas\\cp-004.json",
+      "usa_copilot_real": false,
+      "usa_microsoft_graph_real": false,
+      "usa_api_externa": false,
+      "usa_azure": false,
+      "usa_ia_real": false
+    },
+    {
+      "id_solicitud": "cp-005",
+      "tipo_solicitud": "generación de tarea Planner simulada",
+      "origen_simulado": "planner",
+      "modo_ejecucion": "fallback-local",
+      "respuesta_simulada": "Tarea local: crear seguimiento con prioridad y fecha simulada. Entrada sintetica: Evento sintetico con prioridad alta.",
+      "razon_fallback": "Planner real no habilitado.",
+      "trazabilidad_fallback": "fallback-local|cp-005|2026-05-11T09:51:08|sin-red",
+      "registro_generado": "proyectos\\06-conector-copilot-fallback-local\\respuestas_simuladas\\cp-005.json",
+      "usa_copilot_real": false,
+      "usa_microsoft_graph_real": false,
+      "usa_api_externa": false,
+      "usa_azure": false,
+      "usa_ia_real": false
+    },
+    {
+      "id_solicitud": "cp-006",
+      "tipo_solicitud": "recomendación operativa simulada",
+      "origen_simulado": "microsoft365_conceptual",
+      "modo_ejecucion": "fallback-local",
+      "respuesta_simulada": "Recomendacion local: optimizar flujo, trazabilidad y control de bloqueos. Entrada sintetica: Resumen de incidencias simuladas.",
+      "razon_fallback": "Sin red ni APIs externas.",
+      "trazabilidad_fallback": "fallback-local|cp-006|2026-05-11T09:51:08|sin-red",
+      "registro_generado": "proyectos\\06-conector-copilot-fallback-local\\respuestas_simuladas\\cp-006.json",
+      "usa_copilot_real": false,
+      "usa_microsoft_graph_real": false,
+      "usa_api_externa": false,
+      "usa_azure": false,
+      "usa_ia_real": false
+    }
+  ]
+}

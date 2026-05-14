@@ -1,0 +1,5 @@
+{
+  "retencion": "Eliminar contexto sensible tras revisión técnica.",
+  "minimizacion": "Incluir solo campos necesarios por caso.",
+  "validacion_salida": "Bloquear PII de severidad alta."
+}

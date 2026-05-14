@@ -1,0 +1,17 @@
+{
+  "id_correo": "mail-005",
+  "categoria_detectada": "operaciones",
+  "prioridad_detectada": "baja",
+  "requiere_respuesta": false,
+  "requiere_tarea": false,
+  "respuesta_sugerida_simulada": "[SIMULADO] mail-005 (operaciones): Responder solo si aporta valor operativo simulado. Sin Gmail real ni IA real.",
+  "tarea_sugerida_simulada": "",
+  "sensibilidad_detectada": "baja",
+  "accion_recomendada": "archivar",
+  "registro_generado": "",
+  "usa_gmail_real": false,
+  "usa_oauth_real": false,
+  "usa_api_externa": false,
+  "usa_cloud": false,
+  "usa_ia_real": false
+}

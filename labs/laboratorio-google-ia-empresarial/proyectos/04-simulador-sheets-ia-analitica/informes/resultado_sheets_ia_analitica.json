@@ -1,0 +1,66 @@
+{
+  "fecha_generacion": "2026-05-11T08:50:26",
+  "indicadores_operativos": {
+    "total_registros": 24,
+    "registros_revision": 10
+  },
+  "indicadores_financieros_simulados": {
+    "importe_total_simulado": 23330.0,
+    "coste_total_simulado": 14550.0,
+    "margen_total_simulado": 8780.0,
+    "margen_porcentual_simulado": 37.63,
+    "margen_promedio_simulado": 365.83,
+    "moneda_simulada": "EUR"
+  },
+  "distribuciones": {
+    "por_area_negocio": {
+      "Comercial": 6,
+      "Soporte": 6,
+      "Operaciones": 6,
+      "Finanzas": 6
+    },
+    "por_canal": {
+      "Email": 7,
+      "Portal": 4,
+      "Telefono": 4,
+      "Web": 4,
+      "Presencial": 3,
+      "Chat": 2
+    },
+    "por_estado": {
+      "Completada": 13,
+      "En curso": 7,
+      "Pendiente": 4
+    },
+    "por_prioridad": {
+      "Media": 11,
+      "Alta": 9,
+      "Baja": 4
+    }
+  },
+  "señales_analiticas_simuladas": [
+    "Registros con margen bajo (<150): op-006, op-022",
+    "Registros de prioridad alta: 9",
+    "Registros pendientes: 4"
+  ],
+  "resumen_ejecutivo_simulado": "Se procesaron 24 registros sintéticos. Margen total simulado: 8780.0. Área con mayor volumen: Comercial. Estado dominante: Completada.",
+  "registros_revision": [
+    "op-002",
+    "op-004",
+    "op-007",
+    "op-009",
+    "op-010",
+    "op-013",
+    "op-015",
+    "op-018",
+    "op-020",
+    "op-024"
+  ],
+  "hoja_enriquecida_generada": "proyectos\\04-simulador-sheets-ia-analitica\\hojas_simuladas\\hoja_enriquecida_simulada.csv",
+  "usa_sheets_real": false,
+  "usa_oauth_real": false,
+  "usa_api_externa": false,
+  "usa_cloud": false,
+  "usa_ia_real": false,
+  "nota": "Simulación local: no usa Sheets real, OAuth real, Sheets API, Google Cloud, IA real ni datos reales."
+}

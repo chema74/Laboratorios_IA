@@ -1,0 +1,18 @@
+{
+  "id_automatizacion": "aut-006",
+  "id_traza": "TRZ-aut-006-f031c543",
+  "hash_simulado": "f031c5437a82fa337d491a9cfb799eb280859a8c8bb4a88d202594d43fe88615",
+  "origen_simulado": "power_platform_conceptual",
+  "accion_simulada": "Notificar responsable sintetico",
+  "estado_ejecucion": "pendiente_revision",
+  "trazabilidad_suficiente": true,
+  "evidencia_generada": true,
+  "requiere_revision": true,
+  "registro_generado": "",
+  "usa_microsoft_real": false,
+  "usa_microsoft_graph_real": false,
+  "usa_oauth_real": false,
+  "usa_api_externa": false,
+  "usa_azure": false,
+  "usa_ia_real": false
+}

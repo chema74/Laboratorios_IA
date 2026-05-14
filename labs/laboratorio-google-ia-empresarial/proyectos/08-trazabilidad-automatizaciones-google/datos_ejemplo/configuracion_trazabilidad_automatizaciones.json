@@ -1,0 +1,10 @@
+﻿{
+  "origenes_permitidos": ["gmail","drive","docs","sheets","calendar","gemini_fallback","apps_script_conceptual"],
+  "estados_ejecucion_permitidos": ["completada","parcial","error_controlado"],
+  "reglas_trazabilidad": {"min_campos": 8, "requiere_hash": true},
+  "reglas_evidencia": {"valor_positivo": "si"},
+  "reglas_revision_humana": {"sensibilidad_alta": true, "estado_critico": ["parcial","error_controlado"]},
+  "niveles_sensibilidad": ["baja","media","alta"],
+  "formato_id_traza": "TRZ-{id}-{fecha}",
+  "nota": "Simulación local: no usa Google real, OAuth real, APIs reales, Google Cloud, IA real ni datos reales."
+}

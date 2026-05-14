@@ -1,0 +1,13 @@
+{
+  "id_solicitud": "gem-007",
+  "tipo_solicitud": "explicación de alerta ficticia",
+  "modo_ejecucion": "fallback-local",
+  "respuesta_simulada": "[FALLBACK-LOCAL] Respuesta simulada para explicación de alerta ficticia: Alerta de margen bajo simulado.",
+  "razon_fallback": "politica_free_first",
+  "trazabilidad_fallback": "fallback_local::gem-007::politica_free_first",
+  "registro_generado": "",
+  "usa_gemini_real": false,
+  "usa_api_externa": false,
+  "usa_cloud": false,
+  "usa_ia_real": false
+}

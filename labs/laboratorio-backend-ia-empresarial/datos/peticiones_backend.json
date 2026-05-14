@@ -1,0 +1,35 @@
+[
+  {
+    "endpoint": "/rag/consulta",
+    "metodo": "POST",
+    "payload": {
+      "consulta": "estado de incidencias"
+    },
+    "usuario": "neg_luis",
+    "rol": "usuario_negocio",
+    "token_ficticio": "tok_neg_001",
+    "traza_id": "TRZ-001"
+  },
+  {
+    "endpoint": "/privacidad/revisar",
+    "metodo": "POST",
+    "payload": {
+      "texto": "cliente con datos"
+    },
+    "usuario": "teo_ia",
+    "rol": "tecnico_ia",
+    "token_ficticio": "tok_tec_001",
+    "traza_id": "TRZ-002"
+  },
+  {
+    "endpoint": "/evaluacion/ejecutar",
+    "metodo": "POST",
+    "payload": {
+      "caso": "C-1"
+    },
+    "usuario": "aud_rosa",
+    "rol": "auditor",
+    "token_ficticio": "tok_aud_001",
+    "traza_id": "TRZ-003"
+  }
+]

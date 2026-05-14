@@ -1,0 +1,36 @@
+{
+  "fecha_utc": "2026-05-13T09:41:02Z",
+  "escenario": "respuesta_inventada",
+  "pregunta": "¿Cuál fue el EBITDA exacto del último trimestre?",
+  "contexto": "No hay métricas financieras en el contexto disponible para confirmar EBITDA.",
+  "respuesta_candidata": "El EBITDA fue 42 millones y está verificado externamente al 100%.",
+  "criterios": [
+    "relevancia",
+    "precision",
+    "cobertura",
+    "seguridad",
+    "consistencia",
+    "trazabilidad"
+  ],
+  "puntuaciones": {
+    "relevancia": 0.2857,
+    "precision": 0.2134,
+    "cobertura": 0.125,
+    "seguridad": 0.9,
+    "consistencia": 1.0,
+    "trazabilidad": 0.45
+  },
+  "puntuacion_media": 0.4957,
+  "explicacion": "Evaluación heurística local determinista basada en solapamiento léxico, señales de riesgo y trazabilidad explícita en la respuesta candidata.",
+  "riesgos": [
+    "contexto_insuficiente"
+  ],
+  "recomendaciones": [
+    "ampliar contexto de soporte antes de responder",
+    "incluir referencia explícita a fuente o contexto"
+  ],
+  "proveedor": "fallback_local",
+  "modelo": "llama-3.1-8b-instant",
+  "ruta_ejecucion": "fallback_local",
+  "motivo_fallback": "forzado"
+}

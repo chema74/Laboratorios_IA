@@ -1,0 +1,24 @@
+{
+  "nombre_laboratorio": "Laboratorio Defensivo de Agentes IA - Demo V1",
+  "modulos_representados": [
+    "01-inventario-riesgos-agentes",
+    "02-simulador-prompt-injection-defensivo",
+    "03-detector-entradas-riesgo",
+    "04-clasificador-datos-sensibles-sinteticos",
+    "05-control-herramientas-simuladas",
+    "06-politicas-uso-agente",
+    "07-trazabilidad-incidentes-simulados",
+    "08-matriz-riesgo-seguridad-agente",
+    "09-informe-defensivo-seguridad-agente",
+    "10-demo-seguridad-agentes-completa"
+  ],
+  "modo": "local-simulado-defensivo",
+  "usa_datos_reales": false,
+  "usa_ia_real": false,
+  "usa_api_externa": false,
+  "usa_cloud": false,
+  "usa_herramienta_real": false,
+  "criterios_demo": ["trazabilidad", "consistencia defensiva", "reproducibilidad local"],
+  "limites": ["sin explotación", "sin red", "sin servicios externos"],
+  "nota_alcance": "Datos sintéticos y enfoque exclusivamente defensivo."
+}

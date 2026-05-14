@@ -1,0 +1,16 @@
+{
+  "id_elemento": "cal-003",
+  "tipo_elemento": "evento",
+  "prioridad_detectada": "media",
+  "requiere_recordatorio": false,
+  "requiere_replanificacion": false,
+  "riesgo_retraso_detectado": "bajo",
+  "accion_recomendada_simulada": "mantener_agenda",
+  "agenda_local": "2026-05-12T15:00:00 -> 2026-05-12T16:30:00 | Bloque de soporte simulado",
+  "registro_generado": "",
+  "usa_calendar_real": false,
+  "usa_oauth_real": false,
+  "usa_api_externa": false,
+  "usa_cloud": false,
+  "usa_ia_real": false
+}

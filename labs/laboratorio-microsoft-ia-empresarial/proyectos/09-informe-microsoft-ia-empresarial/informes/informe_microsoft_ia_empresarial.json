@@ -1,0 +1,91 @@
+{
+  "metadatos": {
+    "fecha_generacion": "2026-05-11T10:13:11",
+    "total_modulos": 8,
+    "nota": "Todo es local, sintético y sin integración real con Microsoft."
+  },
+  "puntuacion_global_simulada": 79.85,
+  "nivel_madurez_simulado": "intermedio",
+  "resultados_por_dimension": {
+    "arquitectura": 80,
+    "operacion": 78,
+    "documental": 82,
+    "analitica": 76,
+    "colaboracion": 79,
+    "asistencia": 74,
+    "gobierno": 84,
+    "trazabilidad": 83
+  },
+  "fortalezas_principales": [
+    "mapa_capacidades",
+    "enfoque_local_first",
+    "clasificacion_local",
+    "trazabilidad_correo",
+    "resumen_documental",
+    "etiquetado_simulado"
+  ],
+  "riesgos_principales": [
+    "dependencia_documental",
+    "reglas_estaticas",
+    "revision_humana_manual",
+    "umbrales_estaticos",
+    "dependencia_reglas_manual",
+    "respuesta_limitada",
+    "sin_integraciones_reales",
+    "sin_oauth_real",
+    "sin_datos_reales",
+    "sin_ia_real"
+  ],
+  "brechas_simuladas": [
+    "falta_integracion_v2_opcional",
+    "sin_metricas_calidad_respuesta",
+    "falta_semantica_avanzada",
+    "sin_conectividad_fuentes",
+    "sin_planificacion_automatica_real",
+    "sin_asistencia_contextual_real"
+  ],
+  "controles_recomendados": [
+    "fallback_local_obligatorio",
+    "gobierno_minimo_privilegio",
+    "trazabilidad_con_hash",
+    "revision_humana_critica"
+  ],
+  "oportunidades_automatizacion": [
+    "orquestacion_reglas",
+    "alertas_prioridad",
+    "seguimiento_revision"
+  ],
+  "modulos_mejor_preparados": [
+    "01-mapa-ecosistema-microsoft-ia",
+    "03-simulador-onedrive-word-ia",
+    "07-gobierno-permisos-microsoft-simulado",
+    "08-trazabilidad-automatizaciones-microsoft"
+  ],
+  "modulos_requieren_revision_futura": [
+    "04-simulador-excel-ia-analitica",
+    "06-conector-copilot-fallback-local"
+  ],
+  "decision_recomendada_v1": "V1 robusta; habilitar planificación de V2 opcional con .env y fallback local.",
+  "recomendaciones_v2_opcional": [
+    "integracion_graph_opcional_env",
+    "conectores_reales_opcionales",
+    "auditoria_permisos_ampliada"
+  ],
+  "recomendaciones_siguientes": [
+    "formalizar_contratos_interfaz",
+    "versionar_reglas_clasificacion",
+    "estandarizar_plantillas",
+    "calibrar_alertas_por_area",
+    "refinar_reglas_prioridad",
+    "definir_contratos_v2",
+    "mantener_fallback_local",
+    "formalizar_controles_previos_v2",
+    "reforzar_trazabilidad_operativa"
+  ],
+  "limites_declarados": [
+    "sin_integraciones_reales",
+    "sin_oauth_real",
+    "sin_datos_reales",
+    "sin_ia_real"
+  ]
+}

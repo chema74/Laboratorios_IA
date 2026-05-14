@@ -1,0 +1,22 @@
+[
+  {
+    "nombre": "crm_simulado",
+    "tipo": "consulta",
+    "determinista": true
+  },
+  {
+    "nombre": "gestor_tickets_simulado",
+    "tipo": "consulta",
+    "determinista": true
+  },
+  {
+    "nombre": "base_documental_simulada",
+    "tipo": "consulta",
+    "determinista": true
+  },
+  {
+    "nombre": "calendario_simulado",
+    "tipo": "coordinacion",
+    "determinista": true
+  }
+]

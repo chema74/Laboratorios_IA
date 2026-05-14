@@ -1,0 +1,19 @@
+{
+  "id_permiso": "perm-007",
+  "usuario_ficticio": "auditor1@empresa-sintetica.local",
+  "recurso_simulado": "bitacora_apps_script_conceptual",
+  "permiso_asignado": "lectura",
+  "rol_simulado": "auditor",
+  "tipo_recurso": "apps_script_futuro",
+  "riesgo_detectado": "bajo",
+  "decision_gobierno": "mantener",
+  "motivo_decision": "Permiso acorde a reglas simuladas",
+  "accion_recomendada": "Mantener permiso simulado",
+  "requiere_revision": false,
+  "registro_generado": "",
+  "usa_google_real": false,
+  "usa_oauth_real": false,
+  "usa_api_externa": false,
+  "usa_cloud": false,
+  "usa_ia_real": false
+}

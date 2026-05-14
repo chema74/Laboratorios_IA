@@ -1,0 +1,24 @@
+{
+  "id_documento": "doc-002",
+  "nombre_documento": "Acta de Reunion [DOCUMENTO_DEMO]",
+  "tipo_documento_detectado": "acta de reunión ficticia",
+  "carpeta_onedrive_simulada": "Operaciones",
+  "resumen_simulado": "Acta de reunion con acuerdos de seguimiento para [EMPRESA_SINTETICA].",
+  "etiquetas_simuladas": [
+    "acta",
+    "operaciones",
+    "seguimiento"
+  ],
+  "sensibilidad_detectada": "interna",
+  "requiere_revision_humana": false,
+  "permisos_simulados": "lectura_equipo",
+  "accion_ia_simulada": "etiquetar",
+  "registro_generado": "",
+  "usa_onedrive_real": false,
+  "usa_word_real": false,
+  "usa_microsoft_graph_real": false,
+  "usa_oauth_real": false,
+  "usa_api_externa": false,
+  "usa_azure": false,
+  "usa_ia_real": false
+}

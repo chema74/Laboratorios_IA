@@ -1,0 +1,48 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+ENV/
+
+# Packaging y build
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Cachés y herramientas
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+
+# Variables de entorno y secretos locales
+.env
+.env.*
+*.pem
+*.key
+*.crt
+
+# Logs y salidas locales
+logs/
+*.log
+output/
+outputs/
+reports/
+
+# Datos temporales y generados
+tmp/
+temp/
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db

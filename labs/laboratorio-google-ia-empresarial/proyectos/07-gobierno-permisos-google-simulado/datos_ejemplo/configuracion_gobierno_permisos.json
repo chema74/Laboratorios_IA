@@ -1,0 +1,11 @@
+﻿{
+  "roles_permitidos": ["analista","operaciones","lider_equipo","finanzas","project_manager","desarrollador","auditor","externo_temporal"],
+  "tipos_recurso_permitidos": ["gmail","drive","docs","sheets","calendar","gemini_futuro","apps_script_futuro"],
+  "permisos_permitidos": ["lectura","comentario","edicion","propietario_simulado","ejecucion_simulada","restringido"],
+  "permisos_restringidos": ["propietario_simulado","ejecucion_simulada"],
+  "reglas_minimo_privilegio": {"externo_temporal": ["lectura","comentario"],"auditor": ["lectura"]},
+  "reglas_revision": {"riesgos_revision": ["alto"], "estados_revision": ["pendiente_revision"]},
+  "reglas_riesgo": {"alto": ["propietario_simulado","ejecucion_simulada"],"medio": ["edicion"],"bajo": ["lectura","comentario","restringido"]},
+  "acciones_recomendadas": {"mantener":"Mantener permiso simulado","revisar":"Revisión manual simulada","reducir":"Reducir privilegio simulado","revocar":"Revocar permiso simulado"},
+  "nota": "Simulación local: no usa Google real, OAuth real, APIs reales, Google Cloud, IA real ni datos reales."
+}

@@ -1,0 +1,22 @@
+{
+  "id_documento": "doc-005",
+  "nombre_documento": "Política Interna [DOCUMENTO_DEMO]",
+  "tipo_documento_detectado": "política interna ficticia",
+  "carpeta_simulada": "rrhh",
+  "resumen_simulado": "Política sintética de acceso para [EMPRESA_SINTETICA].",
+  "etiquetas_simuladas": [
+    "politica",
+    "rrhh"
+  ],
+  "sensibilidad_detectada": "alta",
+  "requiere_revision_humana": true,
+  "permisos_simulados": "acceso_restringido_rrhh",
+  "accion_ia_simulada": "resumir_y_revision",
+  "registro_generado": "",
+  "usa_drive_real": false,
+  "usa_docs_real": false,
+  "usa_oauth_real": false,
+  "usa_api_externa": false,
+  "usa_cloud": false,
+  "usa_ia_real": false
+}

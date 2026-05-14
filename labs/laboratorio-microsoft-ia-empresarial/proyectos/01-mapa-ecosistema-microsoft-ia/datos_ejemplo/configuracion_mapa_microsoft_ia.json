@@ -1,0 +1,39 @@
+{
+  "categorias_permitidas": [
+    "colaboracion",
+    "documental",
+    "analitica",
+    "gestion_tareas",
+    "asistencia_ia",
+    "integracion",
+    "automatizacion",
+    "infraestructura",
+    "gobierno",
+    "resiliencia"
+  ],
+  "capas_arquitectura": [
+    "interaccion",
+    "datos",
+    "proceso",
+    "orquestacion",
+    "asistencia",
+    "integracion",
+    "infraestructura",
+    "control"
+  ],
+  "criterios_portfolio": [
+    "simulacion_clara",
+    "reproducibilidad_local",
+    "limites_explicitos",
+    "trazabilidad"
+  ],
+  "limites_v1": [
+    "sin_microsoft_365_real",
+    "sin_oauth_real",
+    "sin_apis_reales",
+    "sin_azure_obligatorio",
+    "sin_datos_reales",
+    "sin_ia_real"
+  ],
+  "nota": "V1 local simulada: no hay Microsoft real, OAuth real, APIs reales, Azure, datos reales ni IA real."
+}

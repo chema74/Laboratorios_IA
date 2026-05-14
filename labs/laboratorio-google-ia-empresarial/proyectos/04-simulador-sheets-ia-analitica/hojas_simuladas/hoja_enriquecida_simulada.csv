@@ -1,0 +1,25 @@
+id_registro,fecha_operacion,area_negocio,cliente_ficticio,tipo_operacion,canal,importe_simulado,coste_simulado,margen_simulado,estado_operacion,prioridad,responsable_ficticio,requiere_revision,comentario_sintetico,alerta_margen_bajo,alerta_prioridad_alta
+op-001,2026-05-01,Comercial,[CLIENTE_FICTICIO_A],Venta,Email,1200,800,400,Completada,Media,[CONTACTO_FICTICIO_1],no,Operacion cerrada sin incidencias,no,no
+op-002,2026-05-01,Soporte,[CLIENTE_FICTICIO_B],Incidencia,Portal,500,350,150,En curso,Alta,[CONTACTO_FICTICIO_2],si,Requiere seguimiento tecnico,no,si
+op-003,2026-05-02,Operaciones,[CLIENTE_FICTICIO_C],Renovacion,Telefono,900,500,400,Completada,Media,[CONTACTO_FICTICIO_3],no,Renovacion anual sintetica,no,no
+op-004,2026-05-02,Finanzas,[CLIENTE_FICTICIO_D],Cobro,Email,700,300,400,Pendiente,Alta,[CONTACTO_FICTICIO_4],si,Cobro pendiente validacion,no,si
+op-005,2026-05-03,Comercial,[CLIENTE_FICTICIO_E],Venta,Web,1500,950,550,Completada,Baja,[CONTACTO_FICTICIO_5],no,Venta web sintetica,no,no
+op-006,2026-05-03,Soporte,[CLIENTE_FICTICIO_A],Ticket,Portal,300,220,80,Completada,Media,[CONTACTO_FICTICIO_2],no,Ticket resuelto local,si,no
+op-007,2026-05-04,Operaciones,[CLIENTE_FICTICIO_F],Implementacion,Presencial,2100,1400,700,En curso,Alta,[CONTACTO_FICTICIO_6],si,Proyecto en fase inicial,no,si
+op-008,2026-05-04,Finanzas,[CLIENTE_FICTICIO_G],Ajuste,Email,450,250,200,Completada,Baja,[CONTACTO_FICTICIO_4],no,Ajuste contable simulado,no,no
+op-009,2026-05-05,Comercial,[CLIENTE_FICTICIO_H],Propuesta,Telefono,1100,650,450,Pendiente,Alta,[CONTACTO_FICTICIO_1],si,Esperando confirmacion,no,si
+op-010,2026-05-05,Soporte,[CLIENTE_FICTICIO_I],Incidencia,Chat,600,380,220,En curso,Alta,[CONTACTO_FICTICIO_7],si,Escalado interno sintetico,no,si
+op-011,2026-05-06,Operaciones,[CLIENTE_FICTICIO_J],Revision,Email,800,500,300,Completada,Media,[CONTACTO_FICTICIO_3],no,Revision mensual completada,no,no
+op-012,2026-05-06,Finanzas,[CLIENTE_FICTICIO_K],Cobro,Web,950,550,400,Completada,Media,[CONTACTO_FICTICIO_8],no,Flujo normal sintetico,no,no
+op-013,2026-05-07,Comercial,[CLIENTE_FICTICIO_L],Venta,Presencial,1800,1200,600,En curso,Alta,[CONTACTO_FICTICIO_5],si,Requiere aprobacion interna,no,si
+op-014,2026-05-07,Soporte,[CLIENTE_FICTICIO_M],Ticket,Portal,420,260,160,Completada,Baja,[CONTACTO_FICTICIO_7],no,Caso cerrado,no,no
+op-015,2026-05-08,Operaciones,[CLIENTE_FICTICIO_N],Planificacion,Email,1000,620,380,Pendiente,Media,[CONTACTO_FICTICIO_6],si,Plan pendiente de revision,no,no
+op-016,2026-05-08,Finanzas,[CLIENTE_FICTICIO_O],Ajuste,Telefono,520,300,220,Completada,Media,[CONTACTO_FICTICIO_8],no,Ajuste validado,no,no
+op-017,2026-05-09,Comercial,[CLIENTE_FICTICIO_P],Propuesta,Web,1300,840,460,Completada,Media,[CONTACTO_FICTICIO_1],no,Propuesta aceptada,no,no
+op-018,2026-05-09,Soporte,[CLIENTE_FICTICIO_Q],Incidencia,Chat,780,500,280,En curso,Alta,[CONTACTO_FICTICIO_2],si,Impacto medio sintetico,no,si
+op-019,2026-05-10,Operaciones,[CLIENTE_FICTICIO_R],Implementacion,Presencial,2400,1600,800,Completada,Alta,[CONTACTO_FICTICIO_3],no,Entrega realizada,no,si
+op-020,2026-05-10,Finanzas,[CLIENTE_FICTICIO_S],Cobro,Email,870,490,380,Pendiente,Alta,[CONTACTO_FICTICIO_4],si,Pendiente conciliacion,no,si
+op-021,2026-05-11,Comercial,[CLIENTE_FICTICIO_T],Venta,Telefono,1250,760,490,En curso,Media,[CONTACTO_FICTICIO_5],no,Seguimiento comercial,no,no
+op-022,2026-05-11,Soporte,[CLIENTE_FICTICIO_U],Ticket,Portal,360,220,140,Completada,Baja,[CONTACTO_FICTICIO_7],no,Ticket menor cerrado,si,no
+op-023,2026-05-11,Operaciones,[CLIENTE_FICTICIO_V],Revision,Web,920,540,380,Completada,Media,[CONTACTO_FICTICIO_6],no,Revision estandar,no,no
+op-024,2026-05-11,Finanzas,[CLIENTE_FICTICIO_W],Ajuste,Email,610,370,240,En curso,Media,[CONTACTO_FICTICIO_8],si,Requiere confirmacion adicional,no,no

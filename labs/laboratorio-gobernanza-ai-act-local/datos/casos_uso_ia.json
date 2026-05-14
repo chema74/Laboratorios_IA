@@ -1,0 +1,78 @@
+[
+  {
+    "identificador": "CU-001",
+    "nombre": "Asistente RRHH",
+    "area": "recursos_humanos",
+    "descripcion": "Asistencia en cribado de solicitudes internas",
+    "usuarios_afectados": "empleados",
+    "datos_tratados": "datos laborales",
+    "criticidad": "media",
+    "grado_automatizacion": "medio",
+    "supervision_humana": "alta",
+    "impacto_potencial": "medio",
+    "evidencias_asociadas": [
+      "E-001",
+      "E-002"
+    ]
+  },
+  {
+    "identificador": "CU-002",
+    "nombre": "Clasificación tickets TI",
+    "area": "soporte_tic",
+    "descripcion": "Prioriza incidencias técnicas",
+    "usuarios_afectados": "usuarios internos",
+    "datos_tratados": "logs operativos",
+    "criticidad": "alta",
+    "grado_automatizacion": "alto",
+    "supervision_humana": "baja",
+    "impacto_potencial": "alto",
+    "evidencias_asociadas": [
+      "E-003"
+    ]
+  },
+  {
+    "identificador": "CU-003",
+    "nombre": "Resumen atención cliente",
+    "area": "atencion_cliente",
+    "descripcion": "Resume interacciones para seguimiento",
+    "usuarios_afectados": "clientes",
+    "datos_tratados": "datos de contacto",
+    "criticidad": "media",
+    "grado_automatizacion": "medio",
+    "supervision_humana": "media",
+    "impacto_potencial": "medio",
+    "evidencias_asociadas": [
+      "E-004"
+    ]
+  },
+  {
+    "identificador": "CU-004",
+    "nombre": "Predicción ventas",
+    "area": "ventas",
+    "descripcion": "Proyección orientativa de demanda",
+    "usuarios_afectados": "equipo comercial",
+    "datos_tratados": "datos comerciales agregados",
+    "criticidad": "baja",
+    "grado_automatizacion": "bajo",
+    "supervision_humana": "alta",
+    "impacto_potencial": "bajo",
+    "evidencias_asociadas": [
+      "E-005"
+    ]
+  },
+  {
+    "identificador": "CU-005",
+    "nombre": "Análisis directivo",
+    "area": "analisis_directivo",
+    "descripcion": "Informe sintético para comité",
+    "usuarios_afectados": "dirección",
+    "datos_tratados": "datos sensibles financieros",
+    "criticidad": "alta",
+    "grado_automatizacion": "alto",
+    "supervision_humana": "media",
+    "impacto_potencial": "alto",
+    "evidencias_asociadas": [
+      "E-006"
+    ]
+  }
+]

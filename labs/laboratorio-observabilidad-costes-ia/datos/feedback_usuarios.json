@@ -1,0 +1,26 @@
+[
+  {
+    "id_feedback": "F-001",
+    "caso_uso": "atencion_cliente",
+    "satisfaccion": 4,
+    "comentario": "Respuesta útil y rápida"
+  },
+  {
+    "id_feedback": "F-002",
+    "caso_uso": "soporte_tic",
+    "satisfaccion": 2,
+    "comentario": "Demasiada latencia"
+  },
+  {
+    "id_feedback": "F-003",
+    "caso_uso": "compras",
+    "satisfaccion": 3,
+    "comentario": "Aceptable"
+  },
+  {
+    "id_feedback": "F-004",
+    "caso_uso": "cumplimiento",
+    "satisfaccion": 1,
+    "comentario": "Errores frecuentes"
+  }
+]

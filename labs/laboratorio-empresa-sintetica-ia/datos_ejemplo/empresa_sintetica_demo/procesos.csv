@@ -1,0 +1,6 @@
+id_proceso,nombre,area,criticidad,nivel_automatizacion,responsable_ficticio
+PROC-001,Gestion de pedidos,Operaciones,Media,Manual,Empleado Ficticio 6
+PROC-002,Facturacion,Finanzas,Media,Semiautomatizado,Empleado Ficticio 2
+PROC-003,Soporte al cliente,Atencion Cliente,Baja,Manual,Empleado Ficticio 4
+PROC-004,Control de inventario,Operaciones,Baja,Manual,Empleado Ficticio 10
+PROC-005,Onboarding de clientes,Ventas,Media,Manual,Empleado Ficticio 12

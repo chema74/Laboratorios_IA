@@ -1,0 +1,15 @@
+[
+  {
+    "caso_uso": "atencion_cliente",
+    "objetivo": "resumen",
+    "texto": "Resumen de cliente NombreFicticio Uno",
+    "email": "nombre1@empresa.local",
+    "telefono": "612345678"
+  },
+  {
+    "caso_uso": "soporte_tic",
+    "objetivo": "clasificar",
+    "texto": "Ticket de NombreFicticio Dos sobre incidencia",
+    "direccion": "Avenida Norte 45"
+  }
+]

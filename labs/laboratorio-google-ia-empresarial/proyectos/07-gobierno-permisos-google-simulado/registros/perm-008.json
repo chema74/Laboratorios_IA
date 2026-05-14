@@ -1,0 +1,19 @@
+{
+  "id_permiso": "perm-008",
+  "usuario_ficticio": "temp1@empresa-sintetica.local",
+  "recurso_simulado": "drive_clientes_sinteticos",
+  "permiso_asignado": "propietario_simulado",
+  "rol_simulado": "externo_temporal",
+  "tipo_recurso": "drive",
+  "riesgo_detectado": "alto",
+  "decision_gobierno": "revocar",
+  "motivo_decision": "Permiso excesivo en estado pendiente de revisión",
+  "accion_recomendada": "Revocar permiso simulado",
+  "requiere_revision": true,
+  "registro_generado": "",
+  "usa_google_real": false,
+  "usa_oauth_real": false,
+  "usa_api_externa": false,
+  "usa_cloud": false,
+  "usa_ia_real": false
+}

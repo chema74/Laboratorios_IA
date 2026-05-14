@@ -1,0 +1,20 @@
+{
+  "empresa_ficticia": "[EMPRESA_SINTETICA]",
+  "contexto_operativo_sintetico": "PYME ficticia que coordina ventas, operaciones y soporte con flujos Microsoft simulados.",
+  "outlook_simulado": "Clasificación de correos y acciones sugeridas locales.",
+  "documentos_word_simulados": "Borradores y resúmenes documentales sintéticos.",
+  "libro_excel_operativo_simulado": "Indicadores financieros y alertas analíticas simuladas.",
+  "teams_reuniones_tareas_simuladas": "Canales, reuniones y seguimiento de tareas ficticias.",
+  "solicitudes_copilot_fallback": "Solicitudes resueltas en modo fallback-local determinista.",
+  "permisos_simulados": "Decisiones de gobierno defensivo por mínimo privilegio.",
+  "automatizaciones_simuladas": "Trazas, hashes y evidencias de automatizaciones ficticias.",
+  "riesgos_y_limites": [
+    "sin_microsoft_real",
+    "sin_graph_real",
+    "sin_oauth_real",
+    "sin_ia_real",
+    "sin_datos_reales"
+  ],
+  "informe_consolidado": "Resultado global de madurez y decisión recomendada V1.",
+  "conclusion_ejecutiva": "La V1 local simulada es demostrable y reproducible para portfolio técnico."
+}

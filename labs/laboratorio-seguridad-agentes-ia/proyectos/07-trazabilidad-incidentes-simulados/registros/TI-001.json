@@ -1,0 +1,18 @@
+{
+  "id_incidente": "TI-001",
+  "id_evidencia": "EVI-TI-001-20260510",
+  "hash_simulado": "d7f107cea2a23d50",
+  "tipo_incidente": "intento simulado de acceso a dato sintético sensible",
+  "severidad_simulada": "alta",
+  "estado_incidente": "abierto",
+  "controles_aplicados": [
+    "revision_humana_obligatoria"
+  ],
+  "trazabilidad_completa": true,
+  "controles_suficientes": true,
+  "recomendacion_defensiva": "Reforzar controles y trazabilidad en incidentes abiertos.",
+  "usa_datos_reales": false,
+  "usa_ia_real": false,
+  "usa_api_externa": false,
+  "usa_cloud": false
+}

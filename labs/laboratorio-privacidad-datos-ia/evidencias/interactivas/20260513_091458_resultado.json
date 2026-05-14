@@ -1,0 +1,33 @@
+{
+  "fecha": "2026-05-13T07:14:58.102002+00:00",
+  "texto_original": "Durante la revisión semanal, Ana Beltrán, responsable de operaciones, comentó desde el correo ana.beltran.demo@logistica-ejemplo.es que el cliente con identificador 87654321X había presentado varias reclamaciones urgentes. También dejó como contacto alternativo el teléfono 699 321 654.\r\n\r\nEl caso incluye retrasos de entrega, quejas por facturación duplicada y una posible pérdida de contrato si no se responde antes del viernes. Se quiere pedir a un LLM que redacte un resumen ejecutivo y proponga una respuesta, pero antes hay que eliminar nombres, correos, teléfonos e identificadores personales.",
+  "texto_minimizado": "{\"caso_uso\": \"demo_interactiva\", \"objetivo\": \"analisis_privacidad\", \"texto\": \"Durante la revisión semanal, Ana Beltrán, responsable de operaciones, comentó desde el correo [EMAIL] que el cliente con identificador 87654321X había presentado varias reclamaciones urgentes. También dejó como contacto alternativo el teléfono 699 321 654.\\r\\n\\r\\nEl caso incluye retrasos de entrega, quejas por facturación duplicada y una posible pérdida de contrato si no se responde antes del viernes. Se quiere pedir a un LLM que redacte un resumen ejecutivo y proponga una respuesta, pero antes hay que eliminar nombres, correos, teléfonos e identificadores personales.\"}",
+  "pii_detectada": [
+    {
+      "tipo": "email",
+      "valor": "ana.beltran.demo@logistica-ejemplo.es",
+      "inicio": 94,
+      "severidad": "alta"
+    },
+    {
+      "tipo": "contexto sensible de negocio",
+      "valor": "detectado",
+      "inicio": 0,
+      "severidad": "media"
+    }
+  ],
+  "proveedor": "groq",
+  "modelo": "llama-3.1-8b-instant",
+  "ruta_ejecucion": "groq_sdk",
+  "motivo_fallback": "",
+  "resumen": "Revisar la implementación de medidas de seguridad para proteger datos personales",
+  "riesgos": [
+    "Exposición de datos personales (PII)",
+    "Falta de cumplimiento de regulaciones de privacidad"
+  ],
+  "recomendaciones": [
+    "Implementar autenticación y autorización robustas",
+    "Realizar auditorías periódicas de seguridad",
+    "Actualizar políticas de privacidad y capacitación para empleados"
+  ]
+}

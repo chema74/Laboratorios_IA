@@ -1,0 +1,45 @@
+{
+  "total_crisis": 5,
+  "crisis_por_tipo": {
+    "caida_ventas": 1,
+    "fuga_clientes": 1,
+    "retraso_logistico": 1,
+    "datos_corruptos": 1,
+    "incidente_privacidad": 1
+  },
+  "crisis_por_severidad": {
+    "alta": 2,
+    "critica": 1,
+    "media": 1,
+    "baja": 1
+  },
+  "crisis_que_requieren_revision_humana": 4,
+  "areas_mas_afectadas": {
+    "atencion_cliente": 5,
+    "finanzas": 5,
+    "operaciones": 5
+  },
+  "riesgos_secundarios_detectados": {
+    "efecto_reputacional": 5,
+    "acumulacion_backlog": 5,
+    "errores_decision": 5
+  },
+  "decisiones_recomendadas": {
+    "generar_informe": 3,
+    "escalar_a_humano": 4,
+    "revisar_permisos": 1,
+    "revisar_datos": 2,
+    "activar_plan_contingencia_simulado": 2,
+    "auditar_eventos": 2,
+    "bloquear_accion_automatica": 1
+  },
+  "entradas_utilizadas": {
+    "entrada_empresa": "datos_ejemplo/empresa_sintetica_demo/empresa_sintetica.json",
+    "entrada_eventos": "datos_ejemplo/eventos_negocio_demo/eventos_negocio.json",
+    "entrada_documentos": "datos_ejemplo/documentos_sinteticos_demo/indice_documentos.json",
+    "entrada_escenarios": "datos_ejemplo/escenarios_prueba_agentes_demo/escenarios_prueba_agentes.json"
+  },
+  "advertencia_sobre_datos_sinteticos": "Crisis simuladas sobre datos sintéticos. No representan hechos reales.",
+  "advertencia_sobre_no_uso_operativo_real": "No usar este resultado para operación real ni predicción empresarial.",
+  "hitos_linea_tiempo": 23
+}

@@ -1,0 +1,207 @@
+{
+  "fecha_generacion": "2026-05-10T20:31:41",
+  "total_escenarios_evaluados": 3,
+  "errores_validacion": [],
+  "matriz_probabilidad_x_impacto": {
+    "P4-I4.0": 1,
+    "P5-I4.0": 1,
+    "P2-I2.5": 1
+  },
+  "distribucion_por_nivel": {
+    "critico": 2,
+    "medio": 1
+  },
+  "riesgos_criticos": [
+    {
+      "id_escenario": "MR-001",
+      "categoria_riesgo": "prompt injection simulada",
+      "puntuacion_riesgo": 4.35,
+      "nivel_riesgo": "critico",
+      "factores_principales": [
+        "baja",
+        "alta"
+      ],
+      "controles_recomendados": [
+        "revision_humana_obligatoria",
+        "trazabilidad_decisiones"
+      ],
+      "prioridad_mitigacion": "alta",
+      "explicacion_defensiva": "Nivel asignado por impacto, probabilidad y detectabilidad simulada.",
+      "activo_simulado_afectado": "politicas_internas",
+      "detectabilidad": "baja",
+      "controles_existentes": [
+        "filtro_politicas"
+      ],
+      "usa_datos_reales": false,
+      "usa_ia_real": false,
+      "usa_api_externa": false,
+      "usa_cloud": false
+    },
+    {
+      "id_escenario": "MR-002",
+      "categoria_riesgo": "uso indebido de herramienta simulada",
+      "puntuacion_riesgo": 4.15,
+      "nivel_riesgo": "critico",
+      "factores_principales": [
+        "media",
+        "critica"
+      ],
+      "controles_recomendados": [
+        "lista_permitidos_herramientas",
+        "auditoria_periodica"
+      ],
+      "prioridad_mitigacion": "critica",
+      "explicacion_defensiva": "Nivel asignado por impacto, probabilidad y detectabilidad simulada.",
+      "activo_simulado_afectado": "herramientas_simuladas",
+      "detectabilidad": "media",
+      "controles_existentes": [
+        "bloqueo_herramienta_restringida"
+      ],
+      "usa_datos_reales": false,
+      "usa_ia_real": false,
+      "usa_api_externa": false,
+      "usa_cloud": false
+    }
+  ],
+  "riesgos_por_categoria": {
+    "prompt injection simulada": 1,
+    "uso indebido de herramienta simulada": 1,
+    "dependencia externa no permitida": 1
+  },
+  "riesgos_por_activo": {
+    "politicas_internas": 1,
+    "herramientas_simuladas": 1,
+    "arquitectura_local": 1
+  },
+  "riesgos_baja_detectabilidad": [
+    {
+      "id_escenario": "MR-001",
+      "categoria_riesgo": "prompt injection simulada",
+      "puntuacion_riesgo": 4.35,
+      "nivel_riesgo": "critico",
+      "factores_principales": [
+        "baja",
+        "alta"
+      ],
+      "controles_recomendados": [
+        "revision_humana_obligatoria",
+        "trazabilidad_decisiones"
+      ],
+      "prioridad_mitigacion": "alta",
+      "explicacion_defensiva": "Nivel asignado por impacto, probabilidad y detectabilidad simulada.",
+      "activo_simulado_afectado": "politicas_internas",
+      "detectabilidad": "baja",
+      "controles_existentes": [
+        "filtro_politicas"
+      ],
+      "usa_datos_reales": false,
+      "usa_ia_real": false,
+      "usa_api_externa": false,
+      "usa_cloud": false
+    }
+  ],
+  "riesgos_controles_insuficientes": [
+    {
+      "id_escenario": "MR-003",
+      "categoria_riesgo": "dependencia externa no permitida",
+      "puntuacion_riesgo": 2.5,
+      "nivel_riesgo": "medio",
+      "factores_principales": [
+        "alta",
+        "media"
+      ],
+      "controles_recomendados": [
+        "politica_sin_apis_externas"
+      ],
+      "prioridad_mitigacion": "media",
+      "explicacion_defensiva": "Nivel asignado por impacto, probabilidad y detectabilidad simulada.",
+      "activo_simulado_afectado": "arquitectura_local",
+      "detectabilidad": "alta",
+      "controles_existentes": [],
+      "usa_datos_reales": false,
+      "usa_ia_real": false,
+      "usa_api_externa": false,
+      "usa_cloud": false
+    }
+  ],
+  "controles_defensivos_recomendados": [
+    "revision_humana_obligatoria",
+    "trazabilidad_decisiones",
+    "bloqueo_herramienta_restringida",
+    "politica_sin_apis_externas"
+  ],
+  "resultados": [
+    {
+      "id_escenario": "MR-001",
+      "categoria_riesgo": "prompt injection simulada",
+      "puntuacion_riesgo": 4.35,
+      "nivel_riesgo": "critico",
+      "factores_principales": [
+        "baja",
+        "alta"
+      ],
+      "controles_recomendados": [
+        "revision_humana_obligatoria",
+        "trazabilidad_decisiones"
+      ],
+      "prioridad_mitigacion": "alta",
+      "explicacion_defensiva": "Nivel asignado por impacto, probabilidad y detectabilidad simulada.",
+      "activo_simulado_afectado": "politicas_internas",
+      "detectabilidad": "baja",
+      "controles_existentes": [
+        "filtro_politicas"
+      ],
+      "usa_datos_reales": false,
+      "usa_ia_real": false,
+      "usa_api_externa": false,
+      "usa_cloud": false
+    },
+    {
+      "id_escenario": "MR-002",
+      "categoria_riesgo": "uso indebido de herramienta simulada",
+      "puntuacion_riesgo": 4.15,
+      "nivel_riesgo": "critico",
+      "factores_principales": [
+        "media",
+        "critica"
+      ],
+      "controles_recomendados": [
+        "lista_permitidos_herramientas",
+        "auditoria_periodica"
+      ],
+      "prioridad_mitigacion": "critica",
+      "explicacion_defensiva": "Nivel asignado por impacto, probabilidad y detectabilidad simulada.",
+      "activo_simulado_afectado": "herramientas_simuladas",
+      "detectabilidad": "media",
+      "controles_existentes": [
+        "bloqueo_herramienta_restringida"
+      ],
+      "usa_datos_reales": false,
+      "usa_ia_real": false,
+      "usa_api_externa": false,
+      "usa_cloud": false
+    },
+    {
+      "id_escenario": "MR-003",
+      "categoria_riesgo": "dependencia externa no permitida",
+      "puntuacion_riesgo": 2.5,
+      "nivel_riesgo": "medio",
+      "factores_principales": [
+        "alta",
+        "media"
+      ],
+      "controles_recomendados": [
+        "politica_sin_apis_externas"
+      ],
+      "prioridad_mitigacion": "media",
+      "explicacion_defensiva": "Nivel asignado por impacto, probabilidad y detectabilidad simulada.",
+      "activo_simulado_afectado": "arquitectura_local",
+      "detectabilidad": "alta",
+      "controles_existentes": [],
+      "usa_datos_reales": false,
+      "usa_ia_real": false,
+      "usa_api_externa": false,
+      "usa_cloud": false
+    }
+  ]
+}

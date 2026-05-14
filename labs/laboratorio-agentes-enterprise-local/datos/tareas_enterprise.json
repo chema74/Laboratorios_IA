@@ -1,0 +1,20 @@
+[
+  {
+    "id_tarea": "T-001",
+    "titulo": "Escalado soporte TIC",
+    "descripcion": "Coordinar respuesta a incidencia recurrente",
+    "caso_uso": "soporte_tic"
+  },
+  {
+    "id_tarea": "T-002",
+    "titulo": "Revisión documental",
+    "descripcion": "Comprobar consistencia de procedimiento interno",
+    "caso_uso": "revision_documental"
+  },
+  {
+    "id_tarea": "T-003",
+    "titulo": "Seguimiento clientes",
+    "descripcion": "Preparar seguimiento de clientes con riesgo",
+    "caso_uso": "seguimiento_clientes"
+  }
+]

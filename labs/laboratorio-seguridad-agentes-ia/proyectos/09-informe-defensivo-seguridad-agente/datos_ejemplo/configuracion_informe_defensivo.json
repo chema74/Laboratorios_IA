@@ -1,0 +1,31 @@
+{
+  "dimensiones_evaluacion": [
+    "inventario_riesgos",
+    "simulacion_prompt_injection",
+    "detector_entradas_riesgo",
+    "clasificacion_sensibilidad",
+    "control_herramientas",
+    "politicas_uso",
+    "trazabilidad_incidentes",
+    "matriz_riesgo"
+  ],
+  "pesos_dimension": {
+    "inventario_riesgos": 0.12,
+    "simulacion_prompt_injection": 0.12,
+    "detector_entradas_riesgo": 0.12,
+    "clasificacion_sensibilidad": 0.12,
+    "control_herramientas": 0.13,
+    "politicas_uso": 0.13,
+    "trazabilidad_incidentes": 0.13,
+    "matriz_riesgo": 0.13
+  },
+  "umbrales_madurez_defensiva": {"inicial": 2.5, "basica": 3.0, "intermedia": 3.7},
+  "criterios_decision": {"uso_real_permitido_desde": "alta", "revision_humana_recomendada": true},
+  "controles_minimos_recomendados": [
+    "revision_humana_obligatoria",
+    "trazabilidad_decisiones",
+    "bloqueo_herramienta_restringida",
+    "politicas_uso_validadas"
+  ],
+  "nota_alcance": "Todo local, sintético y defensivo."
+}

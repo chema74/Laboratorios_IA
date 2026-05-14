@@ -1,0 +1,22 @@
+id_resultado,id_proceso_comparado,tipo_flujo,tiempo_estimado_minutos,pasos_estimados,errores_simulados,nivel_trazabilidad,nivel_consistencia,carga_revision_humana,riesgo_residual_simulado,coste_relativo_simulado,explicabilidad_operativa,adecuacion_contexto,limitaciones,resultado_simulado
+RES-000001,PRC-00001,manual,57.73,14,3,media,media,alta,medio,1.25,media,alta,Resultado sintético sin ejecución real de agentes.,escalado
+RES-000002,PRC-00001,automatizado_clasico,29.81,7,4,alta,alta,media,medio,1.0,alta,baja,Resultado sintético sin ejecución real de agentes.,correcto_simulado
+RES-000003,PRC-00001,asistido_por_agente,22.45,5,2,alta,media,media,alto,0.88,alta,alta,Resultado sintético sin ejecución real de agentes.,requiere_revision
+RES-000004,PRC-00002,manual,43.63,10,4,media,media,alta,medio,1.0,alta,baja,Resultado sintético sin ejecución real de agentes.,correcto_simulado
+RES-000005,PRC-00002,automatizado_clasico,26.55,6,3,alta,alta,media,medio,0.8,alta,media,Resultado sintético sin ejecución real de agentes.,incompleto_simulado
+RES-000006,PRC-00002,asistido_por_agente,19.12,4,1,alta,media,media,alto,0.7,alta,baja,Resultado sintético sin ejecución real de agentes.,requiere_revision
+RES-000007,PRC-00003,manual,44.96,11,3,media,media,alta,medio,1.0,alta,media,Resultado sintético sin ejecución real de agentes.,correcto_simulado
+RES-000008,PRC-00003,automatizado_clasico,22.72,5,2,alta,alta,media,medio,0.8,media,media,Resultado sintético sin ejecución real de agentes.,correcto_simulado
+RES-000009,PRC-00003,asistido_por_agente,19.23,4,1,alta,media,media,alto,0.7,media,baja,Resultado sintético sin ejecución real de agentes.,escalado
+RES-000010,PRC-00004,manual,69.87,17,4,media,media,alta,medio,1.6,media,baja,Resultado sintético sin ejecución real de agentes.,correcto_simulado
+RES-000011,PRC-00004,automatizado_clasico,41.33,10,3,alta,alta,media,medio,1.28,alta,baja,Resultado sintético sin ejecución real de agentes.,escalado
+RES-000012,PRC-00004,asistido_por_agente,26.29,6,4,alta,media,media,alto,1.12,alta,media,Resultado sintético sin ejecución real de agentes.,bloqueado_por_riesgo
+RES-000013,PRC-00005,manual,75.9,18,3,media,media,alta,medio,1.6,media,media,Resultado sintético sin ejecución real de agentes.,correcto_simulado
+RES-000014,PRC-00005,automatizado_clasico,40.17,10,3,alta,alta,media,medio,1.28,media,media,Resultado sintético sin ejecución real de agentes.,correcto_simulado
+RES-000015,PRC-00005,asistido_por_agente,27.27,6,3,alta,media,media,alto,1.12,alta,baja,Resultado sintético sin ejecución real de agentes.,bloqueado_por_riesgo
+RES-000016,PRC-00006,manual,57.69,14,5,media,media,alta,medio,1.25,alta,alta,Resultado sintético sin ejecución real de agentes.,escalado
+RES-000017,PRC-00006,automatizado_clasico,31.49,7,3,alta,alta,media,medio,1.0,alta,baja,Resultado sintético sin ejecución real de agentes.,escalado
+RES-000018,PRC-00006,asistido_por_agente,21.77,5,2,alta,media,media,alto,0.88,alta,alta,Resultado sintético sin ejecución real de agentes.,requiere_revision
+RES-000019,PRC-00007,manual,38.64,9,3,media,media,alta,medio,0.8,alta,alta,Resultado sintético sin ejecución real de agentes.,incompleto_simulado
+RES-000020,PRC-00007,automatizado_clasico,23.39,5,3,alta,alta,media,medio,0.64,media,alta,Resultado sintético sin ejecución real de agentes.,escalado
+RES-000021,PRC-00007,asistido_por_agente,15.99,3,2,alta,media,media,alto,0.56,media,alta,Resultado sintético sin ejecución real de agentes.,escalado

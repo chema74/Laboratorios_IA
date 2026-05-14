@@ -1,0 +1,419 @@
+{
+  "datos_anonimizados_demo": [
+    {
+      "id_dato": "DAT-000001",
+      "campo": "id_empresa",
+      "valor_anonimizado": "anon_58485",
+      "metodo_anonimizacion": "tokenizacion_determinista_demo"
+    },
+    {
+      "id_dato": "DAT-000002",
+      "campo": "nombre",
+      "valor_anonimizado": "anon_25463",
+      "metodo_anonimizacion": "tokenizacion_determinista_demo"
+    },
+    {
+      "id_dato": "DAT-000003",
+      "campo": "sector",
+      "valor_anonimizado": "Logistica",
+      "metodo_anonimizacion": "sin_cambio"
+    },
+    {
+      "id_dato": "DAT-000004",
+      "campo": "pais",
+      "valor_anonimizado": "España",
+      "metodo_anonimizacion": "sin_cambio"
+    },
+    {
+      "id_dato": "DAT-000005",
+      "campo": "ciudad",
+      "valor_anonimizado": "Valencia",
+      "metodo_anonimizacion": "sin_cambio"
+    },
+    {
+      "id_dato": "DAT-000006",
+      "campo": "moneda",
+      "valor_anonimizado": "USD",
+      "metodo_anonimizacion": "sin_cambio"
+    },
+    {
+      "id_dato": "DAT-000007",
+      "campo": "fecha_simulacion",
+      "valor_anonimizado": "2026-05-09",
+      "metodo_anonimizacion": "sin_cambio"
+    },
+    {
+      "id_dato": "DAT-000008",
+      "campo": "numero_empleados",
+      "valor_anonimizado": "12",
+      "metodo_anonimizacion": "sin_cambio"
+    },
+    {
+      "id_dato": "DAT-000009",
+      "campo": "numero_clientes",
+      "valor_anonimizado": "20",
+      "metodo_anonimizacion": "sin_cambio"
+    },
+    {
+      "id_dato": "DAT-000010",
+      "campo": "numero_productos",
+      "valor_anonimizado": "8",
+      "metodo_anonimizacion": "sin_cambio"
+    },
+    {
+      "id_dato": "DAT-000011",
+      "campo": "id_cliente",
+      "valor_anonimizado": "anon_37692",
+      "metodo_anonimizacion": "tokenizacion_determinista_demo"
+    },
+    {
+      "id_dato": "DAT-000012",
+      "campo": "nombre",
+      "valor_anonimizado": "anon_95582",
+      "metodo_anonimizacion": "tokenizacion_determinista_demo"
+    },
+    {
+      "id_dato": "DAT-000013",
+      "campo": "segmento",
+      "valor_anonimizado": "PYME",
+      "metodo_anonimizacion": "sin_cambio"
+    },
+    {
+      "id_dato": "DAT-000014",
+      "campo": "pais",
+      "valor_anonimizado": "Perú",
+      "metodo_anonimizacion": "sin_cambio"
+    },
+    {
+      "id_dato": "DAT-000016",
+      "campo": "estado",
+      "valor_anonimizado": "bloqueado",
+      "metodo_anonimizacion": "sin_cambio"
+    },
+    {
+      "id_dato": "DAT-000017",
+      "campo": "id_cliente",
+      "valor_anonimizado": "anon_83301",
+      "metodo_anonimizacion": "tokenizacion_determinista_demo"
+    },
+    {
+      "id_dato": "DAT-000018",
+      "campo": "nombre",
+      "valor_anonimizado": "anon_95582",
+      "metodo_anonimizacion": "tokenizacion_determinista_demo"
+    },
+    {
+      "id_dato": "DAT-000019",
+      "campo": "segmento",
+      "valor_anonimizado": "Startup",
+      "metodo_anonimizacion": "sin_cambio"
+    },
+    {
+      "id_dato": "DAT-000020",
+      "campo": "pais",
+      "valor_anonimizado": "Perú",
+      "metodo_anonimizacion": "sin_cambio"
+    },
+    {
+      "id_dato": "DAT-000022",
+      "campo": "estado",
+      "valor_anonimizado": "bloqueado",
+      "metodo_anonimizacion": "sin_cambio"
+    },
+    {
+      "id_dato": "DAT-000023",
+      "campo": "id_cliente",
+      "valor_anonimizado": "anon_96279",
+      "metodo_anonimizacion": "tokenizacion_determinista_demo"
+    },
+    {
+      "id_dato": "DAT-000024",
+      "campo": "nombre",
+      "valor_anonimizado": "anon_95582",
+      "metodo_anonimizacion": "tokenizacion_determinista_demo"
+    },
+    {
+      "id_dato": "DAT-000025",
+      "campo": "segmento",
+      "valor_anonimizado": "PYME",
+      "metodo_anonimizacion": "sin_cambio"
+    },
+    {
+      "id_dato": "DAT-000026",
+      "campo": "pais",
+      "valor_anonimizado": "España",
+      "metodo_anonimizacion": "sin_cambio"
+    },
+    {
+      "id_dato": "DAT-000028",
+      "campo": "estado",
+      "valor_anonimizado": "activo",
+      "metodo_anonimizacion": "sin_cambio"
+    },
+    {
+      "id_dato": "DAT-000029",
+      "campo": "id_cliente",
+      "valor_anonimizado": "anon_16222",
+      "metodo_anonimizacion": "tokenizacion_determinista_demo"
+    },
+    {
+      "id_dato": "DAT-000030",
+      "campo": "nombre",
+      "valor_anonimizado": "anon_95582",
+      "metodo_anonimizacion": "tokenizacion_determinista_demo"
+    },
+    {
+      "id_dato": "DAT-000031",
+      "campo": "segmento",
+      "valor_anonimizado": "Startup",
+      "metodo_anonimizacion": "sin_cambio"
+    },
+    {
+      "id_dato": "DAT-000032",
+      "campo": "pais",
+      "valor_anonimizado": "España",
+      "metodo_anonimizacion": "sin_cambio"
+    },
+    {
+      "id_dato": "DAT-000034",
+      "campo": "estado",
+      "valor_anonimizado": "activo",
+      "metodo_anonimizacion": "sin_cambio"
+    },
+    {
+      "id_dato": "DAT-000035",
+      "campo": "id_cliente",
+      "valor_anonimizado": "anon_12022",
+      "metodo_anonimizacion": "tokenizacion_determinista_demo"
+    },
+    {
+      "id_dato": "DAT-000036",
+      "campo": "nombre",
+      "valor_anonimizado": "anon_95582",
+      "metodo_anonimizacion": "tokenizacion_determinista_demo"
+    },
+    {
+      "id_dato": "DAT-000037",
+      "campo": "segmento",
+      "valor_anonimizado": "Publico",
+      "metodo_anonimizacion": "sin_cambio"
+    },
+    {
+      "id_dato": "DAT-000038",
+      "campo": "pais",
+      "valor_anonimizado": "Colombia",
+      "metodo_anonimizacion": "sin_cambio"
+    },
+    {
+      "id_dato": "DAT-000040",
+      "campo": "estado",
+      "valor_anonimizado": "bloqueado",
+      "metodo_anonimizacion": "sin_cambio"
+    },
+    {
+      "id_dato": "DAT-000041",
+      "campo": "id_cliente",
+      "valor_anonimizado": "anon_57391",
+      "metodo_anonimizacion": "tokenizacion_determinista_demo"
+    },
+    {
+      "id_dato": "DAT-000042",
+      "campo": "nombre",
+      "valor_anonimizado": "anon_95582",
+      "metodo_anonimizacion": "tokenizacion_determinista_demo"
+    },
+    {
+      "id_dato": "DAT-000043",
+      "campo": "segmento",
+      "valor_anonimizado": "Startup",
+      "metodo_anonimizacion": "sin_cambio"
+    },
+    {
+      "id_dato": "DAT-000044",
+      "campo": "pais",
+      "valor_anonimizado": "México",
+      "metodo_anonimizacion": "sin_cambio"
+    },
+    {
+      "id_dato": "DAT-000046",
+      "campo": "estado",
+      "valor_anonimizado": "en_revision",
+      "metodo_anonimizacion": "sin_cambio"
+    },
+    {
+      "id_dato": "DAT-000047",
+      "campo": "id_cliente",
+      "valor_anonimizado": "anon_31176",
+      "metodo_anonimizacion": "tokenizacion_determinista_demo"
+    },
+    {
+      "id_dato": "DAT-000048",
+      "campo": "nombre",
+      "valor_anonimizado": "anon_95582",
+      "metodo_anonimizacion": "tokenizacion_determinista_demo"
+    },
+    {
+      "id_dato": "DAT-000049",
+      "campo": "segmento",
+      "valor_anonimizado": "Corporativo",
+      "metodo_anonimizacion": "sin_cambio"
+    },
+    {
+      "id_dato": "DAT-000050",
+      "campo": "pais",
+      "valor_anonimizado": "Colombia",
+      "metodo_anonimizacion": "sin_cambio"
+    },
+    {
+      "id_dato": "DAT-000052",
+      "campo": "estado",
+      "valor_anonimizado": "bloqueado",
+      "metodo_anonimizacion": "sin_cambio"
+    },
+    {
+      "id_dato": "DAT-000053",
+      "campo": "id_cliente",
+      "valor_anonimizado": "anon_43615",
+      "metodo_anonimizacion": "tokenizacion_determinista_demo"
+    },
+    {
+      "id_dato": "DAT-000054",
+      "campo": "nombre",
+      "valor_anonimizado": "anon_95582",
+      "metodo_anonimizacion": "tokenizacion_determinista_demo"
+    },
+    {
+      "id_dato": "DAT-000055",
+      "campo": "segmento",
+      "valor_anonimizado": "PYME",
+      "metodo_anonimizacion": "sin_cambio"
+    },
+    {
+      "id_dato": "DAT-000056",
+      "campo": "pais",
+      "valor_anonimizado": "Perú",
+      "metodo_anonimizacion": "sin_cambio"
+    },
+    {
+      "id_dato": "DAT-000058",
+      "campo": "estado",
+      "valor_anonimizado": "activo",
+      "metodo_anonimizacion": "sin_cambio"
+    },
+    {
+      "id_dato": "DAT-000059",
+      "campo": "id_cliente",
+      "valor_anonimizado": "anon_21054",
+      "metodo_anonimizacion": "tokenizacion_determinista_demo"
+    },
+    {
+      "id_dato": "DAT-000060",
+      "campo": "nombre",
+      "valor_anonimizado": "anon_95582",
+      "metodo_anonimizacion": "tokenizacion_determinista_demo"
+    },
+    {
+      "id_dato": "DAT-000061",
+      "campo": "segmento",
+      "valor_anonimizado": "Corporativo",
+      "metodo_anonimizacion": "sin_cambio"
+    },
+    {
+      "id_dato": "DAT-000062",
+      "campo": "pais",
+      "valor_anonimizado": "México",
+      "metodo_anonimizacion": "sin_cambio"
+    },
+    {
+      "id_dato": "DAT-000064",
+      "campo": "estado",
+      "valor_anonimizado": "en_revision",
+      "metodo_anonimizacion": "sin_cambio"
+    },
+    {
+      "id_dato": "DAT-000065",
+      "campo": "id_cliente",
+      "valor_anonimizado": "anon_49550",
+      "metodo_anonimizacion": "tokenizacion_determinista_demo"
+    },
+    {
+      "id_dato": "DAT-000066",
+      "campo": "nombre",
+      "valor_anonimizado": "anon_95582",
+      "metodo_anonimizacion": "tokenizacion_determinista_demo"
+    },
+    {
+      "id_dato": "DAT-000067",
+      "campo": "segmento",
+      "valor_anonimizado": "Startup",
+      "metodo_anonimizacion": "sin_cambio"
+    },
+    {
+      "id_dato": "DAT-000068",
+      "campo": "pais",
+      "valor_anonimizado": "Perú",
+      "metodo_anonimizacion": "sin_cambio"
+    },
+    {
+      "id_dato": "DAT-000070",
+      "campo": "estado",
+      "valor_anonimizado": "bloqueado",
+      "metodo_anonimizacion": "sin_cambio"
+    },
+    {
+      "id_dato": "DAT-000071",
+      "campo": "id_cliente",
+      "valor_anonimizado": "anon_31891",
+      "metodo_anonimizacion": "tokenizacion_determinista_demo"
+    },
+    {
+      "id_dato": "DAT-000072",
+      "campo": "nombre",
+      "valor_anonimizado": "anon_95582",
+      "metodo_anonimizacion": "tokenizacion_determinista_demo"
+    },
+    {
+      "id_dato": "DAT-000073",
+      "campo": "segmento",
+      "valor_anonimizado": "Startup",
+      "metodo_anonimizacion": "sin_cambio"
+    },
+    {
+      "id_dato": "DAT-000074",
+      "campo": "pais",
+      "valor_anonimizado": "España",
+      "metodo_anonimizacion": "sin_cambio"
+    },
+    {
+      "id_dato": "DAT-000076",
+      "campo": "estado",
+      "valor_anonimizado": "activo",
+      "metodo_anonimizacion": "sin_cambio"
+    },
+    {
+      "id_dato": "DAT-000077",
+      "campo": "id_cliente",
+      "valor_anonimizado": "anon_21402",
+      "metodo_anonimizacion": "tokenizacion_determinista_demo"
+    },
+    {
+      "id_dato": "DAT-000078",
+      "campo": "nombre",
+      "valor_anonimizado": "anon_95582",
+      "metodo_anonimizacion": "tokenizacion_determinista_demo"
+    },
+    {
+      "id_dato": "DAT-000079",
+      "campo": "segmento",
+      "valor_anonimizado": "Startup",
+      "metodo_anonimizacion": "sin_cambio"
+    },
+    {
+      "id_dato": "DAT-000080",
+      "campo": "pais",
+      "valor_anonimizado": "Chile",
+      "metodo_anonimizacion": "sin_cambio"
+    }
+  ],
+  "nota": "Anonimización de demostración sobre datos ya sintéticos. No es anonimización legal real ni certificada."
+}

@@ -1,0 +1,140 @@
+{
+  "fecha_generacion": "2026-05-11T08:55:31",
+  "total_elementos": 6,
+  "distribucion_por_tipo": {
+    "evento": 3,
+    "tarea": 3
+  },
+  "distribucion_por_prioridad": {
+    "alta": 3,
+    "media": 2,
+    "baja": 1
+  },
+  "distribucion_por_area": {
+    "cal": 6
+  },
+  "con_recordatorio": [
+    "cal-001",
+    "cal-002",
+    "cal-004",
+    "cal-006"
+  ],
+  "con_replanificacion": [
+    "cal-001",
+    "cal-002",
+    "cal-004",
+    "cal-005"
+  ],
+  "riesgos_retraso": {
+    "medio": 3,
+    "alto": 2,
+    "bajo": 1
+  },
+  "agenda_local_simulada": [
+    "2026-05-12T09:00:00 -> 2026-05-12T10:00:00 | Revisión semanal sintética",
+    "2026-05-12T11:00:00 -> 2026-05-12T13:00:00 | Preparar informe comercial",
+    "2026-05-12T15:00:00 -> 2026-05-12T16:30:00 | Bloque de soporte simulado",
+    "2026-05-13T09:30:00 -> 2026-05-13T11:00:00 | Conciliación sintética",
+    "2026-05-13T12:00:00 -> 2026-05-13T14:00:00 | Actualizar política interna",
+    "2026-05-14T10:00:00 -> 2026-05-14T11:30:00 | Demo ejecutiva simulada"
+  ],
+  "nota": "Simulación local: no usa Calendar real, OAuth real, Calendar API, Google Cloud, IA real ni datos reales.",
+  "resultados": [
+    {
+      "id_elemento": "cal-001",
+      "tipo_elemento": "evento",
+      "prioridad_detectada": "alta",
+      "requiere_recordatorio": true,
+      "requiere_replanificacion": true,
+      "riesgo_retraso_detectado": "medio",
+      "accion_recomendada_simulada": "recordar_y_priorizar",
+      "agenda_local": "2026-05-12T09:00:00 -> 2026-05-12T10:00:00 | Revisión semanal sintética",
+      "registro_generado": "proyectos\\05-simulador-calendar-tareas-ia\\calendario_simulado\\cal-001.json",
+      "usa_calendar_real": false,
+      "usa_oauth_real": false,
+      "usa_api_externa": false,
+      "usa_cloud": false,
+      "usa_ia_real": false
+    },
+    {
+      "id_elemento": "cal-002",
+      "tipo_elemento": "tarea",
+      "prioridad_detectada": "media",
+      "requiere_recordatorio": true,
+      "requiere_replanificacion": true,
+      "riesgo_retraso_detectado": "alto",
+      "accion_recomendada_simulada": "replanificar_con_prioridad",
+      "agenda_local": "2026-05-12T11:00:00 -> 2026-05-12T13:00:00 | Preparar informe comercial",
+      "registro_generado": "proyectos\\05-simulador-calendar-tareas-ia\\calendario_simulado\\cal-002.json",
+      "usa_calendar_real": false,
+      "usa_oauth_real": false,
+      "usa_api_externa": false,
+      "usa_cloud": false,
+      "usa_ia_real": false
+    },
+    {
+      "id_elemento": "cal-003",
+      "tipo_elemento": "evento",
+      "prioridad_detectada": "media",
+      "requiere_recordatorio": false,
+      "requiere_replanificacion": false,
+      "riesgo_retraso_detectado": "bajo",
+      "accion_recomendada_simulada": "mantener_agenda",
+      "agenda_local": "2026-05-12T15:00:00 -> 2026-05-12T16:30:00 | Bloque de soporte simulado",
+      "registro_generado": "proyectos\\05-simulador-calendar-tareas-ia\\calendario_simulado\\cal-003.json",
+      "usa_calendar_real": false,
+      "usa_oauth_real": false,
+      "usa_api_externa": false,
+      "usa_cloud": false,
+      "usa_ia_real": false
+    },
+    {
+      "id_elemento": "cal-004",
+      "tipo_elemento": "tarea",
+      "prioridad_detectada": "alta",
+      "requiere_recordatorio": true,
+      "requiere_replanificacion": true,
+      "riesgo_retraso_detectado": "medio",
+      "accion_recomendada_simulada": "recordar_y_priorizar",
+      "agenda_local": "2026-05-13T09:30:00 -> 2026-05-13T11:00:00 | Conciliación sintética",
+      "registro_generado": "proyectos\\05-simulador-calendar-tareas-ia\\calendario_simulado\\cal-004.json",
+      "usa_calendar_real": false,
+      "usa_oauth_real": false,
+      "usa_api_externa": false,
+      "usa_cloud": false,
+      "usa_ia_real": false
+    },
+    {
+      "id_elemento": "cal-005",
+      "tipo_elemento": "tarea",
+      "prioridad_detectada": "baja",
+      "requiere_recordatorio": false,
+      "requiere_replanificacion": true,
+      "riesgo_retraso_detectado": "medio",
+      "accion_recomendada_simulada": "replanificar",
+      "agenda_local": "2026-05-13T12:00:00 -> 2026-05-13T14:00:00 | Actualizar política interna",
+      "registro_generado": "proyectos\\05-simulador-calendar-tareas-ia\\calendario_simulado\\cal-005.json",
+      "usa_calendar_real": false,
+      "usa_oauth_real": false,
+      "usa_api_externa": false,
+      "usa_cloud": false,
+      "usa_ia_real": false
+    },
+    {
+      "id_elemento": "cal-006",
+      "tipo_elemento": "evento",
+      "prioridad_detectada": "alta",
+      "requiere_recordatorio": true,
+      "requiere_replanificacion": false,
+      "riesgo_retraso_detectado": "alto",
+      "accion_recomendada_simulada": "recordar_y_priorizar",
+      "agenda_local": "2026-05-14T10:00:00 -> 2026-05-14T11:30:00 | Demo ejecutiva simulada",
+      "registro_generado": "proyectos\\05-simulador-calendar-tareas-ia\\calendario_simulado\\cal-006.json",
+      "usa_calendar_real": false,
+      "usa_oauth_real": false,
+      "usa_api_externa": false,
+      "usa_cloud": false,
+      "usa_ia_real": false
+    }
+  ]
+}

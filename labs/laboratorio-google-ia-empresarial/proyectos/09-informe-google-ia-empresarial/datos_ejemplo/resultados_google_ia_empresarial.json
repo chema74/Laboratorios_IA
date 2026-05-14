@@ -1,0 +1,14 @@
+﻿{
+  "modulos": {
+    "01_mapa_ecosistema": {"valor": 82, "fortaleza":"arquitectura_clara", "riesgo":"sin_integracion_real", "usa_google_real":false, "usa_oauth_real":false, "usa_api_externa":false, "usa_cloud":false, "usa_ia_real":false, "usa_datos_reales":false, "nota_sintetica":"resultado simulado"},
+    "02_gmail_simulado": {"valor": 78, "fortaleza":"clasificacion_local", "riesgo":"sin_correo_real", "usa_google_real":false, "usa_oauth_real":false, "usa_api_externa":false, "usa_cloud":false, "usa_ia_real":false, "usa_datos_reales":false, "nota_sintetica":"resultado simulado"},
+    "03_drive_docs": {"valor": 80, "fortaleza":"gestion_documental", "riesgo":"sin_colaboracion_real", "usa_google_real":false, "usa_oauth_real":false, "usa_api_externa":false, "usa_cloud":false, "usa_ia_real":false, "usa_datos_reales":false, "nota_sintetica":"resultado simulado"},
+    "04_sheets": {"valor": 84, "fortaleza":"indicadores_locales", "riesgo":"sin_dashboard_real", "usa_google_real":false, "usa_oauth_real":false, "usa_api_externa":false, "usa_cloud":false, "usa_ia_real":false, "usa_datos_reales":false, "nota_sintetica":"resultado simulado"},
+    "05_calendar_tareas": {"valor": 76, "fortaleza":"agenda_simulada", "riesgo":"sin_sincronizacion_real", "usa_google_real":false, "usa_oauth_real":false, "usa_api_externa":false, "usa_cloud":false, "usa_ia_real":false, "usa_datos_reales":false, "nota_sintetica":"resultado simulado"},
+    "06_gemini_fallback": {"valor": 81, "fortaleza":"fallback_determinista", "riesgo":"sin_llm_real", "usa_google_real":false, "usa_oauth_real":false, "usa_api_externa":false, "usa_cloud":false, "usa_ia_real":false, "usa_datos_reales":false, "nota_sintetica":"resultado simulado"},
+    "07_gobierno_permisos": {"valor": 79, "fortaleza":"decision_defensiva", "riesgo":"reglas_basicas", "usa_google_real":false, "usa_oauth_real":false, "usa_api_externa":false, "usa_cloud":false, "usa_ia_real":false, "usa_datos_reales":false, "nota_sintetica":"resultado simulado"},
+    "08_trazabilidad": {"valor": 83, "fortaleza":"hash_y_evidencia", "riesgo":"evidencia_manual", "usa_google_real":false, "usa_oauth_real":false, "usa_api_externa":false, "usa_cloud":false, "usa_ia_real":false, "usa_datos_reales":false, "nota_sintetica":"resultado simulado"}
+  },
+  "riesgos_y_limites": ["sin_google_real", "sin_oauth_real", "sin_api_real", "sin_cloud_obligatorio", "sin_ia_real", "sin_datos_reales"],
+  "recomendaciones_empresariales": ["consolidar_metricas", "fortalecer_controles", "mantener_fallback_local"]
+}

@@ -1,0 +1,18 @@
+{
+  "id_automatizacion": "aut-001",
+  "id_traza": "TRZ-aut-001-c5380974",
+  "hash_simulado": "c5380974eed51427943bc5b78f63ebd682558636b4b0a067a8de19ea92810bfe",
+  "origen_simulado": "outlook",
+  "accion_simulada": "Asignar prioridad y etiqueta",
+  "estado_ejecucion": "completada",
+  "trazabilidad_suficiente": true,
+  "evidencia_generada": true,
+  "requiere_revision": false,
+  "registro_generado": "",
+  "usa_microsoft_real": false,
+  "usa_microsoft_graph_real": false,
+  "usa_oauth_real": false,
+  "usa_api_externa": false,
+  "usa_azure": false,
+  "usa_ia_real": false
+}

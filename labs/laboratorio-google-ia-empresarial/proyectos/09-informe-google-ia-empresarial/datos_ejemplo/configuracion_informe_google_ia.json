@@ -1,0 +1,9 @@
+﻿{
+  "dimensiones_evaluacion": ["arquitectura", "automatizacion", "analitica", "gobierno", "trazabilidad", "resiliencia"],
+  "pesos_dimension": {"arquitectura": 0.2, "automatizacion": 0.2, "analitica": 0.2, "gobierno": 0.15, "trazabilidad": 0.15, "resiliencia": 0.1},
+  "umbrales_madurez": {"inicial": 0, "basico": 55, "intermedio": 70, "alto": 85},
+  "criterios_decision": ["control_riesgos", "reproducibilidad", "cobertura_modular"],
+  "controles_minimos_recomendados": ["matriz_permisos", "bitacora_traza", "fallback_local", "revision_humana"],
+  "posibles_extensiones_v2": ["env_gemini_opcional", "api_workspace_opcional", "oauth_opcional_controlado"],
+  "nota": "Todo es local, sintético y sin integración real con Google."
+}

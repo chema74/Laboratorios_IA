@@ -1,0 +1,25 @@
+{
+  "id_documento": "doc-008",
+  "nombre_documento": "Onboarding Interno [DOCUMENTO_DEMO]",
+  "tipo_documento_detectado": "documento de onboarding ficticio",
+  "carpeta_onedrive_simulada": "RRHH",
+  "resumen_simulado": "Guia de onboarding de [EMPRESA_SINTETICA] con checklist simulado.",
+  "etiquetas_simuladas": [
+    "onboarding",
+    "rrhh",
+    "checklist",
+    "documento"
+  ],
+  "sensibilidad_detectada": "publica_interna",
+  "requiere_revision_humana": false,
+  "permisos_simulados": "lectura_equipo",
+  "accion_ia_simulada": "etiquetar",
+  "registro_generado": "",
+  "usa_onedrive_real": false,
+  "usa_word_real": false,
+  "usa_microsoft_graph_real": false,
+  "usa_oauth_real": false,
+  "usa_api_externa": false,
+  "usa_azure": false,
+  "usa_ia_real": false
+}

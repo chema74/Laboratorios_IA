@@ -1,0 +1,20 @@
+[
+  {
+    "id": "JOB-001",
+    "tipo": "revision_privacidad",
+    "traza_id": "TRZ-J1",
+    "estado": "pendiente"
+  },
+  {
+    "id": "JOB-002",
+    "tipo": "evaluacion_respuesta",
+    "traza_id": "TRZ-J2",
+    "estado": "pendiente"
+  },
+  {
+    "id": "JOB-003",
+    "tipo": "consulta_documental",
+    "traza_id": "TRZ-J3",
+    "estado": "pendiente"
+  }
+]

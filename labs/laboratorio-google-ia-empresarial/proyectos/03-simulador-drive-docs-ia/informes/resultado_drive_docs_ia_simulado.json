@@ -1,0 +1,222 @@
+{
+  "fecha_generacion": "2026-05-11T08:50:26",
+  "total_documentos": 8,
+  "distribucion_por_tipo": {
+    "propuesta comercial ficticia": 1,
+    "acta de reunión ficticia": 1,
+    "contrato simulado": 1,
+    "informe operativo simulado": 1,
+    "política interna ficticia": 1,
+    "ticket de soporte simulado": 1,
+    "expediente de cliente sintético": 1,
+    "documento de onboarding ficticio": 1
+  },
+  "distribucion_por_carpeta": {
+    "comercial": 1,
+    "operaciones": 2,
+    "legal": 1,
+    "rrhh": 2,
+    "soporte": 1,
+    "clientes_sinteticos": 1
+  },
+  "distribucion_sensibilidad": {
+    "alta": 4,
+    "baja": 2,
+    "media": 2
+  },
+  "distribucion_accion_ia": {
+    "resumir": 3,
+    "resumir_y_etiquetar": 2,
+    "detectar_riesgos": 1,
+    "resumir_y_revision": 1,
+    "etiquetar": 1
+  },
+  "documentos_revision_humana": [
+    "doc-001",
+    "doc-003",
+    "doc-005",
+    "doc-007"
+  ],
+  "nota": "Simulación local: no usa Drive real, Docs real, OAuth real, APIs reales, Google Cloud, IA real ni datos reales.",
+  "resultados": [
+    {
+      "id_documento": "doc-001",
+      "nombre_documento": "Propuesta Comercial [DOCUMENTO_DEMO]",
+      "tipo_documento_detectado": "propuesta comercial ficticia",
+      "carpeta_simulada": "comercial",
+      "resumen_simulado": "Propuesta para [CLIENTE_FICTICIO] con alcance [CLAUSULA_SIMULADA] e importe [IMPORTE_SINTETICO].",
+      "etiquetas_simuladas": [
+        "cliente",
+        "comercial",
+        "demo",
+        "propuesta"
+      ],
+      "sensibilidad_detectada": "alta",
+      "requiere_revision_humana": true,
+      "permisos_simulados": "lectura_equipo_comercial",
+      "accion_ia_simulada": "resumir",
+      "registro_generado": "proyectos\\03-simulador-drive-docs-ia\\documentos_simulados\\doc-001.json",
+      "usa_drive_real": false,
+      "usa_docs_real": false,
+      "usa_oauth_real": false,
+      "usa_api_externa": false,
+      "usa_cloud": false,
+      "usa_ia_real": false
+    },
+    {
+      "id_documento": "doc-002",
+      "nombre_documento": "Acta Reunión Operativa [DOCUMENTO_DEMO]",
+      "tipo_documento_detectado": "acta de reunión ficticia",
+      "carpeta_simulada": "operaciones",
+      "resumen_simulado": "Acta sobre mejoras de proceso para [EMPRESA_SINTETICA] y responsables [CONTACTO_FICTICIO].",
+      "etiquetas_simuladas": [
+        "acta",
+        "operaciones"
+      ],
+      "sensibilidad_detectada": "baja",
+      "requiere_revision_humana": false,
+      "permisos_simulados": "lectura_equipo_operaciones",
+      "accion_ia_simulada": "resumir_y_etiquetar",
+      "registro_generado": "proyectos\\03-simulador-drive-docs-ia\\documentos_simulados\\doc-002.json",
+      "usa_drive_real": false,
+      "usa_docs_real": false,
+      "usa_oauth_real": false,
+      "usa_api_externa": false,
+      "usa_cloud": false,
+      "usa_ia_real": false
+    },
+    {
+      "id_documento": "doc-003",
+      "nombre_documento": "Contrato Simulado [DOCUMENTO_DEMO]",
+      "tipo_documento_detectado": "contrato simulado",
+      "carpeta_simulada": "legal",
+      "resumen_simulado": "Contrato sintético con [CLAUSULA_SIMULADA] y [CLIENTE_FICTICIO].",
+      "etiquetas_simuladas": [
+        "cliente",
+        "contrato",
+        "legal"
+      ],
+      "sensibilidad_detectada": "alta",
+      "requiere_revision_humana": true,
+      "permisos_simulados": "acceso_restringido_legal",
+      "accion_ia_simulada": "detectar_riesgos",
+      "registro_generado": "proyectos\\03-simulador-drive-docs-ia\\documentos_simulados\\doc-003.json",
+      "usa_drive_real": false,
+      "usa_docs_real": false,
+      "usa_oauth_real": false,
+      "usa_api_externa": false,
+      "usa_cloud": false,
+      "usa_ia_real": false
+    },
+    {
+      "id_documento": "doc-004",
+      "nombre_documento": "Informe Operativo [DOCUMENTO_DEMO]",
+      "tipo_documento_detectado": "informe operativo simulado",
+      "carpeta_simulada": "operaciones",
+      "resumen_simulado": "Informe semanal con métricas sintéticas y estado de tareas.",
+      "etiquetas_simuladas": [
+        "informe",
+        "kpi"
+      ],
+      "sensibilidad_detectada": "media",
+      "requiere_revision_humana": false,
+      "permisos_simulados": "lectura_equipo_operaciones",
+      "accion_ia_simulada": "resumir",
+      "registro_generado": "proyectos\\03-simulador-drive-docs-ia\\documentos_simulados\\doc-004.json",
+      "usa_drive_real": false,
+      "usa_docs_real": false,
+      "usa_oauth_real": false,
+      "usa_api_externa": false,
+      "usa_cloud": false,
+      "usa_ia_real": false
+    },
+    {
+      "id_documento": "doc-005",
+      "nombre_documento": "Política Interna [DOCUMENTO_DEMO]",
+      "tipo_documento_detectado": "política interna ficticia",
+      "carpeta_simulada": "rrhh",
+      "resumen_simulado": "Política sintética de acceso para [EMPRESA_SINTETICA].",
+      "etiquetas_simuladas": [
+        "politica",
+        "rrhh"
+      ],
+      "sensibilidad_detectada": "alta",
+      "requiere_revision_humana": true,
+      "permisos_simulados": "acceso_restringido_rrhh",
+      "accion_ia_simulada": "resumir_y_revision",
+      "registro_generado": "proyectos\\03-simulador-drive-docs-ia\\documentos_simulados\\doc-005.json",
+      "usa_drive_real": false,
+      "usa_docs_real": false,
+      "usa_oauth_real": false,
+      "usa_api_externa": false,
+      "usa_cloud": false,
+      "usa_ia_real": false
+    },
+    {
+      "id_documento": "doc-006",
+      "nombre_documento": "Ticket Soporte [DOCUMENTO_DEMO]",
+      "tipo_documento_detectado": "ticket de soporte simulado",
+      "carpeta_simulada": "soporte",
+      "resumen_simulado": "Incidencia sintética de acceso reportada por [CONTACTO_FICTICIO].",
+      "etiquetas_simuladas": [
+        "incidencia",
+        "soporte"
+      ],
+      "sensibilidad_detectada": "media",
+      "requiere_revision_humana": false,
+      "permisos_simulados": "lectura_equipo_soporte",
+      "accion_ia_simulada": "etiquetar",
+      "registro_generado": "proyectos\\03-simulador-drive-docs-ia\\documentos_simulados\\doc-006.json",
+      "usa_drive_real": false,
+      "usa_docs_real": false,
+      "usa_oauth_real": false,
+      "usa_api_externa": false,
+      "usa_cloud": false,
+      "usa_ia_real": false
+    },
+    {
+      "id_documento": "doc-007",
+      "nombre_documento": "Expediente Cliente [DOCUMENTO_DEMO]",
+      "tipo_documento_detectado": "expediente de cliente sintético",
+      "carpeta_simulada": "clientes_sinteticos",
+      "resumen_simulado": "Ficha sintética de [CLIENTE_FICTICIO] con hitos y seguimiento.",
+      "etiquetas_simuladas": [
+        "cliente",
+        "seguimiento"
+      ],
+      "sensibilidad_detectada": "alta",
+      "requiere_revision_humana": true,
+      "permisos_simulados": "acceso_restringido_cuentas",
+      "accion_ia_simulada": "resumir_y_etiquetar",
+      "registro_generado": "proyectos\\03-simulador-drive-docs-ia\\documentos_simulados\\doc-007.json",
+      "usa_drive_real": false,
+      "usa_docs_real": false,
+      "usa_oauth_real": false,
+      "usa_api_externa": false,
+      "usa_cloud": false,
+      "usa_ia_real": false
+    },
+    {
+      "id_documento": "doc-008",
+      "nombre_documento": "Onboarding [DOCUMENTO_DEMO]",
+      "tipo_documento_detectado": "documento de onboarding ficticio",
+      "carpeta_simulada": "rrhh",
+      "resumen_simulado": "Guía de onboarding sintética para rol de [CONTACTO_FICTICIO].",
+      "etiquetas_simuladas": [
+        "onboarding",
+        "rrhh"
+      ],
+      "sensibilidad_detectada": "baja",
+      "requiere_revision_humana": false,
+      "permisos_simulados": "lectura_equipo_rrhh",
+      "accion_ia_simulada": "resumir",
+      "registro_generado": "proyectos\\03-simulador-drive-docs-ia\\documentos_simulados\\doc-008.json",
+      "usa_drive_real": false,
+      "usa_docs_real": false,
+      "usa_oauth_real": false,
+      "usa_api_externa": false,
+      "usa_cloud": false,
+      "usa_ia_real": false
+    }
+  ]
+}

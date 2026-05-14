@@ -1,0 +1,15 @@
+{
+  "id_solicitud": "cp-001",
+  "tipo_solicitud": "resumen de correo ficticio",
+  "origen_simulado": "outlook",
+  "modo_ejecucion": "fallback-local",
+  "respuesta_simulada": "Resumen local: priorizar respuesta y seguimiento interno simulado. Entrada sintetica: Correo sintético con solicitud de seguimiento.",
+  "razon_fallback": "Copilot real desactivado en V1.",
+  "trazabilidad_fallback": "fallback-local|cp-001|2026-05-11T09:51:08|sin-red",
+  "registro_generado": "",
+  "usa_copilot_real": false,
+  "usa_microsoft_graph_real": false,
+  "usa_api_externa": false,
+  "usa_azure": false,
+  "usa_ia_real": false
+}

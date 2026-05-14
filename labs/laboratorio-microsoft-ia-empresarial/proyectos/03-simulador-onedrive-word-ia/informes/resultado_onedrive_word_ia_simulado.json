@@ -1,0 +1,235 @@
+{
+  "metadata": {
+    "fecha_generacion": "2026-05-11T09:36:16",
+    "total_documentos": 8,
+    "nota": "V1 local simulada: no hay OneDrive real, Word real, Microsoft Graph API real, OAuth real, Azure, IA real ni datos reales."
+  },
+  "resumen_por_tipo_documental": {
+    "propuesta comercial ficticia": 1,
+    "acta de reunión ficticia": 1,
+    "contrato simulado": 1,
+    "informe operativo simulado": 1,
+    "política interna ficticia": 1,
+    "ticket de soporte simulado": 1,
+    "expediente de cliente sintético": 1,
+    "documento de onboarding ficticio": 1
+  },
+  "resumen_por_carpeta": {
+    "Comercial": 2,
+    "Operaciones": 2,
+    "Legal": 1,
+    "RRHH": 2,
+    "Soporte": 1
+  },
+  "resumen_por_sensibilidad": {
+    "interna": 4,
+    "restringida": 1,
+    "publica_interna": 2,
+    "confidencial_simulada": 1
+  },
+  "resumen_por_accion_ia_simulada": {
+    "resumir": 3,
+    "etiquetar": 2,
+    "detectar_riesgos": 1,
+    "normalizar": 1,
+    "priorizar": 1
+  },
+  "resultados": [
+    {
+      "id_documento": "doc-001",
+      "nombre_documento": "Propuesta Comercial [DOCUMENTO_DEMO]",
+      "tipo_documento_detectado": "propuesta comercial ficticia",
+      "carpeta_onedrive_simulada": "Comercial",
+      "resumen_simulado": "Propuesta para [CLIENTE_FICTICIO] de [EMPRESA_SINTETICA] por [IMPORTE_SINTETICO].",
+      "etiquetas_simuladas": [
+        "comercial",
+        "propuesta",
+        "demo"
+      ],
+      "sensibilidad_detectada": "interna",
+      "requiere_revision_humana": true,
+      "permisos_simulados": "lectura_restringida",
+      "accion_ia_simulada": "resumir",
+      "registro_generado": "proyectos\\03-simulador-onedrive-word-ia\\documentos_simulados\\doc-001.json",
+      "usa_onedrive_real": false,
+      "usa_word_real": false,
+      "usa_microsoft_graph_real": false,
+      "usa_oauth_real": false,
+      "usa_api_externa": false,
+      "usa_azure": false,
+      "usa_ia_real": false
+    },
+    {
+      "id_documento": "doc-002",
+      "nombre_documento": "Acta de Reunion [DOCUMENTO_DEMO]",
+      "tipo_documento_detectado": "acta de reunión ficticia",
+      "carpeta_onedrive_simulada": "Operaciones",
+      "resumen_simulado": "Acta de reunion con acuerdos de seguimiento para [EMPRESA_SINTETICA].",
+      "etiquetas_simuladas": [
+        "acta",
+        "operaciones",
+        "seguimiento"
+      ],
+      "sensibilidad_detectada": "interna",
+      "requiere_revision_humana": false,
+      "permisos_simulados": "lectura_equipo",
+      "accion_ia_simulada": "etiquetar",
+      "registro_generado": "proyectos\\03-simulador-onedrive-word-ia\\documentos_simulados\\doc-002.json",
+      "usa_onedrive_real": false,
+      "usa_word_real": false,
+      "usa_microsoft_graph_real": false,
+      "usa_oauth_real": false,
+      "usa_api_externa": false,
+      "usa_azure": false,
+      "usa_ia_real": false
+    },
+    {
+      "id_documento": "doc-003",
+      "nombre_documento": "Contrato Simulado [CLAUSULA_SIMULADA]",
+      "tipo_documento_detectado": "contrato simulado",
+      "carpeta_onedrive_simulada": "Legal",
+      "resumen_simulado": "Contrato de prueba con [CLAUSULA_SIMULADA] y alcance ficticio.",
+      "etiquetas_simuladas": [
+        "legal",
+        "contrato",
+        "riesgo"
+      ],
+      "sensibilidad_detectada": "restringida",
+      "requiere_revision_humana": true,
+      "permisos_simulados": "lectura_legal",
+      "accion_ia_simulada": "detectar_riesgos",
+      "registro_generado": "proyectos\\03-simulador-onedrive-word-ia\\documentos_simulados\\doc-003.json",
+      "usa_onedrive_real": false,
+      "usa_word_real": false,
+      "usa_microsoft_graph_real": false,
+      "usa_oauth_real": false,
+      "usa_api_externa": false,
+      "usa_azure": false,
+      "usa_ia_real": false
+    },
+    {
+      "id_documento": "doc-004",
+      "nombre_documento": "Informe Operativo [DOCUMENTO_DEMO]",
+      "tipo_documento_detectado": "informe operativo simulado",
+      "carpeta_onedrive_simulada": "Operaciones",
+      "resumen_simulado": "Informe operativo semanal con hitos simulados.",
+      "etiquetas_simuladas": [
+        "operativo",
+        "semanal",
+        "kpi",
+        "informe"
+      ],
+      "sensibilidad_detectada": "publica_interna",
+      "requiere_revision_humana": false,
+      "permisos_simulados": "lectura_equipo",
+      "accion_ia_simulada": "resumir",
+      "registro_generado": "proyectos\\03-simulador-onedrive-word-ia\\documentos_simulados\\doc-004.json",
+      "usa_onedrive_real": false,
+      "usa_word_real": false,
+      "usa_microsoft_graph_real": false,
+      "usa_oauth_real": false,
+      "usa_api_externa": false,
+      "usa_azure": false,
+      "usa_ia_real": false
+    },
+    {
+      "id_documento": "doc-005",
+      "nombre_documento": "Politica Interna [DOCUMENTO_DEMO]",
+      "tipo_documento_detectado": "política interna ficticia",
+      "carpeta_onedrive_simulada": "RRHH",
+      "resumen_simulado": "Politica interna de onboarding para [EMPRESA_SINTETICA].",
+      "etiquetas_simuladas": [
+        "rrhh",
+        "politica",
+        "onboarding",
+        "política"
+      ],
+      "sensibilidad_detectada": "interna",
+      "requiere_revision_humana": true,
+      "permisos_simulados": "lectura_rrhh",
+      "accion_ia_simulada": "normalizar",
+      "registro_generado": "proyectos\\03-simulador-onedrive-word-ia\\documentos_simulados\\doc-005.json",
+      "usa_onedrive_real": false,
+      "usa_word_real": false,
+      "usa_microsoft_graph_real": false,
+      "usa_oauth_real": false,
+      "usa_api_externa": false,
+      "usa_azure": false,
+      "usa_ia_real": false
+    },
+    {
+      "id_documento": "doc-006",
+      "nombre_documento": "Ticket Soporte [DOCUMENTO_DEMO]",
+      "tipo_documento_detectado": "ticket de soporte simulado",
+      "carpeta_onedrive_simulada": "Soporte",
+      "resumen_simulado": "Incidencia interna simulada con pasos de reproduccion.",
+      "etiquetas_simuladas": [
+        "soporte",
+        "incidencia",
+        "prioridad",
+        "ticket"
+      ],
+      "sensibilidad_detectada": "interna",
+      "requiere_revision_humana": false,
+      "permisos_simulados": "lectura_soporte",
+      "accion_ia_simulada": "priorizar",
+      "registro_generado": "proyectos\\03-simulador-onedrive-word-ia\\documentos_simulados\\doc-006.json",
+      "usa_onedrive_real": false,
+      "usa_word_real": false,
+      "usa_microsoft_graph_real": false,
+      "usa_oauth_real": false,
+      "usa_api_externa": false,
+      "usa_azure": false,
+      "usa_ia_real": false
+    },
+    {
+      "id_documento": "doc-007",
+      "nombre_documento": "Expediente Cliente [CLIENTE_FICTICIO]",
+      "tipo_documento_detectado": "expediente de cliente sintético",
+      "carpeta_onedrive_simulada": "Comercial",
+      "resumen_simulado": "Expediente sintetico de [CLIENTE_FICTICIO] en [EMPRESA_SINTETETICA].",
+      "etiquetas_simuladas": [
+        "cliente",
+        "expediente",
+        "comercial"
+      ],
+      "sensibilidad_detectada": "confidencial_simulada",
+      "requiere_revision_humana": true,
+      "permisos_simulados": "lectura_restringida",
+      "accion_ia_simulada": "resumir",
+      "registro_generado": "proyectos\\03-simulador-onedrive-word-ia\\documentos_simulados\\doc-007.json",
+      "usa_onedrive_real": false,
+      "usa_word_real": false,
+      "usa_microsoft_graph_real": false,
+      "usa_oauth_real": false,
+      "usa_api_externa": false,
+      "usa_azure": false,
+      "usa_ia_real": false
+    },
+    {
+      "id_documento": "doc-008",
+      "nombre_documento": "Onboarding Interno [DOCUMENTO_DEMO]",
+      "tipo_documento_detectado": "documento de onboarding ficticio",
+      "carpeta_onedrive_simulada": "RRHH",
+      "resumen_simulado": "Guia de onboarding de [EMPRESA_SINTETICA] con checklist simulado.",
+      "etiquetas_simuladas": [
+        "onboarding",
+        "rrhh",
+        "checklist",
+        "documento"
+      ],
+      "sensibilidad_detectada": "publica_interna",
+      "requiere_revision_humana": false,
+      "permisos_simulados": "lectura_equipo",
+      "accion_ia_simulada": "etiquetar",
+      "registro_generado": "proyectos\\03-simulador-onedrive-word-ia\\documentos_simulados\\doc-008.json",
+      "usa_onedrive_real": false,
+      "usa_word_real": false,
+      "usa_microsoft_graph_real": false,
+      "usa_oauth_real": false,
+      "usa_api_externa": false,
+      "usa_azure": false,
+      "usa_ia_real": false
+    }
+  ]
+}

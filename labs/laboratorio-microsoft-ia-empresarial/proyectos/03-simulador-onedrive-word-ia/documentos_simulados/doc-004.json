@@ -1,0 +1,25 @@
+{
+  "id_documento": "doc-004",
+  "nombre_documento": "Informe Operativo [DOCUMENTO_DEMO]",
+  "tipo_documento_detectado": "informe operativo simulado",
+  "carpeta_onedrive_simulada": "Operaciones",
+  "resumen_simulado": "Informe operativo semanal con hitos simulados.",
+  "etiquetas_simuladas": [
+    "operativo",
+    "semanal",
+    "kpi",
+    "informe"
+  ],
+  "sensibilidad_detectada": "publica_interna",
+  "requiere_revision_humana": false,
+  "permisos_simulados": "lectura_equipo",
+  "accion_ia_simulada": "resumir",
+  "registro_generado": "",
+  "usa_onedrive_real": false,
+  "usa_word_real": false,
+  "usa_microsoft_graph_real": false,
+  "usa_oauth_real": false,
+  "usa_api_externa": false,
+  "usa_azure": false,
+  "usa_ia_real": false
+}

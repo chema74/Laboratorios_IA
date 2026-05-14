@@ -1,0 +1,19 @@
+{
+  "id_permiso": "perm-001",
+  "usuario_ficticio": "analista1@empresa-sintetica.local",
+  "recurso_simulado": "bandeja_soporte_simulada",
+  "permiso_asignado": "lectura",
+  "rol_simulado": "analista",
+  "tipo_recurso": "gmail",
+  "riesgo_detectado": "bajo",
+  "decision_gobierno": "mantener",
+  "motivo_decision": "Permiso acorde a reglas simuladas",
+  "accion_recomendada": "Mantener permiso simulado",
+  "requiere_revision": false,
+  "registro_generado": "",
+  "usa_google_real": false,
+  "usa_oauth_real": false,
+  "usa_api_externa": false,
+  "usa_cloud": false,
+  "usa_ia_real": false
+}

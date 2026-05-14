@@ -1,0 +1,15 @@
+{
+  "id_solicitud": "cp-003",
+  "tipo_solicitud": "análisis de libro Excel simulado",
+  "origen_simulado": "excel",
+  "modo_ejecucion": "fallback-local",
+  "respuesta_simulada": "Analisis local: revisar margen simulado, alertas y registros de revision. Entrada sintetica: CSV con métricas sintéticas.",
+  "razon_fallback": "Sin API real permitida.",
+  "trazabilidad_fallback": "fallback-local|cp-003|2026-05-11T09:51:08|sin-red",
+  "registro_generado": "",
+  "usa_copilot_real": false,
+  "usa_microsoft_graph_real": false,
+  "usa_api_externa": false,
+  "usa_azure": false,
+  "usa_ia_real": false
+}

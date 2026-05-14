@@ -1,0 +1,15 @@
+{
+  "id_solicitud": "cp-002",
+  "tipo_solicitud": "resumen de documento Word sintético",
+  "origen_simulado": "word",
+  "modo_ejecucion": "fallback-local",
+  "respuesta_simulada": "Resumen local: extraer puntos clave documentales y riesgos simulados. Entrada sintetica: Documento de política interna simulada.",
+  "razon_fallback": "Sin credenciales ni OAuth real.",
+  "trazabilidad_fallback": "fallback-local|cp-002|2026-05-11T09:51:08|sin-red",
+  "registro_generado": "",
+  "usa_copilot_real": false,
+  "usa_microsoft_graph_real": false,
+  "usa_api_externa": false,
+  "usa_azure": false,
+  "usa_ia_real": false
+}

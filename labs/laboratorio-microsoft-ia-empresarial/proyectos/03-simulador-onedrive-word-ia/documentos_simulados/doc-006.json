@@ -1,0 +1,25 @@
+{
+  "id_documento": "doc-006",
+  "nombre_documento": "Ticket Soporte [DOCUMENTO_DEMO]",
+  "tipo_documento_detectado": "ticket de soporte simulado",
+  "carpeta_onedrive_simulada": "Soporte",
+  "resumen_simulado": "Incidencia interna simulada con pasos de reproduccion.",
+  "etiquetas_simuladas": [
+    "soporte",
+    "incidencia",
+    "prioridad",
+    "ticket"
+  ],
+  "sensibilidad_detectada": "interna",
+  "requiere_revision_humana": false,
+  "permisos_simulados": "lectura_soporte",
+  "accion_ia_simulada": "priorizar",
+  "registro_generado": "",
+  "usa_onedrive_real": false,
+  "usa_word_real": false,
+  "usa_microsoft_graph_real": false,
+  "usa_oauth_real": false,
+  "usa_api_externa": false,
+  "usa_azure": false,
+  "usa_ia_real": false
+}

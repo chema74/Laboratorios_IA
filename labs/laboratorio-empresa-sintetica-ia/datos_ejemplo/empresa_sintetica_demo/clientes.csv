@@ -1,0 +1,21 @@
+id_cliente,nombre,segmento,pais,nivel_riesgo,estado
+CLI-0001,Cliente Ficticio 1,PYME,Perú,Medio,bloqueado
+CLI-0002,Cliente Ficticio 2,Startup,Perú,Bajo,bloqueado
+CLI-0003,Cliente Ficticio 3,PYME,España,Alto,activo
+CLI-0004,Cliente Ficticio 4,Startup,España,Bajo,activo
+CLI-0005,Cliente Ficticio 5,Publico,Colombia,Medio,bloqueado
+CLI-0006,Cliente Ficticio 6,Startup,México,Medio,en_revision
+CLI-0007,Cliente Ficticio 7,Corporativo,Colombia,Alto,bloqueado
+CLI-0008,Cliente Ficticio 8,PYME,Perú,Alto,activo
+CLI-0009,Cliente Ficticio 9,Corporativo,México,Medio,en_revision
+CLI-0010,Cliente Ficticio 10,Startup,Perú,Bajo,bloqueado
+CLI-0011,Cliente Ficticio 11,Startup,España,Bajo,activo
+CLI-0012,Cliente Ficticio 12,Startup,Chile,Medio,activo
+CLI-0013,Cliente Ficticio 13,Corporativo,Perú,Alto,en_revision
+CLI-0014,Cliente Ficticio 14,Corporativo,Chile,Medio,bloqueado
+CLI-0015,Cliente Ficticio 15,Publico,México,Medio,activo
+CLI-0016,Cliente Ficticio 16,Corporativo,Perú,Alto,en_revision
+CLI-0017,Cliente Ficticio 17,Publico,Perú,Medio,en_revision
+CLI-0018,Cliente Ficticio 18,Corporativo,México,Alto,en_revision
+CLI-0019,Cliente Ficticio 19,PYME,España,Bajo,activo
+CLI-0020,Cliente Ficticio 20,Corporativo,Chile,Alto,activo

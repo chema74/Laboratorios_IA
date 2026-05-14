@@ -1,0 +1,33 @@
+{
+  "columnas_esperadas": [
+    "id_registro",
+    "fecha_operacion",
+    "area_negocio",
+    "cliente_ficticio",
+    "tipo_operacion",
+    "canal",
+    "importe_simulado",
+    "coste_simulado",
+    "margen_simulado",
+    "estado_operacion",
+    "prioridad",
+    "responsable_ficticio",
+    "requiere_revision",
+    "comentario_sintetico"
+  ],
+  "moneda_simulada": "EUR",
+  "reglas_indicadores": {
+    "prioridad_alta": "alta"
+  },
+  "reglas_alertas": {
+    "margen_porcentual_minimo": 20.0,
+    "ratio_revision_maximo": 0.35
+  },
+  "reglas_revision": {
+    "valores_positivos": ["si", "true", "1"]
+  },
+  "reglas_resumen_ejecutivo": {
+    "max_lineas": 4
+  },
+  "nota": "V1 local simulada: no hay Excel real, Microsoft Graph API real, OAuth real, Azure, IA real ni datos reales."
+}

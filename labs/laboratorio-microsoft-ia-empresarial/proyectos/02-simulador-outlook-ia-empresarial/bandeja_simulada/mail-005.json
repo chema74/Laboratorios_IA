@@ -1,0 +1,21 @@
+{
+  "id_correo": "mail-005",
+  "carpeta_detectada": "Archivado",
+  "categoria_detectada": "informativo",
+  "prioridad_detectada": "baja",
+  "requiere_respuesta": false,
+  "requiere_tarea": false,
+  "requiere_reunion": false,
+  "respuesta_sugerida_simulada": "Responder si aporta valor operativo. Mensaje generado localmente sin IA real.",
+  "tarea_sugerida_simulada": "No aplica",
+  "reunion_sugerida_simulada": "No aplica",
+  "sensibilidad_detectada": "publica_interna",
+  "accion_recomendada": "Archivar",
+  "registro_generado": "",
+  "usa_outlook_real": false,
+  "usa_microsoft_graph_real": false,
+  "usa_oauth_real": false,
+  "usa_api_externa": false,
+  "usa_azure": false,
+  "usa_ia_real": false
+}

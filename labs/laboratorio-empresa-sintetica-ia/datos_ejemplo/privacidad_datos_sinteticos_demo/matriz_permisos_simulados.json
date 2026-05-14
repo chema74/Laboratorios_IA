@@ -1,0 +1,162 @@
+[
+  {
+    "id_permiso": "PER-00001",
+    "rol": "direccion",
+    "tipo_entidad": "cliente",
+    "nivel_acceso": "lectura_operativa",
+    "campos_permitidos": "estado,nombre,pais,segmento",
+    "campos_restringidos": "id_cliente,nivel_riesgo",
+    "justificacion_simulada": "Asignación simulada por nivel de sensibilidad ficticia.",
+    "requiere_aprobacion_humana": false
+  },
+  {
+    "id_permiso": "PER-00002",
+    "rol": "direccion",
+    "tipo_entidad": "empresa",
+    "nivel_acceso": "lectura_operativa",
+    "campos_permitidos": "ciudad,fecha_simulacion,moneda,nombre,numero_clientes,numero_empleados,numero_productos,pais",
+    "campos_restringidos": "id_empresa",
+    "justificacion_simulada": "Asignación simulada por nivel de sensibilidad ficticia.",
+    "requiere_aprobacion_humana": false
+  },
+  {
+    "id_permiso": "PER-00003",
+    "rol": "responsable_operaciones",
+    "tipo_entidad": "cliente",
+    "nivel_acceso": "lectura_minima",
+    "campos_permitidos": "estado,nombre,pais,segmento",
+    "campos_restringidos": "id_cliente,nivel_riesgo",
+    "justificacion_simulada": "Asignación simulada por nivel de sensibilidad ficticia.",
+    "requiere_aprobacion_humana": false
+  },
+  {
+    "id_permiso": "PER-00004",
+    "rol": "responsable_operaciones",
+    "tipo_entidad": "empresa",
+    "nivel_acceso": "lectura_minima",
+    "campos_permitidos": "ciudad,fecha_simulacion,moneda,nombre,numero_clientes,numero_empleados,numero_productos,pais",
+    "campos_restringidos": "id_empresa",
+    "justificacion_simulada": "Asignación simulada por nivel de sensibilidad ficticia.",
+    "requiere_aprobacion_humana": false
+  },
+  {
+    "id_permiso": "PER-00005",
+    "rol": "responsable_comercial",
+    "tipo_entidad": "cliente",
+    "nivel_acceso": "lectura_minima",
+    "campos_permitidos": "estado,nombre,pais,segmento",
+    "campos_restringidos": "id_cliente,nivel_riesgo",
+    "justificacion_simulada": "Asignación simulada por nivel de sensibilidad ficticia.",
+    "requiere_aprobacion_humana": false
+  },
+  {
+    "id_permiso": "PER-00006",
+    "rol": "responsable_comercial",
+    "tipo_entidad": "empresa",
+    "nivel_acceso": "lectura_minima",
+    "campos_permitidos": "ciudad,fecha_simulacion,moneda,nombre,numero_clientes,numero_empleados,numero_productos,pais",
+    "campos_restringidos": "id_empresa",
+    "justificacion_simulada": "Asignación simulada por nivel de sensibilidad ficticia.",
+    "requiere_aprobacion_humana": false
+  },
+  {
+    "id_permiso": "PER-00007",
+    "rol": "responsable_datos",
+    "tipo_entidad": "cliente",
+    "nivel_acceso": "lectura_minima",
+    "campos_permitidos": "estado,nombre,pais,segmento",
+    "campos_restringidos": "id_cliente,nivel_riesgo",
+    "justificacion_simulada": "Asignación simulada por nivel de sensibilidad ficticia.",
+    "requiere_aprobacion_humana": false
+  },
+  {
+    "id_permiso": "PER-00008",
+    "rol": "responsable_datos",
+    "tipo_entidad": "empresa",
+    "nivel_acceso": "lectura_minima",
+    "campos_permitidos": "ciudad,fecha_simulacion,moneda,nombre,numero_clientes,numero_empleados,numero_productos,pais",
+    "campos_restringidos": "id_empresa",
+    "justificacion_simulada": "Asignación simulada por nivel de sensibilidad ficticia.",
+    "requiere_aprobacion_humana": false
+  },
+  {
+    "id_permiso": "PER-00009",
+    "rol": "responsable_privacidad",
+    "tipo_entidad": "cliente",
+    "nivel_acceso": "lectura_ampliada",
+    "campos_permitidos": "estado,nombre,pais,segmento",
+    "campos_restringidos": "id_cliente,nivel_riesgo",
+    "justificacion_simulada": "Asignación simulada por nivel de sensibilidad ficticia.",
+    "requiere_aprobacion_humana": false
+  },
+  {
+    "id_permiso": "PER-00010",
+    "rol": "responsable_privacidad",
+    "tipo_entidad": "empresa",
+    "nivel_acceso": "lectura_ampliada",
+    "campos_permitidos": "ciudad,fecha_simulacion,moneda,nombre,numero_clientes,numero_empleados,numero_productos,pais",
+    "campos_restringidos": "id_empresa",
+    "justificacion_simulada": "Asignación simulada por nivel de sensibilidad ficticia.",
+    "requiere_aprobacion_humana": false
+  },
+  {
+    "id_permiso": "PER-00011",
+    "rol": "responsable_tecnico",
+    "tipo_entidad": "cliente",
+    "nivel_acceso": "lectura_minima",
+    "campos_permitidos": "estado,nombre,pais,segmento",
+    "campos_restringidos": "id_cliente,nivel_riesgo",
+    "justificacion_simulada": "Asignación simulada por nivel de sensibilidad ficticia.",
+    "requiere_aprobacion_humana": false
+  },
+  {
+    "id_permiso": "PER-00012",
+    "rol": "responsable_tecnico",
+    "tipo_entidad": "empresa",
+    "nivel_acceso": "lectura_minima",
+    "campos_permitidos": "ciudad,fecha_simulacion,moneda,nombre,numero_clientes,numero_empleados,numero_productos,pais",
+    "campos_restringidos": "id_empresa",
+    "justificacion_simulada": "Asignación simulada por nivel de sensibilidad ficticia.",
+    "requiere_aprobacion_humana": false
+  },
+  {
+    "id_permiso": "PER-00013",
+    "rol": "auditor_simulado",
+    "tipo_entidad": "cliente",
+    "nivel_acceso": "lectura_minima",
+    "campos_permitidos": "estado,nombre,pais,segmento",
+    "campos_restringidos": "id_cliente,nivel_riesgo",
+    "justificacion_simulada": "Asignación simulada por nivel de sensibilidad ficticia.",
+    "requiere_aprobacion_humana": false
+  },
+  {
+    "id_permiso": "PER-00014",
+    "rol": "auditor_simulado",
+    "tipo_entidad": "empresa",
+    "nivel_acceso": "lectura_minima",
+    "campos_permitidos": "ciudad,fecha_simulacion,moneda,nombre,numero_clientes,numero_empleados,numero_productos,pais",
+    "campos_restringidos": "id_empresa",
+    "justificacion_simulada": "Asignación simulada por nivel de sensibilidad ficticia.",
+    "requiere_aprobacion_humana": false
+  },
+  {
+    "id_permiso": "PER-00015",
+    "rol": "agente_ia_simulado",
+    "tipo_entidad": "cliente",
+    "nivel_acceso": "lectura_minima",
+    "campos_permitidos": "estado,nombre,pais,segmento",
+    "campos_restringidos": "id_cliente,nivel_riesgo",
+    "justificacion_simulada": "Asignación simulada por nivel de sensibilidad ficticia.",
+    "requiere_aprobacion_humana": false
+  },
+  {
+    "id_permiso": "PER-00016",
+    "rol": "agente_ia_simulado",
+    "tipo_entidad": "empresa",
+    "nivel_acceso": "lectura_minima",
+    "campos_permitidos": "ciudad,fecha_simulacion,moneda,nombre,numero_clientes,numero_empleados,numero_productos,pais",
+    "campos_restringidos": "id_empresa",
+    "justificacion_simulada": "Asignación simulada por nivel de sensibilidad ficticia.",
+    "requiere_aprobacion_humana": false
+  }
+]

@@ -1,0 +1,5 @@
+id_decision,fecha_decision,tipo_decision,descripcion,origen_decision,area_responsable,impacto_esperado,nivel_riesgo,requiere_revision_humana,estado_decision
+DEC-00001,2026-05-09,gestion_alerta,Decisión simulada para ALT-00001 en área finanzas.,gemelo_digital_operativo_ligero,finanzas,contener_riesgo,critica,True,pendiente_revision
+DEC-00002,2026-05-09,gestion_alerta,Decisión simulada para ALT-00002 en área operaciones.,gemelo_digital_operativo_ligero,operaciones,contener_riesgo,media,False,rechazada_simulada
+DEC-00003,2026-05-09,gestion_alerta,Decisión simulada para ALT-00003 en área direccion.,gemelo_digital_operativo_ligero,direccion,contener_riesgo,alta,True,pendiente_revision
+DEC-00004,2026-05-09,gestion_alerta,Decisión simulada para ALT-00004 en área privacidad.,gemelo_digital_operativo_ligero,privacidad,contener_riesgo,alta,True,escalada

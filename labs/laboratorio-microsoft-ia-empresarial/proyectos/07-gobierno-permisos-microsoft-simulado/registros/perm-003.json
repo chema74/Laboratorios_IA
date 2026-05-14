@@ -1,0 +1,17 @@
+{
+  "id_permiso": "perm-003",
+  "usuario_ficticio": "marta.demo@empresa-sintetica.local",
+  "recurso_simulado": "Libro KPI Demo",
+  "permiso_asignado": "comentario",
+  "riesgo_detectado": "bajo",
+  "decision_gobierno": "mantener",
+  "motivo_decision": "Cumple mínimo privilegio.",
+  "accion_recomendada": "Mantener permiso y documentar evidencia.",
+  "registro_generado": "",
+  "usa_microsoft_real": false,
+  "usa_microsoft_graph_real": false,
+  "usa_oauth_real": false,
+  "usa_api_externa": false,
+  "usa_azure": false,
+  "usa_ia_real": false
+}

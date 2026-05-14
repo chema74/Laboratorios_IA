@@ -1,0 +1,35 @@
+{
+  "modo_v1": "fallback-local",
+  "permitir_copilot_real": false,
+  "permitir_microsoft_graph_real": false,
+  "requiere_env_para_v2": true,
+  "variables_env_futuras_documentadas": [
+    "COPILOT_ENDPOINT_OPCIONAL",
+    "GRAPH_ENDPOINT_OPCIONAL",
+    "TENANT_ID_OPCIONAL",
+    "CLIENT_ID_OPCIONAL",
+    "CLIENT_SECRET_OPCIONAL"
+  ],
+  "tipos_solicitud_permitidos": [
+    "resumen de correo ficticio",
+    "resumen de documento Word sintético",
+    "análisis de libro Excel simulado",
+    "propuesta de respuesta empresarial",
+    "resumen de reunión Teams simulada",
+    "generación de tarea Planner simulada",
+    "explicación de alerta ficticia",
+    "recomendación operativa simulada"
+  ],
+  "reglas_respuesta_fallback": {
+    "tono": "tecnico_sobrio",
+    "max_palabras": 28
+  },
+  "limites_fallback": [
+    "sin_copilot_real",
+    "sin_graph_real",
+    "sin_azure",
+    "sin_ia_real",
+    "sin_red"
+  ],
+  "nota": "V1 local simulada: no hay Copilot real, Microsoft Graph API real, Azure, IA real ni datos reales."
+}

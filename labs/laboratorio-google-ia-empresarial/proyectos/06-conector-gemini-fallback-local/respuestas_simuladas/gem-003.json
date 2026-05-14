@@ -1,0 +1,13 @@
+{
+  "id_solicitud": "gem-003",
+  "tipo_solicitud": "análisis de hoja simulada",
+  "modo_ejecucion": "fallback-local",
+  "respuesta_simulada": "[FALLBACK-LOCAL] Respuesta simulada para análisis de hoja simulada: CSV operativo sintético.",
+  "razon_fallback": "fallback_local_obligatorio",
+  "trazabilidad_fallback": "fallback_local::gem-003::fallback_local_obligatorio",
+  "registro_generado": "",
+  "usa_gemini_real": false,
+  "usa_api_externa": false,
+  "usa_cloud": false,
+  "usa_ia_real": false
+}

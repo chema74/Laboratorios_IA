@@ -1,0 +1,556 @@
+{
+  "ficha_narrativa_empresa": {
+    "id_demo": "DEM-000042",
+    "nombre_empresa": "Empresa Sintetica 42",
+    "sector": "Logistica",
+    "periodo_simulado": "7 dias",
+    "fecha_generacion": "2026-05-09",
+    "origen_simulado": "Proyecto 10 integrado sobre EMP-0042",
+    "advertencia_sobre_datos_sinteticos": "Demo narrativa basada exclusivamente en datos sintéticos del laboratorio."
+  },
+  "linea_tiempo_semanal": [
+    {
+      "dia": 1,
+      "fecha_simulada": "2026-05-09",
+      "tipo_hito": "estado_inicial",
+      "titulo": "Inicio de semana operativa - Empresa Sintetica 42",
+      "descripcion": "Hito sintético de la narrativa semanal. Se utiliza para explicar el funcionamiento del laboratorio sin representar actividad empresarial real.",
+      "area_afectada": "comercial",
+      "severidad": "alta",
+      "artefactos_relacionados": [
+        "estado_operativo.json"
+      ],
+      "decision_simulada": "escalar_a_revision_humana",
+      "requiere_revision_humana": true
+    },
+    {
+      "dia": 2,
+      "fecha_simulada": "2026-05-10",
+      "tipo_hito": "evento_negocio",
+      "titulo": "Entrada de pedidos y pagos pendientes - Empresa Sintetica 42",
+      "descripcion": "Hito sintético de la narrativa semanal. Se utiliza para explicar el funcionamiento del laboratorio sin representar actividad empresarial real.",
+      "area_afectada": "operaciones",
+      "severidad": "baja",
+      "artefactos_relacionados": [
+        "eventos_negocio.json"
+      ],
+      "decision_simulada": "generar_resumen_operativo_simulado",
+      "requiere_revision_humana": false
+    },
+    {
+      "dia": 3,
+      "fecha_simulada": "2026-05-11",
+      "tipo_hito": "documentacion",
+      "titulo": "Generación de documentos de soporte - Empresa Sintetica 42",
+      "descripcion": "Hito sintético de la narrativa semanal. Se utiliza para explicar el funcionamiento del laboratorio sin representar actividad empresarial real.",
+      "area_afectada": "soporte",
+      "severidad": "media",
+      "artefactos_relacionados": [
+        "indice_documentos.json"
+      ],
+      "decision_simulada": "continuar_monitoreo_simulado",
+      "requiere_revision_humana": false
+    },
+    {
+      "dia": 4,
+      "fecha_simulada": "2026-05-12",
+      "tipo_hito": "escenario_prueba",
+      "titulo": "Preparación de escenarios para evaluación - Empresa Sintetica 42",
+      "descripcion": "Hito sintético de la narrativa semanal. Se utiliza para explicar el funcionamiento del laboratorio sin representar actividad empresarial real.",
+      "area_afectada": "direccion",
+      "severidad": "alta",
+      "artefactos_relacionados": [
+        "escenarios_prueba_agentes.json"
+      ],
+      "decision_simulada": "escalar_a_revision_humana",
+      "requiere_revision_humana": true
+    },
+    {
+      "dia": 5,
+      "fecha_simulada": "2026-05-13",
+      "tipo_hito": "crisis_simulada",
+      "titulo": "Aparición de crisis operativa sintética - Empresa Sintetica 42",
+      "descripcion": "Hito sintético de la narrativa semanal. Se utiliza para explicar el funcionamiento del laboratorio sin representar actividad empresarial real.",
+      "area_afectada": "operaciones",
+      "severidad": "alta",
+      "artefactos_relacionados": [
+        "crisis_simuladas.json",
+        "resumen_crisis.json"
+      ],
+      "decision_simulada": "escalar_a_revision_humana",
+      "requiere_revision_humana": true
+    },
+    {
+      "dia": 6,
+      "fecha_simulada": "2026-05-14",
+      "tipo_hito": "revision_humana",
+      "titulo": "Activación de revisión humana simulada - Empresa Sintetica 42",
+      "descripcion": "Hito sintético de la narrativa semanal. Se utiliza para explicar el funcionamiento del laboratorio sin representar actividad empresarial real.",
+      "area_afectada": "privacidad",
+      "severidad": "critica",
+      "artefactos_relacionados": [
+        "revisiones_humanas.json",
+        "registro_decisiones.json"
+      ],
+      "decision_simulada": "escalar_a_revision_humana",
+      "requiere_revision_humana": true
+    },
+    {
+      "dia": 7,
+      "fecha_simulada": "2026-05-15",
+      "tipo_hito": "cierre_semanal",
+      "titulo": "Cierre técnico con comparativa de flujos - Empresa Sintetica 42",
+      "descripcion": "Hito sintético de la narrativa semanal. Se utiliza para explicar el funcionamiento del laboratorio sin representar actividad empresarial real.",
+      "area_afectada": "direccion",
+      "severidad": "baja",
+      "artefactos_relacionados": [
+        "comparaciones_agente_proceso.json",
+        "resumen_comparador.json"
+      ],
+      "decision_simulada": "generar_resumen_operativo_simulado",
+      "requiere_revision_humana": false
+    }
+  ],
+  "episodios_narrativos": [
+    {
+      "id_episodio": "EPI-0001",
+      "dia": 1,
+      "titulo": "Episodio 1: Inicio de semana operativa - Empresa Sintetica 42",
+      "contexto": "Escenario sintético de operación empresarial para evaluación técnica. No representa una operación real de cliente.",
+      "problema_detectado": "Hito sintético de la narrativa semanal. Se utiliza para explicar el funcionamiento del laboratorio sin representar actividad empresarial real.",
+      "datos_usados": [
+        "empresa_sintetica",
+        "eventos_sinteticos",
+        "documentos_sinteticos"
+      ],
+      "documentos_relacionados": [
+        "DOC-000001",
+        "DOC-000002"
+      ],
+      "eventos_relacionados": [
+        "EVT-000001",
+        "EVT-000002"
+      ],
+      "crisis_relacionadas": [
+        "CRS-00001"
+      ],
+      "revisiones_relacionadas": [
+        "REV-000001"
+      ],
+      "riesgos_privacidad_relacionados": [
+        "RGS-00001"
+      ],
+      "comparativas_relacionadas": [
+        "CMP-00001"
+      ],
+      "accion_simulada": "registrar_evento_y_documentar",
+      "resultado_simulado": "resultado_sintetico_controlado",
+      "limite_de_uso": "Uso exclusivo de demo técnica sintética. No equivale a decisión empresarial real."
+    },
+    {
+      "id_episodio": "EPI-0002",
+      "dia": 2,
+      "titulo": "Episodio 2: Entrada de pedidos y pagos pendientes - Empresa Sintetica 42",
+      "contexto": "Escenario sintético de operación empresarial para evaluación técnica. No representa una operación real de cliente.",
+      "problema_detectado": "Hito sintético de la narrativa semanal. Se utiliza para explicar el funcionamiento del laboratorio sin representar actividad empresarial real.",
+      "datos_usados": [
+        "empresa_sintetica",
+        "eventos_sinteticos",
+        "documentos_sinteticos"
+      ],
+      "documentos_relacionados": [
+        "DOC-000002",
+        "DOC-000003"
+      ],
+      "eventos_relacionados": [
+        "EVT-000002",
+        "EVT-000003"
+      ],
+      "crisis_relacionadas": [
+        "CRS-00002"
+      ],
+      "revisiones_relacionadas": [
+        "REV-000002"
+      ],
+      "riesgos_privacidad_relacionados": [
+        "RGS-00002"
+      ],
+      "comparativas_relacionadas": [
+        "CMP-00002"
+      ],
+      "accion_simulada": "escalar_a_responsable_operaciones",
+      "resultado_simulado": "resultado_sintetico_controlado",
+      "limite_de_uso": "Uso exclusivo de demo técnica sintética. No equivale a decisión empresarial real."
+    },
+    {
+      "id_episodio": "EPI-0003",
+      "dia": 3,
+      "titulo": "Episodio 3: Generación de documentos de soporte - Empresa Sintetica 42",
+      "contexto": "Escenario sintético de operación empresarial para evaluación técnica. No representa una operación real de cliente.",
+      "problema_detectado": "Hito sintético de la narrativa semanal. Se utiliza para explicar el funcionamiento del laboratorio sin representar actividad empresarial real.",
+      "datos_usados": [
+        "empresa_sintetica",
+        "eventos_sinteticos",
+        "documentos_sinteticos"
+      ],
+      "documentos_relacionados": [
+        "DOC-000003",
+        "DOC-000004"
+      ],
+      "eventos_relacionados": [
+        "EVT-000003",
+        "EVT-000004"
+      ],
+      "crisis_relacionadas": [
+        "CRS-00003"
+      ],
+      "revisiones_relacionadas": [
+        "REV-000003"
+      ],
+      "riesgos_privacidad_relacionados": [
+        "RGS-00001"
+      ],
+      "comparativas_relacionadas": [
+        "CMP-00003"
+      ],
+      "accion_simulada": "solicitar_revision_humana",
+      "resultado_simulado": "resultado_sintetico_controlado",
+      "limite_de_uso": "Uso exclusivo de demo técnica sintética. No equivale a decisión empresarial real."
+    },
+    {
+      "id_episodio": "EPI-0004",
+      "dia": 4,
+      "titulo": "Episodio 4: Preparación de escenarios para evaluación - Empresa Sintetica 42",
+      "contexto": "Escenario sintético de operación empresarial para evaluación técnica. No representa una operación real de cliente.",
+      "problema_detectado": "Hito sintético de la narrativa semanal. Se utiliza para explicar el funcionamiento del laboratorio sin representar actividad empresarial real.",
+      "datos_usados": [
+        "empresa_sintetica",
+        "eventos_sinteticos",
+        "documentos_sinteticos"
+      ],
+      "documentos_relacionados": [
+        "DOC-000004",
+        "DOC-000005"
+      ],
+      "eventos_relacionados": [
+        "EVT-000004",
+        "EVT-000005"
+      ],
+      "crisis_relacionadas": [
+        "CRS-00004"
+      ],
+      "revisiones_relacionadas": [
+        "REV-000004"
+      ],
+      "riesgos_privacidad_relacionados": [
+        "RGS-00002"
+      ],
+      "comparativas_relacionadas": [
+        "CMP-00004"
+      ],
+      "accion_simulada": "registrar_evento_y_documentar",
+      "resultado_simulado": "resultado_sintetico_escalado",
+      "limite_de_uso": "Uso exclusivo de demo técnica sintética. No equivale a decisión empresarial real."
+    },
+    {
+      "id_episodio": "EPI-0005",
+      "dia": 5,
+      "titulo": "Episodio 5: Aparición de crisis operativa sintética - Empresa Sintetica 42",
+      "contexto": "Escenario sintético de operación empresarial para evaluación técnica. No representa una operación real de cliente.",
+      "problema_detectado": "Hito sintético de la narrativa semanal. Se utiliza para explicar el funcionamiento del laboratorio sin representar actividad empresarial real.",
+      "datos_usados": [
+        "empresa_sintetica",
+        "eventos_sinteticos",
+        "documentos_sinteticos"
+      ],
+      "documentos_relacionados": [
+        "DOC-000005",
+        "DOC-000006"
+      ],
+      "eventos_relacionados": [
+        "EVT-000005",
+        "EVT-000006"
+      ],
+      "crisis_relacionadas": [
+        "CRS-00005"
+      ],
+      "revisiones_relacionadas": [
+        "REV-000005"
+      ],
+      "riesgos_privacidad_relacionados": [
+        "RGS-00001"
+      ],
+      "comparativas_relacionadas": [
+        "CMP-00005"
+      ],
+      "accion_simulada": "comparar_flujos_y_justificar",
+      "resultado_simulado": "resultado_sintetico_controlado",
+      "limite_de_uso": "Uso exclusivo de demo técnica sintética. No equivale a decisión empresarial real."
+    },
+    {
+      "id_episodio": "EPI-0006",
+      "dia": 6,
+      "titulo": "Episodio 6: Activación de revisión humana simulada - Empresa Sintetica 42",
+      "contexto": "Escenario sintético de operación empresarial para evaluación técnica. No representa una operación real de cliente.",
+      "problema_detectado": "Hito sintético de la narrativa semanal. Se utiliza para explicar el funcionamiento del laboratorio sin representar actividad empresarial real.",
+      "datos_usados": [
+        "empresa_sintetica",
+        "eventos_sinteticos",
+        "documentos_sinteticos"
+      ],
+      "documentos_relacionados": [
+        "DOC-000006",
+        "DOC-000007"
+      ],
+      "eventos_relacionados": [
+        "EVT-000006",
+        "EVT-000007"
+      ],
+      "crisis_relacionadas": [
+        "CRS-00001"
+      ],
+      "revisiones_relacionadas": [
+        "REV-000006"
+      ],
+      "riesgos_privacidad_relacionados": [
+        "RGS-00002"
+      ],
+      "comparativas_relacionadas": [
+        "CMP-00006"
+      ],
+      "accion_simulada": "comparar_flujos_y_justificar",
+      "resultado_simulado": "resultado_sintetico_con_riesgo_moderado",
+      "limite_de_uso": "Uso exclusivo de demo técnica sintética. No equivale a decisión empresarial real."
+    },
+    {
+      "id_episodio": "EPI-0007",
+      "dia": 7,
+      "titulo": "Episodio 7: Cierre técnico con comparativa de flujos - Empresa Sintetica 42",
+      "contexto": "Escenario sintético de operación empresarial para evaluación técnica. No representa una operación real de cliente.",
+      "problema_detectado": "Hito sintético de la narrativa semanal. Se utiliza para explicar el funcionamiento del laboratorio sin representar actividad empresarial real.",
+      "datos_usados": [
+        "empresa_sintetica",
+        "eventos_sinteticos",
+        "documentos_sinteticos"
+      ],
+      "documentos_relacionados": [
+        "DOC-000007",
+        "DOC-000008"
+      ],
+      "eventos_relacionados": [
+        "EVT-000007",
+        "EVT-000008"
+      ],
+      "crisis_relacionadas": [
+        "CRS-00002"
+      ],
+      "revisiones_relacionadas": [
+        "REV-000007"
+      ],
+      "riesgos_privacidad_relacionados": [
+        "RGS-00001"
+      ],
+      "comparativas_relacionadas": [
+        "CMP-00007"
+      ],
+      "accion_simulada": "registrar_evento_y_documentar",
+      "resultado_simulado": "resultado_sintetico_controlado",
+      "limite_de_uso": "Uso exclusivo de demo técnica sintética. No equivale a decisión empresarial real."
+    }
+  ],
+  "mapa_evidencias": [
+    {
+      "id_evidencia": "EVD-0001",
+      "proyecto_origen": "01-generador-empresa-sintetica",
+      "tipo_evidencia": "empresa_json",
+      "ruta_relativa": "datos_ejemplo/empresa_sintetica_demo/empresa_sintetica.json",
+      "descripcion": "Ficha general de la empresa sintética base.",
+      "uso_en_demo": "Apoyo narrativo y técnico para explicar integración de proyectos 01 a 10.",
+      "es_sintetica": true
+    },
+    {
+      "id_evidencia": "EVD-0002",
+      "proyecto_origen": "01-generador-empresa-sintetica",
+      "tipo_evidencia": "clientes_csv",
+      "ruta_relativa": "datos_ejemplo/empresa_sintetica_demo/clientes.csv",
+      "descripcion": "Listado sintético de clientes para alimentar simulaciones.",
+      "uso_en_demo": "Apoyo narrativo y técnico para explicar integración de proyectos 01 a 10.",
+      "es_sintetica": true
+    },
+    {
+      "id_evidencia": "EVD-0003",
+      "proyecto_origen": "02-simulador-eventos-negocio",
+      "tipo_evidencia": "eventos_json",
+      "ruta_relativa": "datos_ejemplo/eventos_negocio_demo/eventos_negocio.json",
+      "descripcion": "Eventos de negocio simulados de la semana.",
+      "uso_en_demo": "Apoyo narrativo y técnico para explicar integración de proyectos 01 a 10.",
+      "es_sintetica": true
+    },
+    {
+      "id_evidencia": "EVD-0004",
+      "proyecto_origen": "02-simulador-eventos-negocio",
+      "tipo_evidencia": "resumen_eventos",
+      "ruta_relativa": "datos_ejemplo/eventos_negocio_demo/resumen_eventos.json",
+      "descripcion": "Resumen agregado de actividad de eventos.",
+      "uso_en_demo": "Apoyo narrativo y técnico para explicar integración de proyectos 01 a 10.",
+      "es_sintetica": true
+    },
+    {
+      "id_evidencia": "EVD-0005",
+      "proyecto_origen": "03-fabrica-documentos-sinteticos",
+      "tipo_evidencia": "indice_documentos",
+      "ruta_relativa": "datos_ejemplo/documentos_sinteticos_demo/indice_documentos.json",
+      "descripcion": "Índice de documentos empresariales sintéticos.",
+      "uso_en_demo": "Apoyo narrativo y técnico para explicar integración de proyectos 01 a 10.",
+      "es_sintetica": true
+    },
+    {
+      "id_evidencia": "EVD-0006",
+      "proyecto_origen": "04-generador-escenarios-prueba-agentes",
+      "tipo_evidencia": "escenarios_json",
+      "ruta_relativa": "datos_ejemplo/escenarios_prueba_agentes_demo/escenarios_prueba_agentes.json",
+      "descripcion": "Escenarios de evaluación futura de agentes simulados.",
+      "uso_en_demo": "Apoyo narrativo y técnico para explicar integración de proyectos 01 a 10.",
+      "es_sintetica": true
+    },
+    {
+      "id_evidencia": "EVD-0007",
+      "proyecto_origen": "05-motor-simulacion-crisis",
+      "tipo_evidencia": "crisis_json",
+      "ruta_relativa": "datos_ejemplo/crisis_simuladas_demo/crisis_simuladas.json",
+      "descripcion": "Registro de crisis empresariales sintéticas.",
+      "uso_en_demo": "Apoyo narrativo y técnico para explicar integración de proyectos 01 a 10.",
+      "es_sintetica": true
+    },
+    {
+      "id_evidencia": "EVD-0008",
+      "proyecto_origen": "06-simulador-revision-humana",
+      "tipo_evidencia": "revisiones_json",
+      "ruta_relativa": "datos_ejemplo/revision_humana_demo/revisiones_humanas.json",
+      "descripcion": "Revisiones humanas simuladas sobre artefactos.",
+      "uso_en_demo": "Apoyo narrativo y técnico para explicar integración de proyectos 01 a 10.",
+      "es_sintetica": true
+    },
+    {
+      "id_evidencia": "EVD-0009",
+      "proyecto_origen": "07-gemelo-digital-operativo-ligero",
+      "tipo_evidencia": "estado_operativo",
+      "ruta_relativa": "datos_ejemplo/gemelo_digital_operativo_demo/estado_operativo.json",
+      "descripcion": "Estado operativo consolidado del gemelo digital sintético.",
+      "uso_en_demo": "Apoyo narrativo y técnico para explicar integración de proyectos 01 a 10.",
+      "es_sintetica": true
+    },
+    {
+      "id_evidencia": "EVD-0010",
+      "proyecto_origen": "08-laboratorio-privacidad-datos-sinteticos",
+      "tipo_evidencia": "riesgos_privacidad",
+      "ruta_relativa": "datos_ejemplo/privacidad_datos_sinteticos_demo/riesgos_privacidad_simulados.json",
+      "descripcion": "Riesgos de privacidad simulados sobre datos sintéticos.",
+      "uso_en_demo": "Apoyo narrativo y técnico para explicar integración de proyectos 01 a 10.",
+      "es_sintetica": true
+    },
+    {
+      "id_evidencia": "EVD-0011",
+      "proyecto_origen": "09-comparador-agente-proceso",
+      "tipo_evidencia": "comparaciones",
+      "ruta_relativa": "datos_ejemplo/comparador_agente_proceso_demo/comparaciones_agente_proceso.json",
+      "descripcion": "Comparación simulada entre flujos manuales y asistidos.",
+      "uso_en_demo": "Apoyo narrativo y técnico para explicar integración de proyectos 01 a 10.",
+      "es_sintetica": true
+    }
+  ],
+  "resumen_ejecutivo_ficticio": {
+    "empresa_simulada": "Empresa Sintetica 42",
+    "semana_simulada": "7 dias operativos sinteticos",
+    "eventos_destacados": [
+      "EVT-000001",
+      "EVT-000002",
+      "EVT-000003",
+      "EVT-000004",
+      "EVT-000005"
+    ],
+    "crisis_destacadas": [
+      "CRS-00001",
+      "CRS-00002",
+      "CRS-00003",
+      "CRS-00004",
+      "CRS-00005"
+    ],
+    "alertas_principales": [
+      "ALT-00001",
+      "ALT-00002",
+      "ALT-00003",
+      "ALT-00004"
+    ],
+    "riesgos_privacidad": [
+      "RGS-00001",
+      "RGS-00002"
+    ],
+    "revisiones_humanas": [
+      "REV-000001",
+      "REV-000002",
+      "REV-000003",
+      "REV-000004",
+      "REV-000005"
+    ],
+    "comparativas_relevantes": [
+      "CMP-00001",
+      "CMP-00002",
+      "CMP-00003",
+      "CMP-00004",
+      "CMP-00005"
+    ],
+    "valor_tecnico_del_laboratorio": "Integra artefactos sintéticos de proyectos 01 a 10 para explicar trazabilidad, evaluación y control operativo en entorno local.",
+    "limites_explicitos": "No representa actividad real de cliente, no ejecuta agentes reales, no usa APIs externas y no debe usarse como sistema productivo."
+  },
+  "resumen_demo_narrativa": {
+    "fecha_generacion": "2026-05-09",
+    "empresa": "Empresa Sintetica 42",
+    "total_dias_simulados": 7,
+    "total_hitos": 7,
+    "total_episodios": 7,
+    "evidencias_detectadas": 11,
+    "proyectos_integrados": [
+      "01-generador-empresa-sintetica",
+      "02-simulador-eventos-negocio",
+      "03-fabrica-documentos-sinteticos",
+      "04-generador-escenarios-prueba-agentes",
+      "05-motor-simulacion-crisis",
+      "06-simulador-revision-humana",
+      "07-gemelo-digital-operativo-ligero",
+      "08-laboratorio-privacidad-datos-sinteticos",
+      "09-comparador-agente-proceso"
+    ],
+    "crisis_incluidas": 5,
+    "revisiones_humanas_incluidas": 20,
+    "riesgos_privacidad_incluidos": 2,
+    "comparativas_incluidas": 7,
+    "entradas_utilizadas": {
+      "entrada_empresa": "datos_ejemplo/empresa_sintetica_demo/empresa_sintetica.json",
+      "entrada_eventos": "datos_ejemplo/eventos_negocio_demo/eventos_negocio.json",
+      "entrada_resumen_eventos": "datos_ejemplo/eventos_negocio_demo/resumen_eventos.json",
+      "entrada_documentos": "datos_ejemplo/documentos_sinteticos_demo/indice_documentos.json",
+      "entrada_resumen_documentos": "datos_ejemplo/documentos_sinteticos_demo/resumen_documentos.json",
+      "entrada_escenarios": "datos_ejemplo/escenarios_prueba_agentes_demo/escenarios_prueba_agentes.json",
+      "entrada_resumen_escenarios": "datos_ejemplo/escenarios_prueba_agentes_demo/resumen_escenarios.json",
+      "entrada_crisis": "datos_ejemplo/crisis_simuladas_demo/crisis_simuladas.json",
+      "entrada_resumen_crisis": "datos_ejemplo/crisis_simuladas_demo/resumen_crisis.json",
+      "entrada_revisiones": "datos_ejemplo/revision_humana_demo/revisiones_humanas.json",
+      "entrada_registro_decisiones": "datos_ejemplo/revision_humana_demo/registro_decisiones.json",
+      "entrada_resumen_revision": "datos_ejemplo/revision_humana_demo/resumen_revision_humana.json",
+      "entrada_estado_operativo": "datos_ejemplo/gemelo_digital_operativo_demo/estado_operativo.json",
+      "entrada_alertas": "datos_ejemplo/gemelo_digital_operativo_demo/alertas_operativas.json",
+      "entrada_decisiones": "datos_ejemplo/gemelo_digital_operativo_demo/decisiones_simuladas.json",
+      "entrada_resumen_gemelo": "datos_ejemplo/gemelo_digital_operativo_demo/resumen_gemelo_digital.json",
+      "entrada_inventario_privacidad": "datos_ejemplo/privacidad_datos_sinteticos_demo/inventario_datos_sinteticos.json",
+      "entrada_riesgos_privacidad": "datos_ejemplo/privacidad_datos_sinteticos_demo/riesgos_privacidad_simulados.json",
+      "entrada_resumen_privacidad": "datos_ejemplo/privacidad_datos_sinteticos_demo/resumen_privacidad_datos_sinteticos.json",
+      "entrada_procesos_comparados": "datos_ejemplo/comparador_agente_proceso_demo/procesos_comparados.json",
+      "entrada_comparaciones": "datos_ejemplo/comparador_agente_proceso_demo/comparaciones_agente_proceso.json",
+      "entrada_resumen_comparador": "datos_ejemplo/comparador_agente_proceso_demo/resumen_comparador.json"
+    },
+    "advertencia_sobre_datos_sinteticos": "Todos los artefactos usados en la demo son sintéticos.",
+    "advertencia_sobre_no_sistema_productivo": "La demo no es un sistema productivo ni de monitorización real.",
+    "advertencia_sobre_no_ejecucion_de_agentes": "No se ejecutan agentes reales ni modelos IA reales."
+  }
+}

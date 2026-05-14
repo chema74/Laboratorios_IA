@@ -1,0 +1,9 @@
+{
+  "finalidad": "Demostración técnica de reducción de exposición de datos sintéticos.",
+  "categorias_datos": [
+    "identificadores ficticios",
+    "contacto ficticio"
+  ],
+  "base_documental_ficticia": "POL-PRIV-001",
+  "retencion_sintetica": "30 días para evidencia técnica anonimizada."
+}

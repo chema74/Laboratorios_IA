@@ -1,0 +1,23 @@
+{
+  "total_eventos": 56,
+  "eventos_por_tipo": {
+    "pago_recibido": 9,
+    "pago_pendiente": 10,
+    "cambio_estado_cliente": 7,
+    "pedido_creado": 8,
+    "alerta_operativa": 6,
+    "retraso_operativo": 9,
+    "devolucion_solicitada": 6,
+    "reclamacion_cliente": 1
+  },
+  "eventos_por_severidad": {
+    "baja": 15,
+    "media": 17,
+    "alta": 13,
+    "critica": 11
+  },
+  "eventos_que_requieren_revision_humana": 28,
+  "alertas_operativas": 6,
+  "fecha_inicio_simulacion": "2026-05-09",
+  "fecha_fin_simulacion": "2026-05-15"
+}

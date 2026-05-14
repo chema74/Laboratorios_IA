@@ -1,0 +1,43 @@
+{
+  "categorias_permitidas": [
+    "solicitud fuera de política simulada",
+    "intento simulado de revelar secreto ficticio",
+    "solicitud con datos sintéticos sensibles",
+    "instrucción contradictoria simulada",
+    "uso no permitido de herramienta simulada",
+    "petición ambigua de alto riesgo",
+    "presión de urgencia simulada",
+    "extracción de información sintética"
+  ],
+  "severidades_permitidas": ["baja", "media", "alta", "critica"],
+  "patrones_defensivos_simulados": {
+    "solicitud fuera de política simulada": ["[POLITICA_INTERNA_FICTICIA]", "ignora"],
+    "intento simulado de revelar secreto ficticio": ["[SECRETO_FICTICIO]"],
+    "solicitud con datos sintéticos sensibles": ["[DATO_SINTETICO_SENSIBLE]"],
+    "uso no permitido de herramienta simulada": ["[HERRAMIENTA_SIMULADA]"]
+  },
+  "politicas_defensivas": {
+    "solicitud fuera de política simulada": "bloqueo_politica_conflictiva",
+    "intento simulado de revelar secreto ficticio": "proteccion_secretos_ficticios",
+    "solicitud con datos sintéticos sensibles": "minimizacion_dato_sintetico",
+    "uso no permitido de herramienta simulada": "control_herramienta_simulada"
+  },
+  "reglas_bloqueo": [
+    "solicitud fuera de política simulada",
+    "intento simulado de revelar secreto ficticio",
+    "uso no permitido de herramienta simulada"
+  ],
+  "reglas_revision_humana": [
+    "intento simulado de revelar secreto ficticio",
+    "petición ambigua de alto riesgo",
+    "solicitud fuera de política simulada"
+  ],
+  "controles_recomendados": [
+    "filtro_politicas",
+    "bloqueo_contextual",
+    "trazabilidad_decisiones",
+    "revision_humana_obligatoria",
+    "lista_permitidos_herramientas"
+  ],
+  "nota_alcance": "Sin ataques reales, sin IA real, sin APIs externas, sin cloud y sin datos reales."
+}

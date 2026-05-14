@@ -1,0 +1,27 @@
+{
+  "fecha": "2026-05-13T07:14:43.224397+00:00",
+  "texto_original": "Empleado: Javier Ortega Ruiz.\r\nCorreo corporativo: javier.ortega.demo@pyme-local.es.\r\nTeléfono interno: 622 456 112.\r\nCódigo de empleado sintético: EMP-2026-0041.\r\n\r\nEl empleado ha comunicado a recursos humanos que atraviesa una situación personal complicada y solicita una reorganización temporal de sus turnos. El responsable quiere usar IA para resumir el caso y preparar una propuesta de conciliación, pero el texto original contiene datos personales, información laboral y detalles que no deberían enviarse íntegros a un proveedor externo.",
+  "texto_minimizado": "{\"caso_uso\": \"demo_interactiva\", \"objetivo\": \"analisis_privacidad\", \"texto\": \"Empleado: Javier Ortega Ruiz.\\r\\nCorreo corporativo: [EMAIL].\\r\\nTeléfono interno: 622 456 112.\\r\\nCódigo de empleado sintético: EMP-2026-0041.\\r\\n\\r\\nEl empleado ha comunicado a recursos humanos que atraviesa una situación personal complicada y solicita una reorganización temporal de sus turnos. El responsable quiere usar IA para resumir el caso y preparar una propuesta de conciliación, pero el texto original contiene datos personales, información laboral y detalles que no deberían enviarse íntegros a un proveedor externo.\"}",
+  "pii_detectada": [
+    {
+      "tipo": "email",
+      "valor": "javier.ortega.demo@pyme-local.es",
+      "inicio": 51,
+      "severidad": "alta"
+    }
+  ],
+  "proveedor": "groq",
+  "modelo": "llama-3.1-8b-instant",
+  "ruta_ejecucion": "groq_sdk",
+  "motivo_fallback": "",
+  "resumen": "Revisar la implementación de medidas de seguridad para proteger datos PII",
+  "riesgos": [
+    "Exposición de datos personales sensibles",
+    "Incumplimiento de regulaciones de privacidad"
+  ],
+  "recomendaciones": [
+    "Implementar autenticación y autorización robustas",
+    "Realizar auditorías periódicas de seguridad",
+    "Actualizar políticas de privacidad y capacitación del personal"
+  ]
+}

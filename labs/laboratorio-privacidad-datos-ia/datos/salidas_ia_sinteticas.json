@@ -1,0 +1,10 @@
+[
+  {
+    "id": "S-001",
+    "salida": "El cliente NombreFicticio Uno tiene email nombre1@empresa.local"
+  },
+  {
+    "id": "S-002",
+    "salida": "Incidencia clasificada como prioritaria sin datos personales."
+  }
+]

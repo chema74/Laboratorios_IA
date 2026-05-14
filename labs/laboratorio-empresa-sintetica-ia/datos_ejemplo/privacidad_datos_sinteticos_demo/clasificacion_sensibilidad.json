@@ -1,0 +1,74 @@
+[
+  {
+    "id_clasificacion": "CLS-00001",
+    "origen": "empresa",
+    "tipo_entidad": "empresa",
+    "nivel_sensibilidad_ficticia": "confidencial",
+    "categoria_privacidad_simulada": "identificador_ficticio",
+    "requiere_revision_humana": true,
+    "total": 1
+  },
+  {
+    "id_clasificacion": "CLS-00002",
+    "origen": "empresa",
+    "tipo_entidad": "empresa",
+    "nivel_sensibilidad_ficticia": "interna",
+    "categoria_privacidad_simulada": "identidad_ficticia",
+    "requiere_revision_humana": false,
+    "total": 1
+  },
+  {
+    "id_clasificacion": "CLS-00003",
+    "origen": "empresa",
+    "tipo_entidad": "empresa",
+    "nivel_sensibilidad_ficticia": "publica",
+    "categoria_privacidad_simulada": "general",
+    "requiere_revision_humana": false,
+    "total": 8
+  },
+  {
+    "id_clasificacion": "CLS-00004",
+    "origen": "empresa",
+    "tipo_entidad": "cliente",
+    "nivel_sensibilidad_ficticia": "confidencial",
+    "categoria_privacidad_simulada": "identificador_ficticio",
+    "requiere_revision_humana": true,
+    "total": 12
+  },
+  {
+    "id_clasificacion": "CLS-00005",
+    "origen": "empresa",
+    "tipo_entidad": "cliente",
+    "nivel_sensibilidad_ficticia": "interna",
+    "categoria_privacidad_simulada": "identidad_ficticia",
+    "requiere_revision_humana": false,
+    "total": 12
+  },
+  {
+    "id_clasificacion": "CLS-00006",
+    "origen": "empresa",
+    "tipo_entidad": "cliente",
+    "nivel_sensibilidad_ficticia": "publica",
+    "categoria_privacidad_simulada": "general",
+    "requiere_revision_humana": false,
+    "total": 24
+  },
+  {
+    "id_clasificacion": "CLS-00007",
+    "origen": "empresa",
+    "tipo_entidad": "cliente",
+    "nivel_sensibilidad_ficticia": "critica",
+    "categoria_privacidad_simulada": "riesgo_operativo",
+    "requiere_revision_humana": true,
+    "total": 11
+  },
+  {
+    "id_clasificacion": "CLS-00008",
+    "origen": "empresa",
+    "tipo_entidad": "cliente",
+    "nivel_sensibilidad_ficticia": "interna",
+    "categoria_privacidad_simulada": "operativo",
+    "requiere_revision_humana": false,
+    "total": 11
+  }
+]

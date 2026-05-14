@@ -1,0 +1,30 @@
+{
+  "tipos_documento_permitidos": [
+    "propuesta comercial ficticia",
+    "acta de reunión ficticia",
+    "contrato simulado",
+    "informe operativo simulado",
+    "política interna ficticia",
+    "ticket de soporte simulado",
+    "expediente de cliente sintético",
+    "documento de onboarding ficticio"
+  ],
+  "carpetas_onedrive_simuladas": ["Comercial", "Operaciones", "Legal", "RRHH", "Soporte"],
+  "acciones_ia_simuladas": ["resumir", "etiquetar", "normalizar", "priorizar", "detectar_riesgos"],
+  "reglas_resumen": {
+    "max_palabras": 22
+  },
+  "reglas_etiquetado": {
+    "max_etiquetas": 4
+  },
+  "reglas_sensibilidad": ["publica_interna", "interna", "confidencial_simulada", "restringida"],
+  "reglas_revision_humana": ["restringida", "confidencial_simulada"],
+  "permisos_simulados_permitidos": [
+    "lectura_equipo",
+    "lectura_restringida",
+    "lectura_soporte",
+    "lectura_rrhh",
+    "lectura_legal"
+  ],
+  "nota": "V1 local simulada: no hay OneDrive real, Word real, Microsoft Graph API real, OAuth real, Azure, IA real ni datos reales."
+}

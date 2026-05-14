@@ -1,0 +1,101 @@
+[
+  {
+    "id_evidencia": "EVD-0001",
+    "proyecto_origen": "01-generador-empresa-sintetica",
+    "tipo_evidencia": "empresa_json",
+    "ruta_relativa": "datos_ejemplo/empresa_sintetica_demo/empresa_sintetica.json",
+    "descripcion": "Ficha general de la empresa sintética base.",
+    "uso_en_demo": "Apoyo narrativo y técnico para explicar integración de proyectos 01 a 10.",
+    "es_sintetica": true
+  },
+  {
+    "id_evidencia": "EVD-0002",
+    "proyecto_origen": "01-generador-empresa-sintetica",
+    "tipo_evidencia": "clientes_csv",
+    "ruta_relativa": "datos_ejemplo/empresa_sintetica_demo/clientes.csv",
+    "descripcion": "Listado sintético de clientes para alimentar simulaciones.",
+    "uso_en_demo": "Apoyo narrativo y técnico para explicar integración de proyectos 01 a 10.",
+    "es_sintetica": true
+  },
+  {
+    "id_evidencia": "EVD-0003",
+    "proyecto_origen": "02-simulador-eventos-negocio",
+    "tipo_evidencia": "eventos_json",
+    "ruta_relativa": "datos_ejemplo/eventos_negocio_demo/eventos_negocio.json",
+    "descripcion": "Eventos de negocio simulados de la semana.",
+    "uso_en_demo": "Apoyo narrativo y técnico para explicar integración de proyectos 01 a 10.",
+    "es_sintetica": true
+  },
+  {
+    "id_evidencia": "EVD-0004",
+    "proyecto_origen": "02-simulador-eventos-negocio",
+    "tipo_evidencia": "resumen_eventos",
+    "ruta_relativa": "datos_ejemplo/eventos_negocio_demo/resumen_eventos.json",
+    "descripcion": "Resumen agregado de actividad de eventos.",
+    "uso_en_demo": "Apoyo narrativo y técnico para explicar integración de proyectos 01 a 10.",
+    "es_sintetica": true
+  },
+  {
+    "id_evidencia": "EVD-0005",
+    "proyecto_origen": "03-fabrica-documentos-sinteticos",
+    "tipo_evidencia": "indice_documentos",
+    "ruta_relativa": "datos_ejemplo/documentos_sinteticos_demo/indice_documentos.json",
+    "descripcion": "Índice de documentos empresariales sintéticos.",
+    "uso_en_demo": "Apoyo narrativo y técnico para explicar integración de proyectos 01 a 10.",
+    "es_sintetica": true
+  },
+  {
+    "id_evidencia": "EVD-0006",
+    "proyecto_origen": "04-generador-escenarios-prueba-agentes",
+    "tipo_evidencia": "escenarios_json",
+    "ruta_relativa": "datos_ejemplo/escenarios_prueba_agentes_demo/escenarios_prueba_agentes.json",
+    "descripcion": "Escenarios de evaluación futura de agentes simulados.",
+    "uso_en_demo": "Apoyo narrativo y técnico para explicar integración de proyectos 01 a 10.",
+    "es_sintetica": true
+  },
+  {
+    "id_evidencia": "EVD-0007",
+    "proyecto_origen": "05-motor-simulacion-crisis",
+    "tipo_evidencia": "crisis_json",
+    "ruta_relativa": "datos_ejemplo/crisis_simuladas_demo/crisis_simuladas.json",
+    "descripcion": "Registro de crisis empresariales sintéticas.",
+    "uso_en_demo": "Apoyo narrativo y técnico para explicar integración de proyectos 01 a 10.",
+    "es_sintetica": true
+  },
+  {
+    "id_evidencia": "EVD-0008",
+    "proyecto_origen": "06-simulador-revision-humana",
+    "tipo_evidencia": "revisiones_json",
+    "ruta_relativa": "datos_ejemplo/revision_humana_demo/revisiones_humanas.json",
+    "descripcion": "Revisiones humanas simuladas sobre artefactos.",
+    "uso_en_demo": "Apoyo narrativo y técnico para explicar integración de proyectos 01 a 10.",
+    "es_sintetica": true
+  },
+  {
+    "id_evidencia": "EVD-0009",
+    "proyecto_origen": "07-gemelo-digital-operativo-ligero",
+    "tipo_evidencia": "estado_operativo",
+    "ruta_relativa": "datos_ejemplo/gemelo_digital_operativo_demo/estado_operativo.json",
+    "descripcion": "Estado operativo consolidado del gemelo digital sintético.",
+    "uso_en_demo": "Apoyo narrativo y técnico para explicar integración de proyectos 01 a 10.",
+    "es_sintetica": true
+  },
+  {
+    "id_evidencia": "EVD-0010",
+    "proyecto_origen": "08-laboratorio-privacidad-datos-sinteticos",
+    "tipo_evidencia": "riesgos_privacidad",
+    "ruta_relativa": "datos_ejemplo/privacidad_datos_sinteticos_demo/riesgos_privacidad_simulados.json",
+    "descripcion": "Riesgos de privacidad simulados sobre datos sintéticos.",
+    "uso_en_demo": "Apoyo narrativo y técnico para explicar integración de proyectos 01 a 10.",
+    "es_sintetica": true
+  },
+  {
+    "id_evidencia": "EVD-0011",
+    "proyecto_origen": "09-comparador-agente-proceso",
+    "tipo_evidencia": "comparaciones",
+    "ruta_relativa": "datos_ejemplo/comparador_agente_proceso_demo/comparaciones_agente_proceso.json",
+    "descripcion": "Comparación simulada entre flujos manuales y asistidos.",
+    "uso_en_demo": "Apoyo narrativo y técnico para explicar integración de proyectos 01 a 10.",
+    "es_sintetica": true
+  }
+]

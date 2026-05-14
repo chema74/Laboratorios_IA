@@ -1,0 +1,15 @@
+{
+  "empresa_ficticia": "Pyme Sintética Segura S.L.",
+  "agente_simulado": "agente-operativo-defensivo",
+  "contexto_operativo_sintetico": "Atención interna y reporting local.",
+  "riesgos_simulados": ["prompt injection simulada", "fuga de datos sintéticos", "uso indebido de herramienta simulada"],
+  "entradas_riesgo_no_accionables": ["[INSTRUCCION_NO_ACCIONABLE]", "[SECRETO_FICTICIO]"],
+  "datos_sensibles_ficticios": ["[DATO_SINTETICO_SENSIBLE]", "[CREDENCIAL_FICTICIA]"],
+  "herramientas_simuladas": ["lector_documentos_simulado", "generador_informe_simulado", "exportador_datos_simulado"],
+  "politicas_internas_ficticias": ["P-002", "P-006", "P-007"],
+  "incidentes_simulados": ["TI-001", "TI-002", "TI-003"],
+  "matriz_riesgo": ["MR-001", "MR-002", "MR-003"],
+  "controles_defensivos": ["revision_humana_obligatoria", "trazabilidad_decisiones", "bloqueo_herramienta_restringida"],
+  "conclusion_ejecutiva": "La cadena defensiva local reduce exposición en escenarios sintéticos.",
+  "limites_declarados": "Sin IA real, sin APIs externas, sin cloud y sin datos reales."
+}

@@ -1,0 +1,22 @@
+{
+  "id_elemento": "tm-004",
+  "tipo_elemento": "mensaje",
+  "canal_simulado": "rrhh",
+  "prioridad_detectada": "baja",
+  "requiere_resumen": true,
+  "requiere_tarea": false,
+  "requiere_seguimiento": false,
+  "riesgo_bloqueo_detectado": "bajo",
+  "resumen_simulado": "Mensaje interno para calendario de onboarding de prueba.",
+  "tarea_recomendada_simulada": "No aplica",
+  "seguimiento_recomendado_simulado": "No aplica",
+  "registro_generado": "",
+  "usa_teams_real": false,
+  "usa_planner_real": false,
+  "usa_todo_real": false,
+  "usa_microsoft_graph_real": false,
+  "usa_oauth_real": false,
+  "usa_api_externa": false,
+  "usa_azure": false,
+  "usa_ia_real": false
+}

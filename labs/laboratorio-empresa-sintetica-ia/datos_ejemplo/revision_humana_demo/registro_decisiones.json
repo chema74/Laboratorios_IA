@@ -1,0 +1,202 @@
+[
+  {
+    "id_registro": "REG-000001",
+    "id_revision": "REV-000001",
+    "fecha_registro": "2026-05-09",
+    "decision": "aceptar",
+    "accion_posterior": "cerrar_revision",
+    "resumen_trazabilidad": "Registro derivado de origen=evento_negocio|id=EVT-000001|revision=REV-000001",
+    "impacto_simulado": "bajo",
+    "estado_registro": "pendiente"
+  },
+  {
+    "id_registro": "REG-000002",
+    "id_revision": "REV-000002",
+    "fecha_registro": "2026-05-09",
+    "decision": "escalar",
+    "accion_posterior": "enviar_a_revision_senior",
+    "resumen_trazabilidad": "Registro derivado de origen=evento_negocio|id=EVT-000002|revision=REV-000002",
+    "impacto_simulado": "bajo",
+    "estado_registro": "escalado"
+  },
+  {
+    "id_registro": "REG-000003",
+    "id_revision": "REV-000003",
+    "fecha_registro": "2026-05-09",
+    "decision": "escalar",
+    "accion_posterior": "enviar_a_revision_senior",
+    "resumen_trazabilidad": "Registro derivado de origen=evento_negocio|id=EVT-000003|revision=REV-000003",
+    "impacto_simulado": "medio",
+    "estado_registro": "escalado"
+  },
+  {
+    "id_registro": "REG-000004",
+    "id_revision": "REV-000004",
+    "fecha_registro": "2026-05-09",
+    "decision": "escalar",
+    "accion_posterior": "enviar_a_revision_senior",
+    "resumen_trazabilidad": "Registro derivado de origen=evento_negocio|id=EVT-000004|revision=REV-000004",
+    "impacto_simulado": "bajo",
+    "estado_registro": "escalado"
+  },
+  {
+    "id_registro": "REG-000005",
+    "id_revision": "REV-000005",
+    "fecha_registro": "2026-05-09",
+    "decision": "escalar",
+    "accion_posterior": "enviar_a_revision_senior",
+    "resumen_trazabilidad": "Registro derivado de origen=evento_negocio|id=EVT-000005|revision=REV-000005",
+    "impacto_simulado": "bajo",
+    "estado_registro": "escalado"
+  },
+  {
+    "id_registro": "REG-000006",
+    "id_revision": "REV-000006",
+    "fecha_registro": "2026-05-09",
+    "decision": "escalar",
+    "accion_posterior": "enviar_a_revision_senior",
+    "resumen_trazabilidad": "Registro derivado de origen=evento_negocio|id=EVT-000006|revision=REV-000006",
+    "impacto_simulado": "medio",
+    "estado_registro": "escalado"
+  },
+  {
+    "id_registro": "REG-000007",
+    "id_revision": "REV-000007",
+    "fecha_registro": "2026-05-09",
+    "decision": "corregir",
+    "accion_posterior": "devolver_para_correccion",
+    "resumen_trazabilidad": "Registro derivado de origen=evento_negocio|id=EVT-000007|revision=REV-000007",
+    "impacto_simulado": "medio",
+    "estado_registro": "cerrado_simulado"
+  },
+  {
+    "id_registro": "REG-000008",
+    "id_revision": "REV-000008",
+    "fecha_registro": "2026-05-09",
+    "decision": "escalar",
+    "accion_posterior": "enviar_a_revision_senior",
+    "resumen_trazabilidad": "Registro derivado de origen=evento_negocio|id=EVT-000008|revision=REV-000008",
+    "impacto_simulado": "bajo",
+    "estado_registro": "escalado"
+  },
+  {
+    "id_registro": "REG-000009",
+    "id_revision": "REV-000009",
+    "fecha_registro": "2026-05-09",
+    "decision": "aceptar",
+    "accion_posterior": "cerrar_revision",
+    "resumen_trazabilidad": "Registro derivado de origen=evento_negocio|id=EVT-000009|revision=REV-000009",
+    "impacto_simulado": "bajo",
+    "estado_registro": "pendiente"
+  },
+  {
+    "id_registro": "REG-000010",
+    "id_revision": "REV-000010",
+    "fecha_registro": "2026-05-09",
+    "decision": "solicitar_mas_informacion",
+    "accion_posterior": "mantener_observacion",
+    "resumen_trazabilidad": "Registro derivado de origen=evento_negocio|id=EVT-000010|revision=REV-000010",
+    "impacto_simulado": "bajo",
+    "estado_registro": "pendiente"
+  },
+  {
+    "id_registro": "REG-000011",
+    "id_revision": "REV-000011",
+    "fecha_registro": "2026-05-09",
+    "decision": "corregir",
+    "accion_posterior": "devolver_para_correccion",
+    "resumen_trazabilidad": "Registro derivado de origen=evento_negocio|id=EVT-000011|revision=REV-000011",
+    "impacto_simulado": "alto",
+    "estado_registro": "cerrado_simulado"
+  },
+  {
+    "id_registro": "REG-000012",
+    "id_revision": "REV-000012",
+    "fecha_registro": "2026-05-09",
+    "decision": "escalar",
+    "accion_posterior": "enviar_a_revision_senior",
+    "resumen_trazabilidad": "Registro derivado de origen=evento_negocio|id=EVT-000012|revision=REV-000012",
+    "impacto_simulado": "bajo",
+    "estado_registro": "escalado"
+  },
+  {
+    "id_registro": "REG-000013",
+    "id_revision": "REV-000013",
+    "fecha_registro": "2026-05-09",
+    "decision": "solicitar_mas_informacion",
+    "accion_posterior": "mantener_observacion",
+    "resumen_trazabilidad": "Registro derivado de origen=evento_negocio|id=EVT-000013|revision=REV-000013",
+    "impacto_simulado": "bajo",
+    "estado_registro": "registrado"
+  },
+  {
+    "id_registro": "REG-000014",
+    "id_revision": "REV-000014",
+    "fecha_registro": "2026-05-09",
+    "decision": "escalar",
+    "accion_posterior": "enviar_a_revision_senior",
+    "resumen_trazabilidad": "Registro derivado de origen=evento_negocio|id=EVT-000014|revision=REV-000014",
+    "impacto_simulado": "bajo",
+    "estado_registro": "escalado"
+  },
+  {
+    "id_registro": "REG-000015",
+    "id_revision": "REV-000015",
+    "fecha_registro": "2026-05-09",
+    "decision": "bloquear_accion",
+    "accion_posterior": "bloquear_automatizacion",
+    "resumen_trazabilidad": "Registro derivado de origen=evento_negocio|id=EVT-000015|revision=REV-000015",
+    "impacto_simulado": "alto",
+    "estado_registro": "pendiente"
+  },
+  {
+    "id_registro": "REG-000016",
+    "id_revision": "REV-000016",
+    "fecha_registro": "2026-05-09",
+    "decision": "rechazar",
+    "accion_posterior": "abrir_incidencia",
+    "resumen_trazabilidad": "Registro derivado de origen=evento_negocio|id=EVT-000016|revision=REV-000016",
+    "impacto_simulado": "bajo",
+    "estado_registro": "pendiente"
+  },
+  {
+    "id_registro": "REG-000017",
+    "id_revision": "REV-000017",
+    "fecha_registro": "2026-05-09",
+    "decision": "bloquear_accion",
+    "accion_posterior": "bloquear_automatizacion",
+    "resumen_trazabilidad": "Registro derivado de origen=evento_negocio|id=EVT-000017|revision=REV-000017",
+    "impacto_simulado": "medio",
+    "estado_registro": "pendiente"
+  },
+  {
+    "id_registro": "REG-000018",
+    "id_revision": "REV-000018",
+    "fecha_registro": "2026-05-09",
+    "decision": "aceptar",
+    "accion_posterior": "cerrar_revision",
+    "resumen_trazabilidad": "Registro derivado de origen=evento_negocio|id=EVT-000018|revision=REV-000018",
+    "impacto_simulado": "medio",
+    "estado_registro": "pendiente"
+  },
+  {
+    "id_registro": "REG-000019",
+    "id_revision": "REV-000019",
+    "fecha_registro": "2026-05-09",
+    "decision": "rechazar",
+    "accion_posterior": "abrir_incidencia",
+    "resumen_trazabilidad": "Registro derivado de origen=evento_negocio|id=EVT-000019|revision=REV-000019",
+    "impacto_simulado": "medio",
+    "estado_registro": "pendiente"
+  },
+  {
+    "id_registro": "REG-000020",
+    "id_revision": "REV-000020",
+    "fecha_registro": "2026-05-09",
+    "decision": "solicitar_mas_informacion",
+    "accion_posterior": "mantener_observacion",
+    "resumen_trazabilidad": "Registro derivado de origen=evento_negocio|id=EVT-000020|revision=REV-000020",
+    "impacto_simulado": "medio",
+    "estado_registro": "pendiente"
+  }
+]

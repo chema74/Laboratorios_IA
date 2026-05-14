@@ -1,0 +1,45 @@
+{
+  "total_revisiones": 20,
+  "revisiones_por_tipo_elemento": {
+    "evento_negocio": 20
+  },
+  "decisiones_por_tipo": {
+    "aceptar": 3,
+    "escalar": 8,
+    "corregir": 2,
+    "solicitar_mas_informacion": 3,
+    "bloquear_accion": 2,
+    "rechazar": 2
+  },
+  "acciones_posteriores": {
+    "cerrar_revision": 3,
+    "enviar_a_revision_senior": 8,
+    "devolver_para_correccion": 2,
+    "mantener_observacion": 3,
+    "bloquear_automatizacion": 2,
+    "abrir_incidencia": 2
+  },
+  "revisiones_que_requieren_segunda_revision": 13,
+  "roles_revisores": {
+    "responsable_datos": 3,
+    "direccion": 3,
+    "responsable_operaciones": 4,
+    "responsable_tecnico": 3,
+    "responsable_comercial": 3,
+    "responsable_privacidad": 4
+  },
+  "nivel_confianza_humana": {
+    "alta": 10,
+    "baja": 5,
+    "media": 5
+  },
+  "entradas_utilizadas": {
+    "entrada_eventos": "datos_ejemplo/eventos_negocio_demo/eventos_negocio.json",
+    "entrada_documentos": "datos_ejemplo/documentos_sinteticos_demo/indice_documentos.json",
+    "entrada_escenarios": "datos_ejemplo/escenarios_prueba_agentes_demo/escenarios_prueba_agentes.json",
+    "entrada_crisis": "datos_ejemplo/crisis_simuladas_demo/crisis_simuladas.json"
+  },
+  "advertencia_sobre_revision_simulada": "Este resultado corresponde a una revisión sintética, no humana real.",
+  "advertencia_sobre_no_validacion_profesional_real": "No constituye validación profesional real ni cumplimiento operativo real.",
+  "total_registros_decision": 20
+}

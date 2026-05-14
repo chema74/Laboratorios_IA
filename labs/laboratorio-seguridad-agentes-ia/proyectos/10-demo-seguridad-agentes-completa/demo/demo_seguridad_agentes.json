@@ -1,0 +1,74 @@
+{
+  "fecha_generacion": "2026-05-10T21:01:47",
+  "laboratorio": "Laboratorio Defensivo de Agentes IA - Demo V1",
+  "modo": "local-simulado-defensivo",
+  "cadena_defensiva": [
+    "inventario de riesgos",
+    "simulación defensiva",
+    "detección de entradas",
+    "clasificación de sensibilidad",
+    "control de herramientas",
+    "políticas de uso",
+    "trazabilidad de incidentes",
+    "matriz de riesgo",
+    "informe defensivo",
+    "demo final"
+  ],
+  "riesgos_identificados": [
+    "prompt injection simulada",
+    "fuga de datos sintéticos",
+    "uso indebido de herramienta simulada"
+  ],
+  "controles_aplicados": [
+    "revision_humana_obligatoria",
+    "trazabilidad_decisiones",
+    "bloqueo_herramienta_restringida"
+  ],
+  "incidentes_simulados": [
+    "TI-001",
+    "TI-002",
+    "TI-003"
+  ],
+  "politicas_activadas": [
+    "P-002",
+    "P-006",
+    "P-007"
+  ],
+  "decisiones_defensivas": [
+    "bloquear",
+    "revisar",
+    "permitir_controlado"
+  ],
+  "evidencias_generadas": [
+    "EVI-TI-001",
+    "EVI-TI-002",
+    "EVI-TI-003"
+  ],
+  "recomendaciones": [
+    "Ampliar trazabilidad",
+    "Reducir superficie de riesgo",
+    "Mantener revisión humana"
+  ],
+  "limites": [
+    "sin explotación",
+    "sin red",
+    "sin servicios externos"
+  ],
+  "modulos_referenciados": [
+    "01-inventario-riesgos-agentes",
+    "02-simulador-prompt-injection-defensivo",
+    "03-detector-entradas-riesgo",
+    "04-clasificador-datos-sensibles-sinteticos",
+    "05-control-herramientas-simuladas",
+    "06-politicas-uso-agente",
+    "07-trazabilidad-incidentes-simulados",
+    "08-matriz-riesgo-seguridad-agente",
+    "09-informe-defensivo-seguridad-agente",
+    "10-demo-seguridad-agentes-completa"
+  ],
+  "usa_datos_reales": false,
+  "usa_ia_real": false,
+  "usa_api_externa": false,
+  "usa_cloud": false,
+  "usa_herramienta_real": false
+}

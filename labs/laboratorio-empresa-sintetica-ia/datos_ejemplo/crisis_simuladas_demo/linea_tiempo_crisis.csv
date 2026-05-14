@@ -1,0 +1,24 @@
+fecha,id_crisis,tipo_hito,descripcion,impacto_estimado,decision_pendiente,requiere_revision_humana
+2026-05-10,CRS-00001,contencion,Hito simulado 1 de la crisis CRS-00001.,3260.94,generar_informe,True
+2026-05-11,CRS-00001,revision,Hito simulado 2 de la crisis CRS-00001.,4454.75,revisar_permisos,True
+2026-05-12,CRS-00001,contencion,Hito simulado 3 de la crisis CRS-00001.,4381.63,priorizar_clientes_en_riesgo,True
+2026-05-10,CRS-00002,revision,Hito simulado 1 de la crisis CRS-00002.,5673.23,bloquear_accion_automatica,True
+2026-05-11,CRS-00002,revision,Hito simulado 2 de la crisis CRS-00002.,305.09,activar_plan_contingencia_simulado,True
+2026-05-12,CRS-00002,revision,Hito simulado 3 de la crisis CRS-00002.,2377.39,escalar_a_humano,True
+2026-05-13,CRS-00002,seguimiento,Hito simulado 4 de la crisis CRS-00002.,4700.49,auditar_eventos,True
+2026-05-12,CRS-00003,contencion,Hito simulado 1 de la crisis CRS-00003.,4118.03,generar_informe,False
+2026-05-13,CRS-00003,deteccion,Hito simulado 2 de la crisis CRS-00003.,2947.55,bloquear_accion_automatica,False
+2026-05-14,CRS-00003,deteccion,Hito simulado 3 de la crisis CRS-00003.,1650.71,auditar_eventos,False
+2026-05-18,CRS-00004,seguimiento,Hito simulado 1 de la crisis CRS-00004.,7241.43,revisar_permisos,True
+2026-05-19,CRS-00004,revision,Hito simulado 2 de la crisis CRS-00004.,4681.07,revisar_datos,True
+2026-05-20,CRS-00004,deteccion,Hito simulado 3 de la crisis CRS-00004.,6780.31,generar_informe,True
+2026-05-21,CRS-00004,deteccion,Hito simulado 4 de la crisis CRS-00004.,4137.41,generar_informe,True
+2026-05-22,CRS-00004,deteccion,Hito simulado 5 de la crisis CRS-00004.,4585.07,generar_informe,True
+2026-05-23,CRS-00004,revision,Hito simulado 6 de la crisis CRS-00004.,4908.01,generar_informe,True
+2026-05-24,CRS-00004,contencion,Hito simulado 7 de la crisis CRS-00004.,7263.53,bloquear_accion_automatica,True
+2026-05-11,CRS-00005,seguimiento,Hito simulado 1 de la crisis CRS-00005.,2094.19,generar_informe,True
+2026-05-12,CRS-00005,contencion,Hito simulado 2 de la crisis CRS-00005.,504.31,generar_informe,True
+2026-05-13,CRS-00005,contencion,Hito simulado 3 de la crisis CRS-00005.,2672.29,bloquear_accion_automatica,True
+2026-05-14,CRS-00005,revision,Hito simulado 4 de la crisis CRS-00005.,6692.03,activar_plan_contingencia_simulado,True
+2026-05-15,CRS-00005,seguimiento,Hito simulado 5 de la crisis CRS-00005.,5084.95,revisar_permisos,True
+2026-05-16,CRS-00005,seguimiento,Hito simulado 6 de la crisis CRS-00005.,5155.35,revisar_permisos,True

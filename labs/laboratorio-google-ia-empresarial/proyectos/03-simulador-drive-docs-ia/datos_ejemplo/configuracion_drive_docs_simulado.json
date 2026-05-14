@@ -1,0 +1,28 @@
+﻿{
+  "tipos_documento_permitidos": [
+    "propuesta comercial ficticia",
+    "acta de reunión ficticia",
+    "contrato simulado",
+    "informe operativo simulado",
+    "política interna ficticia",
+    "ticket de soporte simulado",
+    "expediente de cliente sintético",
+    "documento de onboarding ficticio"
+  ],
+  "carpetas_simuladas": ["comercial", "operaciones", "legal", "rrhh", "soporte", "clientes_sinteticos"],
+  "acciones_ia_simuladas": ["resumir", "etiquetar", "resumir_y_etiquetar", "detectar_riesgos", "resumir_y_revision"],
+  "reglas_resumen": {"max_palabras": 18},
+  "reglas_etiquetado": {"palabras_clave": ["contrato", "propuesta", "incidencia", "politica", "informe", "onboarding", "cliente"]},
+  "reglas_sensibilidad": {"alta": ["contrato", "política", "cliente"], "media": ["propuesta", "informe", "ticket"], "baja": ["acta", "onboarding"]},
+  "reglas_revision_humana": {"tipos_criticos": ["contrato simulado", "política interna ficticia", "expediente de cliente sintético"]},
+  "permisos_simulados_permitidos": [
+    "lectura_equipo_comercial",
+    "lectura_equipo_operaciones",
+    "acceso_restringido_legal",
+    "acceso_restringido_rrhh",
+    "lectura_equipo_soporte",
+    "acceso_restringido_cuentas",
+    "lectura_equipo_rrhh"
+  ],
+  "nota": "Simulación local: no usa Drive real, Docs real, OAuth real, APIs reales, Google Cloud, IA real ni datos reales."
+}

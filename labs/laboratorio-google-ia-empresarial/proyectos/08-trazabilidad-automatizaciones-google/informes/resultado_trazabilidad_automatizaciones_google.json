@@ -1,0 +1,149 @@
+{
+  "fecha_generacion": "2026-05-11T09:03:34",
+  "total_automatizaciones": 6,
+  "trazas_generadas": [
+    "TRZ-aut-001-20260511",
+    "TRZ-aut-002-20260511",
+    "TRZ-aut-003-20260511",
+    "TRZ-aut-004-20260511",
+    "TRZ-aut-005-20260511",
+    "TRZ-aut-006-20260511"
+  ],
+  "distribucion_origen": {
+    "gmail": 1,
+    "docs": 1,
+    "sheets": 1,
+    "calendar": 1,
+    "gemini_fallback": 1,
+    "apps_script_conceptual": 1
+  },
+  "distribucion_estado": {
+    "completada": 4,
+    "parcial": 1,
+    "error_controlado": 1
+  },
+  "distribucion_sensibilidad": {
+    "media/baja": 3,
+    "alta": 3
+  },
+  "revision_requerida": [
+    "aut-002",
+    "aut-003",
+    "aut-005"
+  ],
+  "trazabilidad_insuficiente": [
+    "aut-003"
+  ],
+  "evidencias_generadas": [
+    "aut-001",
+    "aut-002",
+    "aut-004",
+    "aut-005",
+    "aut-006"
+  ],
+  "nota": "Simulación local: no usa Google real, OAuth real, APIs reales, Google Cloud, IA real ni datos reales.",
+  "resultados": [
+    {
+      "id_automatizacion": "aut-001",
+      "id_traza": "TRZ-aut-001-20260511",
+      "hash_simulado": "d78f073b3332cce8",
+      "origen_simulado": "gmail",
+      "accion_simulada": "etiquetar",
+      "estado_ejecucion": "completada",
+      "trazabilidad_suficiente": true,
+      "evidencia_generada": "si",
+      "requiere_revision": false,
+      "registro_generado": "proyectos\\08-trazabilidad-automatizaciones-google\\registros\\aut-001.json",
+      "usa_google_real": false,
+      "usa_oauth_real": false,
+      "usa_api_externa": false,
+      "usa_cloud": false,
+      "usa_ia_real": false
+    },
+    {
+      "id_automatizacion": "aut-002",
+      "id_traza": "TRZ-aut-002-20260511",
+      "hash_simulado": "02b3130619e77c5d",
+      "origen_simulado": "docs",
+      "accion_simulada": "resumir",
+      "estado_ejecucion": "completada",
+      "trazabilidad_suficiente": true,
+      "evidencia_generada": "si",
+      "requiere_revision": true,
+      "registro_generado": "proyectos\\08-trazabilidad-automatizaciones-google\\registros\\aut-002.json",
+      "usa_google_real": false,
+      "usa_oauth_real": false,
+      "usa_api_externa": false,
+      "usa_cloud": false,
+      "usa_ia_real": false
+    },
+    {
+      "id_automatizacion": "aut-003",
+      "id_traza": "TRZ-aut-003-20260511",
+      "hash_simulado": "2d3b25cec41e4ede",
+      "origen_simulado": "sheets",
+      "accion_simulada": "calcular_kpi",
+      "estado_ejecucion": "parcial",
+      "trazabilidad_suficiente": false,
+      "evidencia_generada": "no",
+      "requiere_revision": true,
+      "registro_generado": "proyectos\\08-trazabilidad-automatizaciones-google\\registros\\aut-003.json",
+      "usa_google_real": false,
+      "usa_oauth_real": false,
+      "usa_api_externa": false,
+      "usa_cloud": false,
+      "usa_ia_real": false
+    },
+    {
+      "id_automatizacion": "aut-004",
+      "id_traza": "TRZ-aut-004-20260511",
+      "hash_simulado": "dc396872753fd6a6",
+      "origen_simulado": "calendar",
+      "accion_simulada": "crear_recordatorio",
+      "estado_ejecucion": "completada",
+      "trazabilidad_suficiente": true,
+      "evidencia_generada": "si",
+      "requiere_revision": false,
+      "registro_generado": "proyectos\\08-trazabilidad-automatizaciones-google\\registros\\aut-004.json",
+      "usa_google_real": false,
+      "usa_oauth_real": false,
+      "usa_api_externa": false,
+      "usa_cloud": false,
+      "usa_ia_real": false
+    },
+    {
+      "id_automatizacion": "aut-005",
+      "id_traza": "TRZ-aut-005-20260511",
+      "hash_simulado": "e30605c64c9ed37c",
+      "origen_simulado": "gemini_fallback",
+      "accion_simulada": "responder_local",
+      "estado_ejecucion": "error_controlado",
+      "trazabilidad_suficiente": true,
+      "evidencia_generada": "si",
+      "requiere_revision": true,
+      "registro_generado": "proyectos\\08-trazabilidad-automatizaciones-google\\registros\\aut-005.json",
+      "usa_google_real": false,
+      "usa_oauth_real": false,
+      "usa_api_externa": false,
+      "usa_cloud": false,
+      "usa_ia_real": false
+    },
+    {
+      "id_automatizacion": "aut-006",
+      "id_traza": "TRZ-aut-006-20260511",
+      "hash_simulado": "5d6ed742a5b3d341",
+      "origen_simulado": "apps_script_conceptual",
+      "accion_simulada": "generar_bitacora",
+      "estado_ejecucion": "completada",
+      "trazabilidad_suficiente": true,
+      "evidencia_generada": "si",
+      "requiere_revision": false,
+      "registro_generado": "proyectos\\08-trazabilidad-automatizaciones-google\\registros\\aut-006.json",
+      "usa_google_real": false,
+      "usa_oauth_real": false,
+      "usa_api_externa": false,
+      "usa_cloud": false,
+      "usa_ia_real": false
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id_solicitud": "gem-006",
+  "tipo_solicitud": "generación de respuesta empresarial simulada",
+  "modo_ejecucion": "fallback-local",
+  "respuesta_simulada": "[FALLBACK-LOCAL] Respuesta simulada para generación de respuesta empresarial simulada: Correo comercial simulado.",
+  "razon_fallback": "sin_oauth_sin_api",
+  "trazabilidad_fallback": "fallback_local::gem-006::sin_oauth_sin_api",
+  "registro_generado": "",
+  "usa_gemini_real": false,
+  "usa_api_externa": false,
+  "usa_cloud": false,
+  "usa_ia_real": false
+}

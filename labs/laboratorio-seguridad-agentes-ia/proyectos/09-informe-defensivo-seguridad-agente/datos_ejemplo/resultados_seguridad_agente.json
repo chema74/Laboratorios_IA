@@ -1,0 +1,12 @@
+{
+  "inventario_riesgos": {"puntuacion": 3.8, "riesgos_criticos": 1, "usa_datos_reales": false, "usa_ia_real": false, "usa_api_externa": false, "usa_cloud": false, "usa_herramienta_real": false, "nota_sintetica": "Datos agregados sintéticos."},
+  "simulacion_prompt_injection": {"puntuacion": 3.5, "casos_bloqueados": 2, "usa_datos_reales": false, "usa_ia_real": false, "usa_api_externa": false, "usa_cloud": false, "usa_herramienta_real": false, "nota_sintetica": "Entradas no accionables."},
+  "detector_entradas_riesgo": {"puntuacion": 3.6, "entradas_revisar": 2, "usa_datos_reales": false, "usa_ia_real": false, "usa_api_externa": false, "usa_cloud": false, "usa_herramienta_real": false, "nota_sintetica": "Clasificación local."},
+  "clasificacion_sensibilidad": {"puntuacion": 3.7, "sensibilidades_altas": 2, "usa_datos_reales": false, "usa_ia_real": false, "usa_api_externa": false, "usa_cloud": false, "usa_herramienta_real": false, "nota_sintetica": "Placeholders ficticios."},
+  "control_herramientas": {"puntuacion": 3.9, "bloqueos": 2, "usa_datos_reales": false, "usa_ia_real": false, "usa_api_externa": false, "usa_cloud": false, "usa_herramienta_real": false, "nota_sintetica": "Herramientas simuladas."},
+  "politicas_uso": {"puntuacion": 3.6, "incumplimientos": 1, "usa_datos_reales": false, "usa_ia_real": false, "usa_api_externa": false, "usa_cloud": false, "usa_herramienta_real": false, "nota_sintetica": "Políticas internas ficticias."},
+  "trazabilidad_incidentes": {"puntuacion": 3.4, "trazabilidad_debil": 1, "usa_datos_reales": false, "usa_ia_real": false, "usa_api_externa": false, "usa_cloud": false, "usa_herramienta_real": false, "nota_sintetica": "Evidencias locales."},
+  "matriz_riesgo": {"puntuacion": 3.8, "criticos": 1, "usa_datos_reales": false, "usa_ia_real": false, "usa_api_externa": false, "usa_cloud": false, "usa_herramienta_real": false, "nota_sintetica": "Matriz local."},
+  "controles_aplicados": ["revision_humana_obligatoria", "trazabilidad_decisiones", "bloqueo_herramienta_restringida"],
+  "recomendaciones_defensivas": ["Reforzar revisión humana", "Ampliar trazabilidad", "Reducir brechas de controles"]
+}

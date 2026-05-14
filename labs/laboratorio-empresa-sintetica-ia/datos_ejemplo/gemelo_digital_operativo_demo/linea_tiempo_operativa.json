@@ -1,0 +1,92 @@
+[
+  {
+    "fecha": "2026-05-09",
+    "tipo_hito": "decision_emitida",
+    "descripcion": "Hito operativo simulado asociado a ALT-00001.",
+    "area_afectada": "finanzas",
+    "severidad": "critica",
+    "decision_relacionada": "DEC-00001",
+    "requiere_revision_humana": true
+  },
+  {
+    "fecha": "2026-05-10",
+    "tipo_hito": "seguimiento",
+    "descripcion": "Hito operativo simulado asociado a ALT-00002.",
+    "area_afectada": "operaciones",
+    "severidad": "media",
+    "decision_relacionada": "DEC-00002",
+    "requiere_revision_humana": false
+  },
+  {
+    "fecha": "2026-05-11",
+    "tipo_hito": "seguimiento",
+    "descripcion": "Hito operativo simulado asociado a ALT-00003.",
+    "area_afectada": "direccion",
+    "severidad": "alta",
+    "decision_relacionada": "DEC-00003",
+    "requiere_revision_humana": true
+  },
+  {
+    "fecha": "2026-05-12",
+    "tipo_hito": "seguimiento",
+    "descripcion": "Hito operativo simulado asociado a ALT-00004.",
+    "area_afectada": "privacidad",
+    "severidad": "alta",
+    "decision_relacionada": "DEC-00004",
+    "requiere_revision_humana": true
+  },
+  {
+    "fecha": "2026-05-13",
+    "tipo_hito": "seguimiento",
+    "descripcion": "Hito operativo simulado asociado a ALT-00001.",
+    "area_afectada": "finanzas",
+    "severidad": "critica",
+    "decision_relacionada": "DEC-00001",
+    "requiere_revision_humana": true
+  },
+  {
+    "fecha": "2026-05-14",
+    "tipo_hito": "seguimiento",
+    "descripcion": "Hito operativo simulado asociado a ALT-00002.",
+    "area_afectada": "operaciones",
+    "severidad": "media",
+    "decision_relacionada": "DEC-00002",
+    "requiere_revision_humana": false
+  },
+  {
+    "fecha": "2026-05-15",
+    "tipo_hito": "seguimiento",
+    "descripcion": "Hito operativo simulado asociado a ALT-00003.",
+    "area_afectada": "direccion",
+    "severidad": "alta",
+    "decision_relacionada": "DEC-00003",
+    "requiere_revision_humana": true
+  },
+  {
+    "fecha": "2026-05-16",
+    "tipo_hito": "revision_programada",
+    "descripcion": "Hito operativo simulado asociado a ALT-00004.",
+    "area_afectada": "privacidad",
+    "severidad": "alta",
+    "decision_relacionada": "DEC-00004",
+    "requiere_revision_humana": true
+  },
+  {
+    "fecha": "2026-05-17",
+    "tipo_hito": "revision_programada",
+    "descripcion": "Hito operativo simulado asociado a ALT-00001.",
+    "area_afectada": "finanzas",
+    "severidad": "critica",
+    "decision_relacionada": "DEC-00001",
+    "requiere_revision_humana": true
+  },
+  {
+    "fecha": "2026-05-18",
+    "tipo_hito": "decision_emitida",
+    "descripcion": "Hito operativo simulado asociado a ALT-00002.",
+    "area_afectada": "operaciones",
+    "severidad": "media",
+    "decision_relacionada": "DEC-00002",
+    "requiere_revision_humana": false
+  }
+]

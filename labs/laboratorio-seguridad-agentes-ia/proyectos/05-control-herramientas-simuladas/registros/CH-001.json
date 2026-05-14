@@ -1,0 +1,19 @@
+{
+  "id_solicitud": "CH-001",
+  "herramienta_simulada": "lector_documentos_simulado",
+  "accion_solicitada": "leer",
+  "decision_defensiva": "revisar",
+  "motivo_decision": "Contexto de alta sensibilidad o revisión explícita.",
+  "controles_aplicados": [
+    "revision_humana_obligatoria",
+    "trazabilidad_registro"
+  ],
+  "requiere_revision_humana": true,
+  "registro_generado": "proyectos/05-control-herramientas-simuladas/registros/CH-001.json",
+  "recomendacion": "Mantener trazabilidad y revisión de casos sensibles.",
+  "usa_herramienta_real": false,
+  "ejecuta_comando_real": false,
+  "usa_ia_real": false,
+  "usa_api_externa": false,
+  "usa_cloud": false
+}

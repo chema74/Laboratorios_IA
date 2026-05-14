@@ -1,0 +1,39 @@
+{
+  "categorias_permitidas": [
+    "intento simulado de ignorar política",
+    "intento simulado de revelar secreto ficticio",
+    "intento simulado de usar herramienta no permitida",
+    "intento simulado de cambiar rol del agente",
+    "intento simulado de saltar revisión humana",
+    "intento simulado de mezclar instrucciones externas",
+    "intento simulado de extraer datos sintéticos",
+    "intento simulado de respuesta fuera de alcance"
+  ],
+  "politicas_defensivas": {
+    "bloqueo_instruccion_conflictiva": "Bloquea instrucciones sintéticas que contradicen política interna ficticia.",
+    "proteccion_datos_sinteticos": "Impide revelar contenido marcado como [DATOS_SINTETICOS] o [SECRETO_FICTICIO].",
+    "control_herramientas_permitidas": "Restringe uso de [HERRAMIENTA_SIMULADA] fuera de lista permitida.",
+    "escalado_revision_humana": "Escala casos de alta criticidad a revisión humana obligatoria."
+  },
+  "severidades_permitidas": ["baja", "media", "alta", "critica"],
+  "controles_recomendados": [
+    "filtro_politicas",
+    "trazabilidad_decisiones",
+    "mascarado_salida",
+    "clasificacion_sensibilidad",
+    "lista_permitidos_herramientas",
+    "autorizacion_por_politica",
+    "revision_humana_obligatoria"
+  ],
+  "reglas_clasificacion_defensiva": {
+    "intento simulado de ignorar política": "incumplimiento de política interna simulada",
+    "intento simulado de revelar secreto ficticio": "fuga de datos sintéticos",
+    "intento simulado de usar herramienta no permitida": "herramienta simulada mal usada",
+    "intento simulado de cambiar rol del agente": "exceso de permisos ficticio",
+    "intento simulado de saltar revisión humana": "ausencia de revisión humana",
+    "intento simulado de mezclar instrucciones externas": "prompt injection simulada",
+    "intento simulado de extraer datos sintéticos": "exposición de información inventada",
+    "intento simulado de respuesta fuera de alcance": "respuesta insegura simulada"
+  },
+  "nota_alcance": "Sin ataques reales, sin explotación, sin IA real, sin APIs externas, sin cloud y sin datos reales."
+}

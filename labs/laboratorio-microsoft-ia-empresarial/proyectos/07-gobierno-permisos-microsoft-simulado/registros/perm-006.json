@@ -1,0 +1,17 @@
+{
+  "id_permiso": "perm-006",
+  "usuario_ficticio": "pablo.demo@empresa-sintetica.local",
+  "recurso_simulado": "Entorno Power Platform Futuro",
+  "permiso_asignado": "propietario_simulado",
+  "riesgo_detectado": "alto",
+  "decision_gobierno": "revocar",
+  "motivo_decision": "Permiso amplio en recurso sensible con riesgo alto.",
+  "accion_recomendada": "Revocar permiso por exceso de riesgo.",
+  "registro_generado": "",
+  "usa_microsoft_real": false,
+  "usa_microsoft_graph_real": false,
+  "usa_oauth_real": false,
+  "usa_api_externa": false,
+  "usa_azure": false,
+  "usa_ia_real": false
+}

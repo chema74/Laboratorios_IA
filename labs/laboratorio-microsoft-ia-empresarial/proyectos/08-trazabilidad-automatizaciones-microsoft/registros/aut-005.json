@@ -1,0 +1,18 @@
+{
+  "id_automatizacion": "aut-005",
+  "id_traza": "TRZ-aut-005-a9d47e31",
+  "hash_simulado": "a9d47e31c43f46be4889539f37ea71b1e3b4bfb8121b1e97de9c93af1722ec9b",
+  "origen_simulado": "copilot_fallback",
+  "accion_simulada": "Respuesta determinista local",
+  "estado_ejecucion": "completada",
+  "trazabilidad_suficiente": true,
+  "evidencia_generada": true,
+  "requiere_revision": false,
+  "registro_generado": "",
+  "usa_microsoft_real": false,
+  "usa_microsoft_graph_real": false,
+  "usa_oauth_real": false,
+  "usa_api_externa": false,
+  "usa_azure": false,
+  "usa_ia_real": false
+}

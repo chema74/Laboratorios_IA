@@ -1,0 +1,1 @@
+﻿# Sin dependencias obligatorias en V1 documental (local-first, sin código funcional).

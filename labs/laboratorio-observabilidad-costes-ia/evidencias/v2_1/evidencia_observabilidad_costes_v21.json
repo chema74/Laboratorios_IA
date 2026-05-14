@@ -1,0 +1,103 @@
+{
+  "escenario": "uso_normal_controlado",
+  "modo": "groq",
+  "timestamp_generacion": "2026-05-13T11:45:41Z",
+  "resumen_ejecutivo": "{\"total_eventos\": 3, \"coste_total_estimado\": 0.037, \"coste_promedio_por_evento\": 0.0123, \"latencia_media_ms\": 620, \"tasa_errores\": 0.0, \"eventos_riesgo\": 0}",
+  "metricas_agregadas": {
+    "total_eventos": 3,
+    "coste_total_estimado": 0.037,
+    "coste_por_caso_uso": {
+      "atencion_cliente": 0.012,
+      "cumplimiento": 0.015,
+      "soporte_tic": 0.01
+    },
+    "tokens_totales": 2230,
+    "latencia_media_ms": 620,
+    "tasa_errores": 0.0,
+    "eventos_riesgo": 0,
+    "proveedores_mas_usados": {
+      "local": 3
+    },
+    "modelos_mas_usados": {
+      "llama-3.1-8b": 3
+    },
+    "alertas": [],
+    "recomendaciones_operativas": [
+      "Operación estable en la muestra. Mantener monitorización diaria."
+    ]
+  },
+  "eventos_analizados": [
+    {
+      "id_evento": "N-001",
+      "caso_uso": "atencion_cliente",
+      "modelo": "llama-3.1-8b",
+      "proveedor": "local",
+      "tokens_entrada": 500,
+      "tokens_salida": 220,
+      "latencia_ms": 620,
+      "coste_estimado_eur": 0.012,
+      "estado": "ok",
+      "riesgo": "bajo",
+      "equipo": "cx",
+      "usuario": "ana",
+      "timestamp": "2026-05-12T08:01:00Z",
+      "trazabilidad": "trace-N-001"
+    },
+    {
+      "id_evento": "N-002",
+      "caso_uso": "soporte_tic",
+      "modelo": "llama-3.1-8b",
+      "proveedor": "local",
+      "tokens_entrada": 420,
+      "tokens_salida": 180,
+      "latencia_ms": 540,
+      "coste_estimado_eur": 0.01,
+      "estado": "ok",
+      "riesgo": "bajo",
+      "equipo": "it",
+      "usuario": "luis",
+      "timestamp": "2026-05-12T08:02:00Z",
+      "trazabilidad": "trace-N-002"
+    },
+    {
+      "id_evento": "N-003",
+      "caso_uso": "cumplimiento",
+      "modelo": "llama-3.1-8b",
+      "proveedor": "local",
+      "tokens_entrada": 650,
+      "tokens_salida": 260,
+      "latencia_ms": 700,
+      "coste_estimado_eur": 0.015,
+      "estado": "ok",
+      "riesgo": "medio",
+      "equipo": "legal",
+      "usuario": "eva",
+      "timestamp": "2026-05-12T08:03:00Z",
+      "trazabilidad": "trace-N-003"
+    }
+  ],
+  "alertas": [],
+  "recomendaciones": {
+    "coste": [
+      "Revisar el uso de modelos 'llama-3.1-8b' para reducir costos",
+      "Considerar la implementación de modelos más eficientes",
+      "Revisar la configuración de los proveedores para optimizar costos"
+    ],
+    "operacion": [
+      "Operación estable en la muestra. Mantener monitorización diaria.",
+      "Revisar la configuración de los equipos para optimizar rendimiento",
+      "Revisar la configuración de los usuarios para optimizar acceso"
+    ],
+    "gobernanza": [
+      "No se han detectado alertas de gobernanza y uso responsable en la muestra"
+    ]
+  },
+  "diagnostico_groq": {
+    "solicitado": true,
+    "estado": "ok",
+    "categoria": "groq_ok",
+    "http_status": 200,
+    "modelo_usado": "llama-3.1-8b-instant",
+    "mensaje_seguro": "Análisis generado correctamente mediante Groq."
+  }
+}

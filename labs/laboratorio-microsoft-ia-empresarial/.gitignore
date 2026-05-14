@@ -1,0 +1,46 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Entornos
+.venv/
+venv/
+env/
+ENV/
+
+# Herramientas y cachés
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Variables y secretos
+.env
+.env.*
+*.secret
+*.secrets
+*.key
+*.pem
+*.pfx
+
+# Logs y salidas
+*.log
+logs/
+output/
+out/
+reports/
+
+# Temporales y datos locales
+tmp/
+temp/
+*.tmp
+*.bak
+local_data/
+synthetic_runs/
+
+# Artefactos de sistema
+.DS_Store
+Thumbs.db

@@ -1,0 +1,8 @@
+id_proceso_comparado,nombre_proceso,descripcion,contexto_utilizado,criticidad,requiere_revision_humana,riesgo_operativo_simulado,origen_simulado
+PRC-00001,revision_reclamacion_cliente,Revisión de reclamación de cliente con evidencia disponible.,"empresa,eventos,documentos,escenarios,crisis,revisiones,privacidad",alta,True,alto,comparador_agente_proceso_v1_local
+PRC-00002,gestion_pago_pendiente,Gestión operativa de pago pendiente con validación de estado.,"empresa,eventos,documentos,escenarios,crisis,revisiones,privacidad",media,True,medio,comparador_agente_proceso_v1_local
+PRC-00003,priorizacion_ticket_soporte,Priorización de ticket de soporte según impacto y urgencia.,"empresa,eventos,documentos,escenarios,crisis,revisiones,privacidad",media,False,medio,comparador_agente_proceso_v1_local
+PRC-00004,revision_documento_sensible,Revisión de documento sintético con sensibilidad ficticia.,"empresa,eventos,documentos,escenarios,crisis,revisiones,privacidad",critica,True,alto,comparador_agente_proceso_v1_local
+PRC-00005,respuesta_a_crisis_operativa,Respuesta inicial a crisis sintética en curso.,"empresa,eventos,documentos,escenarios,crisis,revisiones,privacidad",critica,True,alto,comparador_agente_proceso_v1_local
+PRC-00006,analisis_alerta_privacidad,Análisis de alerta sintética de privacidad y acceso.,"empresa,eventos,documentos,escenarios,crisis,revisiones,privacidad",alta,True,alto,comparador_agente_proceso_v1_local
+PRC-00007,resumen_estado_operativo,Resumen sintético de estado operativo para seguimiento interno.,"empresa,eventos,documentos,escenarios,crisis,revisiones,privacidad",baja,False,medio,comparador_agente_proceso_v1_local

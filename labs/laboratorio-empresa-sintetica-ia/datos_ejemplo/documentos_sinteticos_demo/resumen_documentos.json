@@ -1,0 +1,24 @@
+{
+  "total_documentos": 21,
+  "documentos_por_tipo": {
+    "propuesta_comercial": 3,
+    "contrato_simulado": 3,
+    "correo_cliente": 3,
+    "acta_reunion": 3,
+    "informe_operativo": 3,
+    "ticket_soporte": 3,
+    "politica_interna": 3
+  },
+  "documentos_que_requieren_revision_humana": 11,
+  "niveles_sensibilidad_ficticia": {
+    "alto": 9,
+    "bajo": 6,
+    "medio": 6
+  },
+  "fecha_generacion": "2026-05-09",
+  "entradas_utilizadas": {
+    "entrada_empresa": "datos_ejemplo/empresa_sintetica_demo/empresa_sintetica.json",
+    "entrada_eventos": "datos_ejemplo/eventos_negocio_demo/eventos_negocio.json"
+  },
+  "advertencia_sobre_datos_sinteticos": "Contenido sintético para pruebas internas. No usar como documento real."
+}

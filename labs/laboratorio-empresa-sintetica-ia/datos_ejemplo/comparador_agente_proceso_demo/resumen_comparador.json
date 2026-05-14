@@ -1,0 +1,61 @@
+{
+  "fecha_generacion": "2026-05-09",
+  "total_procesos_comparados": 7,
+  "flujos_evaluados": [
+    "manual",
+    "automatizado_clasico",
+    "asistido_por_agente"
+  ],
+  "promedio_tiempo_por_flujo": {
+    "manual": 55.49,
+    "automatizado_clasico": 30.78,
+    "asistido_por_agente": 21.73
+  },
+  "errores_simulados_por_flujo": {
+    "manual": 25,
+    "automatizado_clasico": 21,
+    "asistido_por_agente": 15
+  },
+  "trazabilidad_por_flujo": {
+    "manual::media": 7,
+    "automatizado_clasico::alta": 7,
+    "asistido_por_agente::alta": 7
+  },
+  "consistencia_por_flujo": {
+    "manual::media": 7,
+    "automatizado_clasico::alta": 7,
+    "asistido_por_agente::media": 7
+  },
+  "carga_revision_humana_por_flujo": {
+    "manual::alta": 7,
+    "automatizado_clasico::media": 7,
+    "asistido_por_agente::media": 7
+  },
+  "riesgo_residual_por_flujo": {
+    "manual::medio": 7,
+    "automatizado_clasico::medio": 7,
+    "asistido_por_agente::alto": 7
+  },
+  "recomendaciones_por_tipo": {
+    "hibrido_con_revision_humana": 3,
+    "asistido_por_agente": 2,
+    "no_recomendado_automatizar": 2
+  },
+  "entradas_utilizadas": {
+    "entrada_empresa": "datos_ejemplo/empresa_sintetica_demo/empresa_sintetica.json",
+    "entrada_eventos": "datos_ejemplo/eventos_negocio_demo/eventos_negocio.json",
+    "entrada_documentos": "datos_ejemplo/documentos_sinteticos_demo/indice_documentos.json",
+    "entrada_escenarios": "datos_ejemplo/escenarios_prueba_agentes_demo/escenarios_prueba_agentes.json",
+    "entrada_crisis": "datos_ejemplo/crisis_simuladas_demo/crisis_simuladas.json",
+    "entrada_revisiones": "datos_ejemplo/revision_humana_demo/revisiones_humanas.json",
+    "entrada_registro_decisiones": "datos_ejemplo/revision_humana_demo/registro_decisiones.json",
+    "entrada_estado_operativo": "datos_ejemplo/gemelo_digital_operativo_demo/estado_operativo.json",
+    "entrada_alertas": "datos_ejemplo/gemelo_digital_operativo_demo/alertas_operativas.json",
+    "entrada_decisiones": "datos_ejemplo/gemelo_digital_operativo_demo/decisiones_simuladas.json",
+    "entrada_inventario_privacidad": "datos_ejemplo/privacidad_datos_sinteticos_demo/inventario_datos_sinteticos.json",
+    "entrada_riesgos_privacidad": "datos_ejemplo/privacidad_datos_sinteticos_demo/riesgos_privacidad_simulados.json"
+  },
+  "advertencia_sobre_datos_sinteticos": "Resultados sintéticos sobre datos ficticios.",
+  "advertencia_sobre_no_benchmark_real": "No usar como benchmark real ni como medición empresarial real.",
+  "advertencia_sobre_no_ejecucion_de_agentes": "No se ejecutan agentes reales; flujo asistido es simulado."
+}

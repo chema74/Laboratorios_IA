@@ -1,0 +1,17 @@
+{
+  "id_correo": "mail-004",
+  "categoria_detectada": "finanzas",
+  "prioridad_detectada": "media",
+  "requiere_respuesta": true,
+  "requiere_tarea": false,
+  "respuesta_sugerida_simulada": "[SIMULADO] mail-004 (finanzas): Responder en un plazo de 24h simuladas. Sin Gmail real ni IA real.",
+  "tarea_sugerida_simulada": "",
+  "sensibilidad_detectada": "media",
+  "accion_recomendada": "responder",
+  "registro_generado": "",
+  "usa_gmail_real": false,
+  "usa_oauth_real": false,
+  "usa_api_externa": false,
+  "usa_cloud": false,
+  "usa_ia_real": false
+}

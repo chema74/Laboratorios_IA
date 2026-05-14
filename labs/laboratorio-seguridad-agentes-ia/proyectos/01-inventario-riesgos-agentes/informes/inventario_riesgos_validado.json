@@ -1,0 +1,369 @@
+{
+  "fecha_generacion": "2026-05-10T19:56:11",
+  "total_riesgos_inventariados": 5,
+  "errores_validacion": [],
+  "distribucion_por_categoria": {
+    "prompt injection simulada": 1,
+    "fuga de datos sintéticos": 1,
+    "herramienta simulada mal usada": 1,
+    "dependencia externa no permitida": 1,
+    "ausencia de revisión humana": 1
+  },
+  "distribucion_por_severidad": {
+    "alta": 2,
+    "media": 2,
+    "critica": 1
+  },
+  "riesgos_criticos": [
+    {
+      "id_riesgo": "R-001",
+      "nombre_riesgo": "Ignorar política de seguridad simulada",
+      "categoria": "prompt injection simulada",
+      "descripcion_defensiva": "Entrada sintética orientada a forzar respuestas fuera de política interna ficticia.",
+      "vector_simulado": "Texto no accionable con [INSTRUCCION_NO_ACCIONABLE] para invalidar [POLITICA_INTERNA_FICTICIA].",
+      "impacto_operativo_simulado": 4,
+      "impacto_privacidad_simulado": 3,
+      "impacto_seguridad_simulado": 5,
+      "probabilidad_simulada": 4,
+      "severidad": "alta",
+      "detectabilidad": "baja",
+      "controles_defensivos": [
+        "validacion_contexto",
+        "filtro_instrucciones_conflictivas",
+        "revision_humana_obligatoria"
+      ],
+      "evidencias_recomendadas": [
+        "registro_decision",
+        "log_politica_activada"
+      ],
+      "responsable_simulado": "equipo-seguridad-defensiva",
+      "estado_control": "parcial",
+      "limites_declarados": "Solo escenario sintético, sin IA real ni APIs externas.",
+      "usa_datos_reales": false,
+      "usa_ia_real": false,
+      "usa_api_externa": false,
+      "usa_cloud": false,
+      "nota_sintetica": "Caso diseñado para entrenamiento defensivo local.",
+      "puntuacion_riesgo_simulada": 4.1,
+      "nivel_riesgo": "critico"
+    },
+    {
+      "id_riesgo": "R-005",
+      "nombre_riesgo": "Ausencia de revisión humana",
+      "categoria": "ausencia de revisión humana",
+      "descripcion_defensiva": "Flujo ficticio que omite revisión humana en caso sensible.",
+      "vector_simulado": "Cadena de decisión sintética sin control manual.",
+      "impacto_operativo_simulado": 5,
+      "impacto_privacidad_simulado": 4,
+      "impacto_seguridad_simulado": 5,
+      "probabilidad_simulada": 4,
+      "severidad": "critica",
+      "detectabilidad": "baja",
+      "controles_defensivos": [
+        "revision_humana_obligatoria"
+      ],
+      "evidencias_recomendadas": [
+        "registro_aprobacion_manual",
+        "bitacora_excepciones"
+      ],
+      "responsable_simulado": "responsable-supervision",
+      "estado_control": "pendiente",
+      "limites_declarados": "Solo simulación documental local.",
+      "usa_datos_reales": false,
+      "usa_ia_real": false,
+      "usa_api_externa": false,
+      "usa_cloud": false,
+      "nota_sintetica": "Diseñado para priorización de mitigación.",
+      "puntuacion_riesgo_simulada": 4.6,
+      "nivel_riesgo": "critico"
+    }
+  ],
+  "riesgos_baja_detectabilidad": [
+    {
+      "id_riesgo": "R-001",
+      "nombre_riesgo": "Ignorar política de seguridad simulada",
+      "categoria": "prompt injection simulada",
+      "descripcion_defensiva": "Entrada sintética orientada a forzar respuestas fuera de política interna ficticia.",
+      "vector_simulado": "Texto no accionable con [INSTRUCCION_NO_ACCIONABLE] para invalidar [POLITICA_INTERNA_FICTICIA].",
+      "impacto_operativo_simulado": 4,
+      "impacto_privacidad_simulado": 3,
+      "impacto_seguridad_simulado": 5,
+      "probabilidad_simulada": 4,
+      "severidad": "alta",
+      "detectabilidad": "baja",
+      "controles_defensivos": [
+        "validacion_contexto",
+        "filtro_instrucciones_conflictivas",
+        "revision_humana_obligatoria"
+      ],
+      "evidencias_recomendadas": [
+        "registro_decision",
+        "log_politica_activada"
+      ],
+      "responsable_simulado": "equipo-seguridad-defensiva",
+      "estado_control": "parcial",
+      "limites_declarados": "Solo escenario sintético, sin IA real ni APIs externas.",
+      "usa_datos_reales": false,
+      "usa_ia_real": false,
+      "usa_api_externa": false,
+      "usa_cloud": false,
+      "nota_sintetica": "Caso diseñado para entrenamiento defensivo local.",
+      "puntuacion_riesgo_simulada": 4.1,
+      "nivel_riesgo": "critico"
+    },
+    {
+      "id_riesgo": "R-005",
+      "nombre_riesgo": "Ausencia de revisión humana",
+      "categoria": "ausencia de revisión humana",
+      "descripcion_defensiva": "Flujo ficticio que omite revisión humana en caso sensible.",
+      "vector_simulado": "Cadena de decisión sintética sin control manual.",
+      "impacto_operativo_simulado": 5,
+      "impacto_privacidad_simulado": 4,
+      "impacto_seguridad_simulado": 5,
+      "probabilidad_simulada": 4,
+      "severidad": "critica",
+      "detectabilidad": "baja",
+      "controles_defensivos": [
+        "revision_humana_obligatoria"
+      ],
+      "evidencias_recomendadas": [
+        "registro_aprobacion_manual",
+        "bitacora_excepciones"
+      ],
+      "responsable_simulado": "responsable-supervision",
+      "estado_control": "pendiente",
+      "limites_declarados": "Solo simulación documental local.",
+      "usa_datos_reales": false,
+      "usa_ia_real": false,
+      "usa_api_externa": false,
+      "usa_cloud": false,
+      "nota_sintetica": "Diseñado para priorización de mitigación.",
+      "puntuacion_riesgo_simulada": 4.6,
+      "nivel_riesgo": "critico"
+    }
+  ],
+  "riesgos_sin_controles_suficientes": [
+    {
+      "id_riesgo": "R-004",
+      "nombre_riesgo": "Dependencia externa no permitida",
+      "categoria": "dependencia externa no permitida",
+      "descripcion_defensiva": "Propuesta sintética de salida que depende de API externa ficticia.",
+      "vector_simulado": "Referencia textual a integración externa no autorizada.",
+      "impacto_operativo_simulado": 4,
+      "impacto_privacidad_simulado": 2,
+      "impacto_seguridad_simulado": 3,
+      "probabilidad_simulada": 2,
+      "severidad": "media",
+      "detectabilidad": "media",
+      "controles_defensivos": [
+        "politica_sin_dependencias_externas"
+      ],
+      "evidencias_recomendadas": [
+        "registro_revision_arquitectura"
+      ],
+      "responsable_simulado": "arquitectura-defensiva",
+      "estado_control": "parcial",
+      "limites_declarados": "Sin APIs externas ni cloud obligatorio.",
+      "usa_datos_reales": false,
+      "usa_ia_real": false,
+      "usa_api_externa": false,
+      "usa_cloud": false,
+      "nota_sintetica": "Control de cumplimiento de alcance.",
+      "puntuacion_riesgo_simulada": 2.7,
+      "nivel_riesgo": "medio"
+    },
+    {
+      "id_riesgo": "R-005",
+      "nombre_riesgo": "Ausencia de revisión humana",
+      "categoria": "ausencia de revisión humana",
+      "descripcion_defensiva": "Flujo ficticio que omite revisión humana en caso sensible.",
+      "vector_simulado": "Cadena de decisión sintética sin control manual.",
+      "impacto_operativo_simulado": 5,
+      "impacto_privacidad_simulado": 4,
+      "impacto_seguridad_simulado": 5,
+      "probabilidad_simulada": 4,
+      "severidad": "critica",
+      "detectabilidad": "baja",
+      "controles_defensivos": [
+        "revision_humana_obligatoria"
+      ],
+      "evidencias_recomendadas": [
+        "registro_aprobacion_manual",
+        "bitacora_excepciones"
+      ],
+      "responsable_simulado": "responsable-supervision",
+      "estado_control": "pendiente",
+      "limites_declarados": "Solo simulación documental local.",
+      "usa_datos_reales": false,
+      "usa_ia_real": false,
+      "usa_api_externa": false,
+      "usa_cloud": false,
+      "nota_sintetica": "Diseñado para priorización de mitigación.",
+      "puntuacion_riesgo_simulada": 4.6,
+      "nivel_riesgo": "critico"
+    }
+  ],
+  "controles_defensivos_recomendados": [
+    "validacion_contexto",
+    "filtro_instrucciones_conflictivas",
+    "clasificacion_sensibilidad",
+    "mascarado_salida",
+    "lista_permitidos_herramientas",
+    "autorizacion_por_politica",
+    "revision_humana_obligatoria",
+    "trazabilidad_decisiones"
+  ],
+  "riesgos": [
+    {
+      "id_riesgo": "R-001",
+      "nombre_riesgo": "Ignorar política de seguridad simulada",
+      "categoria": "prompt injection simulada",
+      "descripcion_defensiva": "Entrada sintética orientada a forzar respuestas fuera de política interna ficticia.",
+      "vector_simulado": "Texto no accionable con [INSTRUCCION_NO_ACCIONABLE] para invalidar [POLITICA_INTERNA_FICTICIA].",
+      "impacto_operativo_simulado": 4,
+      "impacto_privacidad_simulado": 3,
+      "impacto_seguridad_simulado": 5,
+      "probabilidad_simulada": 4,
+      "severidad": "alta",
+      "detectabilidad": "baja",
+      "controles_defensivos": [
+        "validacion_contexto",
+        "filtro_instrucciones_conflictivas",
+        "revision_humana_obligatoria"
+      ],
+      "evidencias_recomendadas": [
+        "registro_decision",
+        "log_politica_activada"
+      ],
+      "responsable_simulado": "equipo-seguridad-defensiva",
+      "estado_control": "parcial",
+      "limites_declarados": "Solo escenario sintético, sin IA real ni APIs externas.",
+      "usa_datos_reales": false,
+      "usa_ia_real": false,
+      "usa_api_externa": false,
+      "usa_cloud": false,
+      "nota_sintetica": "Caso diseñado para entrenamiento defensivo local.",
+      "puntuacion_riesgo_simulada": 4.1,
+      "nivel_riesgo": "critico"
+    },
+    {
+      "id_riesgo": "R-002",
+      "nombre_riesgo": "Exposición de datos sintéticos etiquetados",
+      "categoria": "fuga de datos sintéticos",
+      "descripcion_defensiva": "Simulación de respuesta que intenta mostrar [DATOS_SINTETICOS] de nivel alto.",
+      "vector_simulado": "Solicitud ficticia de extracción de [DATOS_SINTETICOS].",
+      "impacto_operativo_simulado": 3,
+      "impacto_privacidad_simulado": 4,
+      "impacto_seguridad_simulado": 4,
+      "probabilidad_simulada": 3,
+      "severidad": "alta",
+      "detectabilidad": "media",
+      "controles_defensivos": [
+        "clasificacion_sensibilidad",
+        "mascarado_salida"
+      ],
+      "evidencias_recomendadas": [
+        "registro_bloqueo"
+      ],
+      "responsable_simulado": "equipo-datos-sinteticos",
+      "estado_control": "implementado",
+      "limites_declarados": "Datos 100% ficticios.",
+      "usa_datos_reales": false,
+      "usa_ia_real": false,
+      "usa_api_externa": false,
+      "usa_cloud": false,
+      "nota_sintetica": "No contiene datos personales reales.",
+      "puntuacion_riesgo_simulada": 3.5,
+      "nivel_riesgo": "alto"
+    },
+    {
+      "id_riesgo": "R-003",
+      "nombre_riesgo": "Herramienta simulada fuera de alcance",
+      "categoria": "herramienta simulada mal usada",
+      "descripcion_defensiva": "Intento sintético de usar [HERRAMIENTA_SIMULADA] no autorizada.",
+      "vector_simulado": "Petición ficticia de ejecución no permitida.",
+      "impacto_operativo_simulado": 3,
+      "impacto_privacidad_simulado": 2,
+      "impacto_seguridad_simulado": 4,
+      "probabilidad_simulada": 3,
+      "severidad": "media",
+      "detectabilidad": "alta",
+      "controles_defensivos": [
+        "lista_permitidos_herramientas",
+        "autorizacion_por_politica"
+      ],
+      "evidencias_recomendadas": [
+        "traza_herramienta"
+      ],
+      "responsable_simulado": "equipo-controles",
+      "estado_control": "implementado",
+      "limites_declarados": "Sin ejecución real de herramientas.",
+      "usa_datos_reales": false,
+      "usa_ia_real": false,
+      "usa_api_externa": false,
+      "usa_cloud": false,
+      "nota_sintetica": "Escenario de validación local.",
+      "puntuacion_riesgo_simulada": 3.0,
+      "nivel_riesgo": "medio"
+    },
+    {
+      "id_riesgo": "R-004",
+      "nombre_riesgo": "Dependencia externa no permitida",
+      "categoria": "dependencia externa no permitida",
+      "descripcion_defensiva": "Propuesta sintética de salida que depende de API externa ficticia.",
+      "vector_simulado": "Referencia textual a integración externa no autorizada.",
+      "impacto_operativo_simulado": 4,
+      "impacto_privacidad_simulado": 2,
+      "impacto_seguridad_simulado": 3,
+      "probabilidad_simulada": 2,
+      "severidad": "media",
+      "detectabilidad": "media",
+      "controles_defensivos": [
+        "politica_sin_dependencias_externas"
+      ],
+      "evidencias_recomendadas": [
+        "registro_revision_arquitectura"
+      ],
+      "responsable_simulado": "arquitectura-defensiva",
+      "estado_control": "parcial",
+      "limites_declarados": "Sin APIs externas ni cloud obligatorio.",
+      "usa_datos_reales": false,
+      "usa_ia_real": false,
+      "usa_api_externa": false,
+      "usa_cloud": false,
+      "nota_sintetica": "Control de cumplimiento de alcance.",
+      "puntuacion_riesgo_simulada": 2.7,
+      "nivel_riesgo": "medio"
+    },
+    {
+      "id_riesgo": "R-005",
+      "nombre_riesgo": "Ausencia de revisión humana",
+      "categoria": "ausencia de revisión humana",
+      "descripcion_defensiva": "Flujo ficticio que omite revisión humana en caso sensible.",
+      "vector_simulado": "Cadena de decisión sintética sin control manual.",
+      "impacto_operativo_simulado": 5,
+      "impacto_privacidad_simulado": 4,
+      "impacto_seguridad_simulado": 5,
+      "probabilidad_simulada": 4,
+      "severidad": "critica",
+      "detectabilidad": "baja",
+      "controles_defensivos": [
+        "revision_humana_obligatoria"
+      ],
+      "evidencias_recomendadas": [
+        "registro_aprobacion_manual",
+        "bitacora_excepciones"
+      ],
+      "responsable_simulado": "responsable-supervision",
+      "estado_control": "pendiente",
+      "limites_declarados": "Solo simulación documental local.",
+      "usa_datos_reales": false,
+      "usa_ia_real": false,
+      "usa_api_externa": false,
+      "usa_cloud": false,
+      "nota_sintetica": "Diseñado para priorización de mitigación.",
+      "puntuacion_riesgo_simulada": 4.6,
+      "nivel_riesgo": "critico"
+    }
+  ]
+}

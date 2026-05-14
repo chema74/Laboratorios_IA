@@ -1,0 +1,52 @@
+{
+  "fecha": "2026-05-13T07:08:34.802715+00:00",
+  "texto_original": "Cliente NombreDemo Uno con email cliente.demo@empresa.local, telefono 612345678 e identificador A12345678Z para revision de contrato.",
+  "texto_minimizado": "{\"caso_uso\": \"demo_interactiva\", \"objetivo\": \"analisis_privacidad\", \"texto\": \"Cliente [NOMBRE] con email [EMAIL], telefono [TELEFONO] e identificador [IDENTIFICADOR] para revision de contrato.\"}",
+  "pii_detectada": [
+    {
+      "tipo": "nombre",
+      "valor": "NombreDemo Uno",
+      "inicio": 8,
+      "severidad": "media"
+    },
+    {
+      "tipo": "email",
+      "valor": "cliente.demo@empresa.local",
+      "inicio": 33,
+      "severidad": "alta"
+    },
+    {
+      "tipo": "telefono",
+      "valor": "612345678",
+      "inicio": 70,
+      "severidad": "media"
+    },
+    {
+      "tipo": "identificador",
+      "valor": "A12345678Z",
+      "inicio": 96,
+      "severidad": "alta"
+    },
+    {
+      "tipo": "contexto sensible de negocio",
+      "valor": "detectado",
+      "inicio": 0,
+      "severidad": "media"
+    }
+  ],
+  "proveedor": "fallback_local",
+  "modelo": "llama-3.1-8b-instant",
+  "ruta_ejecucion": "fallback_forzado",
+  "motivo_fallback": "FORZAR_FALLBACK_LOCAL activa",
+  "resumen": "Fallback local activo. Casos=1, hallazgos_pii=5, riesgo=alto.",
+  "riesgos": [
+    "Nivel de riesgo detectado: alto",
+    "Exposición residual posible en prompts no minimizados.",
+    "Filtración en salida si no se aplica bloqueo automático."
+  ],
+  "recomendaciones": [
+    "Aplicar anonimización previa a cualquier intercambio externo.",
+    "Reducir campos no necesarios en prompts antes del procesamiento.",
+    "Mantener validación de salida para bloquear PII de severidad alta."
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "fecha_generacion": "2026-05-10T20:15:36",
+  "total_casos_evaluados": 4,
+  "errores_validacion": [],
+  "resumen_por_politica": {
+    "P-007": 1,
+    "P-002": 1,
+    "P-006": 1,
+    "P-005": 1
+  },
+  "resumen_por_decision": {
+    "revisar": 1,
+    "bloquear": 2,
+    "permitir": 1
+  },
+  "incumplimientos_simulados": [
+    "incumplimiento_politica_detectado",
+    "incumplimiento_politica_detectado"
+  ],
+  "controles_requeridos": [
+    "bloqueo_herramienta",
+    "filtro_politicas",
+    "registro_incidente",
+    "revision_humana_obligatoria",
+    "revision_manual",
+    "trazabilidad"
+  ],
+  "resultados": [
+    {
+      "id_caso": "PU-001",
+      "politica_activada": "P-007",
+      "decision_defensiva": "revisar",
+      "coincide_con_decision_esperada": true,
+      "controles_requeridos": [
+        "revision_humana_obligatoria",
+        "trazabilidad"
+      ],
+      "incumplimientos_detectados": [],
+      "requiere_revision_humana": true,
+      "explicacion_defensiva": "Se activa Exigir revisión humana en sensibilidad alta por reglas defensivas locales.",
+      "registro_generado": "proyectos/06-politicas-uso-agente/registros/PU-001.json",
+      "recomendacion": "Mantener trazabilidad y revisión de casos críticos."
+    },
+    {
+      "id_caso": "PU-002",
+      "politica_activada": "P-002",
+      "decision_defensiva": "bloquear",
+      "coincide_con_decision_esperada": true,
+      "controles_requeridos": [
+        "bloqueo_herramienta",
+        "revision_manual"
+      ],
+      "incumplimientos_detectados": [
+        "incumplimiento_politica_detectado"
+      ],
+      "requiere_revision_humana": false,
+      "explicacion_defensiva": "Se activa No usar herramientas restringidas sin revisión por reglas defensivas locales.",
+      "registro_generado": "proyectos/06-politicas-uso-agente/registros/PU-002.json",
+      "recomendacion": "Mantener trazabilidad y revisión de casos críticos."
+    },
+    {
+      "id_caso": "PU-003",
+      "politica_activada": "P-006",
+      "decision_defensiva": "permitir",
+      "coincide_con_decision_esperada": true,
+      "controles_requeridos": [
+        "trazabilidad"
+      ],
+      "incumplimientos_detectados": [],
+      "requiere_revision_humana": false,
+      "explicacion_defensiva": "Se activa Exigir trazabilidad para decisiones críticas por reglas defensivas locales.",
+      "registro_generado": "proyectos/06-politicas-uso-agente/registros/PU-003.json",
+      "recomendacion": "Mantener trazabilidad y revisión de casos críticos."
+    },
+    {
+      "id_caso": "PU-004",
+      "politica_activada": "P-005",
+      "decision_defensiva": "bloquear",
+      "coincide_con_decision_esperada": true,
+      "controles_requeridos": [
+        "filtro_politicas",
+        "registro_incidente"
+      ],
+      "incumplimientos_detectados": [
+        "incumplimiento_politica_detectado"
+      ],
+      "requiere_revision_humana": false,
+      "explicacion_defensiva": "Se activa No generar respuestas fuera de política por reglas defensivas locales.",
+      "registro_generado": "proyectos/06-politicas-uso-agente/registros/PU-004.json",
+      "recomendacion": "Mantener trazabilidad y revisión de casos críticos."
+    }
+  ]
+}

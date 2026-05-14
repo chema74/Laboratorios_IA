@@ -1,0 +1,9 @@
+﻿{
+  "prioridades_permitidas": ["alta", "media", "baja"],
+  "areas_negocio_permitidas": ["Operaciones", "Comercial", "Soporte", "Finanzas", "RRHH", "Dirección"],
+  "reglas_recordatorio": {"prioridades_con_recordatorio_forzado": ["alta"]},
+  "reglas_replanificacion": {"palabras_clave": ["actualizar", "preparar", "revisión"]},
+  "reglas_riesgo_retraso": {"alto": ["alta"], "medio": ["media"], "bajo": ["baja"]},
+  "reglas_resumen_agenda": {"max_items": 10},
+  "nota": "Simulación local: no usa Calendar real, OAuth real, Calendar API, Google Cloud, IA real ni datos reales."
+}

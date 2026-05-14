@@ -1,0 +1,13 @@
+id_empleado,nombre,departamento,rol,nivel_responsabilidad,estado
+EMPLO-0001,Empleado Ficticio 1,Ventas,Coordinador,Alto,activo
+EMPLO-0002,Empleado Ficticio 2,TI,Analista,Alto,inactivo
+EMPLO-0003,Empleado Ficticio 3,Operaciones,Analista,Bajo,activo
+EMPLO-0004,Empleado Ficticio 4,Ventas,Tecnico,Alto,activo
+EMPLO-0005,Empleado Ficticio 5,TI,Coordinador,Alto,en_revision
+EMPLO-0006,Empleado Ficticio 6,TI,Responsable,Bajo,inactivo
+EMPLO-0007,Empleado Ficticio 7,TI,Especialista,Bajo,activo
+EMPLO-0008,Empleado Ficticio 8,Atencion Cliente,Especialista,Medio,activo
+EMPLO-0009,Empleado Ficticio 9,Ventas,Especialista,Bajo,activo
+EMPLO-0010,Empleado Ficticio 10,Atencion Cliente,Analista,Medio,inactivo
+EMPLO-0011,Empleado Ficticio 11,TI,Especialista,Bajo,en_revision
+EMPLO-0012,Empleado Ficticio 12,Atencion Cliente,Tecnico,Bajo,inactivo

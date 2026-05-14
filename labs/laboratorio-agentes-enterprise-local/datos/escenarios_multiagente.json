@@ -1,0 +1,12 @@
+[
+  {
+    "id_escenario": "ESC-001",
+    "id_tarea": "T-001",
+    "tipo": "simple"
+  },
+  {
+    "id_escenario": "ESC-002",
+    "id_tarea": "T-002",
+    "tipo": "multiagente"
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "tipos_elemento_permitidos": ["mensaje", "reunion", "tarea"],
+  "canales_simulados": ["comercial", "operaciones", "soporte", "rrhh", "finanzas"],
+  "prioridades_permitidas": ["alta", "media", "baja"],
+  "areas_negocio_permitidas": ["Comercial", "Operaciones", "Soporte", "RRHH", "Finanzas"],
+  "reglas_resumen": {
+    "max_palabras": 18
+  },
+  "reglas_creacion_tarea": {
+    "activar_si_requiere_tarea": true
+  },
+  "reglas_seguimiento": {
+    "activar_si_requiere_seguimiento": true
+  },
+  "reglas_riesgo_bloqueo": {
+    "niveles_permitidos": ["bajo", "medio", "alto"]
+  },
+  "nota": "V1 local simulada: no hay Teams real, Planner real, To Do real, Microsoft Graph API real, OAuth real, Azure, IA real ni datos reales."
+}

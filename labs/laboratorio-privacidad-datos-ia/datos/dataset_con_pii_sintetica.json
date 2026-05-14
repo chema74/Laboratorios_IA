@@ -1,0 +1,16 @@
+[
+  {
+    "id": "D-001",
+    "texto": "Cliente NombreFicticio Uno con email nombre1@empresa.local y telefono 612345678 vive en Calle Falsa 123. ID fiscal A12345678Z.",
+    "nombres_marcados": [
+      "NombreFicticio Uno"
+    ]
+  },
+  {
+    "id": "D-002",
+    "texto": "Contacto NombreFicticio Dos: correo n2@demo.local, telefono 699998877, dirección Avenida Norte 45.",
+    "nombres_marcados": [
+      "NombreFicticio Dos"
+    ]
+  }
+]

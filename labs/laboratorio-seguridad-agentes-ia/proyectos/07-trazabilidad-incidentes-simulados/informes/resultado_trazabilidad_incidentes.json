@@ -1,0 +1,98 @@
+{
+  "fecha_generacion": "2026-05-10T20:31:41",
+  "total_incidentes_simulados": 3,
+  "errores_validacion": [],
+  "distribucion_por_tipo": {
+    "intento simulado de acceso a dato sintético sensible": 1,
+    "uso bloqueado de herramienta simulada": 1,
+    "decisión no trazable simulada": 1
+  },
+  "distribucion_por_severidad": {
+    "alta": 1,
+    "critica": 1,
+    "media": 1
+  },
+  "distribucion_por_estado": {
+    "abierto": 2,
+    "cerrado": 1
+  },
+  "incidentes_trazabilidad_debil": [],
+  "incidentes_sin_controles_suficientes": [
+    {
+      "id_incidente": "TI-003",
+      "id_evidencia": "EVI-TI-003-20260510",
+      "hash_simulado": "ce3df2e37c364cd3",
+      "tipo_incidente": "decisión no trazable simulada",
+      "severidad_simulada": "media",
+      "estado_incidente": "abierto",
+      "controles_aplicados": [],
+      "trazabilidad_completa": true,
+      "controles_suficientes": false,
+      "recomendacion_defensiva": "Reforzar controles y trazabilidad en incidentes abiertos.",
+      "usa_datos_reales": false,
+      "usa_ia_real": false,
+      "usa_api_externa": false,
+      "usa_cloud": false
+    }
+  ],
+  "evidencias_generadas": [
+    "EVI-TI-001-20260510",
+    "EVI-TI-002-20260510",
+    "EVI-TI-003-20260510"
+  ],
+  "resultados": [
+    {
+      "id_incidente": "TI-001",
+      "id_evidencia": "EVI-TI-001-20260510",
+      "hash_simulado": "d7f107cea2a23d50",
+      "tipo_incidente": "intento simulado de acceso a dato sintético sensible",
+      "severidad_simulada": "alta",
+      "estado_incidente": "abierto",
+      "controles_aplicados": [
+        "revision_humana_obligatoria"
+      ],
+      "trazabilidad_completa": true,
+      "controles_suficientes": true,
+      "recomendacion_defensiva": "Reforzar controles y trazabilidad en incidentes abiertos.",
+      "usa_datos_reales": false,
+      "usa_ia_real": false,
+      "usa_api_externa": false,
+      "usa_cloud": false
+    },
+    {
+      "id_incidente": "TI-002",
+      "id_evidencia": "EVI-TI-002-20260510",
+      "hash_simulado": "6b7948ca2985422c",
+      "tipo_incidente": "uso bloqueado de herramienta simulada",
+      "severidad_simulada": "critica",
+      "estado_incidente": "cerrado",
+      "controles_aplicados": [
+        "bloqueo_herramienta_restringida",
+        "trazabilidad_registro"
+      ],
+      "trazabilidad_completa": true,
+      "controles_suficientes": true,
+      "recomendacion_defensiva": "Reforzar controles y trazabilidad en incidentes abiertos.",
+      "usa_datos_reales": false,
+      "usa_ia_real": false,
+      "usa_api_externa": false,
+      "usa_cloud": false
+    },
+    {
+      "id_incidente": "TI-003",
+      "id_evidencia": "EVI-TI-003-20260510",
+      "hash_simulado": "ce3df2e37c364cd3",
+      "tipo_incidente": "decisión no trazable simulada",
+      "severidad_simulada": "media",
+      "estado_incidente": "abierto",
+      "controles_aplicados": [],
+      "trazabilidad_completa": true,
+      "controles_suficientes": false,
+      "recomendacion_defensiva": "Reforzar controles y trazabilidad en incidentes abiertos.",
+      "usa_datos_reales": false,
+      "usa_ia_real": false,
+      "usa_api_externa": false,
+      "usa_cloud": false
+    }
+  ]
+}

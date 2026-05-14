@@ -1,0 +1,17 @@
+{
+  "id_automatizacion": "aut-001",
+  "id_traza": "TRZ-aut-001-20260511",
+  "hash_simulado": "d78f073b3332cce8",
+  "origen_simulado": "gmail",
+  "accion_simulada": "etiquetar",
+  "estado_ejecucion": "completada",
+  "trazabilidad_suficiente": true,
+  "evidencia_generada": "si",
+  "requiere_revision": false,
+  "registro_generado": "",
+  "usa_google_real": false,
+  "usa_oauth_real": false,
+  "usa_api_externa": false,
+  "usa_cloud": false,
+  "usa_ia_real": false
+}

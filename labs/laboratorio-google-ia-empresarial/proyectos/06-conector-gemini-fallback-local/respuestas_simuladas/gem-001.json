@@ -1,0 +1,13 @@
+{
+  "id_solicitud": "gem-001",
+  "tipo_solicitud": "resumen de correo ficticio",
+  "modo_ejecucion": "fallback-local",
+  "respuesta_simulada": "[FALLBACK-LOCAL] Respuesta simulada para resumen de correo ficticio: Correo de soporte simulado.",
+  "razon_fallback": "v1_sin_api_real",
+  "trazabilidad_fallback": "fallback_local::gem-001::v1_sin_api_real",
+  "registro_generado": "",
+  "usa_gemini_real": false,
+  "usa_api_externa": false,
+  "usa_cloud": false,
+  "usa_ia_real": false
+}

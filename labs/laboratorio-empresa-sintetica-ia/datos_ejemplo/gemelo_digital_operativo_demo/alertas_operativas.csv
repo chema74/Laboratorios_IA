@@ -1,0 +1,5 @@
+id_alerta,tipo_alerta,severidad,area_afectada,descripcion,entidades_relacionadas,origen_alerta,accion_recomendada,requiere_revision_humana,estado_alerta
+ALT-00001,pagos_pendientes_altos,critica,finanzas,Pagos pendientes por encima del umbral sintético.,"clientes,procesos",reglas_metricas_y_crisis_sinteticas,auditar_eventos,True,activa
+ALT-00002,incidencias_activas_altas,media,operaciones,Incidencias activas acumuladas en operación.,"clientes,procesos",reglas_metricas_y_crisis_sinteticas,generar_informe,False,cerrada_simulada
+ALT-00003,presion_operativa,alta,direccion,Índice de presión operativa en rango elevado.,"clientes,procesos",reglas_metricas_y_crisis_sinteticas,generar_informe,True,activa
+ALT-00004,riesgo_privacidad,alta,privacidad,Riesgo sintético de privacidad detectado en crisis.,"clientes,procesos",reglas_metricas_y_crisis_sinteticas,escalar_a_humano,True,activa

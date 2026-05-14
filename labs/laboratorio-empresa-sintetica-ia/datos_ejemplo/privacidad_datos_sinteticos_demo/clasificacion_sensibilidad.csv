@@ -1,0 +1,9 @@
+id_clasificacion,origen,tipo_entidad,nivel_sensibilidad_ficticia,categoria_privacidad_simulada,requiere_revision_humana,total
+CLS-00001,empresa,empresa,confidencial,identificador_ficticio,True,1
+CLS-00002,empresa,empresa,interna,identidad_ficticia,False,1
+CLS-00003,empresa,empresa,publica,general,False,8
+CLS-00004,empresa,cliente,confidencial,identificador_ficticio,True,12
+CLS-00005,empresa,cliente,interna,identidad_ficticia,False,12
+CLS-00006,empresa,cliente,publica,general,False,24
+CLS-00007,empresa,cliente,critica,riesgo_operativo,True,11
+CLS-00008,empresa,cliente,interna,operativo,False,11

@@ -1,0 +1,58 @@
+{
+  "roles_permitidos": [
+    "analista_operaciones",
+    "coordinador_proyectos",
+    "soporte_n1",
+    "gestor_rrhh",
+    "auditor_interno",
+    "admin_plataforma_simulada"
+  ],
+  "tipos_recurso_permitidos": [
+    "outlook",
+    "onedrive",
+    "word",
+    "excel",
+    "teams",
+    "planner",
+    "todo",
+    "copilot_futuro",
+    "power_platform_futuro",
+    "azure_futuro"
+  ],
+  "permisos_permitidos": [
+    "lectura",
+    "comentario",
+    "edicion",
+    "propietario_simulado",
+    "ejecucion_simulada",
+    "administracion_simulada",
+    "restringido"
+  ],
+  "permisos_restringidos": [
+    "propietario_simulado",
+    "administracion_simulada"
+  ],
+  "reglas_minimo_privilegio": {
+    "permisos_altos_requieren_revision": true
+  },
+  "reglas_revision": {
+    "sensibilidades_criticas": [
+      "restringida",
+      "confidencial_simulada"
+    ]
+  },
+  "reglas_riesgo": {
+    "niveles_permitidos": [
+      "bajo",
+      "medio",
+      "alto"
+    ]
+  },
+  "acciones_recomendadas": {
+    "mantener": "Mantener permiso y documentar evidencia.",
+    "revisar": "Revisar justificación y responsable.",
+    "reducir": "Reducir alcance al mínimo privilegio.",
+    "revocar": "Revocar permiso por exceso de riesgo."
+  },
+  "nota": "V1 local simulada: no hay Microsoft real, Microsoft Graph API real, OAuth real, Azure, IA real ni datos reales."
+}

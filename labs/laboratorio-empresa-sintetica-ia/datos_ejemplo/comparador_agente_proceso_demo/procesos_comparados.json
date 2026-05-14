@@ -1,0 +1,72 @@
+[
+  {
+    "id_proceso_comparado": "PRC-00001",
+    "nombre_proceso": "revision_reclamacion_cliente",
+    "descripcion": "Revisión de reclamación de cliente con evidencia disponible.",
+    "contexto_utilizado": "empresa,eventos,documentos,escenarios,crisis,revisiones,privacidad",
+    "criticidad": "alta",
+    "requiere_revision_humana": true,
+    "riesgo_operativo_simulado": "alto",
+    "origen_simulado": "comparador_agente_proceso_v1_local"
+  },
+  {
+    "id_proceso_comparado": "PRC-00002",
+    "nombre_proceso": "gestion_pago_pendiente",
+    "descripcion": "Gestión operativa de pago pendiente con validación de estado.",
+    "contexto_utilizado": "empresa,eventos,documentos,escenarios,crisis,revisiones,privacidad",
+    "criticidad": "media",
+    "requiere_revision_humana": true,
+    "riesgo_operativo_simulado": "medio",
+    "origen_simulado": "comparador_agente_proceso_v1_local"
+  },
+  {
+    "id_proceso_comparado": "PRC-00003",
+    "nombre_proceso": "priorizacion_ticket_soporte",
+    "descripcion": "Priorización de ticket de soporte según impacto y urgencia.",
+    "contexto_utilizado": "empresa,eventos,documentos,escenarios,crisis,revisiones,privacidad",
+    "criticidad": "media",
+    "requiere_revision_humana": false,
+    "riesgo_operativo_simulado": "medio",
+    "origen_simulado": "comparador_agente_proceso_v1_local"
+  },
+  {
+    "id_proceso_comparado": "PRC-00004",
+    "nombre_proceso": "revision_documento_sensible",
+    "descripcion": "Revisión de documento sintético con sensibilidad ficticia.",
+    "contexto_utilizado": "empresa,eventos,documentos,escenarios,crisis,revisiones,privacidad",
+    "criticidad": "critica",
+    "requiere_revision_humana": true,
+    "riesgo_operativo_simulado": "alto",
+    "origen_simulado": "comparador_agente_proceso_v1_local"
+  },
+  {
+    "id_proceso_comparado": "PRC-00005",
+    "nombre_proceso": "respuesta_a_crisis_operativa",
+    "descripcion": "Respuesta inicial a crisis sintética en curso.",
+    "contexto_utilizado": "empresa,eventos,documentos,escenarios,crisis,revisiones,privacidad",
+    "criticidad": "critica",
+    "requiere_revision_humana": true,
+    "riesgo_operativo_simulado": "alto",
+    "origen_simulado": "comparador_agente_proceso_v1_local"
+  },
+  {
+    "id_proceso_comparado": "PRC-00006",
+    "nombre_proceso": "analisis_alerta_privacidad",
+    "descripcion": "Análisis de alerta sintética de privacidad y acceso.",
+    "contexto_utilizado": "empresa,eventos,documentos,escenarios,crisis,revisiones,privacidad",
+    "criticidad": "alta",
+    "requiere_revision_humana": true,
+    "riesgo_operativo_simulado": "alto",
+    "origen_simulado": "comparador_agente_proceso_v1_local"
+  },
+  {
+    "id_proceso_comparado": "PRC-00007",
+    "nombre_proceso": "resumen_estado_operativo",
+    "descripcion": "Resumen sintético de estado operativo para seguimiento interno.",
+    "contexto_utilizado": "empresa,eventos,documentos,escenarios,crisis,revisiones,privacidad",
+    "criticidad": "baja",
+    "requiere_revision_humana": false,
+    "riesgo_operativo_simulado": "medio",
+    "origen_simulado": "comparador_agente_proceso_v1_local"
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "id_permiso": "perm-005",
+  "usuario_ficticio": "pm1@empresa-sintetica.local",
+  "recurso_simulado": "agenda_ejecutiva_demo",
+  "permiso_asignado": "edicion",
+  "rol_simulado": "project_manager",
+  "tipo_recurso": "calendar",
+  "riesgo_detectado": "medio",
+  "decision_gobierno": "mantener",
+  "motivo_decision": "Permiso acorde a reglas simuladas",
+  "accion_recomendada": "Mantener permiso simulado",
+  "requiere_revision": false,
+  "registro_generado": "",
+  "usa_google_real": false,
+  "usa_oauth_real": false,
+  "usa_api_externa": false,
+  "usa_cloud": false,
+  "usa_ia_real": false
+}

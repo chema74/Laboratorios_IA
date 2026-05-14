@@ -1,0 +1,44 @@
+[
+  {
+    "respuesta_id": "R-001-A",
+    "caso_id": "CASO-001",
+    "modelo_sintetico": "modelo_alpha",
+    "respuesta": "Según atención al cliente, la primera respuesta debe darse en 24 horas laborables."
+  },
+  {
+    "respuesta_id": "R-001-B",
+    "caso_id": "CASO-001",
+    "modelo_sintetico": "modelo_beta",
+    "respuesta": "Siempre respondemos en 12 horas y en todos los casos."
+  },
+  {
+    "respuesta_id": "R-002-A",
+    "caso_id": "CASO-002",
+    "modelo_sintetico": "modelo_alpha",
+    "respuesta": "Según política de compras, más de 2000 euros requiere validación de área y finanzas."
+  },
+  {
+    "respuesta_id": "R-003-A",
+    "caso_id": "CASO-003",
+    "modelo_sintetico": "modelo_alpha",
+    "respuesta": "La rotación es trimestral para perfiles privilegiados y semestral para estándar."
+  },
+  {
+    "respuesta_id": "R-004-A",
+    "caso_id": "CASO-004",
+    "modelo_sintetico": "modelo_alpha",
+    "respuesta": "Soporte TIC: críticas 30 minutos y medias 4 horas."
+  },
+  {
+    "respuesta_id": "R-005-A",
+    "caso_id": "CASO-005",
+    "modelo_sintetico": "modelo_alpha",
+    "respuesta": "RRHH pide 15 días de antelación y registro en portal interno."
+  },
+  {
+    "respuesta_id": "R-006-A",
+    "caso_id": "CASO-006",
+    "modelo_sintetico": "modelo_alpha",
+    "respuesta": "Cumplimiento conserva evidencias de auditoría por 24 meses según norma interna."
+  }
+]

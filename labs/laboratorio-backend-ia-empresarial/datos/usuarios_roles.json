@@ -1,0 +1,22 @@
+[
+  {
+    "usuario": "ana_admin",
+    "rol": "admin",
+    "token_ficticio": "tok_admin_001"
+  },
+  {
+    "usuario": "teo_ia",
+    "rol": "tecnico_ia",
+    "token_ficticio": "tok_tec_001"
+  },
+  {
+    "usuario": "aud_rosa",
+    "rol": "auditor",
+    "token_ficticio": "tok_aud_001"
+  },
+  {
+    "usuario": "neg_luis",
+    "rol": "usuario_negocio",
+    "token_ficticio": "tok_neg_001"
+  }
+]

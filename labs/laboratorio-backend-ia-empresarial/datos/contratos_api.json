@@ -1,0 +1,26 @@
+{
+  "/rag/consulta": [
+    "endpoint",
+    "metodo",
+    "payload",
+    "usuario",
+    "rol",
+    "traza_id"
+  ],
+  "/evaluacion/ejecutar": [
+    "endpoint",
+    "metodo",
+    "payload",
+    "usuario",
+    "rol",
+    "traza_id"
+  ],
+  "/privacidad/revisar": [
+    "endpoint",
+    "metodo",
+    "payload",
+    "usuario",
+    "rol",
+    "traza_id"
+  ]
+}

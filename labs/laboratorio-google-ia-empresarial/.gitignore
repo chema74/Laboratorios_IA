@@ -1,0 +1,47 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.pyo
+*.so
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Cachés y herramientas
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Variables y secretos locales
+.env
+.env.*
+*.env
+*.secret
+secrets/
+credenciales/
+credenciales-simuladas/
+
+# Logs y salidas
+*.log
+logs/
+out/
+output/
+reports/
+artifacts/
+
+# Datos temporales
+.tmp/
+tmp/
+temp/
+*.tmp
+
+# IDE / SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

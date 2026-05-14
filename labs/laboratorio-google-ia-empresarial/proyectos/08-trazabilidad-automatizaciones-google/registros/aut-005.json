@@ -1,0 +1,17 @@
+{
+  "id_automatizacion": "aut-005",
+  "id_traza": "TRZ-aut-005-20260511",
+  "hash_simulado": "e30605c64c9ed37c",
+  "origen_simulado": "gemini_fallback",
+  "accion_simulada": "responder_local",
+  "estado_ejecucion": "error_controlado",
+  "trazabilidad_suficiente": true,
+  "evidencia_generada": "si",
+  "requiere_revision": true,
+  "registro_generado": "",
+  "usa_google_real": false,
+  "usa_oauth_real": false,
+  "usa_api_externa": false,
+  "usa_cloud": false,
+  "usa_ia_real": false
+}

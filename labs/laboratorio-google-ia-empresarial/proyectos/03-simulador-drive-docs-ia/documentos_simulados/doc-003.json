@@ -1,0 +1,23 @@
+{
+  "id_documento": "doc-003",
+  "nombre_documento": "Contrato Simulado [DOCUMENTO_DEMO]",
+  "tipo_documento_detectado": "contrato simulado",
+  "carpeta_simulada": "legal",
+  "resumen_simulado": "Contrato sintético con [CLAUSULA_SIMULADA] y [CLIENTE_FICTICIO].",
+  "etiquetas_simuladas": [
+    "cliente",
+    "contrato",
+    "legal"
+  ],
+  "sensibilidad_detectada": "alta",
+  "requiere_revision_humana": true,
+  "permisos_simulados": "acceso_restringido_legal",
+  "accion_ia_simulada": "detectar_riesgos",
+  "registro_generado": "",
+  "usa_drive_real": false,
+  "usa_docs_real": false,
+  "usa_oauth_real": false,
+  "usa_api_externa": false,
+  "usa_cloud": false,
+  "usa_ia_real": false
+}

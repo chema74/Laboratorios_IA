@@ -1,0 +1,76 @@
+{
+  "metadatos": {
+    "fecha_generacion": "2026-05-11T09:08:45",
+    "modo": "local-simulado"
+  },
+  "puntuacion_global": 80.38,
+  "nivel_madurez": "intermedio",
+  "resultados_por_dimension": {
+    "arquitectura": 82,
+    "automatizacion": 78.33,
+    "analitica": 84,
+    "gobierno": 79,
+    "trazabilidad": 83,
+    "resiliencia": 81
+  },
+  "fortalezas": [
+    "arquitectura_clara",
+    "clasificacion_local",
+    "gestion_documental",
+    "indicadores_locales",
+    "agenda_simulada"
+  ],
+  "riesgos": [
+    "sin_integracion_real",
+    "sin_correo_real",
+    "sin_colaboracion_real",
+    "sin_dashboard_real",
+    "sin_sincronizacion_real"
+  ],
+  "brechas": [
+    "sin_google_real",
+    "sin_oauth_real",
+    "sin_api_real",
+    "sin_cloud_obligatorio",
+    "sin_ia_real",
+    "sin_datos_reales"
+  ],
+  "recomendaciones": [
+    "consolidar_metricas",
+    "fortalecer_controles",
+    "mantener_fallback_local",
+    "matriz_permisos",
+    "bitacora_traza",
+    "fallback_local",
+    "revision_humana"
+  ],
+  "oportunidades_automatizacion": [
+    "orquestacion_cross_modulo",
+    "reglas_alerta_avanzadas",
+    "trazabilidad_extendida"
+  ],
+  "modulos_mejor_preparados": [
+    "04_sheets",
+    "08_trazabilidad",
+    "01_mapa_ecosistema"
+  ],
+  "modulos_revision_futura": [
+    "05_calendar_tareas",
+    "02_gmail_simulado",
+    "07_gobierno_permisos"
+  ],
+  "decision_recomendada_v1": "continuar_v1_local_con_controles",
+  "recomendaciones_v2_opcional": [
+    "env_gemini_opcional",
+    "api_workspace_opcional",
+    "oauth_opcional_controlado"
+  ],
+  "limites_declarados": [
+    "sin_google_real",
+    "sin_oauth_real",
+    "sin_api_real",
+    "sin_cloud_obligatorio",
+    "sin_ia_real",
+    "sin_datos_reales"
+  ]
+}

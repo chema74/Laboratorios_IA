@@ -1,0 +1,24 @@
+{
+  "id_documento": "doc-007",
+  "nombre_documento": "Expediente Cliente [CLIENTE_FICTICIO]",
+  "tipo_documento_detectado": "expediente de cliente sintético",
+  "carpeta_onedrive_simulada": "Comercial",
+  "resumen_simulado": "Expediente sintetico de [CLIENTE_FICTICIO] en [EMPRESA_SINTETETICA].",
+  "etiquetas_simuladas": [
+    "cliente",
+    "expediente",
+    "comercial"
+  ],
+  "sensibilidad_detectada": "confidencial_simulada",
+  "requiere_revision_humana": true,
+  "permisos_simulados": "lectura_restringida",
+  "accion_ia_simulada": "resumir",
+  "registro_generado": "",
+  "usa_onedrive_real": false,
+  "usa_word_real": false,
+  "usa_microsoft_graph_real": false,
+  "usa_oauth_real": false,
+  "usa_api_externa": false,
+  "usa_azure": false,
+  "usa_ia_real": false
+}

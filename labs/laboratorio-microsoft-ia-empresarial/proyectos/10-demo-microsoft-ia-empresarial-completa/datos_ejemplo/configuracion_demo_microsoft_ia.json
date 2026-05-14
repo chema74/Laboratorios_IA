@@ -1,0 +1,35 @@
+{
+  "nombre_laboratorio_ficticio": "Laboratorio Microsoft IA Empresarial Simulado",
+  "modulos_representados": [
+    "01-mapa-ecosistema-microsoft-ia",
+    "02-simulador-outlook-ia-empresarial",
+    "03-simulador-onedrive-word-ia",
+    "04-simulador-excel-ia-analitica",
+    "05-simulador-teams-tareas-ia",
+    "06-conector-copilot-fallback-local",
+    "07-gobierno-permisos-microsoft-simulado",
+    "08-trazabilidad-automatizaciones-microsoft",
+    "09-informe-microsoft-ia-empresarial",
+    "10-demo-microsoft-ia-empresarial-completa"
+  ],
+  "modo": "local-simulado",
+  "usa_microsoft_real": false,
+  "usa_microsoft_graph_real": false,
+  "usa_oauth_real": false,
+  "usa_api_externa": false,
+  "usa_azure": false,
+  "usa_ia_real": false,
+  "usa_datos_reales": false,
+  "criterios_demo": [
+    "narrativa_end_to_end",
+    "evidencias_reproducibles",
+    "limites_explicitos",
+    "transicion_v2_opcional"
+  ],
+  "limites": [
+    "sin_integraciones_reales",
+    "sin_servicios_pago",
+    "sin_credenciales_reales"
+  ],
+  "nota": "Datos sintéticos y ausencia total de integración real con Microsoft."
+}

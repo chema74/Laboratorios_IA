@@ -1,0 +1,29 @@
+{
+  "carpetas_simuladas": ["Entrada", "Seguimiento", "Reuniones", "Archivado"],
+  "categorias_permitidas": ["comercial", "soporte", "gestion", "administracion", "informativo"],
+  "prioridades_permitidas": ["alta", "media", "baja"],
+  "reglas_clasificacion": {
+    "comercial": ["propuesta", "comercial"],
+    "soporte": ["incidencia", "error", "soporte"],
+    "gestion": ["reunion", "agenda", "confirmar"],
+    "administracion": ["factura", "pago", "revision"],
+    "informativo": ["comunicado", "informacion", "formacion"]
+  },
+  "reglas_respuesta_simulada": {
+    "alta": "Responder en ventana operativa inmediata.",
+    "media": "Responder en el dia laboral simulado.",
+    "baja": "Responder si aporta valor operativo."
+  },
+  "reglas_tarea_simulada": {
+    "alta": "Crear tarea critica de seguimiento.",
+    "media": "Crear tarea estandar.",
+    "baja": "No requiere tarea salvo criterio manual."
+  },
+  "reglas_reunion_simulada": {
+    "alta": "Convocar reunion de coordinacion.",
+    "media": "Programar reunion de seguimiento.",
+    "baja": "No requiere reunion."
+  },
+  "reglas_sensibilidad": ["publica_interna", "interna", "confidencial_simulada", "restringida"],
+  "nota": "V1 local simulada: no hay Outlook real, Microsoft Graph API real, OAuth real, Azure, IA real ni datos reales."
+}

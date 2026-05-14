@@ -1,0 +1,13 @@
+{
+  "id_solicitud": "gem-005",
+  "tipo_solicitud": "clasificación de prioridad",
+  "modo_ejecucion": "fallback-local",
+  "respuesta_simulada": "[FALLBACK-LOCAL] Respuesta simulada para clasificación de prioridad: Ticket simulado.",
+  "razon_fallback": "v1_sin_red",
+  "trazabilidad_fallback": "fallback_local::gem-005::v1_sin_red",
+  "registro_generado": "",
+  "usa_gemini_real": false,
+  "usa_api_externa": false,
+  "usa_cloud": false,
+  "usa_ia_real": false
+}

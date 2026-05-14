@@ -1,0 +1,21 @@
+{
+  "id_correo": "mail-001",
+  "carpeta_detectada": "Seguimiento",
+  "categoria_detectada": "comercial",
+  "prioridad_detectada": "media",
+  "requiere_respuesta": true,
+  "requiere_tarea": true,
+  "requiere_reunion": false,
+  "respuesta_sugerida_simulada": "Responder en el dia laboral simulado. Mensaje generado localmente sin IA real.",
+  "tarea_sugerida_simulada": "Crear tarea estandar.: Solicitud de propuesta comercial sintetica",
+  "reunion_sugerida_simulada": "No aplica",
+  "sensibilidad_detectada": "interna",
+  "accion_recomendada": "Responder y crear tarea de seguimiento",
+  "registro_generado": "",
+  "usa_outlook_real": false,
+  "usa_microsoft_graph_real": false,
+  "usa_oauth_real": false,
+  "usa_api_externa": false,
+  "usa_azure": false,
+  "usa_ia_real": false
+}

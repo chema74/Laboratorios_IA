@@ -1,0 +1,22 @@
+﻿{
+  "modo_v1": "fallback-local",
+  "permitir_api_real": false,
+  "requiere_env_para_v2": true,
+  "variables_env_futuras_documentadas": ["GEMINI_API_KEY", "GEMINI_MODEL", "GEMINI_TIMEOUT"],
+  "tipos_solicitud_permitidos": [
+    "resumen de correo ficticio",
+    "resumen de documento sintético",
+    "análisis de hoja simulada",
+    "propuesta de agenda",
+    "clasificación de prioridad",
+    "generación de respuesta empresarial simulada",
+    "explicación de alerta ficticia",
+    "recomendación operativa simulada"
+  ],
+  "reglas_respuesta_fallback": {
+    "plantilla": "[FALLBACK-LOCAL] Respuesta simulada para {tipo}: {contexto}.",
+    "determinista": true
+  },
+  "limites_fallback": ["sin_api_real", "sin_red", "sin_claves_reales", "sin_modelo_real"],
+  "nota": "Simulación local: no usa Gemini API real, clave real, Google Cloud, IA real ni datos reales."
+}

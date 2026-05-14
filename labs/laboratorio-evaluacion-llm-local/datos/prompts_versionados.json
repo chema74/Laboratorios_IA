@@ -1,0 +1,26 @@
+[
+  {
+    "caso_id": "CASO-002",
+    "version": "v1",
+    "prompt": "Responder compras con detalle",
+    "respuesta_sintetica": "Compras TIC de 2000 euros requiere validación y finanzas."
+  },
+  {
+    "caso_id": "CASO-002",
+    "version": "v2",
+    "prompt": "Responder compras breve",
+    "respuesta_sintetica": "Compras TIC requiere validación."
+  },
+  {
+    "caso_id": "CASO-004",
+    "version": "v1",
+    "prompt": "Responder SLA soporte",
+    "respuesta_sintetica": "Críticas 30 minutos y medias 4 horas."
+  },
+  {
+    "caso_id": "CASO-004",
+    "version": "v2",
+    "prompt": "Responder SLA soporte simplificado",
+    "respuesta_sintetica": "Críticas 30 minutos y medias 4 horas."
+  }
+]

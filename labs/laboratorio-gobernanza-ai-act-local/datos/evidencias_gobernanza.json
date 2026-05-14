@@ -1,0 +1,42 @@
+{
+  "CU-001": {
+    "responsable": "Resp. RRHH",
+    "descripcion_funcional": true,
+    "datos_tratados": true,
+    "revision_humana": true,
+    "trazabilidad": true,
+    "politica_interna": true
+  },
+  "CU-002": {
+    "responsable": "Resp. TI",
+    "descripcion_funcional": true,
+    "datos_tratados": true,
+    "revision_humana": false,
+    "trazabilidad": true,
+    "politica_interna": true
+  },
+  "CU-003": {
+    "responsable": "Resp. CX",
+    "descripcion_funcional": true,
+    "datos_tratados": true,
+    "revision_humana": true,
+    "trazabilidad": false,
+    "politica_interna": true
+  },
+  "CU-004": {
+    "responsable": "Resp. Ventas",
+    "descripcion_funcional": true,
+    "datos_tratados": true,
+    "revision_humana": true,
+    "trazabilidad": true,
+    "politica_interna": true
+  },
+  "CU-005": {
+    "responsable": "Resp. Dirección",
+    "descripcion_funcional": true,
+    "datos_tratados": true,
+    "revision_humana": true,
+    "trazabilidad": true,
+    "politica_interna": false
+  }
+}

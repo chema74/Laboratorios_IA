@@ -1,0 +1,16 @@
+[
+  {
+    "id": "S-001",
+    "descripcion": "Uso no registrado de IA generativa en informes",
+    "declarado": false,
+    "documentacion": "baja",
+    "impacto": "alto"
+  },
+  {
+    "id": "S-002",
+    "descripcion": "Macro local con IA para clasificar correos",
+    "declarado": true,
+    "documentacion": "baja",
+    "impacto": "medio"
+  }
+]

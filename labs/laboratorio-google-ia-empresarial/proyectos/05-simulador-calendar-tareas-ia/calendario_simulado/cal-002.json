@@ -1,0 +1,16 @@
+{
+  "id_elemento": "cal-002",
+  "tipo_elemento": "tarea",
+  "prioridad_detectada": "media",
+  "requiere_recordatorio": true,
+  "requiere_replanificacion": true,
+  "riesgo_retraso_detectado": "alto",
+  "accion_recomendada_simulada": "replanificar_con_prioridad",
+  "agenda_local": "2026-05-12T11:00:00 -> 2026-05-12T13:00:00 | Preparar informe comercial",
+  "registro_generado": "",
+  "usa_calendar_real": false,
+  "usa_oauth_real": false,
+  "usa_api_externa": false,
+  "usa_cloud": false,
+  "usa_ia_real": false
+}

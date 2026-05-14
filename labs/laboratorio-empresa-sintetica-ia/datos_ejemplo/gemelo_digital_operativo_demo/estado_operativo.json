@@ -1,0 +1,268 @@
+{
+  "identidad_empresa": {
+    "id_empresa": "EMP-0042",
+    "nombre": "Empresa Sintetica 42",
+    "sector": "Logistica",
+    "pais": "España",
+    "ciudad": "Valencia",
+    "fecha_estado": "2026-05-09",
+    "origen_simulado": "gemelo_digital_operativo_ligero_v1_local"
+  },
+  "metricas_operativas": {
+    "ingresos_estimados_mensuales": 71651.62,
+    "tickets_abiertos": 6,
+    "incidencias_activas": 17,
+    "pagos_pendientes": 14,
+    "clientes_en_riesgo": 8,
+    "crisis_activas": 4,
+    "revisiones_pendientes": 13,
+    "documentos_generados": 21,
+    "escenarios_disponibles": 21,
+    "alertas_activas": 3,
+    "indice_presion_operativa": 100.0,
+    "indice_riesgo_simulado": 82.0,
+    "indice_trazabilidad": 20.33
+  },
+  "estado_por_areas": {
+    "comercial": {
+      "estado_area": "vigilancia_simulada",
+      "nivel_presion": 5,
+      "alertas": 0,
+      "riesgos": "operativo,trazabilidad,continuidad",
+      "acciones_recomendadas_simuladas": "revisar_datos,escalar_a_humano,generar_informe",
+      "requiere_revision_humana": false
+    },
+    "operaciones": {
+      "estado_area": "vigilancia_simulada",
+      "nivel_presion": 6,
+      "alertas": 1,
+      "riesgos": "operativo,trazabilidad,continuidad",
+      "acciones_recomendadas_simuladas": "revisar_datos,escalar_a_humano,generar_informe",
+      "requiere_revision_humana": false
+    },
+    "soporte": {
+      "estado_area": "vigilancia_simulada",
+      "nivel_presion": 6,
+      "alertas": 0,
+      "riesgos": "operativo,trazabilidad,continuidad",
+      "acciones_recomendadas_simuladas": "revisar_datos,escalar_a_humano,generar_informe",
+      "requiere_revision_humana": false
+    },
+    "datos": {
+      "estado_area": "vigilancia_simulada",
+      "nivel_presion": 5,
+      "alertas": 0,
+      "riesgos": "operativo,trazabilidad,continuidad",
+      "acciones_recomendadas_simuladas": "revisar_datos,escalar_a_humano,generar_informe",
+      "requiere_revision_humana": false
+    },
+    "privacidad": {
+      "estado_area": "vigilancia_simulada",
+      "nivel_presion": 6,
+      "alertas": 1,
+      "riesgos": "operativo,trazabilidad,continuidad",
+      "acciones_recomendadas_simuladas": "revisar_datos,escalar_a_humano,generar_informe",
+      "requiere_revision_humana": true
+    },
+    "direccion": {
+      "estado_area": "tension_simulada",
+      "nivel_presion": 7,
+      "alertas": 1,
+      "riesgos": "operativo,trazabilidad,continuidad",
+      "acciones_recomendadas_simuladas": "revisar_datos,escalar_a_humano,generar_informe",
+      "requiere_revision_humana": true
+    }
+  },
+  "alertas_operativas": [
+    {
+      "id_alerta": "ALT-00001",
+      "tipo_alerta": "pagos_pendientes_altos",
+      "severidad": "critica",
+      "area_afectada": "finanzas",
+      "descripcion": "Pagos pendientes por encima del umbral sintético.",
+      "entidades_relacionadas": "clientes,procesos",
+      "origen_alerta": "reglas_metricas_y_crisis_sinteticas",
+      "accion_recomendada": "auditar_eventos",
+      "requiere_revision_humana": true,
+      "estado_alerta": "activa"
+    },
+    {
+      "id_alerta": "ALT-00002",
+      "tipo_alerta": "incidencias_activas_altas",
+      "severidad": "media",
+      "area_afectada": "operaciones",
+      "descripcion": "Incidencias activas acumuladas en operación.",
+      "entidades_relacionadas": "clientes,procesos",
+      "origen_alerta": "reglas_metricas_y_crisis_sinteticas",
+      "accion_recomendada": "generar_informe",
+      "requiere_revision_humana": false,
+      "estado_alerta": "cerrada_simulada"
+    },
+    {
+      "id_alerta": "ALT-00003",
+      "tipo_alerta": "presion_operativa",
+      "severidad": "alta",
+      "area_afectada": "direccion",
+      "descripcion": "Índice de presión operativa en rango elevado.",
+      "entidades_relacionadas": "clientes,procesos",
+      "origen_alerta": "reglas_metricas_y_crisis_sinteticas",
+      "accion_recomendada": "generar_informe",
+      "requiere_revision_humana": true,
+      "estado_alerta": "activa"
+    },
+    {
+      "id_alerta": "ALT-00004",
+      "tipo_alerta": "riesgo_privacidad",
+      "severidad": "alta",
+      "area_afectada": "privacidad",
+      "descripcion": "Riesgo sintético de privacidad detectado en crisis.",
+      "entidades_relacionadas": "clientes,procesos",
+      "origen_alerta": "reglas_metricas_y_crisis_sinteticas",
+      "accion_recomendada": "escalar_a_humano",
+      "requiere_revision_humana": true,
+      "estado_alerta": "activa"
+    }
+  ],
+  "decisiones_simuladas": [
+    {
+      "id_decision": "DEC-00001",
+      "fecha_decision": "2026-05-09",
+      "tipo_decision": "gestion_alerta",
+      "descripcion": "Decisión simulada para ALT-00001 en área finanzas.",
+      "origen_decision": "gemelo_digital_operativo_ligero",
+      "area_responsable": "finanzas",
+      "impacto_esperado": "contener_riesgo",
+      "nivel_riesgo": "critica",
+      "requiere_revision_humana": true,
+      "estado_decision": "pendiente_revision"
+    },
+    {
+      "id_decision": "DEC-00002",
+      "fecha_decision": "2026-05-09",
+      "tipo_decision": "gestion_alerta",
+      "descripcion": "Decisión simulada para ALT-00002 en área operaciones.",
+      "origen_decision": "gemelo_digital_operativo_ligero",
+      "area_responsable": "operaciones",
+      "impacto_esperado": "contener_riesgo",
+      "nivel_riesgo": "media",
+      "requiere_revision_humana": false,
+      "estado_decision": "rechazada_simulada"
+    },
+    {
+      "id_decision": "DEC-00003",
+      "fecha_decision": "2026-05-09",
+      "tipo_decision": "gestion_alerta",
+      "descripcion": "Decisión simulada para ALT-00003 en área direccion.",
+      "origen_decision": "gemelo_digital_operativo_ligero",
+      "area_responsable": "direccion",
+      "impacto_esperado": "contener_riesgo",
+      "nivel_riesgo": "alta",
+      "requiere_revision_humana": true,
+      "estado_decision": "pendiente_revision"
+    },
+    {
+      "id_decision": "DEC-00004",
+      "fecha_decision": "2026-05-09",
+      "tipo_decision": "gestion_alerta",
+      "descripcion": "Decisión simulada para ALT-00004 en área privacidad.",
+      "origen_decision": "gemelo_digital_operativo_ligero",
+      "area_responsable": "privacidad",
+      "impacto_esperado": "contener_riesgo",
+      "nivel_riesgo": "alta",
+      "requiere_revision_humana": true,
+      "estado_decision": "escalada"
+    }
+  ],
+  "linea_tiempo_operativa": [
+    {
+      "fecha": "2026-05-09",
+      "tipo_hito": "decision_emitida",
+      "descripcion": "Hito operativo simulado asociado a ALT-00001.",
+      "area_afectada": "finanzas",
+      "severidad": "critica",
+      "decision_relacionada": "DEC-00001",
+      "requiere_revision_humana": true
+    },
+    {
+      "fecha": "2026-05-10",
+      "tipo_hito": "seguimiento",
+      "descripcion": "Hito operativo simulado asociado a ALT-00002.",
+      "area_afectada": "operaciones",
+      "severidad": "media",
+      "decision_relacionada": "DEC-00002",
+      "requiere_revision_humana": false
+    },
+    {
+      "fecha": "2026-05-11",
+      "tipo_hito": "seguimiento",
+      "descripcion": "Hito operativo simulado asociado a ALT-00003.",
+      "area_afectada": "direccion",
+      "severidad": "alta",
+      "decision_relacionada": "DEC-00003",
+      "requiere_revision_humana": true
+    },
+    {
+      "fecha": "2026-05-12",
+      "tipo_hito": "seguimiento",
+      "descripcion": "Hito operativo simulado asociado a ALT-00004.",
+      "area_afectada": "privacidad",
+      "severidad": "alta",
+      "decision_relacionada": "DEC-00004",
+      "requiere_revision_humana": true
+    },
+    {
+      "fecha": "2026-05-13",
+      "tipo_hito": "seguimiento",
+      "descripcion": "Hito operativo simulado asociado a ALT-00001.",
+      "area_afectada": "finanzas",
+      "severidad": "critica",
+      "decision_relacionada": "DEC-00001",
+      "requiere_revision_humana": true
+    },
+    {
+      "fecha": "2026-05-14",
+      "tipo_hito": "seguimiento",
+      "descripcion": "Hito operativo simulado asociado a ALT-00002.",
+      "area_afectada": "operaciones",
+      "severidad": "media",
+      "decision_relacionada": "DEC-00002",
+      "requiere_revision_humana": false
+    },
+    {
+      "fecha": "2026-05-15",
+      "tipo_hito": "seguimiento",
+      "descripcion": "Hito operativo simulado asociado a ALT-00003.",
+      "area_afectada": "direccion",
+      "severidad": "alta",
+      "decision_relacionada": "DEC-00003",
+      "requiere_revision_humana": true
+    },
+    {
+      "fecha": "2026-05-16",
+      "tipo_hito": "revision_programada",
+      "descripcion": "Hito operativo simulado asociado a ALT-00004.",
+      "area_afectada": "privacidad",
+      "severidad": "alta",
+      "decision_relacionada": "DEC-00004",
+      "requiere_revision_humana": true
+    },
+    {
+      "fecha": "2026-05-17",
+      "tipo_hito": "revision_programada",
+      "descripcion": "Hito operativo simulado asociado a ALT-00001.",
+      "area_afectada": "finanzas",
+      "severidad": "critica",
+      "decision_relacionada": "DEC-00001",
+      "requiere_revision_humana": true
+    },
+    {
+      "fecha": "2026-05-18",
+      "tipo_hito": "decision_emitida",
+      "descripcion": "Hito operativo simulado asociado a ALT-00002.",
+      "area_afectada": "operaciones",
+      "severidad": "media",
+      "decision_relacionada": "DEC-00002",
+      "requiere_revision_humana": false
+    }
+  ]
+}

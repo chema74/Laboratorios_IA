@@ -1,0 +1,40 @@
+{
+  "origenes_permitidos": [
+    "outlook",
+    "onedrive",
+    "word",
+    "excel",
+    "teams",
+    "planner",
+    "todo",
+    "copilot_fallback",
+    "graph_conceptual",
+    "power_platform_conceptual"
+  ],
+  "estados_ejecucion_permitidos": [
+    "completada",
+    "error_simulado",
+    "pendiente_revision"
+  ],
+  "reglas_trazabilidad": {
+    "requiere_id_traza": true,
+    "requiere_hash": true
+  },
+  "reglas_evidencia": {
+    "evidencia_minima_requerida": true
+  },
+  "reglas_revision_humana": {
+    "sensibilidades_criticas": [
+      "confidencial_simulada",
+      "restringida"
+    ]
+  },
+  "niveles_sensibilidad": [
+    "publica_interna",
+    "interna",
+    "confidencial_simulada",
+    "restringida"
+  ],
+  "formato_id_traza": "TRZ-{id}-{hash8}",
+  "nota": "V1 local simulada: no hay Microsoft real, Microsoft Graph API real, OAuth real, Azure, IA real ni datos reales."
+}

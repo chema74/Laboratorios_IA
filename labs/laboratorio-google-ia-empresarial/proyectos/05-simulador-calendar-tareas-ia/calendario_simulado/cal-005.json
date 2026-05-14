@@ -1,0 +1,16 @@
+{
+  "id_elemento": "cal-005",
+  "tipo_elemento": "tarea",
+  "prioridad_detectada": "baja",
+  "requiere_recordatorio": false,
+  "requiere_replanificacion": true,
+  "riesgo_retraso_detectado": "medio",
+  "accion_recomendada_simulada": "replanificar",
+  "agenda_local": "2026-05-13T12:00:00 -> 2026-05-13T14:00:00 | Actualizar política interna",
+  "registro_generado": "",
+  "usa_calendar_real": false,
+  "usa_oauth_real": false,
+  "usa_api_externa": false,
+  "usa_cloud": false,
+  "usa_ia_real": false
+}

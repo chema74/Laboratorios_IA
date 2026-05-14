@@ -1,0 +1,24 @@
+﻿{
+  "columnas_esperadas": [
+    "id_registro",
+    "fecha_operacion",
+    "area_negocio",
+    "cliente_ficticio",
+    "tipo_operacion",
+    "canal",
+    "importe_simulado",
+    "coste_simulado",
+    "margen_simulado",
+    "estado_operacion",
+    "prioridad",
+    "responsable_ficticio",
+    "requiere_revision",
+    "comentario_sintetico"
+  ],
+  "moneda_simulada": "EUR",
+  "reglas_indicadores": {"usar_media_margen": true},
+  "reglas_alertas": {"umbral_margen_bajo": 150, "prioridad_alta": "Alta"},
+  "reglas_revision": {"valor_revision": "si"},
+  "reglas_resumen_ejecutivo": {"max_lineas": 4},
+  "nota": "Simulación local: no usa Sheets real, OAuth real, Sheets API, Google Cloud, IA real ni datos reales."
+}

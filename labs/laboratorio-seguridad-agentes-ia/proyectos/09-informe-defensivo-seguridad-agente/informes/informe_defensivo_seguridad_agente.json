@@ -1,0 +1,56 @@
+{
+  "metadatos": {
+    "fecha_generacion": "2026-05-10T21:01:47",
+    "modo": "local-simulado-defensivo"
+  },
+  "puntuacion_global": 3.66,
+  "nivel_madurez": "intermedia",
+  "resultados_por_dimension": {
+    "inventario_riesgos": 3.8,
+    "simulacion_prompt_injection": 3.5,
+    "detector_entradas_riesgo": 3.6,
+    "clasificacion_sensibilidad": 3.7,
+    "control_herramientas": 3.9,
+    "politicas_uso": 3.6,
+    "trazabilidad_incidentes": 3.4,
+    "matriz_riesgo": 3.8
+  },
+  "riesgos_principales": [
+    "riesgos_criticos_inventario",
+    "riesgos_criticos_matriz",
+    "trazabilidad_debil"
+  ],
+  "controles": {
+    "existentes": [
+      "revision_humana_obligatoria",
+      "trazabilidad_decisiones",
+      "bloqueo_herramienta_restringida"
+    ],
+    "faltantes": [
+      "politicas_uso_validadas"
+    ]
+  },
+  "brechas": [
+    "politicas_uso_validadas"
+  ],
+  "incidentes_relevantes": [
+    "trazabilidad_debil"
+  ],
+  "politicas_activadas": [
+    "P-002",
+    "P-006",
+    "P-007"
+  ],
+  "herramientas_bloqueadas": [
+    "exportador_datos_simulado"
+  ],
+  "sensibilidad_detectada": "alta",
+  "trazabilidad_defensiva": "parcial",
+  "recomendaciones": [
+    "Reforzar revisión humana",
+    "Ampliar trazabilidad",
+    "Reducir brechas de controles"
+  ],
+  "decision_defensiva_recomendada": "no_apto_uso_real",
+  "limites_declarados": "Todo local, sintético y defensivo."
+}

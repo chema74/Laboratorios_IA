@@ -1,0 +1,18 @@
+{
+  "id_automatizacion": "aut-003",
+  "id_traza": "TRZ-aut-003-4eaa6de4",
+  "hash_simulado": "4eaa6de4938c627d14314de7f70e3fd72a1110c9ef1b6ec4c2aa68253e006d0a",
+  "origen_simulado": "excel",
+  "accion_simulada": "Crear aviso operativo",
+  "estado_ejecucion": "error_simulado",
+  "trazabilidad_suficiente": false,
+  "evidencia_generada": false,
+  "requiere_revision": true,
+  "registro_generado": "",
+  "usa_microsoft_real": false,
+  "usa_microsoft_graph_real": false,
+  "usa_oauth_real": false,
+  "usa_api_externa": false,
+  "usa_azure": false,
+  "usa_ia_real": false
+}

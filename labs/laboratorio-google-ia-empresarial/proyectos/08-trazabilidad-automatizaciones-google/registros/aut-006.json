@@ -1,0 +1,17 @@
+{
+  "id_automatizacion": "aut-006",
+  "id_traza": "TRZ-aut-006-20260511",
+  "hash_simulado": "5d6ed742a5b3d341",
+  "origen_simulado": "apps_script_conceptual",
+  "accion_simulada": "generar_bitacora",
+  "estado_ejecucion": "completada",
+  "trazabilidad_suficiente": true,
+  "evidencia_generada": "si",
+  "requiere_revision": false,
+  "registro_generado": "",
+  "usa_google_real": false,
+  "usa_oauth_real": false,
+  "usa_api_externa": false,
+  "usa_cloud": false,
+  "usa_ia_real": false
+}

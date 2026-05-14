@@ -1,0 +1,24 @@
+{
+  "id_documento": "doc-001",
+  "nombre_documento": "Propuesta Comercial [DOCUMENTO_DEMO]",
+  "tipo_documento_detectado": "propuesta comercial ficticia",
+  "carpeta_simulada": "comercial",
+  "resumen_simulado": "Propuesta para [CLIENTE_FICTICIO] con alcance [CLAUSULA_SIMULADA] e importe [IMPORTE_SINTETICO].",
+  "etiquetas_simuladas": [
+    "cliente",
+    "comercial",
+    "demo",
+    "propuesta"
+  ],
+  "sensibilidad_detectada": "alta",
+  "requiere_revision_humana": true,
+  "permisos_simulados": "lectura_equipo_comercial",
+  "accion_ia_simulada": "resumir",
+  "registro_generado": "",
+  "usa_drive_real": false,
+  "usa_docs_real": false,
+  "usa_oauth_real": false,
+  "usa_api_externa": false,
+  "usa_cloud": false,
+  "usa_ia_real": false
+}

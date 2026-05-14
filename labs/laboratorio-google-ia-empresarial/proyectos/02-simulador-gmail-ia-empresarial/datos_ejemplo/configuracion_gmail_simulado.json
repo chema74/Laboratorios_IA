@@ -1,0 +1,26 @@
+﻿{
+  "categorias_permitidas": ["comercial", "soporte", "operaciones", "finanzas", "direccion", "informativo", "otros"],
+  "prioridades_permitidas": ["alta", "media", "baja"],
+  "reglas_clasificacion": {
+    "comercial": ["propuesta", "comercial", "presupuesto"],
+    "soporte": ["incidencia", "error", "acceso", "soporte"],
+    "operaciones": ["reunión", "proceso", "operación"],
+    "finanzas": ["factura", "pago", "coste"],
+    "direccion": ["urgente", "dirección", "política"],
+    "informativo": ["boletín", "resumen", "noticias"]
+  },
+  "reglas_respuesta_simulada": {
+    "alta": "Responder en el mismo día laboral simulado.",
+    "media": "Responder en un plazo de 24h simuladas.",
+    "baja": "Responder solo si aporta valor operativo simulado."
+  },
+  "reglas_tarea_simulada": {
+    "crear_si_contiene": ["reunión", "incidencia", "actualizar", "protocolo", "propuesta"]
+  },
+  "reglas_sensibilidad": {
+    "alta": ["urgente", "política", "acceso", "incidencia"],
+    "media": ["factura", "propuesta", "soporte"],
+    "baja": ["boletín", "resumen", "informativo"]
+  },
+  "nota": "Simulación local: no usa Gmail real, OAuth real, Gmail API, Google Cloud, IA real ni datos reales."
+}

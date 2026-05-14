@@ -1,0 +1,13 @@
+{
+  "id_solicitud": "gem-002",
+  "tipo_solicitud": "resumen de documento sintético",
+  "modo_ejecucion": "fallback-local",
+  "respuesta_simulada": "[FALLBACK-LOCAL] Respuesta simulada para resumen de documento sintético: Documento legal simulado.",
+  "razon_fallback": "sin_clave_real",
+  "trazabilidad_fallback": "fallback_local::gem-002::sin_clave_real",
+  "registro_generado": "",
+  "usa_gemini_real": false,
+  "usa_api_externa": false,
+  "usa_cloud": false,
+  "usa_ia_real": false
+}

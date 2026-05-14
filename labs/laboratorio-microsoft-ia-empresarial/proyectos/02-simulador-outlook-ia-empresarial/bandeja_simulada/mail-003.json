@@ -1,0 +1,21 @@
+{
+  "id_correo": "mail-003",
+  "carpeta_detectada": "Reuniones",
+  "categoria_detectada": "gestion",
+  "prioridad_detectada": "media",
+  "requiere_respuesta": true,
+  "requiere_tarea": false,
+  "requiere_reunion": true,
+  "respuesta_sugerida_simulada": "Responder en el dia laboral simulado. Mensaje generado localmente sin IA real.",
+  "tarea_sugerida_simulada": "No aplica",
+  "reunion_sugerida_simulada": "Programar reunion de seguimiento. Tema: Recordatorio de reunion semanal",
+  "sensibilidad_detectada": "interna",
+  "accion_recomendada": "Confirmar asistencia",
+  "registro_generado": "",
+  "usa_outlook_real": false,
+  "usa_microsoft_graph_real": false,
+  "usa_oauth_real": false,
+  "usa_api_externa": false,
+  "usa_azure": false,
+  "usa_ia_real": false
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "id_consecuencia": "CON-00001",
+    "origen": "DEC-00001",
+    "descripcion": "Consecuencia simulada derivada de la decisión DEC-00001.",
+    "area_afectada": "finanzas",
+    "impacto_estimado": "impacto_indeterminado",
+    "horizonte_temporal": "corto_plazo_simulado",
+    "riesgo_residual": "medio",
+    "accion_de_seguimiento": "revisar_estado_en_proxima_iteracion"
+  },
+  {
+    "id_consecuencia": "CON-00002",
+    "origen": "DEC-00002",
+    "descripcion": "Consecuencia simulada derivada de la decisión DEC-00002.",
+    "area_afectada": "operaciones",
+    "impacto_estimado": "impacto_indeterminado",
+    "horizonte_temporal": "corto_plazo_simulado",
+    "riesgo_residual": "medio",
+    "accion_de_seguimiento": "revisar_estado_en_proxima_iteracion"
+  },
+  {
+    "id_consecuencia": "CON-00003",
+    "origen": "DEC-00003",
+    "descripcion": "Consecuencia simulada derivada de la decisión DEC-00003.",
+    "area_afectada": "direccion",
+    "impacto_estimado": "impacto_indeterminado",
+    "horizonte_temporal": "corto_plazo_simulado",
+    "riesgo_residual": "medio",
+    "accion_de_seguimiento": "revisar_estado_en_proxima_iteracion"
+  },
+  {
+    "id_consecuencia": "CON-00004",
+    "origen": "DEC-00004",
+    "descripcion": "Consecuencia simulada derivada de la decisión DEC-00004.",
+    "area_afectada": "privacidad",
+    "impacto_estimado": "contencion_en_revision",
+    "horizonte_temporal": "corto_plazo_simulado",
+    "riesgo_residual": "alto",
+    "accion_de_seguimiento": "revisar_estado_en_proxima_iteracion"
+  }
+]

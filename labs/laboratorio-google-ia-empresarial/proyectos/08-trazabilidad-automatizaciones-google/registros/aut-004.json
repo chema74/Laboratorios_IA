@@ -1,0 +1,17 @@
+{
+  "id_automatizacion": "aut-004",
+  "id_traza": "TRZ-aut-004-20260511",
+  "hash_simulado": "dc396872753fd6a6",
+  "origen_simulado": "calendar",
+  "accion_simulada": "crear_recordatorio",
+  "estado_ejecucion": "completada",
+  "trazabilidad_suficiente": true,
+  "evidencia_generada": "si",
+  "requiere_revision": false,
+  "registro_generado": "",
+  "usa_google_real": false,
+  "usa_oauth_real": false,
+  "usa_api_externa": false,
+  "usa_cloud": false,
+  "usa_ia_real": false
+}

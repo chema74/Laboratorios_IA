@@ -1,0 +1,3 @@
+id_riesgo,tipo_riesgo,descripcion,origen,severidad,datos_afectados,rol_afectado,recomendacion_simulada,requiere_revision_humana,estado_riesgo
+RGS-00001,exposicion_datos_confidenciales,Riesgo simulado detectado por reglas de laboratorio de privacidad.,"eventos,documentos",alta,inventario_sintetico,agente_ia_simulado,minimizar_campos,True,en_revision
+RGS-00002,acceso_amplio_rol_no_critico,Riesgo simulado detectado por reglas de laboratorio de privacidad.,matriz_permisos,media,inventario_sintetico,agente_ia_simulado,restringir_acceso,False,detectado

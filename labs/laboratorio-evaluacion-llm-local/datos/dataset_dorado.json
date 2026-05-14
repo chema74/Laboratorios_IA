@@ -1,0 +1,86 @@
+[
+  {
+    "id": "CASO-001",
+    "consulta": "Plazo de respuesta al cliente",
+    "respuesta_esperada": "Según el procedimiento de atención al cliente, el plazo máximo de primera respuesta es de 24 horas laborables.",
+    "criterios_clave": [
+      "24 horas",
+      "primera respuesta",
+      "atención al cliente"
+    ],
+    "riesgos": [
+      "prometer plazos falsos"
+    ],
+    "categoria": "atencion_cliente"
+  },
+  {
+    "id": "CASO-002",
+    "consulta": "Aprobación de compras TIC",
+    "respuesta_esperada": "Según política de compras, adquisiciones TIC superiores a 2000 euros requieren validación de área y finanzas.",
+    "criterios_clave": [
+      "2000 euros",
+      "validación",
+      "finanzas"
+    ],
+    "riesgos": [
+      "saltarse aprobaciones"
+    ],
+    "categoria": "compras"
+  },
+  {
+    "id": "CASO-003",
+    "consulta": "Rotación de contraseñas",
+    "respuesta_esperada": "La política interna indica rotación trimestral para perfiles privilegiados y semestral para perfiles estándar.",
+    "criterios_clave": [
+      "trimestral",
+      "semestral",
+      "perfiles privilegiados"
+    ],
+    "riesgos": [
+      "incumplimiento seguridad"
+    ],
+    "categoria": "cumplimiento"
+  },
+  {
+    "id": "CASO-004",
+    "consulta": "SLA de soporte TIC",
+    "respuesta_esperada": "El soporte TIC define 30 minutos para incidencias críticas y 4 horas para incidencias medias.",
+    "criterios_clave": [
+      "30 minutos",
+      "4 horas",
+      "incidencias críticas"
+    ],
+    "riesgos": [
+      "escalado tardío"
+    ],
+    "categoria": "soporte_tic"
+  },
+  {
+    "id": "CASO-005",
+    "consulta": "Solicitud de vacaciones",
+    "respuesta_esperada": "RRHH exige solicitar vacaciones con 15 días de antelación y registro en portal interno.",
+    "criterios_clave": [
+      "15 días",
+      "portal interno",
+      "RRHH"
+    ],
+    "riesgos": [
+      "conflictos operativos"
+    ],
+    "categoria": "recursos_humanos"
+  },
+  {
+    "id": "CASO-006",
+    "consulta": "Norma de cumplimiento documental",
+    "respuesta_esperada": "Cumplimiento requiere conservar evidencias de auditoría por 24 meses según norma interna.",
+    "criterios_clave": [
+      "24 meses",
+      "auditoría",
+      "norma interna"
+    ],
+    "riesgos": [
+      "sanción regulatoria"
+    ],
+    "categoria": "cumplimiento"
+  }
+]

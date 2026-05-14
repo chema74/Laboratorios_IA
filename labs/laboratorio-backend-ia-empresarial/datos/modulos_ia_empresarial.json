@@ -1,0 +1,14 @@
+[
+  {
+    "nombre": "rag",
+    "simulado": true
+  },
+  {
+    "nombre": "evaluacion",
+    "simulado": true
+  },
+  {
+    "nombre": "privacidad",
+    "simulado": true
+  }
+]

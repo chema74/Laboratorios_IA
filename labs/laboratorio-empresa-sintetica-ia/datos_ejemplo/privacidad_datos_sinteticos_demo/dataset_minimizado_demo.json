@@ -1,0 +1,1038 @@
+{
+  "datos_minimizados": [
+    {
+      "id_dato": "DAT-000001",
+      "origen": "empresa",
+      "tipo_entidad": "empresa",
+      "campo": "id_empresa",
+      "valor_minimizado": "resumen::EMP-0042",
+      "nivel_sensibilidad_ficticia": "confidencial"
+    },
+    {
+      "id_dato": "DAT-000002",
+      "origen": "empresa",
+      "tipo_entidad": "empresa",
+      "campo": "nombre",
+      "valor_minimizado": "resumen::Empresa Sinteti",
+      "nivel_sensibilidad_ficticia": "interna"
+    },
+    {
+      "id_dato": "DAT-000003",
+      "origen": "empresa",
+      "tipo_entidad": "empresa",
+      "campo": "sector",
+      "valor_minimizado": "Logistica",
+      "nivel_sensibilidad_ficticia": "publica"
+    },
+    {
+      "id_dato": "DAT-000004",
+      "origen": "empresa",
+      "tipo_entidad": "empresa",
+      "campo": "pais",
+      "valor_minimizado": "España",
+      "nivel_sensibilidad_ficticia": "publica"
+    },
+    {
+      "id_dato": "DAT-000005",
+      "origen": "empresa",
+      "tipo_entidad": "empresa",
+      "campo": "ciudad",
+      "valor_minimizado": "Valencia",
+      "nivel_sensibilidad_ficticia": "publica"
+    },
+    {
+      "id_dato": "DAT-000006",
+      "origen": "empresa",
+      "tipo_entidad": "empresa",
+      "campo": "moneda",
+      "valor_minimizado": "USD",
+      "nivel_sensibilidad_ficticia": "publica"
+    },
+    {
+      "id_dato": "DAT-000007",
+      "origen": "empresa",
+      "tipo_entidad": "empresa",
+      "campo": "fecha_simulacion",
+      "valor_minimizado": "2026-05-09",
+      "nivel_sensibilidad_ficticia": "publica"
+    },
+    {
+      "id_dato": "DAT-000008",
+      "origen": "empresa",
+      "tipo_entidad": "empresa",
+      "campo": "numero_empleados",
+      "valor_minimizado": "12",
+      "nivel_sensibilidad_ficticia": "publica"
+    },
+    {
+      "id_dato": "DAT-000009",
+      "origen": "empresa",
+      "tipo_entidad": "empresa",
+      "campo": "numero_clientes",
+      "valor_minimizado": "20",
+      "nivel_sensibilidad_ficticia": "publica"
+    },
+    {
+      "id_dato": "DAT-000010",
+      "origen": "empresa",
+      "tipo_entidad": "empresa",
+      "campo": "numero_productos",
+      "valor_minimizado": "8",
+      "nivel_sensibilidad_ficticia": "publica"
+    },
+    {
+      "id_dato": "DAT-000011",
+      "origen": "empresa",
+      "tipo_entidad": "cliente",
+      "campo": "id_cliente",
+      "valor_minimizado": "resumen::CLI-0001",
+      "nivel_sensibilidad_ficticia": "confidencial"
+    },
+    {
+      "id_dato": "DAT-000012",
+      "origen": "empresa",
+      "tipo_entidad": "cliente",
+      "campo": "nombre",
+      "valor_minimizado": "resumen::Cliente Fictici",
+      "nivel_sensibilidad_ficticia": "interna"
+    },
+    {
+      "id_dato": "DAT-000013",
+      "origen": "empresa",
+      "tipo_entidad": "cliente",
+      "campo": "segmento",
+      "valor_minimizado": "PYME",
+      "nivel_sensibilidad_ficticia": "publica"
+    },
+    {
+      "id_dato": "DAT-000014",
+      "origen": "empresa",
+      "tipo_entidad": "cliente",
+      "campo": "pais",
+      "valor_minimizado": "Perú",
+      "nivel_sensibilidad_ficticia": "publica"
+    },
+    {
+      "id_dato": "DAT-000016",
+      "origen": "empresa",
+      "tipo_entidad": "cliente",
+      "campo": "estado",
+      "valor_minimizado": "bloqueado",
+      "nivel_sensibilidad_ficticia": "interna"
+    },
+    {
+      "id_dato": "DAT-000017",
+      "origen": "empresa",
+      "tipo_entidad": "cliente",
+      "campo": "id_cliente",
+      "valor_minimizado": "resumen::CLI-0002",
+      "nivel_sensibilidad_ficticia": "confidencial"
+    },
+    {
+      "id_dato": "DAT-000018",
+      "origen": "empresa",
+      "tipo_entidad": "cliente",
+      "campo": "nombre",
+      "valor_minimizado": "resumen::Cliente Fictici",
+      "nivel_sensibilidad_ficticia": "interna"
+    },
+    {
+      "id_dato": "DAT-000019",
+      "origen": "empresa",
+      "tipo_entidad": "cliente",
+      "campo": "segmento",
+      "valor_minimizado": "Startup",
+      "nivel_sensibilidad_ficticia": "publica"
+    },
+    {
+      "id_dato": "DAT-000020",
+      "origen": "empresa",
+      "tipo_entidad": "cliente",
+      "campo": "pais",
+      "valor_minimizado": "Perú",
+      "nivel_sensibilidad_ficticia": "publica"
+    },
+    {
+      "id_dato": "DAT-000022",
+      "origen": "empresa",
+      "tipo_entidad": "cliente",
+      "campo": "estado",
+      "valor_minimizado": "bloqueado",
+      "nivel_sensibilidad_ficticia": "interna"
+    },
+    {
+      "id_dato": "DAT-000023",
+      "origen": "empresa",
+      "tipo_entidad": "cliente",
+      "campo": "id_cliente",
+      "valor_minimizado": "resumen::CLI-0003",
+      "nivel_sensibilidad_ficticia": "confidencial"
+    },
+    {
+      "id_dato": "DAT-000024",
+      "origen": "empresa",
+      "tipo_entidad": "cliente",
+      "campo": "nombre",
+      "valor_minimizado": "resumen::Cliente Fictici",
+      "nivel_sensibilidad_ficticia": "interna"
+    },
+    {
+      "id_dato": "DAT-000025",
+      "origen": "empresa",
+      "tipo_entidad": "cliente",
+      "campo": "segmento",
+      "valor_minimizado": "PYME",
+      "nivel_sensibilidad_ficticia": "publica"
+    },
+    {
+      "id_dato": "DAT-000026",
+      "origen": "empresa",
+      "tipo_entidad": "cliente",
+      "campo": "pais",
+      "valor_minimizado": "España",
+      "nivel_sensibilidad_ficticia": "publica"
+    },
+    {
+      "id_dato": "DAT-000028",
+      "origen": "empresa",
+      "tipo_entidad": "cliente",
+      "campo": "estado",
+      "valor_minimizado": "activo",
+      "nivel_sensibilidad_ficticia": "interna"
+    },
+    {
+      "id_dato": "DAT-000029",
+      "origen": "empresa",
+      "tipo_entidad": "cliente",
+      "campo": "id_cliente",
+      "valor_minimizado": "resumen::CLI-0004",
+      "nivel_sensibilidad_ficticia": "confidencial"
+    },
+    {
+      "id_dato": "DAT-000030",
+      "origen": "empresa",
+      "tipo_entidad": "cliente",
+      "campo": "nombre",
+      "valor_minimizado": "resumen::Cliente Fictici",
+      "nivel_sensibilidad_ficticia": "interna"
+    },
+    {
+      "id_dato": "DAT-000031",
+      "origen": "empresa",
+      "tipo_entidad": "cliente",
+      "campo": "segmento",
+      "valor_minimizado": "Startup",
+      "nivel_sensibilidad_ficticia": "publica"
+    },
+    {
+      "id_dato": "DAT-000032",
+      "origen": "empresa",
+      "tipo_entidad": "cliente",
+      "campo": "pais",
+      "valor_minimizado": "España",
+      "nivel_sensibilidad_ficticia": "publica"
+    },
+    {
+      "id_dato": "DAT-000034",
+      "origen": "empresa",
+      "tipo_entidad": "cliente",
+      "campo": "estado",
+      "valor_minimizado": "activo",
+      "nivel_sensibilidad_ficticia": "interna"
+    },
+    {
+      "id_dato": "DAT-000035",
+      "origen": "empresa",
+      "tipo_entidad": "cliente",
+      "campo": "id_cliente",
+      "valor_minimizado": "resumen::CLI-0005",
+      "nivel_sensibilidad_ficticia": "confidencial"
+    },
+    {
+      "id_dato": "DAT-000036",
+      "origen": "empresa",
+      "tipo_entidad": "cliente",
+      "campo": "nombre",
+      "valor_minimizado": "resumen::Cliente Fictici",
+      "nivel_sensibilidad_ficticia": "interna"
+    },
+    {
+      "id_dato": "DAT-000037",
+      "origen": "empresa",
+      "tipo_entidad": "cliente",
+      "campo": "segmento",
+      "valor_minimizado": "Publico",
+      "nivel_sensibilidad_ficticia": "publica"
+    },
+    {
+      "id_dato": "DAT-000038",
+      "origen": "empresa",
+      "tipo_entidad": "cliente",
+      "campo": "pais",
+      "valor_minimizado": "Colombia",
+      "nivel_sensibilidad_ficticia": "publica"
+    },
+    {
+      "id_dato": "DAT-000040",
+      "origen": "empresa",
+      "tipo_entidad": "cliente",
+      "campo": "estado",
+      "valor_minimizado": "bloqueado",
+      "nivel_sensibilidad_ficticia": "interna"
+    },
+    {
+      "id_dato": "DAT-000041",
+      "origen": "empresa",
+      "tipo_entidad": "cliente",
+      "campo": "id_cliente",
+      "valor_minimizado": "resumen::CLI-0006",
+      "nivel_sensibilidad_ficticia": "confidencial"
+    },
+    {
+      "id_dato": "DAT-000042",
+      "origen": "empresa",
+      "tipo_entidad": "cliente",
+      "campo": "nombre",
+      "valor_minimizado": "resumen::Cliente Fictici",
+      "nivel_sensibilidad_ficticia": "interna"
+    },
+    {
+      "id_dato": "DAT-000043",
+      "origen": "empresa",
+      "tipo_entidad": "cliente",
+      "campo": "segmento",
+      "valor_minimizado": "Startup",
+      "nivel_sensibilidad_ficticia": "publica"
+    },
+    {
+      "id_dato": "DAT-000044",
+      "origen": "empresa",
+      "tipo_entidad": "cliente",
+      "campo": "pais",
+      "valor_minimizado": "México",
+      "nivel_sensibilidad_ficticia": "publica"
+    },
+    {
+      "id_dato": "DAT-000046",
+      "origen": "empresa",
+      "tipo_entidad": "cliente",
+      "campo": "estado",
+      "valor_minimizado": "en_revision",
+      "nivel_sensibilidad_ficticia": "interna"
+    },
+    {
+      "id_dato": "DAT-000047",
+      "origen": "empresa",
+      "tipo_entidad": "cliente",
+      "campo": "id_cliente",
+      "valor_minimizado": "resumen::CLI-0007",
+      "nivel_sensibilidad_ficticia": "confidencial"
+    },
+    {
+      "id_dato": "DAT-000048",
+      "origen": "empresa",
+      "tipo_entidad": "cliente",
+      "campo": "nombre",
+      "valor_minimizado": "resumen::Cliente Fictici",
+      "nivel_sensibilidad_ficticia": "interna"
+    },
+    {
+      "id_dato": "DAT-000049",
+      "origen": "empresa",
+      "tipo_entidad": "cliente",
+      "campo": "segmento",
+      "valor_minimizado": "Corporativo",
+      "nivel_sensibilidad_ficticia": "publica"
+    },
+    {
+      "id_dato": "DAT-000050",
+      "origen": "empresa",
+      "tipo_entidad": "cliente",
+      "campo": "pais",
+      "valor_minimizado": "Colombia",
+      "nivel_sensibilidad_ficticia": "publica"
+    },
+    {
+      "id_dato": "DAT-000052",
+      "origen": "empresa",
+      "tipo_entidad": "cliente",
+      "campo": "estado",
+      "valor_minimizado": "bloqueado",
+      "nivel_sensibilidad_ficticia": "interna"
+    },
+    {
+      "id_dato": "DAT-000053",
+      "origen": "empresa",
+      "tipo_entidad": "cliente",
+      "campo": "id_cliente",
+      "valor_minimizado": "resumen::CLI-0008",
+      "nivel_sensibilidad_ficticia": "confidencial"
+    },
+    {
+      "id_dato": "DAT-000054",
+      "origen": "empresa",
+      "tipo_entidad": "cliente",
+      "campo": "nombre",
+      "valor_minimizado": "resumen::Cliente Fictici",
+      "nivel_sensibilidad_ficticia": "interna"
+    },
+    {
+      "id_dato": "DAT-000055",
+      "origen": "empresa",
+      "tipo_entidad": "cliente",
+      "campo": "segmento",
+      "valor_minimizado": "PYME",
+      "nivel_sensibilidad_ficticia": "publica"
+    },
+    {
+      "id_dato": "DAT-000056",
+      "origen": "empresa",
+      "tipo_entidad": "cliente",
+      "campo": "pais",
+      "valor_minimizado": "Perú",
+      "nivel_sensibilidad_ficticia": "publica"
+    },
+    {
+      "id_dato": "DAT-000058",
+      "origen": "empresa",
+      "tipo_entidad": "cliente",
+      "campo": "estado",
+      "valor_minimizado": "activo",
+      "nivel_sensibilidad_ficticia": "interna"
+    },
+    {
+      "id_dato": "DAT-000059",
+      "origen": "empresa",
+      "tipo_entidad": "cliente",
+      "campo": "id_cliente",
+      "valor_minimizado": "resumen::CLI-0009",
+      "nivel_sensibilidad_ficticia": "confidencial"
+    },
+    {
+      "id_dato": "DAT-000060",
+      "origen": "empresa",
+      "tipo_entidad": "cliente",
+      "campo": "nombre",
+      "valor_minimizado": "resumen::Cliente Fictici",
+      "nivel_sensibilidad_ficticia": "interna"
+    },
+    {
+      "id_dato": "DAT-000061",
+      "origen": "empresa",
+      "tipo_entidad": "cliente",
+      "campo": "segmento",
+      "valor_minimizado": "Corporativo",
+      "nivel_sensibilidad_ficticia": "publica"
+    },
+    {
+      "id_dato": "DAT-000062",
+      "origen": "empresa",
+      "tipo_entidad": "cliente",
+      "campo": "pais",
+      "valor_minimizado": "México",
+      "nivel_sensibilidad_ficticia": "publica"
+    },
+    {
+      "id_dato": "DAT-000064",
+      "origen": "empresa",
+      "tipo_entidad": "cliente",
+      "campo": "estado",
+      "valor_minimizado": "en_revision",
+      "nivel_sensibilidad_ficticia": "interna"
+    },
+    {
+      "id_dato": "DAT-000065",
+      "origen": "empresa",
+      "tipo_entidad": "cliente",
+      "campo": "id_cliente",
+      "valor_minimizado": "resumen::CLI-0010",
+      "nivel_sensibilidad_ficticia": "confidencial"
+    },
+    {
+      "id_dato": "DAT-000066",
+      "origen": "empresa",
+      "tipo_entidad": "cliente",
+      "campo": "nombre",
+      "valor_minimizado": "resumen::Cliente Fictici",
+      "nivel_sensibilidad_ficticia": "interna"
+    },
+    {
+      "id_dato": "DAT-000067",
+      "origen": "empresa",
+      "tipo_entidad": "cliente",
+      "campo": "segmento",
+      "valor_minimizado": "Startup",
+      "nivel_sensibilidad_ficticia": "publica"
+    },
+    {
+      "id_dato": "DAT-000068",
+      "origen": "empresa",
+      "tipo_entidad": "cliente",
+      "campo": "pais",
+      "valor_minimizado": "Perú",
+      "nivel_sensibilidad_ficticia": "publica"
+    },
+    {
+      "id_dato": "DAT-000070",
+      "origen": "empresa",
+      "tipo_entidad": "cliente",
+      "campo": "estado",
+      "valor_minimizado": "bloqueado",
+      "nivel_sensibilidad_ficticia": "interna"
+    },
+    {
+      "id_dato": "DAT-000071",
+      "origen": "empresa",
+      "tipo_entidad": "cliente",
+      "campo": "id_cliente",
+      "valor_minimizado": "resumen::CLI-0011",
+      "nivel_sensibilidad_ficticia": "confidencial"
+    },
+    {
+      "id_dato": "DAT-000072",
+      "origen": "empresa",
+      "tipo_entidad": "cliente",
+      "campo": "nombre",
+      "valor_minimizado": "resumen::Cliente Fictici",
+      "nivel_sensibilidad_ficticia": "interna"
+    },
+    {
+      "id_dato": "DAT-000073",
+      "origen": "empresa",
+      "tipo_entidad": "cliente",
+      "campo": "segmento",
+      "valor_minimizado": "Startup",
+      "nivel_sensibilidad_ficticia": "publica"
+    },
+    {
+      "id_dato": "DAT-000074",
+      "origen": "empresa",
+      "tipo_entidad": "cliente",
+      "campo": "pais",
+      "valor_minimizado": "España",
+      "nivel_sensibilidad_ficticia": "publica"
+    },
+    {
+      "id_dato": "DAT-000076",
+      "origen": "empresa",
+      "tipo_entidad": "cliente",
+      "campo": "estado",
+      "valor_minimizado": "activo",
+      "nivel_sensibilidad_ficticia": "interna"
+    },
+    {
+      "id_dato": "DAT-000077",
+      "origen": "empresa",
+      "tipo_entidad": "cliente",
+      "campo": "id_cliente",
+      "valor_minimizado": "resumen::CLI-0012",
+      "nivel_sensibilidad_ficticia": "confidencial"
+    },
+    {
+      "id_dato": "DAT-000078",
+      "origen": "empresa",
+      "tipo_entidad": "cliente",
+      "campo": "nombre",
+      "valor_minimizado": "resumen::Cliente Fictici",
+      "nivel_sensibilidad_ficticia": "interna"
+    },
+    {
+      "id_dato": "DAT-000079",
+      "origen": "empresa",
+      "tipo_entidad": "cliente",
+      "campo": "segmento",
+      "valor_minimizado": "Startup",
+      "nivel_sensibilidad_ficticia": "publica"
+    },
+    {
+      "id_dato": "DAT-000080",
+      "origen": "empresa",
+      "tipo_entidad": "cliente",
+      "campo": "pais",
+      "valor_minimizado": "Chile",
+      "nivel_sensibilidad_ficticia": "publica"
+    }
+  ],
+  "trazabilidad_minimizacion": [
+    {
+      "id_dato": "DAT-000001",
+      "campo": "id_empresa",
+      "accion": "resumido",
+      "motivo": "regla_minimizacion"
+    },
+    {
+      "id_dato": "DAT-000002",
+      "campo": "nombre",
+      "accion": "resumido",
+      "motivo": "regla_minimizacion"
+    },
+    {
+      "id_dato": "DAT-000003",
+      "campo": "sector",
+      "accion": "conservado",
+      "motivo": "regla_minimizacion"
+    },
+    {
+      "id_dato": "DAT-000004",
+      "campo": "pais",
+      "accion": "conservado",
+      "motivo": "regla_minimizacion"
+    },
+    {
+      "id_dato": "DAT-000005",
+      "campo": "ciudad",
+      "accion": "conservado",
+      "motivo": "regla_minimizacion"
+    },
+    {
+      "id_dato": "DAT-000006",
+      "campo": "moneda",
+      "accion": "conservado",
+      "motivo": "regla_minimizacion"
+    },
+    {
+      "id_dato": "DAT-000007",
+      "campo": "fecha_simulacion",
+      "accion": "conservado",
+      "motivo": "regla_minimizacion"
+    },
+    {
+      "id_dato": "DAT-000008",
+      "campo": "numero_empleados",
+      "accion": "conservado",
+      "motivo": "regla_minimizacion"
+    },
+    {
+      "id_dato": "DAT-000009",
+      "campo": "numero_clientes",
+      "accion": "conservado",
+      "motivo": "regla_minimizacion"
+    },
+    {
+      "id_dato": "DAT-000010",
+      "campo": "numero_productos",
+      "accion": "conservado",
+      "motivo": "regla_minimizacion"
+    },
+    {
+      "id_dato": "DAT-000011",
+      "campo": "id_cliente",
+      "accion": "resumido",
+      "motivo": "regla_minimizacion"
+    },
+    {
+      "id_dato": "DAT-000012",
+      "campo": "nombre",
+      "accion": "resumido",
+      "motivo": "regla_minimizacion"
+    },
+    {
+      "id_dato": "DAT-000013",
+      "campo": "segmento",
+      "accion": "conservado",
+      "motivo": "regla_minimizacion"
+    },
+    {
+      "id_dato": "DAT-000014",
+      "campo": "pais",
+      "accion": "conservado",
+      "motivo": "regla_minimizacion"
+    },
+    {
+      "id_dato": "DAT-000015",
+      "campo": "nivel_riesgo",
+      "accion": "eliminado",
+      "motivo": "nivel_critico"
+    },
+    {
+      "id_dato": "DAT-000016",
+      "campo": "estado",
+      "accion": "conservado",
+      "motivo": "regla_minimizacion"
+    },
+    {
+      "id_dato": "DAT-000017",
+      "campo": "id_cliente",
+      "accion": "resumido",
+      "motivo": "regla_minimizacion"
+    },
+    {
+      "id_dato": "DAT-000018",
+      "campo": "nombre",
+      "accion": "resumido",
+      "motivo": "regla_minimizacion"
+    },
+    {
+      "id_dato": "DAT-000019",
+      "campo": "segmento",
+      "accion": "conservado",
+      "motivo": "regla_minimizacion"
+    },
+    {
+      "id_dato": "DAT-000020",
+      "campo": "pais",
+      "accion": "conservado",
+      "motivo": "regla_minimizacion"
+    },
+    {
+      "id_dato": "DAT-000021",
+      "campo": "nivel_riesgo",
+      "accion": "eliminado",
+      "motivo": "nivel_critico"
+    },
+    {
+      "id_dato": "DAT-000022",
+      "campo": "estado",
+      "accion": "conservado",
+      "motivo": "regla_minimizacion"
+    },
+    {
+      "id_dato": "DAT-000023",
+      "campo": "id_cliente",
+      "accion": "resumido",
+      "motivo": "regla_minimizacion"
+    },
+    {
+      "id_dato": "DAT-000024",
+      "campo": "nombre",
+      "accion": "resumido",
+      "motivo": "regla_minimizacion"
+    },
+    {
+      "id_dato": "DAT-000025",
+      "campo": "segmento",
+      "accion": "conservado",
+      "motivo": "regla_minimizacion"
+    },
+    {
+      "id_dato": "DAT-000026",
+      "campo": "pais",
+      "accion": "conservado",
+      "motivo": "regla_minimizacion"
+    },
+    {
+      "id_dato": "DAT-000027",
+      "campo": "nivel_riesgo",
+      "accion": "eliminado",
+      "motivo": "nivel_critico"
+    },
+    {
+      "id_dato": "DAT-000028",
+      "campo": "estado",
+      "accion": "conservado",
+      "motivo": "regla_minimizacion"
+    },
+    {
+      "id_dato": "DAT-000029",
+      "campo": "id_cliente",
+      "accion": "resumido",
+      "motivo": "regla_minimizacion"
+    },
+    {
+      "id_dato": "DAT-000030",
+      "campo": "nombre",
+      "accion": "resumido",
+      "motivo": "regla_minimizacion"
+    },
+    {
+      "id_dato": "DAT-000031",
+      "campo": "segmento",
+      "accion": "conservado",
+      "motivo": "regla_minimizacion"
+    },
+    {
+      "id_dato": "DAT-000032",
+      "campo": "pais",
+      "accion": "conservado",
+      "motivo": "regla_minimizacion"
+    },
+    {
+      "id_dato": "DAT-000033",
+      "campo": "nivel_riesgo",
+      "accion": "eliminado",
+      "motivo": "nivel_critico"
+    },
+    {
+      "id_dato": "DAT-000034",
+      "campo": "estado",
+      "accion": "conservado",
+      "motivo": "regla_minimizacion"
+    },
+    {
+      "id_dato": "DAT-000035",
+      "campo": "id_cliente",
+      "accion": "resumido",
+      "motivo": "regla_minimizacion"
+    },
+    {
+      "id_dato": "DAT-000036",
+      "campo": "nombre",
+      "accion": "resumido",
+      "motivo": "regla_minimizacion"
+    },
+    {
+      "id_dato": "DAT-000037",
+      "campo": "segmento",
+      "accion": "conservado",
+      "motivo": "regla_minimizacion"
+    },
+    {
+      "id_dato": "DAT-000038",
+      "campo": "pais",
+      "accion": "conservado",
+      "motivo": "regla_minimizacion"
+    },
+    {
+      "id_dato": "DAT-000039",
+      "campo": "nivel_riesgo",
+      "accion": "eliminado",
+      "motivo": "nivel_critico"
+    },
+    {
+      "id_dato": "DAT-000040",
+      "campo": "estado",
+      "accion": "conservado",
+      "motivo": "regla_minimizacion"
+    },
+    {
+      "id_dato": "DAT-000041",
+      "campo": "id_cliente",
+      "accion": "resumido",
+      "motivo": "regla_minimizacion"
+    },
+    {
+      "id_dato": "DAT-000042",
+      "campo": "nombre",
+      "accion": "resumido",
+      "motivo": "regla_minimizacion"
+    },
+    {
+      "id_dato": "DAT-000043",
+      "campo": "segmento",
+      "accion": "conservado",
+      "motivo": "regla_minimizacion"
+    },
+    {
+      "id_dato": "DAT-000044",
+      "campo": "pais",
+      "accion": "conservado",
+      "motivo": "regla_minimizacion"
+    },
+    {
+      "id_dato": "DAT-000045",
+      "campo": "nivel_riesgo",
+      "accion": "eliminado",
+      "motivo": "nivel_critico"
+    },
+    {
+      "id_dato": "DAT-000046",
+      "campo": "estado",
+      "accion": "conservado",
+      "motivo": "regla_minimizacion"
+    },
+    {
+      "id_dato": "DAT-000047",
+      "campo": "id_cliente",
+      "accion": "resumido",
+      "motivo": "regla_minimizacion"
+    },
+    {
+      "id_dato": "DAT-000048",
+      "campo": "nombre",
+      "accion": "resumido",
+      "motivo": "regla_minimizacion"
+    },
+    {
+      "id_dato": "DAT-000049",
+      "campo": "segmento",
+      "accion": "conservado",
+      "motivo": "regla_minimizacion"
+    },
+    {
+      "id_dato": "DAT-000050",
+      "campo": "pais",
+      "accion": "conservado",
+      "motivo": "regla_minimizacion"
+    },
+    {
+      "id_dato": "DAT-000051",
+      "campo": "nivel_riesgo",
+      "accion": "eliminado",
+      "motivo": "nivel_critico"
+    },
+    {
+      "id_dato": "DAT-000052",
+      "campo": "estado",
+      "accion": "conservado",
+      "motivo": "regla_minimizacion"
+    },
+    {
+      "id_dato": "DAT-000053",
+      "campo": "id_cliente",
+      "accion": "resumido",
+      "motivo": "regla_minimizacion"
+    },
+    {
+      "id_dato": "DAT-000054",
+      "campo": "nombre",
+      "accion": "resumido",
+      "motivo": "regla_minimizacion"
+    },
+    {
+      "id_dato": "DAT-000055",
+      "campo": "segmento",
+      "accion": "conservado",
+      "motivo": "regla_minimizacion"
+    },
+    {
+      "id_dato": "DAT-000056",
+      "campo": "pais",
+      "accion": "conservado",
+      "motivo": "regla_minimizacion"
+    },
+    {
+      "id_dato": "DAT-000057",
+      "campo": "nivel_riesgo",
+      "accion": "eliminado",
+      "motivo": "nivel_critico"
+    },
+    {
+      "id_dato": "DAT-000058",
+      "campo": "estado",
+      "accion": "conservado",
+      "motivo": "regla_minimizacion"
+    },
+    {
+      "id_dato": "DAT-000059",
+      "campo": "id_cliente",
+      "accion": "resumido",
+      "motivo": "regla_minimizacion"
+    },
+    {
+      "id_dato": "DAT-000060",
+      "campo": "nombre",
+      "accion": "resumido",
+      "motivo": "regla_minimizacion"
+    },
+    {
+      "id_dato": "DAT-000061",
+      "campo": "segmento",
+      "accion": "conservado",
+      "motivo": "regla_minimizacion"
+    },
+    {
+      "id_dato": "DAT-000062",
+      "campo": "pais",
+      "accion": "conservado",
+      "motivo": "regla_minimizacion"
+    },
+    {
+      "id_dato": "DAT-000063",
+      "campo": "nivel_riesgo",
+      "accion": "eliminado",
+      "motivo": "nivel_critico"
+    },
+    {
+      "id_dato": "DAT-000064",
+      "campo": "estado",
+      "accion": "conservado",
+      "motivo": "regla_minimizacion"
+    },
+    {
+      "id_dato": "DAT-000065",
+      "campo": "id_cliente",
+      "accion": "resumido",
+      "motivo": "regla_minimizacion"
+    },
+    {
+      "id_dato": "DAT-000066",
+      "campo": "nombre",
+      "accion": "resumido",
+      "motivo": "regla_minimizacion"
+    },
+    {
+      "id_dato": "DAT-000067",
+      "campo": "segmento",
+      "accion": "conservado",
+      "motivo": "regla_minimizacion"
+    },
+    {
+      "id_dato": "DAT-000068",
+      "campo": "pais",
+      "accion": "conservado",
+      "motivo": "regla_minimizacion"
+    },
+    {
+      "id_dato": "DAT-000069",
+      "campo": "nivel_riesgo",
+      "accion": "eliminado",
+      "motivo": "nivel_critico"
+    },
+    {
+      "id_dato": "DAT-000070",
+      "campo": "estado",
+      "accion": "conservado",
+      "motivo": "regla_minimizacion"
+    },
+    {
+      "id_dato": "DAT-000071",
+      "campo": "id_cliente",
+      "accion": "resumido",
+      "motivo": "regla_minimizacion"
+    },
+    {
+      "id_dato": "DAT-000072",
+      "campo": "nombre",
+      "accion": "resumido",
+      "motivo": "regla_minimizacion"
+    },
+    {
+      "id_dato": "DAT-000073",
+      "campo": "segmento",
+      "accion": "conservado",
+      "motivo": "regla_minimizacion"
+    },
+    {
+      "id_dato": "DAT-000074",
+      "campo": "pais",
+      "accion": "conservado",
+      "motivo": "regla_minimizacion"
+    },
+    {
+      "id_dato": "DAT-000075",
+      "campo": "nivel_riesgo",
+      "accion": "eliminado",
+      "motivo": "nivel_critico"
+    },
+    {
+      "id_dato": "DAT-000076",
+      "campo": "estado",
+      "accion": "conservado",
+      "motivo": "regla_minimizacion"
+    },
+    {
+      "id_dato": "DAT-000077",
+      "campo": "id_cliente",
+      "accion": "resumido",
+      "motivo": "regla_minimizacion"
+    },
+    {
+      "id_dato": "DAT-000078",
+      "campo": "nombre",
+      "accion": "resumido",
+      "motivo": "regla_minimizacion"
+    },
+    {
+      "id_dato": "DAT-000079",
+      "campo": "segmento",
+      "accion": "conservado",
+      "motivo": "regla_minimizacion"
+    },
+    {
+      "id_dato": "DAT-000080",
+      "campo": "pais",
+      "accion": "conservado",
+      "motivo": "regla_minimizacion"
+    }
+  ]
+}

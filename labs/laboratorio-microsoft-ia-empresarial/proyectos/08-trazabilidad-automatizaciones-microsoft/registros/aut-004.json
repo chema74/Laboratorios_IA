@@ -1,0 +1,18 @@
+{
+  "id_automatizacion": "aut-004",
+  "id_traza": "TRZ-aut-004-78368cf2",
+  "hash_simulado": "78368cf231651cf53d395f04203daeaf2e60d88a70d19e1c8e36aa6c992886f9",
+  "origen_simulado": "teams",
+  "accion_simulada": "Generar pendientes",
+  "estado_ejecucion": "completada",
+  "trazabilidad_suficiente": false,
+  "evidencia_generada": false,
+  "requiere_revision": true,
+  "registro_generado": "",
+  "usa_microsoft_real": false,
+  "usa_microsoft_graph_real": false,
+  "usa_oauth_real": false,
+  "usa_api_externa": false,
+  "usa_azure": false,
+  "usa_ia_real": false
+}

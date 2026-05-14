@@ -1,0 +1,44 @@
+{
+  "fecha_generacion": "2026-05-09",
+  "empresa": {
+    "id_empresa": "EMP-0042",
+    "nombre": "Empresa Sintetica 42",
+    "sector": "Logistica",
+    "pais": "España",
+    "ciudad": "Valencia",
+    "fecha_estado": "2026-05-09",
+    "origen_simulado": "gemelo_digital_operativo_ligero_v1_local"
+  },
+  "total_alertas": 4,
+  "alertas_por_severidad": {
+    "critica": 1,
+    "media": 1,
+    "alta": 2
+  },
+  "total_decisiones_simuladas": 4,
+  "decisiones_por_estado": {
+    "pendiente_revision": 2,
+    "rechazada_simulada": 1,
+    "escalada": 1
+  },
+  "total_consecuencias": 4,
+  "areas_con_mayor_presion": [
+    "direccion",
+    "operaciones",
+    "soporte"
+  ],
+  "indice_presion_operativa": 100.0,
+  "indice_riesgo_simulado": 82.0,
+  "indice_trazabilidad": 20.33,
+  "entradas_utilizadas": {
+    "entrada_empresa": "datos_ejemplo/empresa_sintetica_demo/empresa_sintetica.json",
+    "entrada_eventos": "datos_ejemplo/eventos_negocio_demo/eventos_negocio.json",
+    "entrada_documentos": "datos_ejemplo/documentos_sinteticos_demo/indice_documentos.json",
+    "entrada_escenarios": "datos_ejemplo/escenarios_prueba_agentes_demo/escenarios_prueba_agentes.json",
+    "entrada_crisis": "datos_ejemplo/crisis_simuladas_demo/crisis_simuladas.json",
+    "entrada_revisiones": "datos_ejemplo/revision_humana_demo/revisiones_humanas.json",
+    "entrada_registro_decisiones": "datos_ejemplo/revision_humana_demo/registro_decisiones.json"
+  },
+  "advertencia_sobre_datos_sinteticos": "Gemelo digital sintético para pruebas internas. No representa operación real.",
+  "advertencia_sobre_no_monitorizacion_real": "No existe monitorización real ni toma de decisión empresarial real."
+}

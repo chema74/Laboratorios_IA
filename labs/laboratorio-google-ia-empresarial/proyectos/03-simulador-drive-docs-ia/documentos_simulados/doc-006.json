@@ -1,0 +1,22 @@
+{
+  "id_documento": "doc-006",
+  "nombre_documento": "Ticket Soporte [DOCUMENTO_DEMO]",
+  "tipo_documento_detectado": "ticket de soporte simulado",
+  "carpeta_simulada": "soporte",
+  "resumen_simulado": "Incidencia sintética de acceso reportada por [CONTACTO_FICTICIO].",
+  "etiquetas_simuladas": [
+    "incidencia",
+    "soporte"
+  ],
+  "sensibilidad_detectada": "media",
+  "requiere_revision_humana": false,
+  "permisos_simulados": "lectura_equipo_soporte",
+  "accion_ia_simulada": "etiquetar",
+  "registro_generado": "",
+  "usa_drive_real": false,
+  "usa_docs_real": false,
+  "usa_oauth_real": false,
+  "usa_api_externa": false,
+  "usa_cloud": false,
+  "usa_ia_real": false
+}

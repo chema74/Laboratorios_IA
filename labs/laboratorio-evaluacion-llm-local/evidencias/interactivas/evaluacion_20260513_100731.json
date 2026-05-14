@@ -1,0 +1,30 @@
+{
+  "fecha_utc": "2026-05-13T10:07:31Z",
+  "escenario": "respuesta_correcta_incompleta",
+  "pregunta": "Resume la estrategia comercial para dirección.",
+  "contexto": "Objetivos: crecimiento B2B, mejora de margen y expansión regional. Riesgos: churn y presión competitiva.",
+  "respuesta_candidata": "La estrategia prioriza crecimiento B2B y mejora de margen.",
+  "criterios": [
+    "relevancia",
+    "precision",
+    "cobertura"
+  ],
+  "puntuaciones": {
+    "relevancia": 0.2,
+    "precision": 0.2736,
+    "cobertura": 0.3636
+  },
+  "puntuacion_media": 0.2791,
+  "explicacion": "Evaluación heurística local determinista basada en solapamiento léxico, señales de riesgo y trazabilidad explícita en la respuesta candidata.",
+  "riesgos": [
+    "contexto_insuficiente"
+  ],
+  "recomendaciones": [
+    "ampliar contexto de soporte antes de responder",
+    "incluir referencia explícita a fuente o contexto"
+  ],
+  "proveedor": "fallback_local",
+  "modelo": "llama-3.1-8b-instant",
+  "ruta_ejecucion": "fallback_local",
+  "motivo_fallback": "forzado"
+}

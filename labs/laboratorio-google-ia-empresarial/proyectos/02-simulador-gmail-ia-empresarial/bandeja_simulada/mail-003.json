@@ -1,0 +1,17 @@
+{
+  "id_correo": "mail-003",
+  "categoria_detectada": "operaciones",
+  "prioridad_detectada": "media",
+  "requiere_respuesta": false,
+  "requiere_tarea": true,
+  "respuesta_sugerida_simulada": "[SIMULADO] mail-003 (operaciones): Responder en un plazo de 24h simuladas. Sin Gmail real ni IA real.",
+  "tarea_sugerida_simulada": "[SIMULADO] Crear tarea de seguimiento para mail-003 sobre 'Confirmación simulada de reunión'.",
+  "sensibilidad_detectada": "baja",
+  "accion_recomendada": "planificar",
+  "registro_generado": "",
+  "usa_gmail_real": false,
+  "usa_oauth_real": false,
+  "usa_api_externa": false,
+  "usa_cloud": false,
+  "usa_ia_real": false
+}

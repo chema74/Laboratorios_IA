@@ -1,0 +1,18 @@
+{
+  "id_automatizacion": "aut-002",
+  "id_traza": "TRZ-aut-002-86bcdc23",
+  "hash_simulado": "86bcdc23003b1d888261b09412a9d549d11c13c3ca065e076aa89fe6bf1caf86",
+  "origen_simulado": "word",
+  "accion_simulada": "Generar resumen sintetico",
+  "estado_ejecucion": "completada",
+  "trazabilidad_suficiente": true,
+  "evidencia_generada": true,
+  "requiere_revision": true,
+  "registro_generado": "",
+  "usa_microsoft_real": false,
+  "usa_microsoft_graph_real": false,
+  "usa_oauth_real": false,
+  "usa_api_externa": false,
+  "usa_azure": false,
+  "usa_ia_real": false
+}

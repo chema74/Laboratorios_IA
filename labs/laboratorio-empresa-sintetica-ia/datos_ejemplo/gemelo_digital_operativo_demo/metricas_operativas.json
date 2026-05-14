@@ -1,0 +1,15 @@
+{
+  "ingresos_estimados_mensuales": 71651.62,
+  "tickets_abiertos": 6,
+  "incidencias_activas": 17,
+  "pagos_pendientes": 14,
+  "clientes_en_riesgo": 8,
+  "crisis_activas": 4,
+  "revisiones_pendientes": 13,
+  "documentos_generados": 21,
+  "escenarios_disponibles": 21,
+  "alertas_activas": 3,
+  "indice_presion_operativa": 100.0,
+  "indice_riesgo_simulado": 82.0,
+  "indice_trazabilidad": 20.33
+}

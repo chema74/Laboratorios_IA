@@ -1,0 +1,132 @@
+{
+  "metadata": {
+    "fecha_generacion": "2026-05-11T09:56:57",
+    "total_permisos": 6,
+    "nota": "V1 local simulada: no hay Microsoft real, Microsoft Graph API real, OAuth real, Azure, IA real ni datos reales."
+  },
+  "resumen_por_tipo_recurso": {
+    "outlook": 1,
+    "onedrive": 1,
+    "excel": 1,
+    "teams": 1,
+    "copilot_futuro": 1,
+    "power_platform_futuro": 1
+  },
+  "resumen_por_rol": {
+    "analista_operaciones": 1,
+    "coordinador_proyectos": 1,
+    "soporte_n1": 1,
+    "gestor_rrhh": 1,
+    "auditor_interno": 1,
+    "admin_plataforma_simulada": 1
+  },
+  "resumen_por_decision": {
+    "mantener": 2,
+    "revisar": 2,
+    "revocar": 2
+  },
+  "resultados": [
+    {
+      "id_permiso": "perm-001",
+      "usuario_ficticio": "ana.demo@empresa-sintetica.local",
+      "recurso_simulado": "Buzon Operaciones Demo",
+      "permiso_asignado": "lectura",
+      "riesgo_detectado": "bajo",
+      "decision_gobierno": "mantener",
+      "motivo_decision": "Cumple mínimo privilegio.",
+      "accion_recomendada": "Mantener permiso y documentar evidencia.",
+      "registro_generado": "proyectos\\07-gobierno-permisos-microsoft-simulado\\registros\\perm-001.json",
+      "usa_microsoft_real": false,
+      "usa_microsoft_graph_real": false,
+      "usa_oauth_real": false,
+      "usa_api_externa": false,
+      "usa_azure": false,
+      "usa_ia_real": false
+    },
+    {
+      "id_permiso": "perm-002",
+      "usuario_ficticio": "luis.demo@empresa-sintetica.local",
+      "recurso_simulado": "Carpeta Propuestas Demo",
+      "permiso_asignado": "edicion",
+      "riesgo_detectado": "medio",
+      "decision_gobierno": "revisar",
+      "motivo_decision": "Requiere revisión por riesgo medio o marca de revisión.",
+      "accion_recomendada": "Revisar justificación y responsable.",
+      "registro_generado": "proyectos\\07-gobierno-permisos-microsoft-simulado\\registros\\perm-002.json",
+      "usa_microsoft_real": false,
+      "usa_microsoft_graph_real": false,
+      "usa_oauth_real": false,
+      "usa_api_externa": false,
+      "usa_azure": false,
+      "usa_ia_real": false
+    },
+    {
+      "id_permiso": "perm-003",
+      "usuario_ficticio": "marta.demo@empresa-sintetica.local",
+      "recurso_simulado": "Libro KPI Demo",
+      "permiso_asignado": "comentario",
+      "riesgo_detectado": "bajo",
+      "decision_gobierno": "mantener",
+      "motivo_decision": "Cumple mínimo privilegio.",
+      "accion_recomendada": "Mantener permiso y documentar evidencia.",
+      "registro_generado": "proyectos\\07-gobierno-permisos-microsoft-simulado\\registros\\perm-003.json",
+      "usa_microsoft_real": false,
+      "usa_microsoft_graph_real": false,
+      "usa_oauth_real": false,
+      "usa_api_externa": false,
+      "usa_azure": false,
+      "usa_ia_real": false
+    },
+    {
+      "id_permiso": "perm-004",
+      "usuario_ficticio": "diego.demo@empresa-sintetica.local",
+      "recurso_simulado": "Canal RRHH Simulado",
+      "permiso_asignado": "administracion_simulada",
+      "riesgo_detectado": "alto",
+      "decision_gobierno": "revocar",
+      "motivo_decision": "Permiso amplio en recurso sensible con riesgo alto.",
+      "accion_recomendada": "Revocar permiso por exceso de riesgo.",
+      "registro_generado": "proyectos\\07-gobierno-permisos-microsoft-simulado\\registros\\perm-004.json",
+      "usa_microsoft_real": false,
+      "usa_microsoft_graph_real": false,
+      "usa_oauth_real": false,
+      "usa_api_externa": false,
+      "usa_azure": false,
+      "usa_ia_real": false
+    },
+    {
+      "id_permiso": "perm-005",
+      "usuario_ficticio": "sara.demo@empresa-sintetica.local",
+      "recurso_simulado": "Conector Copilot Futuro",
+      "permiso_asignado": "restringido",
+      "riesgo_detectado": "medio",
+      "decision_gobierno": "revisar",
+      "motivo_decision": "Requiere revisión por riesgo medio o marca de revisión.",
+      "accion_recomendada": "Revisar justificación y responsable.",
+      "registro_generado": "proyectos\\07-gobierno-permisos-microsoft-simulado\\registros\\perm-005.json",
+      "usa_microsoft_real": false,
+      "usa_microsoft_graph_real": false,
+      "usa_oauth_real": false,
+      "usa_api_externa": false,
+      "usa_azure": false,
+      "usa_ia_real": false
+    },
+    {
+      "id_permiso": "perm-006",
+      "usuario_ficticio": "pablo.demo@empresa-sintetica.local",
+      "recurso_simulado": "Entorno Power Platform Futuro",
+      "permiso_asignado": "propietario_simulado",
+      "riesgo_detectado": "alto",
+      "decision_gobierno": "revocar",
+      "motivo_decision": "Permiso amplio en recurso sensible con riesgo alto.",
+      "accion_recomendada": "Revocar permiso por exceso de riesgo.",
+      "registro_generado": "proyectos\\07-gobierno-permisos-microsoft-simulado\\registros\\perm-006.json",
+      "usa_microsoft_real": false,
+      "usa_microsoft_graph_real": false,
+      "usa_oauth_real": false,
+      "usa_api_externa": false,
+      "usa_azure": false,
+      "usa_ia_real": false
+    }
+  ]
+}

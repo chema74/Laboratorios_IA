@@ -1,0 +1,56 @@
+﻿# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Cachés y compilados Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Variables de entorno
+.env
+.env.*
+!.env.example
+
+# Archivos temporales
+*.tmp
+*.temp
+*.log
+*.bak
+*.swp
+
+# Salidas generadas
+output/
+out/
+dist/
+build/
+
+# Datasets generados
+datasets_generados/
+datos_generados/
+
+# Evidencias generadas
+/evidencias/**/*.json
+/evidencias/**/*.csv
+/evidencias/**/*.txt
+/evidencias/tmp/
+
+# Capturas temporales
+/capturas/tmp/
+/capturas/*.tmp
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Cachés y salidas temporales de pruebas
+.pytest_cache/
+**/.pytest_cache/
+**/tests/.tmp/
+**/.tmp/

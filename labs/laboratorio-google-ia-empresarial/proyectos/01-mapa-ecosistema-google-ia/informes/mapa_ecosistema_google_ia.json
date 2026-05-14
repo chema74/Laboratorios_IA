@@ -1,0 +1,315 @@
+{
+  "fecha_generacion": "2026-05-11T08:36:07",
+  "total_componentes": 11,
+  "componentes": [
+    {
+      "id_componente": "cmp-001",
+      "nombre_componente": "Gmail simulado",
+      "categoria": "workspace",
+      "descripcion": "Módulo local de recepción y clasificación sintética de correos.",
+      "uso_empresarial_simulado": "Gestión de comunicaciones internas y externas ficticias.",
+      "entrada_sintetica": "Correos empresariales sintéticos",
+      "salida_sintetica": "Clasificación, prioridad y sugerencias locales",
+      "dependencia_real_obligatoria": false,
+      "requiere_oauth_real": false,
+      "requiere_api_real": false,
+      "requiere_cloud": false,
+      "v1_local_simulada": true,
+      "v2_opcional": "Conector Gmail API opcional mediante .env y fallback local",
+      "riesgos_y_limites": "No hay envío real ni lectura de bandeja real.",
+      "nota_sintetica": "Componente de simulación documental y técnica.",
+      "capa_arquitectura": "aplicaciones_simuladas"
+    },
+    {
+      "id_componente": "cmp-002",
+      "nombre_componente": "Drive simulado",
+      "categoria": "workspace",
+      "descripcion": "Repositorio local que representa almacenamiento documental.",
+      "uso_empresarial_simulado": "Persistencia de artefactos simulados.",
+      "entrada_sintetica": "Documentos sintéticos",
+      "salida_sintetica": "Versiones locales de archivos",
+      "dependencia_real_obligatoria": false,
+      "requiere_oauth_real": false,
+      "requiere_api_real": false,
+      "requiere_cloud": false,
+      "v1_local_simulada": true,
+      "v2_opcional": "Sincronización opcional con Drive API vía .env",
+      "riesgos_y_limites": "No existe sincronización en nube real.",
+      "nota_sintetica": "Representación conceptual de almacenamiento.",
+      "capa_arquitectura": "aplicaciones_simuladas"
+    },
+    {
+      "id_componente": "cmp-003",
+      "nombre_componente": "Docs simulado",
+      "categoria": "workspace",
+      "descripcion": "Generación local de documentos de informe.",
+      "uso_empresarial_simulado": "Plantillas y reportes de operaciones ficticias.",
+      "entrada_sintetica": "Resultados de simulaciones",
+      "salida_sintetica": "Informes Markdown/JSON",
+      "dependencia_real_obligatoria": false,
+      "requiere_oauth_real": false,
+      "requiere_api_real": false,
+      "requiere_cloud": false,
+      "v1_local_simulada": true,
+      "v2_opcional": "Edición remota opcional en Workspace real",
+      "riesgos_y_limites": "No hay colaboración en tiempo real.",
+      "nota_sintetica": "Salida local completamente reproducible.",
+      "capa_arquitectura": "aplicaciones_simuladas"
+    },
+    {
+      "id_componente": "cmp-004",
+      "nombre_componente": "Sheets simulado",
+      "categoria": "analitica",
+      "descripcion": "Motor local de resumen de métricas sintéticas.",
+      "uso_empresarial_simulado": "Cuadros de control de operación ficticia.",
+      "entrada_sintetica": "Eventos y registros simulados",
+      "salida_sintetica": "Métricas agregadas por categoría",
+      "dependencia_real_obligatoria": false,
+      "requiere_oauth_real": false,
+      "requiere_api_real": false,
+      "requiere_cloud": false,
+      "v1_local_simulada": true,
+      "v2_opcional": "Exportación opcional a Sheets API",
+      "riesgos_y_limites": "Sin visualización avanzada de terceros.",
+      "nota_sintetica": "Analítica base sin dependencias externas.",
+      "capa_arquitectura": "analitica_y_reportes"
+    },
+    {
+      "id_componente": "cmp-005",
+      "nombre_componente": "Calendar simulado",
+      "categoria": "workspace",
+      "descripcion": "Planificador ficticio de tareas y eventos.",
+      "uso_empresarial_simulado": "Orquestación temporal de actividades de equipo.",
+      "entrada_sintetica": "Solicitudes simuladas",
+      "salida_sintetica": "Eventos y tareas sugeridas",
+      "dependencia_real_obligatoria": false,
+      "requiere_oauth_real": false,
+      "requiere_api_real": false,
+      "requiere_cloud": false,
+      "v1_local_simulada": true,
+      "v2_opcional": "Sincronización opcional con Calendar API",
+      "riesgos_y_limites": "No hay invitaciones reales.",
+      "nota_sintetica": "Calendario conceptual en entorno local.",
+      "capa_arquitectura": "aplicaciones_simuladas"
+    },
+    {
+      "id_componente": "cmp-006",
+      "nombre_componente": "Apps Script conceptual",
+      "categoria": "automatizacion",
+      "descripcion": "Capa de scripts conceptuales para automatizar acciones.",
+      "uso_empresarial_simulado": "Diseño de flujos y reglas de negocio.",
+      "entrada_sintetica": "Eventos internos simulados",
+      "salida_sintetica": "Acciones documentadas",
+      "dependencia_real_obligatoria": false,
+      "requiere_oauth_real": false,
+      "requiere_api_real": false,
+      "requiere_cloud": false,
+      "v1_local_simulada": true,
+      "v2_opcional": "Automatización remota opcional con Apps Script real",
+      "riesgos_y_limites": "No ejecuta scripts en servicios reales.",
+      "nota_sintetica": "Solo diseño conceptual de automatización.",
+      "capa_arquitectura": "orquestacion"
+    },
+    {
+      "id_componente": "cmp-007",
+      "nombre_componente": "Gemini API futura opcional",
+      "categoria": "ia_opcional_futura",
+      "descripcion": "Punto de extensión futura para generación asistida.",
+      "uso_empresarial_simulado": "Mejora opcional de respuestas y análisis.",
+      "entrada_sintetica": "Prompts sintéticos",
+      "salida_sintetica": "Respuestas simuladas por fallback local",
+      "dependencia_real_obligatoria": false,
+      "requiere_oauth_real": false,
+      "requiere_api_real": false,
+      "requiere_cloud": false,
+      "v1_local_simulada": true,
+      "v2_opcional": "Activación opcional por .env",
+      "riesgos_y_limites": "No se llama a modelos reales en V1.",
+      "nota_sintetica": "Conector desactivado por defecto.",
+      "capa_arquitectura": "integraciones_futuras"
+    },
+    {
+      "id_componente": "cmp-008",
+      "nombre_componente": "Google Cloud futura opcional",
+      "categoria": "cloud_opcional_futura",
+      "descripcion": "Capa potencial para escalar arquitectura en etapas avanzadas.",
+      "uso_empresarial_simulado": "Escalabilidad documentada sin dependencia actual.",
+      "entrada_sintetica": "Diseños de despliegue ficticios",
+      "salida_sintetica": "Recomendaciones de evolución",
+      "dependencia_real_obligatoria": false,
+      "requiere_oauth_real": false,
+      "requiere_api_real": false,
+      "requiere_cloud": false,
+      "v1_local_simulada": true,
+      "v2_opcional": "Solo evaluación conceptual en V2/V3",
+      "riesgos_y_limites": "Sin recursos cloud en V1.",
+      "nota_sintetica": "Componente de hoja de ruta.",
+      "capa_arquitectura": "integraciones_futuras"
+    },
+    {
+      "id_componente": "cmp-009",
+      "nombre_componente": "Capa de permisos",
+      "categoria": "gobierno",
+      "descripcion": "Modelo ficticio de control de accesos por roles.",
+      "uso_empresarial_simulado": "Definición de autorizaciones por proceso.",
+      "entrada_sintetica": "Matriz de roles simulada",
+      "salida_sintetica": "Reglas de acceso documentadas",
+      "dependencia_real_obligatoria": false,
+      "requiere_oauth_real": false,
+      "requiere_api_real": false,
+      "requiere_cloud": false,
+      "v1_local_simulada": true,
+      "v2_opcional": "Integración opcional con sistemas IAM reales",
+      "riesgos_y_limites": "No aplica políticas reales en plataformas externas.",
+      "nota_sintetica": "Gobierno de acceso en entorno controlado.",
+      "capa_arquitectura": "gobierno_y_seguridad"
+    },
+    {
+      "id_componente": "cmp-010",
+      "nombre_componente": "Capa de trazabilidad",
+      "categoria": "gobierno",
+      "descripcion": "Registro de decisiones, entradas y salidas del laboratorio.",
+      "uso_empresarial_simulado": "Auditoría de automatizaciones ficticias.",
+      "entrada_sintetica": "Eventos simulados",
+      "salida_sintetica": "Bitácoras locales",
+      "dependencia_real_obligatoria": false,
+      "requiere_oauth_real": false,
+      "requiere_api_real": false,
+      "requiere_cloud": false,
+      "v1_local_simulada": true,
+      "v2_opcional": "Conector opcional a herramientas SIEM futuras",
+      "riesgos_y_limites": "Sin auditoría externa automatizada.",
+      "nota_sintetica": "Trazabilidad local verificable.",
+      "capa_arquitectura": "gobierno_y_seguridad"
+    },
+    {
+      "id_componente": "cmp-011",
+      "nombre_componente": "Capa de fallback local",
+      "categoria": "resiliencia",
+      "descripcion": "Mecanismo por defecto para operar sin servicios externos.",
+      "uso_empresarial_simulado": "Continuidad de operaciones simuladas.",
+      "entrada_sintetica": "Solicitudes de integración",
+      "salida_sintetica": "Respuesta local determinista",
+      "dependencia_real_obligatoria": false,
+      "requiere_oauth_real": false,
+      "requiere_api_real": false,
+      "requiere_cloud": false,
+      "v1_local_simulada": true,
+      "v2_opcional": "Fallback activo aunque se habiliten conectores opcionales",
+      "riesgos_y_limites": "Sin validación contra servicios reales.",
+      "nota_sintetica": "Pilar de estrategia local-first.",
+      "capa_arquitectura": "resiliencia"
+    }
+  ],
+  "resumen_por_categoria": {
+    "workspace": 4,
+    "analitica": 1,
+    "automatizacion": 1,
+    "ia_opcional_futura": 1,
+    "cloud_opcional_futura": 1,
+    "gobierno": 2,
+    "resiliencia": 1
+  },
+  "resumen_por_capa": {
+    "aplicaciones_simuladas": 4,
+    "analitica_y_reportes": 1,
+    "orquestacion": 1,
+    "integraciones_futuras": 2,
+    "gobierno_y_seguridad": 2,
+    "resiliencia": 1
+  },
+  "componentes_por_categoria": {
+    "workspace": [
+      "cmp-001",
+      "cmp-002",
+      "cmp-003",
+      "cmp-005"
+    ],
+    "analitica": [
+      "cmp-004"
+    ],
+    "automatizacion": [
+      "cmp-006"
+    ],
+    "ia_opcional_futura": [
+      "cmp-007"
+    ],
+    "cloud_opcional_futura": [
+      "cmp-008"
+    ],
+    "gobierno": [
+      "cmp-009",
+      "cmp-010"
+    ],
+    "resiliencia": [
+      "cmp-011"
+    ]
+  },
+  "componentes_por_capa": {
+    "aplicaciones_simuladas": [
+      "cmp-001",
+      "cmp-002",
+      "cmp-003",
+      "cmp-005"
+    ],
+    "analitica_y_reportes": [
+      "cmp-004"
+    ],
+    "orquestacion": [
+      "cmp-006"
+    ],
+    "integraciones_futuras": [
+      "cmp-007",
+      "cmp-008"
+    ],
+    "gobierno_y_seguridad": [
+      "cmp-009",
+      "cmp-010"
+    ],
+    "resiliencia": [
+      "cmp-011"
+    ]
+  },
+  "componentes_v2_opcional": [
+    {
+      "id_componente": "cmp-001",
+      "nombre_componente": "Gmail simulado",
+      "v2_opcional": "Conector Gmail API opcional mediante .env y fallback local"
+    },
+    {
+      "id_componente": "cmp-002",
+      "nombre_componente": "Drive simulado",
+      "v2_opcional": "Sincronización opcional con Drive API vía .env"
+    },
+    {
+      "id_componente": "cmp-003",
+      "nombre_componente": "Docs simulado",
+      "v2_opcional": "Edición remota opcional en Workspace real"
+    },
+    {
+      "id_componente": "cmp-004",
+      "nombre_componente": "Sheets simulado",
+      "v2_opcional": "Exportación opcional a Sheets API"
+    },
+    {
+      "id_componente": "cmp-005",
+      "nombre_componente": "Calendar simulado",
+      "v2_opcional": "Sincronización opcional con Calendar API"
+    },
+    {
+      "id_componente": "cmp-007",
+      "nombre_componente": "Gemini API futura opcional",
+      "v2_opcional": "Activación opcional por .env"
+    }
+  ],
+  "mapa_conceptual_textual": "- aplicaciones_simuladas: Gmail simulado, Drive simulado, Docs simulado, Calendar simulado\n- analitica_y_reportes: Sheets simulado\n- orquestacion: Apps Script conceptual\n- integraciones_futuras: Gemini API futura opcional, Google Cloud futura opcional\n- gobierno_y_seguridad: Capa de permisos, Capa de trazabilidad\n- resiliencia: Capa de fallback local",
+  "limites_v1": [
+    "sin_google_real",
+    "sin_oauth_real",
+    "sin_apis_reales",
+    "sin_cloud_obligatorio",
+    "sin_datos_reales",
+    "sin_ia_real"
+  ],
+  "nota": "Este mapa es 100% sintético: no usa Google real, OAuth real, APIs reales, cloud real, datos reales ni IA real."
+}

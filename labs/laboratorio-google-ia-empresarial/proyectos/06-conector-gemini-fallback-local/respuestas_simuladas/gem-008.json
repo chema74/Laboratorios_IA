@@ -1,0 +1,13 @@
+{
+  "id_solicitud": "gem-008",
+  "tipo_solicitud": "recomendación operativa simulada",
+  "modo_ejecucion": "fallback-local",
+  "respuesta_simulada": "[FALLBACK-LOCAL] Respuesta simulada para recomendación operativa simulada: Backlog de tareas sintéticas.",
+  "razon_fallback": "v1_controlado",
+  "trazabilidad_fallback": "fallback_local::gem-008::v1_controlado",
+  "registro_generado": "",
+  "usa_gemini_real": false,
+  "usa_api_externa": false,
+  "usa_cloud": false,
+  "usa_ia_real": false
+}

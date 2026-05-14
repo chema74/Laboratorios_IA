@@ -1,0 +1,21 @@
+{
+  "id_correo": "mail-004",
+  "carpeta_detectada": "Seguimiento",
+  "categoria_detectada": "administracion",
+  "prioridad_detectada": "media",
+  "requiere_respuesta": false,
+  "requiere_tarea": true,
+  "requiere_reunion": false,
+  "respuesta_sugerida_simulada": "Responder en el dia laboral simulado. Mensaje generado localmente sin IA real.",
+  "tarea_sugerida_simulada": "Crear tarea estandar.: Factura sintetica pendiente de revision",
+  "reunion_sugerida_simulada": "No aplica",
+  "sensibilidad_detectada": "confidencial_simulada",
+  "accion_recomendada": "Crear tarea de revision",
+  "registro_generado": "",
+  "usa_outlook_real": false,
+  "usa_microsoft_graph_real": false,
+  "usa_oauth_real": false,
+  "usa_api_externa": false,
+  "usa_azure": false,
+  "usa_ia_real": false
+}

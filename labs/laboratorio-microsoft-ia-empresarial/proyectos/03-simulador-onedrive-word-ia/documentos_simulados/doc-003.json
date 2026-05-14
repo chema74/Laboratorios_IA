@@ -1,0 +1,24 @@
+{
+  "id_documento": "doc-003",
+  "nombre_documento": "Contrato Simulado [CLAUSULA_SIMULADA]",
+  "tipo_documento_detectado": "contrato simulado",
+  "carpeta_onedrive_simulada": "Legal",
+  "resumen_simulado": "Contrato de prueba con [CLAUSULA_SIMULADA] y alcance ficticio.",
+  "etiquetas_simuladas": [
+    "legal",
+    "contrato",
+    "riesgo"
+  ],
+  "sensibilidad_detectada": "restringida",
+  "requiere_revision_humana": true,
+  "permisos_simulados": "lectura_legal",
+  "accion_ia_simulada": "detectar_riesgos",
+  "registro_generado": "",
+  "usa_onedrive_real": false,
+  "usa_word_real": false,
+  "usa_microsoft_graph_real": false,
+  "usa_oauth_real": false,
+  "usa_api_externa": false,
+  "usa_azure": false,
+  "usa_ia_real": false
+}

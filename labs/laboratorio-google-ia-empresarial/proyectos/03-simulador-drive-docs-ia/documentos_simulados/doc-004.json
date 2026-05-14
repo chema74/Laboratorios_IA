@@ -1,0 +1,22 @@
+{
+  "id_documento": "doc-004",
+  "nombre_documento": "Informe Operativo [DOCUMENTO_DEMO]",
+  "tipo_documento_detectado": "informe operativo simulado",
+  "carpeta_simulada": "operaciones",
+  "resumen_simulado": "Informe semanal con métricas sintéticas y estado de tareas.",
+  "etiquetas_simuladas": [
+    "informe",
+    "kpi"
+  ],
+  "sensibilidad_detectada": "media",
+  "requiere_revision_humana": false,
+  "permisos_simulados": "lectura_equipo_operaciones",
+  "accion_ia_simulada": "resumir",
+  "registro_generado": "",
+  "usa_drive_real": false,
+  "usa_docs_real": false,
+  "usa_oauth_real": false,
+  "usa_api_externa": false,
+  "usa_cloud": false,
+  "usa_ia_real": false
+}

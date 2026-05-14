@@ -1,0 +1,12 @@
+﻿__pycache__/
+.pytest_cache/
+.pytest-tmp/
+.venv/
+venv/
+.env
+*.pyc
+*.tmp
+*.temp
+.DS_Store
+
+salidas/

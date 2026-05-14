@@ -1,0 +1,389 @@
+{
+  "empresa": {
+    "id_empresa": "EMP-0042",
+    "nombre": "Empresa Sintetica 42",
+    "sector": "Logistica",
+    "pais": "España",
+    "ciudad": "Valencia",
+    "moneda": "USD",
+    "fecha_simulacion": "2026-05-09",
+    "numero_empleados": 12,
+    "numero_clientes": 20,
+    "numero_productos": 8
+  },
+  "empleados": [
+    {
+      "id_empleado": "EMPLO-0001",
+      "nombre": "Empleado Ficticio 1",
+      "departamento": "Ventas",
+      "rol": "Coordinador",
+      "nivel_responsabilidad": "Alto",
+      "estado": "activo"
+    },
+    {
+      "id_empleado": "EMPLO-0002",
+      "nombre": "Empleado Ficticio 2",
+      "departamento": "TI",
+      "rol": "Analista",
+      "nivel_responsabilidad": "Alto",
+      "estado": "inactivo"
+    },
+    {
+      "id_empleado": "EMPLO-0003",
+      "nombre": "Empleado Ficticio 3",
+      "departamento": "Operaciones",
+      "rol": "Analista",
+      "nivel_responsabilidad": "Bajo",
+      "estado": "activo"
+    },
+    {
+      "id_empleado": "EMPLO-0004",
+      "nombre": "Empleado Ficticio 4",
+      "departamento": "Ventas",
+      "rol": "Tecnico",
+      "nivel_responsabilidad": "Alto",
+      "estado": "activo"
+    },
+    {
+      "id_empleado": "EMPLO-0005",
+      "nombre": "Empleado Ficticio 5",
+      "departamento": "TI",
+      "rol": "Coordinador",
+      "nivel_responsabilidad": "Alto",
+      "estado": "en_revision"
+    },
+    {
+      "id_empleado": "EMPLO-0006",
+      "nombre": "Empleado Ficticio 6",
+      "departamento": "TI",
+      "rol": "Responsable",
+      "nivel_responsabilidad": "Bajo",
+      "estado": "inactivo"
+    },
+    {
+      "id_empleado": "EMPLO-0007",
+      "nombre": "Empleado Ficticio 7",
+      "departamento": "TI",
+      "rol": "Especialista",
+      "nivel_responsabilidad": "Bajo",
+      "estado": "activo"
+    },
+    {
+      "id_empleado": "EMPLO-0008",
+      "nombre": "Empleado Ficticio 8",
+      "departamento": "Atencion Cliente",
+      "rol": "Especialista",
+      "nivel_responsabilidad": "Medio",
+      "estado": "activo"
+    },
+    {
+      "id_empleado": "EMPLO-0009",
+      "nombre": "Empleado Ficticio 9",
+      "departamento": "Ventas",
+      "rol": "Especialista",
+      "nivel_responsabilidad": "Bajo",
+      "estado": "activo"
+    },
+    {
+      "id_empleado": "EMPLO-0010",
+      "nombre": "Empleado Ficticio 10",
+      "departamento": "Atencion Cliente",
+      "rol": "Analista",
+      "nivel_responsabilidad": "Medio",
+      "estado": "inactivo"
+    },
+    {
+      "id_empleado": "EMPLO-0011",
+      "nombre": "Empleado Ficticio 11",
+      "departamento": "TI",
+      "rol": "Especialista",
+      "nivel_responsabilidad": "Bajo",
+      "estado": "en_revision"
+    },
+    {
+      "id_empleado": "EMPLO-0012",
+      "nombre": "Empleado Ficticio 12",
+      "departamento": "Atencion Cliente",
+      "rol": "Tecnico",
+      "nivel_responsabilidad": "Bajo",
+      "estado": "inactivo"
+    }
+  ],
+  "clientes": [
+    {
+      "id_cliente": "CLI-0001",
+      "nombre": "Cliente Ficticio 1",
+      "segmento": "PYME",
+      "pais": "Perú",
+      "nivel_riesgo": "Medio",
+      "estado": "bloqueado"
+    },
+    {
+      "id_cliente": "CLI-0002",
+      "nombre": "Cliente Ficticio 2",
+      "segmento": "Startup",
+      "pais": "Perú",
+      "nivel_riesgo": "Bajo",
+      "estado": "bloqueado"
+    },
+    {
+      "id_cliente": "CLI-0003",
+      "nombre": "Cliente Ficticio 3",
+      "segmento": "PYME",
+      "pais": "España",
+      "nivel_riesgo": "Alto",
+      "estado": "activo"
+    },
+    {
+      "id_cliente": "CLI-0004",
+      "nombre": "Cliente Ficticio 4",
+      "segmento": "Startup",
+      "pais": "España",
+      "nivel_riesgo": "Bajo",
+      "estado": "activo"
+    },
+    {
+      "id_cliente": "CLI-0005",
+      "nombre": "Cliente Ficticio 5",
+      "segmento": "Publico",
+      "pais": "Colombia",
+      "nivel_riesgo": "Medio",
+      "estado": "bloqueado"
+    },
+    {
+      "id_cliente": "CLI-0006",
+      "nombre": "Cliente Ficticio 6",
+      "segmento": "Startup",
+      "pais": "México",
+      "nivel_riesgo": "Medio",
+      "estado": "en_revision"
+    },
+    {
+      "id_cliente": "CLI-0007",
+      "nombre": "Cliente Ficticio 7",
+      "segmento": "Corporativo",
+      "pais": "Colombia",
+      "nivel_riesgo": "Alto",
+      "estado": "bloqueado"
+    },
+    {
+      "id_cliente": "CLI-0008",
+      "nombre": "Cliente Ficticio 8",
+      "segmento": "PYME",
+      "pais": "Perú",
+      "nivel_riesgo": "Alto",
+      "estado": "activo"
+    },
+    {
+      "id_cliente": "CLI-0009",
+      "nombre": "Cliente Ficticio 9",
+      "segmento": "Corporativo",
+      "pais": "México",
+      "nivel_riesgo": "Medio",
+      "estado": "en_revision"
+    },
+    {
+      "id_cliente": "CLI-0010",
+      "nombre": "Cliente Ficticio 10",
+      "segmento": "Startup",
+      "pais": "Perú",
+      "nivel_riesgo": "Bajo",
+      "estado": "bloqueado"
+    },
+    {
+      "id_cliente": "CLI-0011",
+      "nombre": "Cliente Ficticio 11",
+      "segmento": "Startup",
+      "pais": "España",
+      "nivel_riesgo": "Bajo",
+      "estado": "activo"
+    },
+    {
+      "id_cliente": "CLI-0012",
+      "nombre": "Cliente Ficticio 12",
+      "segmento": "Startup",
+      "pais": "Chile",
+      "nivel_riesgo": "Medio",
+      "estado": "activo"
+    },
+    {
+      "id_cliente": "CLI-0013",
+      "nombre": "Cliente Ficticio 13",
+      "segmento": "Corporativo",
+      "pais": "Perú",
+      "nivel_riesgo": "Alto",
+      "estado": "en_revision"
+    },
+    {
+      "id_cliente": "CLI-0014",
+      "nombre": "Cliente Ficticio 14",
+      "segmento": "Corporativo",
+      "pais": "Chile",
+      "nivel_riesgo": "Medio",
+      "estado": "bloqueado"
+    },
+    {
+      "id_cliente": "CLI-0015",
+      "nombre": "Cliente Ficticio 15",
+      "segmento": "Publico",
+      "pais": "México",
+      "nivel_riesgo": "Medio",
+      "estado": "activo"
+    },
+    {
+      "id_cliente": "CLI-0016",
+      "nombre": "Cliente Ficticio 16",
+      "segmento": "Corporativo",
+      "pais": "Perú",
+      "nivel_riesgo": "Alto",
+      "estado": "en_revision"
+    },
+    {
+      "id_cliente": "CLI-0017",
+      "nombre": "Cliente Ficticio 17",
+      "segmento": "Publico",
+      "pais": "Perú",
+      "nivel_riesgo": "Medio",
+      "estado": "en_revision"
+    },
+    {
+      "id_cliente": "CLI-0018",
+      "nombre": "Cliente Ficticio 18",
+      "segmento": "Corporativo",
+      "pais": "México",
+      "nivel_riesgo": "Alto",
+      "estado": "en_revision"
+    },
+    {
+      "id_cliente": "CLI-0019",
+      "nombre": "Cliente Ficticio 19",
+      "segmento": "PYME",
+      "pais": "España",
+      "nivel_riesgo": "Bajo",
+      "estado": "activo"
+    },
+    {
+      "id_cliente": "CLI-0020",
+      "nombre": "Cliente Ficticio 20",
+      "segmento": "Corporativo",
+      "pais": "Chile",
+      "nivel_riesgo": "Alto",
+      "estado": "activo"
+    }
+  ],
+  "productos": [
+    {
+      "id_producto": "PROD-0001",
+      "nombre": "Producto Sintetico 1",
+      "categoria": "Consultoria",
+      "precio_base": 1985.36,
+      "margen_estimado": 0.4,
+      "estado": "en_revision"
+    },
+    {
+      "id_producto": "PROD-0002",
+      "nombre": "Producto Sintetico 2",
+      "categoria": "Servicio",
+      "precio_base": 1331.93,
+      "margen_estimado": 0.38,
+      "estado": "en_revision"
+    },
+    {
+      "id_producto": "PROD-0003",
+      "nombre": "Producto Sintetico 3",
+      "categoria": "Soporte",
+      "precio_base": 3631.54,
+      "margen_estimado": 0.44,
+      "estado": "en_revision"
+    },
+    {
+      "id_producto": "PROD-0004",
+      "nombre": "Producto Sintetico 4",
+      "categoria": "Software",
+      "precio_base": 1766.86,
+      "margen_estimado": 0.25,
+      "estado": "inactivo"
+    },
+    {
+      "id_producto": "PROD-0005",
+      "nombre": "Producto Sintetico 5",
+      "categoria": "Soporte",
+      "precio_base": 115.9,
+      "margen_estimado": 0.46,
+      "estado": "en_revision"
+    },
+    {
+      "id_producto": "PROD-0006",
+      "nombre": "Producto Sintetico 6",
+      "categoria": "Servicio",
+      "precio_base": 3833.61,
+      "margen_estimado": 0.35,
+      "estado": "en_revision"
+    },
+    {
+      "id_producto": "PROD-0007",
+      "nombre": "Producto Sintetico 7",
+      "categoria": "Software",
+      "precio_base": 1562.38,
+      "margen_estimado": 0.42,
+      "estado": "activo"
+    },
+    {
+      "id_producto": "PROD-0008",
+      "nombre": "Producto Sintetico 8",
+      "categoria": "Servicio",
+      "precio_base": 1932.18,
+      "margen_estimado": 0.18,
+      "estado": "en_revision"
+    }
+  ],
+  "procesos": [
+    {
+      "id_proceso": "PROC-001",
+      "nombre": "Gestion de pedidos",
+      "area": "Operaciones",
+      "criticidad": "Media",
+      "nivel_automatizacion": "Manual",
+      "responsable_ficticio": "Empleado Ficticio 6"
+    },
+    {
+      "id_proceso": "PROC-002",
+      "nombre": "Facturacion",
+      "area": "Finanzas",
+      "criticidad": "Media",
+      "nivel_automatizacion": "Semiautomatizado",
+      "responsable_ficticio": "Empleado Ficticio 2"
+    },
+    {
+      "id_proceso": "PROC-003",
+      "nombre": "Soporte al cliente",
+      "area": "Atencion Cliente",
+      "criticidad": "Baja",
+      "nivel_automatizacion": "Manual",
+      "responsable_ficticio": "Empleado Ficticio 4"
+    },
+    {
+      "id_proceso": "PROC-004",
+      "nombre": "Control de inventario",
+      "area": "Operaciones",
+      "criticidad": "Baja",
+      "nivel_automatizacion": "Manual",
+      "responsable_ficticio": "Empleado Ficticio 10"
+    },
+    {
+      "id_proceso": "PROC-005",
+      "nombre": "Onboarding de clientes",
+      "area": "Ventas",
+      "criticidad": "Media",
+      "nivel_automatizacion": "Manual",
+      "responsable_ficticio": "Empleado Ficticio 12"
+    }
+  ],
+  "resumen_operativo": {
+    "ingresos_estimados_mensuales": 71651.62,
+    "tickets_abiertos": 5,
+    "incidencias_activas": 2,
+    "pagos_pendientes": 4,
+    "alertas_operativas": 2
+  }
+}

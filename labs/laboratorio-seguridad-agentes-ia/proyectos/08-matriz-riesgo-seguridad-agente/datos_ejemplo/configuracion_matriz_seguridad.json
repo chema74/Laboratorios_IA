@@ -1,0 +1,35 @@
+{
+  "categorias_permitidas": [
+    "prompt injection simulada",
+    "fuga de datos sintéticos",
+    "uso indebido de herramienta simulada",
+    "exceso de permisos ficticio",
+    "incumplimiento de política interna simulada",
+    "decisión no trazable simulada",
+    "dependencia externa no permitida",
+    "exposición de información inventada",
+    "ausencia de revisión humana"
+  ],
+  "impactos_permitidos": [1, 2, 3, 4, 5],
+  "probabilidades_permitidas": [1, 2, 3, 4, 5],
+  "severidades_permitidas": ["baja", "media", "alta", "critica"],
+  "pesos_impacto": {
+    "confidencialidad": 0.25,
+    "integridad": 0.25,
+    "disponibilidad": 0.2,
+    "privacidad": 0.2,
+    "probabilidad": 0.1
+  },
+  "umbrales_riesgo": {
+    "bajo": 2.0,
+    "medio": 3.0,
+    "alto": 4.0
+  },
+  "controles_defensivos_recomendados": [
+    "revision_humana_obligatoria",
+    "trazabilidad_decisiones",
+    "bloqueo_herramienta_restringida",
+    "politica_sin_apis_externas"
+  ],
+  "nota_alcance": "Sin ataques reales, datos reales, IA real, APIs externas ni cloud."
+}

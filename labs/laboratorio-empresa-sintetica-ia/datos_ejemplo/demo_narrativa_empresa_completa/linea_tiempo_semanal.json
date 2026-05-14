@@ -1,0 +1,103 @@
+[
+  {
+    "dia": 1,
+    "fecha_simulada": "2026-05-09",
+    "tipo_hito": "estado_inicial",
+    "titulo": "Inicio de semana operativa - Empresa Sintetica 42",
+    "descripcion": "Hito sintético de la narrativa semanal. Se utiliza para explicar el funcionamiento del laboratorio sin representar actividad empresarial real.",
+    "area_afectada": "comercial",
+    "severidad": "alta",
+    "artefactos_relacionados": [
+      "estado_operativo.json"
+    ],
+    "decision_simulada": "escalar_a_revision_humana",
+    "requiere_revision_humana": true
+  },
+  {
+    "dia": 2,
+    "fecha_simulada": "2026-05-10",
+    "tipo_hito": "evento_negocio",
+    "titulo": "Entrada de pedidos y pagos pendientes - Empresa Sintetica 42",
+    "descripcion": "Hito sintético de la narrativa semanal. Se utiliza para explicar el funcionamiento del laboratorio sin representar actividad empresarial real.",
+    "area_afectada": "operaciones",
+    "severidad": "baja",
+    "artefactos_relacionados": [
+      "eventos_negocio.json"
+    ],
+    "decision_simulada": "generar_resumen_operativo_simulado",
+    "requiere_revision_humana": false
+  },
+  {
+    "dia": 3,
+    "fecha_simulada": "2026-05-11",
+    "tipo_hito": "documentacion",
+    "titulo": "Generación de documentos de soporte - Empresa Sintetica 42",
+    "descripcion": "Hito sintético de la narrativa semanal. Se utiliza para explicar el funcionamiento del laboratorio sin representar actividad empresarial real.",
+    "area_afectada": "soporte",
+    "severidad": "media",
+    "artefactos_relacionados": [
+      "indice_documentos.json"
+    ],
+    "decision_simulada": "continuar_monitoreo_simulado",
+    "requiere_revision_humana": false
+  },
+  {
+    "dia": 4,
+    "fecha_simulada": "2026-05-12",
+    "tipo_hito": "escenario_prueba",
+    "titulo": "Preparación de escenarios para evaluación - Empresa Sintetica 42",
+    "descripcion": "Hito sintético de la narrativa semanal. Se utiliza para explicar el funcionamiento del laboratorio sin representar actividad empresarial real.",
+    "area_afectada": "direccion",
+    "severidad": "alta",
+    "artefactos_relacionados": [
+      "escenarios_prueba_agentes.json"
+    ],
+    "decision_simulada": "escalar_a_revision_humana",
+    "requiere_revision_humana": true
+  },
+  {
+    "dia": 5,
+    "fecha_simulada": "2026-05-13",
+    "tipo_hito": "crisis_simulada",
+    "titulo": "Aparición de crisis operativa sintética - Empresa Sintetica 42",
+    "descripcion": "Hito sintético de la narrativa semanal. Se utiliza para explicar el funcionamiento del laboratorio sin representar actividad empresarial real.",
+    "area_afectada": "operaciones",
+    "severidad": "alta",
+    "artefactos_relacionados": [
+      "crisis_simuladas.json",
+      "resumen_crisis.json"
+    ],
+    "decision_simulada": "escalar_a_revision_humana",
+    "requiere_revision_humana": true
+  },
+  {
+    "dia": 6,
+    "fecha_simulada": "2026-05-14",
+    "tipo_hito": "revision_humana",
+    "titulo": "Activación de revisión humana simulada - Empresa Sintetica 42",
+    "descripcion": "Hito sintético de la narrativa semanal. Se utiliza para explicar el funcionamiento del laboratorio sin representar actividad empresarial real.",
+    "area_afectada": "privacidad",
+    "severidad": "critica",
+    "artefactos_relacionados": [
+      "revisiones_humanas.json",
+      "registro_decisiones.json"
+    ],
+    "decision_simulada": "escalar_a_revision_humana",
+    "requiere_revision_humana": true
+  },
+  {
+    "dia": 7,
+    "fecha_simulada": "2026-05-15",
+    "tipo_hito": "cierre_semanal",
+    "titulo": "Cierre técnico con comparativa de flujos - Empresa Sintetica 42",
+    "descripcion": "Hito sintético de la narrativa semanal. Se utiliza para explicar el funcionamiento del laboratorio sin representar actividad empresarial real.",
+    "area_afectada": "direccion",
+    "severidad": "baja",
+    "artefactos_relacionados": [
+      "comparaciones_agente_proceso.json",
+      "resumen_comparador.json"
+    ],
+    "decision_simulada": "generar_resumen_operativo_simulado",
+    "requiere_revision_humana": false
+  }
+]

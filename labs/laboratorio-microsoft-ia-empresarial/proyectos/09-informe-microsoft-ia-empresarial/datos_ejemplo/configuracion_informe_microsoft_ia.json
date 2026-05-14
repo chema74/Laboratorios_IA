@@ -1,0 +1,44 @@
+{
+  "dimensiones_evaluacion": [
+    "arquitectura",
+    "operacion",
+    "documental",
+    "analitica",
+    "colaboracion",
+    "asistencia",
+    "gobierno",
+    "trazabilidad"
+  ],
+  "pesos_dimension": {
+    "arquitectura": 0.12,
+    "operacion": 0.12,
+    "documental": 0.12,
+    "analitica": 0.12,
+    "colaboracion": 0.12,
+    "asistencia": 0.10,
+    "gobierno": 0.15,
+    "trazabilidad": 0.15
+  },
+  "umbrales_madurez": {
+    "inicial": 0,
+    "basico": 60,
+    "intermedio": 75,
+    "alto": 88
+  },
+  "criterios_decision": {
+    "v1_recomendada_minimo": 70,
+    "v2_opcional_minimo": 78
+  },
+  "controles_minimos_recomendados": [
+    "fallback_local_obligatorio",
+    "gobierno_minimo_privilegio",
+    "trazabilidad_con_hash",
+    "revision_humana_critica"
+  ],
+  "posibles_extensiones_v2": [
+    "integracion_graph_opcional_env",
+    "conectores_reales_opcionales",
+    "auditoria_permisos_ampliada"
+  ],
+  "nota": "Todo es local, sintético y sin integración real con Microsoft."
+}

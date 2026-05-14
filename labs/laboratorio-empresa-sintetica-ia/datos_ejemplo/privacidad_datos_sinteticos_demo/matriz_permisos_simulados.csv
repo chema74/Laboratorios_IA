@@ -1,0 +1,17 @@
+id_permiso,rol,tipo_entidad,nivel_acceso,campos_permitidos,campos_restringidos,justificacion_simulada,requiere_aprobacion_humana
+PER-00001,direccion,cliente,lectura_operativa,"estado,nombre,pais,segmento","id_cliente,nivel_riesgo",Asignación simulada por nivel de sensibilidad ficticia.,False
+PER-00002,direccion,empresa,lectura_operativa,"ciudad,fecha_simulacion,moneda,nombre,numero_clientes,numero_empleados,numero_productos,pais",id_empresa,Asignación simulada por nivel de sensibilidad ficticia.,False
+PER-00003,responsable_operaciones,cliente,lectura_minima,"estado,nombre,pais,segmento","id_cliente,nivel_riesgo",Asignación simulada por nivel de sensibilidad ficticia.,False
+PER-00004,responsable_operaciones,empresa,lectura_minima,"ciudad,fecha_simulacion,moneda,nombre,numero_clientes,numero_empleados,numero_productos,pais",id_empresa,Asignación simulada por nivel de sensibilidad ficticia.,False
+PER-00005,responsable_comercial,cliente,lectura_minima,"estado,nombre,pais,segmento","id_cliente,nivel_riesgo",Asignación simulada por nivel de sensibilidad ficticia.,False
+PER-00006,responsable_comercial,empresa,lectura_minima,"ciudad,fecha_simulacion,moneda,nombre,numero_clientes,numero_empleados,numero_productos,pais",id_empresa,Asignación simulada por nivel de sensibilidad ficticia.,False
+PER-00007,responsable_datos,cliente,lectura_minima,"estado,nombre,pais,segmento","id_cliente,nivel_riesgo",Asignación simulada por nivel de sensibilidad ficticia.,False
+PER-00008,responsable_datos,empresa,lectura_minima,"ciudad,fecha_simulacion,moneda,nombre,numero_clientes,numero_empleados,numero_productos,pais",id_empresa,Asignación simulada por nivel de sensibilidad ficticia.,False
+PER-00009,responsable_privacidad,cliente,lectura_ampliada,"estado,nombre,pais,segmento","id_cliente,nivel_riesgo",Asignación simulada por nivel de sensibilidad ficticia.,False
+PER-00010,responsable_privacidad,empresa,lectura_ampliada,"ciudad,fecha_simulacion,moneda,nombre,numero_clientes,numero_empleados,numero_productos,pais",id_empresa,Asignación simulada por nivel de sensibilidad ficticia.,False
+PER-00011,responsable_tecnico,cliente,lectura_minima,"estado,nombre,pais,segmento","id_cliente,nivel_riesgo",Asignación simulada por nivel de sensibilidad ficticia.,False
+PER-00012,responsable_tecnico,empresa,lectura_minima,"ciudad,fecha_simulacion,moneda,nombre,numero_clientes,numero_empleados,numero_productos,pais",id_empresa,Asignación simulada por nivel de sensibilidad ficticia.,False
+PER-00013,auditor_simulado,cliente,lectura_minima,"estado,nombre,pais,segmento","id_cliente,nivel_riesgo",Asignación simulada por nivel de sensibilidad ficticia.,False
+PER-00014,auditor_simulado,empresa,lectura_minima,"ciudad,fecha_simulacion,moneda,nombre,numero_clientes,numero_empleados,numero_productos,pais",id_empresa,Asignación simulada por nivel de sensibilidad ficticia.,False
+PER-00015,agente_ia_simulado,cliente,lectura_minima,"estado,nombre,pais,segmento","id_cliente,nivel_riesgo",Asignación simulada por nivel de sensibilidad ficticia.,False
+PER-00016,agente_ia_simulado,empresa,lectura_minima,"ciudad,fecha_simulacion,moneda,nombre,numero_clientes,numero_empleados,numero_productos,pais",id_empresa,Asignación simulada por nivel de sensibilidad ficticia.,False

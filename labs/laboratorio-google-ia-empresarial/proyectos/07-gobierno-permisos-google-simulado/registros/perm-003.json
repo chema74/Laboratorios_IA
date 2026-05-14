@@ -1,0 +1,19 @@
+{
+  "id_permiso": "perm-003",
+  "usuario_ficticio": "lider1@empresa-sintetica.local",
+  "recurso_simulado": "documento_politica_demo",
+  "permiso_asignado": "propietario_simulado",
+  "rol_simulado": "lider_equipo",
+  "tipo_recurso": "docs",
+  "riesgo_detectado": "alto",
+  "decision_gobierno": "reducir",
+  "motivo_decision": "Incumple mínimo privilegio o afecta recurso sensible",
+  "accion_recomendada": "Reducir privilegio simulado",
+  "requiere_revision": true,
+  "registro_generado": "",
+  "usa_google_real": false,
+  "usa_oauth_real": false,
+  "usa_api_externa": false,
+  "usa_cloud": false,
+  "usa_ia_real": false
+}

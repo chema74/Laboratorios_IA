@@ -1,0 +1,50 @@
+[
+  {
+    "id_alerta": "ALT-00001",
+    "tipo_alerta": "pagos_pendientes_altos",
+    "severidad": "critica",
+    "area_afectada": "finanzas",
+    "descripcion": "Pagos pendientes por encima del umbral sintético.",
+    "entidades_relacionadas": "clientes,procesos",
+    "origen_alerta": "reglas_metricas_y_crisis_sinteticas",
+    "accion_recomendada": "auditar_eventos",
+    "requiere_revision_humana": true,
+    "estado_alerta": "activa"
+  },
+  {
+    "id_alerta": "ALT-00002",
+    "tipo_alerta": "incidencias_activas_altas",
+    "severidad": "media",
+    "area_afectada": "operaciones",
+    "descripcion": "Incidencias activas acumuladas en operación.",
+    "entidades_relacionadas": "clientes,procesos",
+    "origen_alerta": "reglas_metricas_y_crisis_sinteticas",
+    "accion_recomendada": "generar_informe",
+    "requiere_revision_humana": false,
+    "estado_alerta": "cerrada_simulada"
+  },
+  {
+    "id_alerta": "ALT-00003",
+    "tipo_alerta": "presion_operativa",
+    "severidad": "alta",
+    "area_afectada": "direccion",
+    "descripcion": "Índice de presión operativa en rango elevado.",
+    "entidades_relacionadas": "clientes,procesos",
+    "origen_alerta": "reglas_metricas_y_crisis_sinteticas",
+    "accion_recomendada": "generar_informe",
+    "requiere_revision_humana": true,
+    "estado_alerta": "activa"
+  },
+  {
+    "id_alerta": "ALT-00004",
+    "tipo_alerta": "riesgo_privacidad",
+    "severidad": "alta",
+    "area_afectada": "privacidad",
+    "descripcion": "Riesgo sintético de privacidad detectado en crisis.",
+    "entidades_relacionadas": "clientes,procesos",
+    "origen_alerta": "reglas_metricas_y_crisis_sinteticas",
+    "accion_recomendada": "escalar_a_humano",
+    "requiere_revision_humana": true,
+    "estado_alerta": "activa"
+  }
+]

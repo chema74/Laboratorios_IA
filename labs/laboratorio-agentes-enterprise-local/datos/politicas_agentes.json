@@ -1,0 +1,46 @@
+[
+  {
+    "accion": "consultar_ticket",
+    "permitida": true
+  },
+  {
+    "accion": "consultar_documentacion",
+    "permitida": true
+  },
+  {
+    "accion": "actualizar_crm",
+    "permitida": true
+  },
+  {
+    "accion": "coordinar_reunion",
+    "permitida": true
+  },
+  {
+    "accion": "enviar_correo_real",
+    "permitida": false
+  },
+  {
+    "accion": "borrar_datos",
+    "permitida": false
+  },
+  {
+    "accion": "modificar_sistema_externo",
+    "permitida": false
+  },
+  {
+    "accion": "decision_legal_definitiva",
+    "permitida": false
+  },
+  {
+    "accion": "decision_medica_definitiva",
+    "permitida": false
+  },
+  {
+    "accion": "decision_financiera_definitiva",
+    "permitida": false
+  },
+  {
+    "accion": "ejecutar_compra_real",
+    "permitida": false
+  }
+]

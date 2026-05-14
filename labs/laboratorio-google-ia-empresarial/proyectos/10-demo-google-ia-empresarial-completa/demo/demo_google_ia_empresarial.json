@@ -1,0 +1,58 @@
+{
+  "metadatos": {
+    "fecha_generacion": "2026-05-11T09:08:45",
+    "modo": "local-simulado"
+  },
+  "empresa_ficticia": "[EMPRESA_SINTETICA]",
+  "resumen_ejecutivo": "Demo integradora local de los 10 módulos del laboratorio Google IA empresarial.",
+  "narrativa_empresarial": "PYME simulada con procesos de comunicación, documentación, analítica y coordinación.",
+  "recorrido_modulos": [
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07",
+    "08",
+    "09",
+    "10"
+  ],
+  "cadena_completa": [
+    "mapa del ecosistema",
+    "gmail simulado",
+    "drive/docs simulados",
+    "sheets analítico",
+    "calendar/tareas",
+    "gemini fallback local",
+    "gobierno de permisos",
+    "trazabilidad",
+    "informe empresarial",
+    "demo final"
+  ],
+  "evidencias_simuladas": [
+    "json_locales",
+    "markdown_locales",
+    "registros_locales"
+  ],
+  "automatizaciones_simuladas": "trazabilidad_local_hash",
+  "permisos_y_gobierno": "gobierno_defensivo",
+  "trazabilidad": "hash_y_traza_local",
+  "recomendaciones": [
+    "mantener_fallback",
+    "mejorar_controles",
+    "documentar_v2_opcional"
+  ],
+  "limites": [
+    "sin_integracion_real",
+    "sin_datos_reales",
+    "sin_modelos_reales"
+  ],
+  "relacion_v2_futura": "Integración opcional por .env manteniendo fallback local.",
+  "usa_google_real": false,
+  "usa_oauth_real": false,
+  "usa_api_externa": false,
+  "usa_cloud": false,
+  "usa_ia_real": false,
+  "usa_datos_reales": false
+}

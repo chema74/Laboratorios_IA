@@ -1,0 +1,16 @@
+{
+  "id_incidente": "TI-003",
+  "id_evidencia": "EVI-TI-003-20260510",
+  "hash_simulado": "ce3df2e37c364cd3",
+  "tipo_incidente": "decisión no trazable simulada",
+  "severidad_simulada": "media",
+  "estado_incidente": "abierto",
+  "controles_aplicados": [],
+  "trazabilidad_completa": true,
+  "controles_suficientes": false,
+  "recomendacion_defensiva": "Reforzar controles y trazabilidad en incidentes abiertos.",
+  "usa_datos_reales": false,
+  "usa_ia_real": false,
+  "usa_api_externa": false,
+  "usa_cloud": false
+}

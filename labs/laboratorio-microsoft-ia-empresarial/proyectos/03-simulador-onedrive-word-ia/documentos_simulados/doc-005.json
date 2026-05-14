@@ -1,0 +1,25 @@
+{
+  "id_documento": "doc-005",
+  "nombre_documento": "Politica Interna [DOCUMENTO_DEMO]",
+  "tipo_documento_detectado": "política interna ficticia",
+  "carpeta_onedrive_simulada": "RRHH",
+  "resumen_simulado": "Politica interna de onboarding para [EMPRESA_SINTETICA].",
+  "etiquetas_simuladas": [
+    "rrhh",
+    "politica",
+    "onboarding",
+    "política"
+  ],
+  "sensibilidad_detectada": "interna",
+  "requiere_revision_humana": true,
+  "permisos_simulados": "lectura_rrhh",
+  "accion_ia_simulada": "normalizar",
+  "registro_generado": "",
+  "usa_onedrive_real": false,
+  "usa_word_real": false,
+  "usa_microsoft_graph_real": false,
+  "usa_oauth_real": false,
+  "usa_api_externa": false,
+  "usa_azure": false,
+  "usa_ia_real": false
+}

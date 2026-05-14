@@ -1,0 +1,50 @@
+[
+  {
+    "id_decision": "DEC-00001",
+    "fecha_decision": "2026-05-09",
+    "tipo_decision": "gestion_alerta",
+    "descripcion": "Decisión simulada para ALT-00001 en área finanzas.",
+    "origen_decision": "gemelo_digital_operativo_ligero",
+    "area_responsable": "finanzas",
+    "impacto_esperado": "contener_riesgo",
+    "nivel_riesgo": "critica",
+    "requiere_revision_humana": true,
+    "estado_decision": "pendiente_revision"
+  },
+  {
+    "id_decision": "DEC-00002",
+    "fecha_decision": "2026-05-09",
+    "tipo_decision": "gestion_alerta",
+    "descripcion": "Decisión simulada para ALT-00002 en área operaciones.",
+    "origen_decision": "gemelo_digital_operativo_ligero",
+    "area_responsable": "operaciones",
+    "impacto_esperado": "contener_riesgo",
+    "nivel_riesgo": "media",
+    "requiere_revision_humana": false,
+    "estado_decision": "rechazada_simulada"
+  },
+  {
+    "id_decision": "DEC-00003",
+    "fecha_decision": "2026-05-09",
+    "tipo_decision": "gestion_alerta",
+    "descripcion": "Decisión simulada para ALT-00003 en área direccion.",
+    "origen_decision": "gemelo_digital_operativo_ligero",
+    "area_responsable": "direccion",
+    "impacto_esperado": "contener_riesgo",
+    "nivel_riesgo": "alta",
+    "requiere_revision_humana": true,
+    "estado_decision": "pendiente_revision"
+  },
+  {
+    "id_decision": "DEC-00004",
+    "fecha_decision": "2026-05-09",
+    "tipo_decision": "gestion_alerta",
+    "descripcion": "Decisión simulada para ALT-00004 en área privacidad.",
+    "origen_decision": "gemelo_digital_operativo_ligero",
+    "area_responsable": "privacidad",
+    "impacto_esperado": "contener_riesgo",
+    "nivel_riesgo": "alta",
+    "requiere_revision_humana": true,
+    "estado_decision": "escalada"
+  }
+]

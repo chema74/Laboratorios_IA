@@ -1,0 +1,14 @@
+﻿{
+  "empresa_ficticia": "[EMPRESA_SINTETICA]",
+  "contexto_operativo_sintetico": "PYME simulada con procesos de comunicación, documentación, analítica y coordinación.",
+  "gmail_simulado": "clasificacion_y_respuesta_local",
+  "documentos_simulados": "drive_docs_local",
+  "hoja_operativa_simulada": "sheets_local_csv",
+  "eventos_tareas_simulados": "calendar_local",
+  "solicitudes_gemini_fallback": "fallback_local_determinista",
+  "permisos_simulados": "gobierno_defensivo",
+  "automatizaciones_simuladas": "trazabilidad_local_hash",
+  "riesgos_y_limites": ["sin_google_real", "sin_oauth_real", "sin_api_real", "sin_ia_real"],
+  "informe_consolidado": "madurez_intermedia_simulada",
+  "conclusion_ejecutiva": "El laboratorio está preparado para expansión V2 opcional manteniendo fallback local."
+}

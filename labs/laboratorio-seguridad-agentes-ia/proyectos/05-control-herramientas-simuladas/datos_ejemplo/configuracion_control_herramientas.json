@@ -1,0 +1,32 @@
+{
+  "herramientas_permitidas": [
+    "lector_documentos_simulado",
+    "buscador_interno_simulado",
+    "generador_informe_simulado",
+    "actualizador_registro_simulado"
+  ],
+  "herramientas_restringidas": [
+    "enviador_correo_simulado",
+    "exportador_datos_simulado",
+    "clasificador_cliente_simulado"
+  ],
+  "acciones_permitidas": ["leer", "consultar", "generar", "actualizar"],
+  "acciones_bloqueadas": ["enviar", "exportar"],
+  "niveles_sensibilidad": ["bajo", "medio", "alto"],
+  "reglas_revision_humana": {
+    "sensibilidad_alta": true,
+    "requiere_revision_humana_flag": true
+  },
+  "reglas_bloqueo": {
+    "herramienta_restringida": true,
+    "accion_bloqueada": true
+  },
+  "controles_defensivos": [
+    "lista_permitidos",
+    "bloqueo_herramienta_restringida",
+    "bloqueo_accion_sensible",
+    "revision_humana_obligatoria",
+    "trazabilidad_registro"
+  ],
+  "nota_alcance": "Sin herramientas reales, comandos reales, IA real, APIs externas, cloud ni datos reales."
+}

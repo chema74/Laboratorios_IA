@@ -1,0 +1,9 @@
+id_producto,nombre,categoria,precio_base,margen_estimado,estado
+PROD-0001,Producto Sintetico 1,Consultoria,1985.36,0.4,en_revision
+PROD-0002,Producto Sintetico 2,Servicio,1331.93,0.38,en_revision
+PROD-0003,Producto Sintetico 3,Soporte,3631.54,0.44,en_revision
+PROD-0004,Producto Sintetico 4,Software,1766.86,0.25,inactivo
+PROD-0005,Producto Sintetico 5,Soporte,115.9,0.46,en_revision
+PROD-0006,Producto Sintetico 6,Servicio,3833.61,0.35,en_revision
+PROD-0007,Producto Sintetico 7,Software,1562.38,0.42,activo
+PROD-0008,Producto Sintetico 8,Servicio,1932.18,0.18,en_revision

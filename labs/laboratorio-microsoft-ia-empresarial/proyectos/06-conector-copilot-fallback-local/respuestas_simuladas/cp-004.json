@@ -1,0 +1,15 @@
+{
+  "id_solicitud": "cp-004",
+  "tipo_solicitud": "resumen de reunión Teams simulada",
+  "origen_simulado": "teams",
+  "modo_ejecucion": "fallback-local",
+  "respuesta_simulada": "Resumen local: acuerdos, responsables ficticios y pendientes simulados. Entrada sintetica: Acta de reunión simulada.",
+  "razon_fallback": "Modo fallback-local obligatorio.",
+  "trazabilidad_fallback": "fallback-local|cp-004|2026-05-11T09:51:08|sin-red",
+  "registro_generado": "",
+  "usa_copilot_real": false,
+  "usa_microsoft_graph_real": false,
+  "usa_api_externa": false,
+  "usa_azure": false,
+  "usa_ia_real": false
+}

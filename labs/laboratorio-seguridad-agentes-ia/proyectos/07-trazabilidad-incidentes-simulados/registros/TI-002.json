@@ -1,0 +1,19 @@
+{
+  "id_incidente": "TI-002",
+  "id_evidencia": "EVI-TI-002-20260510",
+  "hash_simulado": "6b7948ca2985422c",
+  "tipo_incidente": "uso bloqueado de herramienta simulada",
+  "severidad_simulada": "critica",
+  "estado_incidente": "cerrado",
+  "controles_aplicados": [
+    "bloqueo_herramienta_restringida",
+    "trazabilidad_registro"
+  ],
+  "trazabilidad_completa": true,
+  "controles_suficientes": true,
+  "recomendacion_defensiva": "Reforzar controles y trazabilidad en incidentes abiertos.",
+  "usa_datos_reales": false,
+  "usa_ia_real": false,
+  "usa_api_externa": false,
+  "usa_cloud": false
+}

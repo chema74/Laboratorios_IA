@@ -1,0 +1,14 @@
+{
+  "id_caso": "PU-003",
+  "politica_activada": "P-006",
+  "decision_defensiva": "permitir",
+  "coincide_con_decision_esperada": true,
+  "controles_requeridos": [
+    "trazabilidad"
+  ],
+  "incumplimientos_detectados": [],
+  "requiere_revision_humana": false,
+  "explicacion_defensiva": "Se activa Exigir trazabilidad para decisiones críticas por reglas defensivas locales.",
+  "registro_generado": "proyectos/06-politicas-uso-agente/registros/PU-003.json",
+  "recomendacion": "Mantener trazabilidad y revisión de casos críticos."
+}

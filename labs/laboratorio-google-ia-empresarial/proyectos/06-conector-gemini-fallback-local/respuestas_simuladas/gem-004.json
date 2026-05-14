@@ -1,0 +1,13 @@
+{
+  "id_solicitud": "gem-004",
+  "tipo_solicitud": "propuesta de agenda",
+  "modo_ejecucion": "fallback-local",
+  "respuesta_simulada": "[FALLBACK-LOCAL] Respuesta simulada para propuesta de agenda: Eventos y tareas simuladas.",
+  "razon_fallback": "modo_v1_fallback",
+  "trazabilidad_fallback": "fallback_local::gem-004::modo_v1_fallback",
+  "registro_generado": "",
+  "usa_gemini_real": false,
+  "usa_api_externa": false,
+  "usa_cloud": false,
+  "usa_ia_real": false
+}

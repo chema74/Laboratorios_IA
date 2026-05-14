@@ -1,0 +1,17 @@
+{
+  "id_automatizacion": "aut-003",
+  "id_traza": "TRZ-aut-003-20260511",
+  "hash_simulado": "2d3b25cec41e4ede",
+  "origen_simulado": "sheets",
+  "accion_simulada": "calcular_kpi",
+  "estado_ejecucion": "parcial",
+  "trazabilidad_suficiente": false,
+  "evidencia_generada": "no",
+  "requiere_revision": true,
+  "registro_generado": "",
+  "usa_google_real": false,
+  "usa_oauth_real": false,
+  "usa_api_externa": false,
+  "usa_cloud": false,
+  "usa_ia_real": false
+}

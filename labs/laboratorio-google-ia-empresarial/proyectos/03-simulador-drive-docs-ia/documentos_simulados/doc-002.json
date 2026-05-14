@@ -1,0 +1,22 @@
+{
+  "id_documento": "doc-002",
+  "nombre_documento": "Acta Reunión Operativa [DOCUMENTO_DEMO]",
+  "tipo_documento_detectado": "acta de reunión ficticia",
+  "carpeta_simulada": "operaciones",
+  "resumen_simulado": "Acta sobre mejoras de proceso para [EMPRESA_SINTETICA] y responsables [CONTACTO_FICTICIO].",
+  "etiquetas_simuladas": [
+    "acta",
+    "operaciones"
+  ],
+  "sensibilidad_detectada": "baja",
+  "requiere_revision_humana": false,
+  "permisos_simulados": "lectura_equipo_operaciones",
+  "accion_ia_simulada": "resumir_y_etiquetar",
+  "registro_generado": "",
+  "usa_drive_real": false,
+  "usa_docs_real": false,
+  "usa_oauth_real": false,
+  "usa_api_externa": false,
+  "usa_cloud": false,
+  "usa_ia_real": false
+}

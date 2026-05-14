@@ -1,0 +1,45 @@
+{
+  "tipos_sensibilidad": [
+    "público ficticio",
+    "interno ficticio",
+    "confidencial sintético",
+    "dato personal sintético",
+    "secreto ficticio",
+    "financiero sintético",
+    "credencial ficticia",
+    "salud simulada",
+    "legal simulado"
+  ],
+  "patrones_defensivos_sinteticos": {
+    "dato personal sintético": ["[NOMBRE_FICTICIO]", "[EMAIL_FICTICIO]", "[TELEFONO_FICTICIO]"],
+    "credencial ficticia": ["[CREDENCIAL_FICTICIA]"],
+    "secreto ficticio": ["[SECRETO_FICTICIO]"],
+    "financiero sintético": ["[IMPORTE_SINTETICO]"],
+    "legal simulado": ["[EXPEDIENTE_FICTICIO]"]
+  },
+  "acciones_defensivas": {
+    "público ficticio": "permitir_controlado",
+    "interno ficticio": "minimizar",
+    "confidencial sintético": "enmascarar",
+    "dato personal sintético": "enmascarar_y_minimizar",
+    "secreto ficticio": "bloquear_y_revisar",
+    "financiero sintético": "enmascarar",
+    "credencial ficticia": "bloquear_y_revisar",
+    "salud simulada": "enmascarar_y_revisar",
+    "legal simulado": "revisar"
+  },
+  "reglas_minimizacion": ["dato personal sintético", "credencial ficticia", "secreto ficticio"],
+  "reglas_enmascarado": ["dato personal sintético", "credencial ficticia", "secreto ficticio", "financiero sintético", "salud simulada"],
+  "severidades": {
+    "público ficticio": "baja",
+    "interno ficticio": "media",
+    "confidencial sintético": "media",
+    "dato personal sintético": "alta",
+    "secreto ficticio": "critica",
+    "financiero sintético": "alta",
+    "credencial ficticia": "critica",
+    "salud simulada": "alta",
+    "legal simulado": "media"
+  },
+  "nota_alcance": "Sin datos reales, sin IA real, sin APIs externas y sin cloud."
+}

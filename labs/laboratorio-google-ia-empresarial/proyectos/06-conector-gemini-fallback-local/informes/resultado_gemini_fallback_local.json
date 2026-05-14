@@ -1,0 +1,152 @@
+{
+  "fecha_generacion": "2026-05-11T08:55:31",
+  "total_solicitudes": 8,
+  "solicitudes_por_tipo": {
+    "resumen de correo ficticio": 1,
+    "resumen de documento sintético": 1,
+    "análisis de hoja simulada": 1,
+    "propuesta de agenda": 1,
+    "clasificación de prioridad": 1,
+    "generación de respuesta empresarial simulada": 1,
+    "explicación de alerta ficticia": 1,
+    "recomendación operativa simulada": 1
+  },
+  "motivos_fallback": {
+    "v1_sin_api_real": 1,
+    "sin_clave_real": 1,
+    "fallback_local_obligatorio": 1,
+    "modo_v1_fallback": 1,
+    "v1_sin_red": 1,
+    "sin_oauth_sin_api": 1,
+    "politica_free_first": 1,
+    "v1_controlado": 1
+  },
+  "trazabilidad_fallback": [
+    "fallback_local::gem-001::v1_sin_api_real",
+    "fallback_local::gem-002::sin_clave_real",
+    "fallback_local::gem-003::fallback_local_obligatorio",
+    "fallback_local::gem-004::modo_v1_fallback",
+    "fallback_local::gem-005::v1_sin_red",
+    "fallback_local::gem-006::sin_oauth_sin_api",
+    "fallback_local::gem-007::politica_free_first",
+    "fallback_local::gem-008::v1_controlado"
+  ],
+  "respuestas_simuladas_generadas": [
+    "[FALLBACK-LOCAL] Respuesta simulada para resumen de correo ficticio: Correo de soporte simulado.",
+    "[FALLBACK-LOCAL] Respuesta simulada para resumen de documento sintético: Documento legal simulado.",
+    "[FALLBACK-LOCAL] Respuesta simulada para análisis de hoja simulada: CSV operativo sintético.",
+    "[FALLBACK-LOCAL] Respuesta simulada para propuesta de agenda: Eventos y tareas simuladas.",
+    "[FALLBACK-LOCAL] Respuesta simulada para clasificación de prioridad: Ticket simulado.",
+    "[FALLBACK-LOCAL] Respuesta simulada para generación de respuesta empresarial simulada: Correo comercial simulado.",
+    "[FALLBACK-LOCAL] Respuesta simulada para explicación de alerta ficticia: Alerta de margen bajo simulado.",
+    "[FALLBACK-LOCAL] Respuesta simulada para recomendación operativa simulada: Backlog de tareas sintéticas."
+  ],
+  "modo_v1": "fallback-local",
+  "nota": "Simulación local: no usa Gemini API real, clave real, Google Cloud, IA real ni datos reales.",
+  "resultados": [
+    {
+      "id_solicitud": "gem-001",
+      "tipo_solicitud": "resumen de correo ficticio",
+      "modo_ejecucion": "fallback-local",
+      "respuesta_simulada": "[FALLBACK-LOCAL] Respuesta simulada para resumen de correo ficticio: Correo de soporte simulado.",
+      "razon_fallback": "v1_sin_api_real",
+      "trazabilidad_fallback": "fallback_local::gem-001::v1_sin_api_real",
+      "registro_generado": "proyectos\\06-conector-gemini-fallback-local\\respuestas_simuladas\\gem-001.json",
+      "usa_gemini_real": false,
+      "usa_api_externa": false,
+      "usa_cloud": false,
+      "usa_ia_real": false
+    },
+    {
+      "id_solicitud": "gem-002",
+      "tipo_solicitud": "resumen de documento sintético",
+      "modo_ejecucion": "fallback-local",
+      "respuesta_simulada": "[FALLBACK-LOCAL] Respuesta simulada para resumen de documento sintético: Documento legal simulado.",
+      "razon_fallback": "sin_clave_real",
+      "trazabilidad_fallback": "fallback_local::gem-002::sin_clave_real",
+      "registro_generado": "proyectos\\06-conector-gemini-fallback-local\\respuestas_simuladas\\gem-002.json",
+      "usa_gemini_real": false,
+      "usa_api_externa": false,
+      "usa_cloud": false,
+      "usa_ia_real": false
+    },
+    {
+      "id_solicitud": "gem-003",
+      "tipo_solicitud": "análisis de hoja simulada",
+      "modo_ejecucion": "fallback-local",
+      "respuesta_simulada": "[FALLBACK-LOCAL] Respuesta simulada para análisis de hoja simulada: CSV operativo sintético.",
+      "razon_fallback": "fallback_local_obligatorio",
+      "trazabilidad_fallback": "fallback_local::gem-003::fallback_local_obligatorio",
+      "registro_generado": "proyectos\\06-conector-gemini-fallback-local\\respuestas_simuladas\\gem-003.json",
+      "usa_gemini_real": false,
+      "usa_api_externa": false,
+      "usa_cloud": false,
+      "usa_ia_real": false
+    },
+    {
+      "id_solicitud": "gem-004",
+      "tipo_solicitud": "propuesta de agenda",
+      "modo_ejecucion": "fallback-local",
+      "respuesta_simulada": "[FALLBACK-LOCAL] Respuesta simulada para propuesta de agenda: Eventos y tareas simuladas.",
+      "razon_fallback": "modo_v1_fallback",
+      "trazabilidad_fallback": "fallback_local::gem-004::modo_v1_fallback",
+      "registro_generado": "proyectos\\06-conector-gemini-fallback-local\\respuestas_simuladas\\gem-004.json",
+      "usa_gemini_real": false,
+      "usa_api_externa": false,
+      "usa_cloud": false,
+      "usa_ia_real": false
+    },
+    {
+      "id_solicitud": "gem-005",
+      "tipo_solicitud": "clasificación de prioridad",
+      "modo_ejecucion": "fallback-local",
+      "respuesta_simulada": "[FALLBACK-LOCAL] Respuesta simulada para clasificación de prioridad: Ticket simulado.",
+      "razon_fallback": "v1_sin_red",
+      "trazabilidad_fallback": "fallback_local::gem-005::v1_sin_red",
+      "registro_generado": "proyectos\\06-conector-gemini-fallback-local\\respuestas_simuladas\\gem-005.json",
+      "usa_gemini_real": false,
+      "usa_api_externa": false,
+      "usa_cloud": false,
+      "usa_ia_real": false
+    },
+    {
+      "id_solicitud": "gem-006",
+      "tipo_solicitud": "generación de respuesta empresarial simulada",
+      "modo_ejecucion": "fallback-local",
+      "respuesta_simulada": "[FALLBACK-LOCAL] Respuesta simulada para generación de respuesta empresarial simulada: Correo comercial simulado.",
+      "razon_fallback": "sin_oauth_sin_api",
+      "trazabilidad_fallback": "fallback_local::gem-006::sin_oauth_sin_api",
+      "registro_generado": "proyectos\\06-conector-gemini-fallback-local\\respuestas_simuladas\\gem-006.json",
+      "usa_gemini_real": false,
+      "usa_api_externa": false,
+      "usa_cloud": false,
+      "usa_ia_real": false
+    },
+    {
+      "id_solicitud": "gem-007",
+      "tipo_solicitud": "explicación de alerta ficticia",
+      "modo_ejecucion": "fallback-local",
+      "respuesta_simulada": "[FALLBACK-LOCAL] Respuesta simulada para explicación de alerta ficticia: Alerta de margen bajo simulado.",
+      "razon_fallback": "politica_free_first",
+      "trazabilidad_fallback": "fallback_local::gem-007::politica_free_first",
+      "registro_generado": "proyectos\\06-conector-gemini-fallback-local\\respuestas_simuladas\\gem-007.json",
+      "usa_gemini_real": false,
+      "usa_api_externa": false,
+      "usa_cloud": false,
+      "usa_ia_real": false
+    },
+    {
+      "id_solicitud": "gem-008",
+      "tipo_solicitud": "recomendación operativa simulada",
+      "modo_ejecucion": "fallback-local",
+      "respuesta_simulada": "[FALLBACK-LOCAL] Respuesta simulada para recomendación operativa simulada: Backlog de tareas sintéticas.",
+      "razon_fallback": "v1_controlado",
+      "trazabilidad_fallback": "fallback_local::gem-008::v1_controlado",
+      "registro_generado": "proyectos\\06-conector-gemini-fallback-local\\respuestas_simuladas\\gem-008.json",
+      "usa_gemini_real": false,
+      "usa_api_externa": false,
+      "usa_cloud": false,
+      "usa_ia_real": false
+    }
+  ]
+}

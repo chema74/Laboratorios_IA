@@ -1,0 +1,209 @@
+[
+  {
+    "fecha": "2026-05-10",
+    "id_crisis": "CRS-00001",
+    "tipo_hito": "contencion",
+    "descripcion": "Hito simulado 1 de la crisis CRS-00001.",
+    "impacto_estimado": 3260.94,
+    "decision_pendiente": "generar_informe",
+    "requiere_revision_humana": true
+  },
+  {
+    "fecha": "2026-05-11",
+    "id_crisis": "CRS-00001",
+    "tipo_hito": "revision",
+    "descripcion": "Hito simulado 2 de la crisis CRS-00001.",
+    "impacto_estimado": 4454.75,
+    "decision_pendiente": "revisar_permisos",
+    "requiere_revision_humana": true
+  },
+  {
+    "fecha": "2026-05-12",
+    "id_crisis": "CRS-00001",
+    "tipo_hito": "contencion",
+    "descripcion": "Hito simulado 3 de la crisis CRS-00001.",
+    "impacto_estimado": 4381.63,
+    "decision_pendiente": "priorizar_clientes_en_riesgo",
+    "requiere_revision_humana": true
+  },
+  {
+    "fecha": "2026-05-10",
+    "id_crisis": "CRS-00002",
+    "tipo_hito": "revision",
+    "descripcion": "Hito simulado 1 de la crisis CRS-00002.",
+    "impacto_estimado": 5673.23,
+    "decision_pendiente": "bloquear_accion_automatica",
+    "requiere_revision_humana": true
+  },
+  {
+    "fecha": "2026-05-11",
+    "id_crisis": "CRS-00002",
+    "tipo_hito": "revision",
+    "descripcion": "Hito simulado 2 de la crisis CRS-00002.",
+    "impacto_estimado": 305.09,
+    "decision_pendiente": "activar_plan_contingencia_simulado",
+    "requiere_revision_humana": true
+  },
+  {
+    "fecha": "2026-05-12",
+    "id_crisis": "CRS-00002",
+    "tipo_hito": "revision",
+    "descripcion": "Hito simulado 3 de la crisis CRS-00002.",
+    "impacto_estimado": 2377.39,
+    "decision_pendiente": "escalar_a_humano",
+    "requiere_revision_humana": true
+  },
+  {
+    "fecha": "2026-05-13",
+    "id_crisis": "CRS-00002",
+    "tipo_hito": "seguimiento",
+    "descripcion": "Hito simulado 4 de la crisis CRS-00002.",
+    "impacto_estimado": 4700.49,
+    "decision_pendiente": "auditar_eventos",
+    "requiere_revision_humana": true
+  },
+  {
+    "fecha": "2026-05-12",
+    "id_crisis": "CRS-00003",
+    "tipo_hito": "contencion",
+    "descripcion": "Hito simulado 1 de la crisis CRS-00003.",
+    "impacto_estimado": 4118.03,
+    "decision_pendiente": "generar_informe",
+    "requiere_revision_humana": false
+  },
+  {
+    "fecha": "2026-05-13",
+    "id_crisis": "CRS-00003",
+    "tipo_hito": "deteccion",
+    "descripcion": "Hito simulado 2 de la crisis CRS-00003.",
+    "impacto_estimado": 2947.55,
+    "decision_pendiente": "bloquear_accion_automatica",
+    "requiere_revision_humana": false
+  },
+  {
+    "fecha": "2026-05-14",
+    "id_crisis": "CRS-00003",
+    "tipo_hito": "deteccion",
+    "descripcion": "Hito simulado 3 de la crisis CRS-00003.",
+    "impacto_estimado": 1650.71,
+    "decision_pendiente": "auditar_eventos",
+    "requiere_revision_humana": false
+  },
+  {
+    "fecha": "2026-05-18",
+    "id_crisis": "CRS-00004",
+    "tipo_hito": "seguimiento",
+    "descripcion": "Hito simulado 1 de la crisis CRS-00004.",
+    "impacto_estimado": 7241.43,
+    "decision_pendiente": "revisar_permisos",
+    "requiere_revision_humana": true
+  },
+  {
+    "fecha": "2026-05-19",
+    "id_crisis": "CRS-00004",
+    "tipo_hito": "revision",
+    "descripcion": "Hito simulado 2 de la crisis CRS-00004.",
+    "impacto_estimado": 4681.07,
+    "decision_pendiente": "revisar_datos",
+    "requiere_revision_humana": true
+  },
+  {
+    "fecha": "2026-05-20",
+    "id_crisis": "CRS-00004",
+    "tipo_hito": "deteccion",
+    "descripcion": "Hito simulado 3 de la crisis CRS-00004.",
+    "impacto_estimado": 6780.31,
+    "decision_pendiente": "generar_informe",
+    "requiere_revision_humana": true
+  },
+  {
+    "fecha": "2026-05-21",
+    "id_crisis": "CRS-00004",
+    "tipo_hito": "deteccion",
+    "descripcion": "Hito simulado 4 de la crisis CRS-00004.",
+    "impacto_estimado": 4137.41,
+    "decision_pendiente": "generar_informe",
+    "requiere_revision_humana": true
+  },
+  {
+    "fecha": "2026-05-22",
+    "id_crisis": "CRS-00004",
+    "tipo_hito": "deteccion",
+    "descripcion": "Hito simulado 5 de la crisis CRS-00004.",
+    "impacto_estimado": 4585.07,
+    "decision_pendiente": "generar_informe",
+    "requiere_revision_humana": true
+  },
+  {
+    "fecha": "2026-05-23",
+    "id_crisis": "CRS-00004",
+    "tipo_hito": "revision",
+    "descripcion": "Hito simulado 6 de la crisis CRS-00004.",
+    "impacto_estimado": 4908.01,
+    "decision_pendiente": "generar_informe",
+    "requiere_revision_humana": true
+  },
+  {
+    "fecha": "2026-05-24",
+    "id_crisis": "CRS-00004",
+    "tipo_hito": "contencion",
+    "descripcion": "Hito simulado 7 de la crisis CRS-00004.",
+    "impacto_estimado": 7263.53,
+    "decision_pendiente": "bloquear_accion_automatica",
+    "requiere_revision_humana": true
+  },
+  {
+    "fecha": "2026-05-11",
+    "id_crisis": "CRS-00005",
+    "tipo_hito": "seguimiento",
+    "descripcion": "Hito simulado 1 de la crisis CRS-00005.",
+    "impacto_estimado": 2094.19,
+    "decision_pendiente": "generar_informe",
+    "requiere_revision_humana": true
+  },
+  {
+    "fecha": "2026-05-12",
+    "id_crisis": "CRS-00005",
+    "tipo_hito": "contencion",
+    "descripcion": "Hito simulado 2 de la crisis CRS-00005.",
+    "impacto_estimado": 504.31,
+    "decision_pendiente": "generar_informe",
+    "requiere_revision_humana": true
+  },
+  {
+    "fecha": "2026-05-13",
+    "id_crisis": "CRS-00005",
+    "tipo_hito": "contencion",
+    "descripcion": "Hito simulado 3 de la crisis CRS-00005.",
+    "impacto_estimado": 2672.29,
+    "decision_pendiente": "bloquear_accion_automatica",
+    "requiere_revision_humana": true
+  },
+  {
+    "fecha": "2026-05-14",
+    "id_crisis": "CRS-00005",
+    "tipo_hito": "revision",
+    "descripcion": "Hito simulado 4 de la crisis CRS-00005.",
+    "impacto_estimado": 6692.03,
+    "decision_pendiente": "activar_plan_contingencia_simulado",
+    "requiere_revision_humana": true
+  },
+  {
+    "fecha": "2026-05-15",
+    "id_crisis": "CRS-00005",
+    "tipo_hito": "seguimiento",
+    "descripcion": "Hito simulado 5 de la crisis CRS-00005.",
+    "impacto_estimado": 5084.95,
+    "decision_pendiente": "revisar_permisos",
+    "requiere_revision_humana": true
+  },
+  {
+    "fecha": "2026-05-16",
+    "id_crisis": "CRS-00005",
+    "tipo_hito": "seguimiento",
+    "descripcion": "Hito simulado 6 de la crisis CRS-00005.",
+    "impacto_estimado": 5155.35,
+    "decision_pendiente": "revisar_permisos",
+    "requiere_revision_humana": true
+  }
+]

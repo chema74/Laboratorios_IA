@@ -1,0 +1,14 @@
+﻿{
+  "nombre_laboratorio_ficticio": "Laboratorio Google IA Empresarial Simulado",
+  "modulos_representados": ["01","02","03","04","05","06","07","08","09","10"],
+  "modo": "local-simulado",
+  "usa_google_real": false,
+  "usa_oauth_real": false,
+  "usa_api_externa": false,
+  "usa_cloud": false,
+  "usa_ia_real": false,
+  "usa_datos_reales": false,
+  "criterios_demo": ["coherencia_narrativa", "trazabilidad", "reproducibilidad", "limites_explicitos"],
+  "limites": ["sin_integracion_real", "sin_datos_reales", "sin_modelos_reales"],
+  "nota": "Demo 100% sintética sin integración real con Google."
+}

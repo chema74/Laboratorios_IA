@@ -1,0 +1,19 @@
+{
+  "id_permiso": "perm-004",
+  "usuario_ficticio": "fin1@empresa-sintetica.local",
+  "recurso_simulado": "hoja_operativa_demo",
+  "permiso_asignado": "comentario",
+  "rol_simulado": "finanzas",
+  "tipo_recurso": "sheets",
+  "riesgo_detectado": "medio",
+  "decision_gobierno": "mantener",
+  "motivo_decision": "Permiso acorde a reglas simuladas",
+  "accion_recomendada": "Mantener permiso simulado",
+  "requiere_revision": false,
+  "registro_generado": "",
+  "usa_google_real": false,
+  "usa_oauth_real": false,
+  "usa_api_externa": false,
+  "usa_cloud": false,
+  "usa_ia_real": false
+}
