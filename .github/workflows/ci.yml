@@ -37,6 +37,11 @@ jobs:
         run: |
           python scripts/run_mypy.py
 
+      - name: Root unit tests
+        shell: pwsh
+        run: |
+          python -m unittest discover tests -v
+
       - name: Validate JSON contracts
         shell: pwsh
         run: |
