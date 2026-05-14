@@ -169,6 +169,9 @@ cython_debug/
 
 # Ruff stuff:
 .ruff_cache/
+.tmp/
+**/evidencias/interactivas/*.json
+**/evidencias/interactivas/*.md
 
 # PyPI configuration file
 .pypirc

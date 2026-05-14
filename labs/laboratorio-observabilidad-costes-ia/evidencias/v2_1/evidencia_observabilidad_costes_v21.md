@@ -1,21 +1,21 @@
 # Evidencia V2.1 - Observabilidad y Costes IA
 
 - Escenario: `uso_normal_controlado`
-- Modo: `groq`
-- Timestamp: `2026-05-13T11:45:41Z`
+- Modo: `fallback_local`
+- Timestamp: `2026-05-14T10:15:35Z`
 
 ## Resumen ejecutivo
-{"total_eventos": 3, "coste_total_estimado": 0.037, "coste_promedio_por_evento": 0.0123, "latencia_media_ms": 620, "tasa_errores": 0.0, "eventos_riesgo": 0}
+Se analizaron 3 eventos con coste total estimado de 0.0370 EUR, latencia media de 620.0 ms y tasa de errores de 0.00%.
 
 ## Diagnóstico Groq / modo de ejecución
 ```json
 {
-  "solicitado": true,
-  "estado": "ok",
-  "categoria": "groq_ok",
-  "http_status": 200,
-  "modelo_usado": "llama-3.1-8b-instant",
-  "mensaje_seguro": "Análisis generado correctamente mediante Groq."
+  "solicitado": false,
+  "estado": "no_solicitado",
+  "categoria": "modo_fallback_forzado",
+  "http_status": null,
+  "modelo_usado": null,
+  "mensaje_seguro": "El análisis se ejecutó en modo fallback local por configuración."
 }
 ```
 
@@ -51,15 +51,13 @@
 
 ## Recomendaciones
 ### Coste
-- Revisar el uso de modelos 'llama-3.1-8b' para reducir costos
-- Considerar la implementación de modelos más eficientes
-- Revisar la configuración de los proveedores para optimizar costos
+- Definir topes de tokens por operación.
+- Priorizar modelos más eficientes para tareas repetitivas.
 ### Operación
-- Operación estable en la muestra. Mantener monitorización diaria.
-- Revisar la configuración de los equipos para optimizar rendimiento
-- Revisar la configuración de los usuarios para optimizar acceso
+- Revisar alertas diariamente con responsable técnico.
+- Mantener trazabilidad por evento y equipo.
 ### Gobernanza
-- No se han detectado alertas de gobernanza y uso responsable en la muestra
+- Gobernanza operativa dentro de umbrales de laboratorio.
 
 
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.  

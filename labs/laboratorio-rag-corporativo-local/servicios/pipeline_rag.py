@@ -13,7 +13,8 @@ from servicios.generador_respuesta import generar_respuesta_extractiva
 
 
 def _cargar_documentos() -> list[dict]:
-    with RUTA_DATOS_BRUTOS.open("r", encoding="utf-8") as f:
+    # "utf-8-sig" evita fallos si el archivo llega con BOM en Windows.
+    with RUTA_DATOS_BRUTOS.open("r", encoding="utf-8-sig") as f:
         return json.load(f)
 
 
