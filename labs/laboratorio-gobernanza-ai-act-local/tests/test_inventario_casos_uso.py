@@ -1,8 +1,9 @@
 ﻿import unittest
 from pathlib import Path
 
-from scripts.sembrar_datos import main as sembrar
 from gobernanza.inventario_casos_uso import cargar_casos, resumir_inventario
+
+from scripts.sembrar_datos import main as sembrar
 
 
 class TestInventarioCasosUso(unittest.TestCase):

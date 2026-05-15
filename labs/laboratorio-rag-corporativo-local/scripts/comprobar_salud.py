@@ -6,7 +6,7 @@ BASE = Path(__file__).resolve().parents[1]
 if str(BASE) not in sys.path:
     sys.path.insert(0, str(BASE))
 
-from app.config import RUTA_DATOS_BRUTOS, RUTA_DATASET_DORADO
+from app.config import RUTA_DATASET_DORADO, RUTA_DATOS_BRUTOS
 
 
 def main() -> None:

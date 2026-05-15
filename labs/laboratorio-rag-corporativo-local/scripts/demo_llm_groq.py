@@ -1,6 +1,6 @@
 ﻿import json
 import sys
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from pathlib import Path
 
 BASE = Path(__file__).resolve().parents[1]
@@ -69,7 +69,7 @@ def main() -> None:
     rag = ejecutar_rag_con_llm(CONSULTA_DEMO)
     llm = analizar_rag_llm(CONSULTA_DEMO, rag["fragmentos"])
     resultado = {
-        "metadata": {"version": "V2.1", "fecha_utc": datetime.now(timezone.utc).isoformat()},
+        "metadata": {"version": "V2.1", "fecha_utc": datetime.now(UTC).isoformat()},
         "consulta": CONSULTA_DEMO,
         "rag": rag,
         "analisis_llm": llm,

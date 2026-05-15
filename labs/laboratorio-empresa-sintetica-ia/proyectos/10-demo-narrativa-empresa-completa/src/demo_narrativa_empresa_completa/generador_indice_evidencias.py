@@ -6,7 +6,6 @@ from pathlib import Path
 
 from .modelos import EvidenciaMapa, dataclass_a_dict
 
-
 CATALOGO_EVIDENCIAS = [
     ("01-generador-empresa-sintetica", "empresa_json", "datos_ejemplo/empresa_sintetica_demo/empresa_sintetica.json", "Ficha general de la empresa sintética base."),
     ("01-generador-empresa-sintetica", "clientes_csv", "datos_ejemplo/empresa_sintetica_demo/clientes.csv", "Listado sintético de clientes para alimentar simulaciones."),

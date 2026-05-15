@@ -2,12 +2,12 @@
 
 - Escenario: `uso_normal_controlado`
 - Modo: `fallback_local`
-- Timestamp: `2026-05-14T10:15:35Z`
+- Timestamp: `2026-05-15T08:13:23Z`
 
 ## Resumen ejecutivo
 Se analizaron 3 eventos con coste total estimado de 0.0370 EUR, latencia media de 620.0 ms y tasa de errores de 0.00%.
 
-## Diagnóstico Groq / modo de ejecución
+## Diagnostico Groq / modo de ejecucion
 ```json
 {
   "solicitado": false,
@@ -19,7 +19,7 @@ Se analizaron 3 eventos con coste total estimado de 0.0370 EUR, latencia media d
 }
 ```
 
-## Métricas agregadas
+## Metricas agregadas
 ```json
 {
   "total_eventos": 3,
@@ -53,12 +53,12 @@ Se analizaron 3 eventos con coste total estimado de 0.0370 EUR, latencia media d
 ### Coste
 - Definir topes de tokens por operación.
 - Priorizar modelos más eficientes para tareas repetitivas.
-### Operación
+### Operacion
 - Revisar alertas diariamente con responsable técnico.
 - Mantener trazabilidad por evento y equipo.
 ### Gobernanza
 - Gobernanza operativa dentro de umbrales de laboratorio.
 
 
-Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.  
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.
+© 2025 - Txema Rios. Todos los derechos compartidos.

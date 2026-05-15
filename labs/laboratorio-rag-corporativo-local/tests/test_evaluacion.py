@@ -1,7 +1,8 @@
 ﻿import unittest
 
+from evaluacion.evaluacion_offline import evaluar, generar_informe
+
 from scripts.sembrar_datos import main as sembrar
-from evaluacion.evaluacion_offline import generar_informe, evaluar
 
 
 class TestEvaluacion(unittest.TestCase):

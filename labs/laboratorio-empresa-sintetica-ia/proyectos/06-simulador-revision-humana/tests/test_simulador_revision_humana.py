@@ -19,7 +19,11 @@ from simulador_revision_humana.catalogo_criterios import (
     ROLES_REVISORES,
 )
 from simulador_revision_humana.exportador import exportar_resultados_revision
-from simulador_revision_humana.registro_decisiones import construir_expediente_revision_markdown, construir_resumen_revision_humana, generar_registro_decisiones
+from simulador_revision_humana.registro_decisiones import (
+    construir_expediente_revision_markdown,
+    construir_resumen_revision_humana,
+    generar_registro_decisiones,
+)
 from simulador_revision_humana.simulador import simular_revisiones_humanas
 
 OBLIGATORIOS_REV = {

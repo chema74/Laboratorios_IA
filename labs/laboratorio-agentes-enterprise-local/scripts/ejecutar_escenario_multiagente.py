@@ -20,7 +20,7 @@ def main() -> None:
 
     lineas = [
         "# Escenario Multiagente",
-        f"- Escenario: ESC-002",
+        "- Escenario: ESC-002",
         f"- Tarea: {r.get('id_tarea')}",
         f"- Estado final: {r['estado_final']}",
         f"- Resultados parciales: {len(r['ejecucion']['resultados'])}",

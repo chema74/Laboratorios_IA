@@ -12,7 +12,12 @@ BASE = Path(__file__).resolve().parents[1]
 if str(BASE) not in sys.path:
     sys.path.insert(0, str(BASE))
 
-from servicios.evaluacion_llm_v21 import CRITERIOS_DISPONIBLES, cargar_casos_demo, evaluar_respuesta_llm, guardar_evidencia_json
+from servicios.evaluacion_llm_v21 import (
+    CRITERIOS_DISPONIBLES,
+    cargar_casos_demo,
+    evaluar_respuesta_llm,
+    guardar_evidencia_json,
+)
 
 
 def _evidencias_dir() -> Path:

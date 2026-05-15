@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """
 Validador operativo V2 del laboratorio RAG corporativo local.
 
@@ -11,9 +10,8 @@ from __future__ import annotations
 
 import argparse
 import json
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from pathlib import Path
-
 
 DOCUMENTOS_V2 = [
     "docs/PLAN_V2_LABORATORIO_RAG.md",
@@ -118,7 +116,7 @@ def construir_resultado(base: Path) -> dict[str, object]:
 
     return {
         "resultado": "ok" if resultado_ok else "fallo",
-        "fecha_utc": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
+        "fecha_utc": datetime.now(UTC).strftime("%Y-%m-%d %H:%M UTC"),
         "documentos_v2": documentos_v2,
         "documentos_base": documentos_base,
         "scripts_base": scripts_base,

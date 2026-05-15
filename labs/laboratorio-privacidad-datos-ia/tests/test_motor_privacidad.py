@@ -1,9 +1,10 @@
 ﻿import unittest
 
 from app.config import RUTA_INFORME
-from scripts.sembrar_datos import main as sembrar
 from servicios.generador_informes import generar_informe
 from servicios.motor_privacidad import ejecutar_motor
+
+from scripts.sembrar_datos import main as sembrar
 
 
 class TestMotorPrivacidad(unittest.TestCase):

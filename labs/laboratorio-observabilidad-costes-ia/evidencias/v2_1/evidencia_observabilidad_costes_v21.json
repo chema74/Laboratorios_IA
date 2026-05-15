@@ -1,7 +1,7 @@
 {
   "escenario": "uso_normal_controlado",
   "modo": "fallback_local",
-  "timestamp_generacion": "2026-05-14T10:15:35Z",
+  "timestamp_generacion": "2026-05-15T08:13:23Z",
   "resumen_ejecutivo": "Se analizaron 3 eventos con coste total estimado de 0.0370 EUR, latencia media de 620.0 ms y tasa de errores de 0.00%.",
   "metricas_agregadas": {
     "total_eventos": 3,

@@ -3,7 +3,7 @@ import json
 import os
 import re
 import sys
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from html import escape
 from http.server import BaseHTTPRequestHandler, HTTPServer
 from pathlib import Path
@@ -111,7 +111,7 @@ def analizar_texto_interactivo(
     trazas = analisis_llm.get("trazabilidad", {})
 
     return {
-        "fecha": datetime.now(timezone.utc).isoformat(),
+        "fecha": datetime.now(UTC).isoformat(),
         "texto_original": texto,
         "texto_minimizado": min_ctx.get("texto_minimizado", ""),
         "pii_detectada": pii,

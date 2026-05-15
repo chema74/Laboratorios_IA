@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """Tests del informe ejecutivo V2 del laboratorio backend IA empresarial."""
 
 from __future__ import annotations

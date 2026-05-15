@@ -8,7 +8,6 @@ if str(BASE) not in sys.path:
 from app.config import RUTA_RESULTADOS
 from servicios.pipeline_rag import ejecutar_pipeline
 
-
 CONSULTAS_DEMO = [
     "¿Cuál es el SLA para incidencias críticas de soporte?",
     "Requisitos de contraseñas corporativas en seguridad",

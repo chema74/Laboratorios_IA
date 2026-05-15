@@ -14,7 +14,6 @@ if str(RUTA_SRC) not in sys.path:
 # Paso 2: reutilizar la CLI del módulo principal.
 from motor_simulacion_crisis.cli import main
 
-
 if __name__ == "__main__":
     # Paso 3: ejecutar simulación, evaluación y exportación.
     main()

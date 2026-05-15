@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """Tests del validador V2 de privacidad de datos IA."""
 
 from __future__ import annotations
@@ -7,7 +6,6 @@ import json
 import subprocess
 import sys
 from pathlib import Path
-
 
 REPO = Path(__file__).resolve().parents[1]
 

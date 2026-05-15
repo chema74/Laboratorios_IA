@@ -1,12 +1,10 @@
-# -*- coding: utf-8 -*-
 from __future__ import annotations
 
 import argparse
 import json
 import re
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from pathlib import Path
-
 
 DOCUMENTOS_CLAVE = [
     "docs/PLAN_V2_LABORATORIO_GOBERNANZA_AI_ACT.md",
@@ -77,7 +75,7 @@ def construir_informe(base: Path) -> str:
 
     texto_validacion = leer_texto(base / "salidas" / "validacion_v2_gobernanza_ai_act.md")
     resultado_validacion = detectar_resultado_validacion(texto_validacion)
-    fecha = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+    fecha = datetime.now(UTC).strftime("%Y-%m-%d %H:%M UTC")
 
     lineas = [
         "# 📌 INFORME EJECUTIVO V2 — LABORATORIO GOBERNANZA AI ACT LOCAL",

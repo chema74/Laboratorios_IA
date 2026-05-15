@@ -2,7 +2,7 @@
 import re
 from collections import Counter
 
-from app.modelos import ResultadoRecuperacion, Fragmento
+from app.modelos import Fragmento, ResultadoRecuperacion
 
 
 def _tokenizar(texto: str) -> list[str]:
@@ -27,7 +27,7 @@ def recuperar_hibrido(consulta: str, fragmentos: list[Fragmento], top_k: int = 5
     k1, b = 1.2, 0.75
     area_q = set(_tokenizar(consulta))
 
-    for frag, toks in zip(fragmentos, docs_tokens):
+    for frag, toks in zip(fragmentos, docs_tokens, strict=False):
         tf = Counter(toks)
         bm25 = 0.0
         for t in tokens_q:

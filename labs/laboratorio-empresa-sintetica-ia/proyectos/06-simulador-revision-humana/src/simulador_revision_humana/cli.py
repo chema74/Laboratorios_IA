@@ -6,7 +6,11 @@ import argparse
 
 from .cargador_contexto import cargar_contexto
 from .exportador import exportar_resultados_revision
-from .registro_decisiones import construir_expediente_revision_markdown, construir_resumen_revision_humana, generar_registro_decisiones
+from .registro_decisiones import (
+    construir_expediente_revision_markdown,
+    construir_resumen_revision_humana,
+    generar_registro_decisiones,
+)
 from .simulador import simular_revisiones_humanas
 
 

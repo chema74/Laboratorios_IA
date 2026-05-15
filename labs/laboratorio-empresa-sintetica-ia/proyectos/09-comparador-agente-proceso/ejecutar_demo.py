@@ -14,7 +14,6 @@ if str(RUTA_SRC) not in sys.path:
 # Paso 2: reutilizar la CLI central del módulo.
 from comparador_agente_proceso.cli import main
 
-
 if __name__ == "__main__":
     # Paso 3: ejecutar comparación simulada completa.
     main()

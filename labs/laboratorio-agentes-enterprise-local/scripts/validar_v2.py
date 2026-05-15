@@ -1,11 +1,9 @@
-# -*- coding: utf-8 -*-
 from __future__ import annotations
 
 import argparse
 import json
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from pathlib import Path
-
 
 DOCUMENTOS_V2 = [
     "docs/PLAN_V2_LABORATORIO_AGENTES_ENTERPRISE.md",
@@ -88,7 +86,7 @@ def construir_resultado(base: Path) -> dict[str, object]:
 
     return {
         "resultado": "ok" if ok else "fallo",
-        "fecha_utc": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
+        "fecha_utc": datetime.now(UTC).strftime("%Y-%m-%d %H:%M UTC"),
         "documentos_v2": documentos_v2,
         "scripts_python": scripts_python,
         "tests_python": tests_python,

@@ -1,6 +1,6 @@
 ﻿import json
 import sys
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from pathlib import Path
 
 BASE = Path(__file__).resolve().parents[1]
@@ -64,7 +64,7 @@ def main() -> None:
     base = ejecutar_motor()
     analisis_llm = analizar_privacidad_llm(base)
     resultado = {
-        "metadata": {"version": "V2.1", "fecha_utc": datetime.now(timezone.utc).isoformat()},
+        "metadata": {"version": "V2.1", "fecha_utc": datetime.now(UTC).isoformat()},
         "motor_privacidad": base,
         "analisis_llm": analisis_llm,
     }

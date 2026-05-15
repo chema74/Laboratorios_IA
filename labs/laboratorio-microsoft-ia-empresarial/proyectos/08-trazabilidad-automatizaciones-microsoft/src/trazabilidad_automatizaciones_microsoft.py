@@ -55,7 +55,6 @@ def generar_informe_md(resultados: list[dict]) -> str:
     fecha = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     por_origen = Counter(r["origen_simulado"] for r in resultados)
     por_estado = Counter(r["estado_ejecucion"] for r in resultados)
-    por_sens = Counter(r["_sensibilidad"] for r in resultados)
     revisiones = [r["id_automatizacion"] for r in resultados if r["requiere_revision"]]
     insuf = [r["id_automatizacion"] for r in resultados if not r["trazabilidad_suficiente"]]
     evidencias = [r["id_automatizacion"] for r in resultados if r["evidencia_generada"]]

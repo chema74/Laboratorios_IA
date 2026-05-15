@@ -14,7 +14,6 @@ if str(RUTA_SRC) not in sys.path:
 # Paso 2: reutilizar CLI del módulo para evitar duplicación.
 from simulador_eventos_negocio.cli import main
 
-
 if __name__ == "__main__":
     # Paso 3: ejecutar simulación y exportación.
     main()

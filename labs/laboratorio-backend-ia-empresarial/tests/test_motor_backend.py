@@ -1,8 +1,9 @@
 ﻿import unittest
 
 from app.config import RUTA_PETICIONES, RUTA_USUARIOS
-from scripts.sembrar_datos import main as sembrar
 from servicios.motor_backend import ejecutar_lote
+
+from scripts.sembrar_datos import main as sembrar
 
 
 class TestMotorBackend(unittest.TestCase):

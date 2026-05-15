@@ -8,6 +8,7 @@ from observabilidad.feedback import analizar_feedback
 from observabilidad.latencias import analizar_latencias
 from observabilidad.presupuesto import evaluar_presupuesto
 from observabilidad.trazador import registrar_eventos, resumir_eventos
+
 from servicios.simulador_eventos import enriquecer_eventos
 
 

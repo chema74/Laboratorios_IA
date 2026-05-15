@@ -9,8 +9,8 @@ if str(BASE_DIR) not in sys.path:
     sys.path.insert(0, str(BASE_DIR))
 
 from src.simulador_drive_docs_ia import (
-    construir_resultado_global,
     cargar_json,
+    construir_resultado_global,
     generar_informe_markdown,
     procesar_documentos,
     validar_documentos,

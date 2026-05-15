@@ -1,9 +1,10 @@
 ﻿import unittest
 
 from app.config import RUTA_FICHAS, RUTA_INFORME
-from scripts.sembrar_datos import main as sembrar
 from servicios.generador_informes import generar_informe
 from servicios.motor_gobernanza import ejecutar_motor
+
+from scripts.sembrar_datos import main as sembrar
 
 
 class TestMotorGobernanza(unittest.TestCase):

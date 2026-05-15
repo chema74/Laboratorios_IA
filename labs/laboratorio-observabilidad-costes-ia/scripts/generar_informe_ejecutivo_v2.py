@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """
 Generador de informe ejecutivo V2 del laboratorio de observabilidad y costes IA.
 """
@@ -8,9 +7,8 @@ from __future__ import annotations
 import argparse
 import json
 import re
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from pathlib import Path
-
 
 DOCUMENTOS_CLAVE = [
     "docs/PLAN_V2_LABORATORIO_OBSERVABILIDAD_COSTES.md",
@@ -84,7 +82,7 @@ def construir_informe(base: Path) -> str:
 
     texto_validacion = leer_texto(base / "salidas" / "validacion_v2_observabilidad_costes.md")
     resultado_validacion = detectar_resultado_validacion(texto_validacion)
-    fecha = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+    fecha = datetime.now(UTC).strftime("%Y-%m-%d %H:%M UTC")
 
     lineas = [
         "# 📌 INFORME EJECUTIVO V2 — LABORATORIO OBSERVABILIDAD Y COSTES IA",

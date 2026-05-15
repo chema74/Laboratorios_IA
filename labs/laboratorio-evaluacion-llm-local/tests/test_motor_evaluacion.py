@@ -1,9 +1,10 @@
 ﻿import unittest
 
-from scripts.sembrar_datos import main as sembrar
+from app.config import RUTA_RESULTADOS
 from servicios.generador_informes import generar_informe_markdown
 from servicios.motor_evaluacion import ejecutar_motor
-from app.config import RUTA_RESULTADOS
+
+from scripts.sembrar_datos import main as sembrar
 
 
 class TestMotorEvaluacion(unittest.TestCase):

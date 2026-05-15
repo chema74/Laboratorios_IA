@@ -1,5 +1,5 @@
 ﻿def coste_por_caso(texto: str) -> float:
-    return round(0.00001 * len((texto or "")) + 0.0005, 6)
+    return round(0.00001 * len(texto or "") + 0.0005, 6)
 
 
 def coste_total(casos: list[dict]) -> dict:

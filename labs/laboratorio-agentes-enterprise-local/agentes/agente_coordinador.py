@@ -1,8 +1,9 @@
-﻿from agentes.agente_ejecutor import ejecutar_plan
+﻿from memoria.memoria_operativa import MemoriaOperativa
+from memoria.registro_contexto import registrar_contexto
+
+from agentes.agente_ejecutor import ejecutar_plan
 from agentes.agente_planificador import planificar_tarea
 from agentes.agente_revisor import revisar_resultados
-from memoria.memoria_operativa import MemoriaOperativa
-from memoria.registro_contexto import registrar_contexto
 
 
 def coordinar_tarea(tarea: dict, politicas: dict, traza) -> dict:
@@ -11,7 +12,7 @@ def coordinar_tarea(tarea: dict, politicas: dict, traza) -> dict:
     traza.registrar("planificacion", {"pasos": len(plan["pasos"])})
     registrar_contexto(memoria, "plan", plan)
 
-    ejecucion = ejecutar_plan(plan)
+    ejecucion = ejecutar_plan(plan, politicas)
     traza.registrar("ejecucion", {"resultados": len(ejecucion["resultados"]), "bloqueos": len(ejecucion["bloqueos"])})
     registrar_contexto(memoria, "ejecucion", ejecucion)
 

@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """
 Validador operativo V2 para laboratorio-privacidad-datos-ia.
 
@@ -16,8 +15,6 @@ from __future__ import annotations
 import argparse
 import json
 from pathlib import Path
-from typing import Dict, List
-
 
 REPO = Path(__file__).resolve().parents[1]
 
@@ -54,11 +51,11 @@ def leer_texto_relativo(ruta_relativa: str) -> str:
     return (REPO / ruta_relativa).read_text(encoding="utf-8")
 
 
-def validar_repositorio() -> Dict[str, object]:
-    faltantes: List[str] = []
-    sin_licencia: List[str] = []
-    mojibake: List[str] = []
-    marcadores_ausentes: List[str] = []
+def validar_repositorio() -> dict[str, object]:
+    faltantes: list[str] = []
+    sin_licencia: list[str] = []
+    mojibake: list[str] = []
+    marcadores_ausentes: list[str] = []
 
     for ruta in ARCHIVOS_REQUERIDOS:
         if not (REPO / ruta).exists():
@@ -109,7 +106,7 @@ def validar_repositorio() -> Dict[str, object]:
     }
 
 
-def generar_markdown(resultado: Dict[str, object]) -> str:
+def generar_markdown(resultado: dict[str, object]) -> str:
     estado = resultado["resultado"]
 
     lineas = [

@@ -10,11 +10,14 @@ RUTA_SRC = RUTA_BASE / "src"
 if str(RUTA_SRC) not in sys.path:
     sys.path.insert(0, str(RUTA_SRC))
 
-from generador_escenarios_prueba_agentes.catalogo_escenarios import ACCIONES_CONTROLADAS, DIFICULTADES_CONTROLADAS, TIPOS_ESCENARIO
 from generador_escenarios_prueba_agentes.cargador_contexto import cargar_contexto
+from generador_escenarios_prueba_agentes.catalogo_escenarios import (
+    ACCIONES_CONTROLADAS,
+    DIFICULTADES_CONTROLADAS,
+    TIPOS_ESCENARIO,
+)
 from generador_escenarios_prueba_agentes.exportador import exportar_escenarios
 from generador_escenarios_prueba_agentes.generador import construir_resumen_escenarios, generar_escenarios
-
 
 OBLIGATORIOS = {
     "id_escenario", "tipo_escenario", "titulo", "descripcion", "contexto_empresarial", "entrada_usuario_simulada",

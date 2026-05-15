@@ -16,7 +16,6 @@ from motor_simulacion_crisis.evaluador_impacto import construir_expediente_markd
 from motor_simulacion_crisis.exportador import exportar_resultados_crisis
 from motor_simulacion_crisis.simulador import generar_linea_tiempo, simular_crisis
 
-
 OBLIGATORIOS_CRISIS = {
     "id_crisis", "tipo_crisis", "titulo", "descripcion", "fecha_inicio", "fecha_fin_estimada", "severidad",
     "areas_afectadas", "entidades_afectadas", "eventos_relacionados", "documentos_relacionados", "escenarios_relacionados",

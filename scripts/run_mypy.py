@@ -4,7 +4,6 @@ import subprocess
 import sys
 from pathlib import Path
 
-
 REPO_ROOT = Path(__file__).resolve().parents[1]
 LABS_ROOT = REPO_ROOT / "labs"
 
@@ -22,10 +21,11 @@ def main() -> None:
         print("No hay objetivos para mypy.")
         return
 
-    cmd = [sys.executable, "-m", "mypy", "--config-file", "mypy.ini", *targets]
-    rc = subprocess.run(cmd, cwd=REPO_ROOT).returncode
-    if rc != 0:
-        raise SystemExit(rc)
+    for target in targets:
+        cmd = [sys.executable, "-m", "mypy", "--config-file", "mypy.ini", target]
+        rc = subprocess.run(cmd, cwd=REPO_ROOT).returncode
+        if rc != 0:
+            raise SystemExit(rc)
 
 
 if __name__ == "__main__":

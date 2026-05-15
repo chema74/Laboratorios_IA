@@ -14,7 +14,6 @@ if str(RUTA_SRC) not in sys.path:
 # Paso 2: reutilizar la CLI del módulo para concentrar la lógica.
 from fabrica_documentos_sinteticos.cli import main
 
-
 if __name__ == "__main__":
     # Paso 3: ejecutar generación y exportación documental.
     main()

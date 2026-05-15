@@ -17,6 +17,11 @@ class TestEvaluacionResultados(unittest.TestCase):
         self.assertTrue(ev["limites_respetados"])
         self.assertTrue(tr["suficiente"])
 
+    def test_bloqueos_penalizan_limites(self):
+        ev = evaluar_resultado({"ejecucion": {"resultados": [{}, {}, {}], "bloqueos": [{"accion": "borrar_datos"}]}})
+        self.assertFalse(ev["limites_respetados"])
+        self.assertEqual(ev["score"], 0.6)
+
 
 if __name__ == "__main__":
     unittest.main()

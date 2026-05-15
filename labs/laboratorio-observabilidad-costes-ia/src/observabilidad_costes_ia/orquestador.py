@@ -4,8 +4,7 @@ import os
 from typing import Any
 
 from .analisis_local import generar_analisis_fallback
-from .integracion_groq import GroqError, MODELO_POR_DEFECTO, analizar_con_groq
-
+from .integracion_groq import MODELO_POR_DEFECTO, GroqError, analizar_con_groq
 
 
 def _diagnostico_no_solicitado() -> dict[str, Any]:

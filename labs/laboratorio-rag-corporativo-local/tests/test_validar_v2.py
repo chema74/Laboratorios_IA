@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """
 Pruebas del validador operativo V2 del laboratorio RAG corporativo local.
 """

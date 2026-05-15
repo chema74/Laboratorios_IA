@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """
 Pruebas del generador de informe ejecutivo V2 del laboratorio RAG.
 """

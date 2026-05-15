@@ -14,7 +14,6 @@ if str(RUTA_SRC) not in sys.path:
 # Paso 2: Reusar la CLI para mantener un único flujo.
 from generador_empresa_sintetica.cli import main
 
-
 if __name__ == "__main__":
     # Paso 3: Ejecutar la demo local con argumentos CLI.
     main()

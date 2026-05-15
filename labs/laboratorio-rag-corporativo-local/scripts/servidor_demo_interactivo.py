@@ -2,7 +2,7 @@
 import json
 import os
 import sys
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from html import escape
 from http.server import BaseHTTPRequestHandler, HTTPServer
 from pathlib import Path
@@ -127,7 +127,7 @@ def ejecutar_consulta_interactiva(
     )
 
     return {
-        "fecha": datetime.now(timezone.utc).isoformat(),
+        "fecha": datetime.now(UTC).isoformat(),
         "consulta": q,
         "rag": rag,
         "analisis_llm": llm,

@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """
 Generador de informe ejecutivo V2 para laboratorio-privacidad-datos-ia.
 
@@ -11,8 +10,6 @@ from __future__ import annotations
 import argparse
 import json
 from pathlib import Path
-from typing import Dict
-
 
 REPO = Path(__file__).resolve().parents[1]
 
@@ -74,7 +71,7 @@ Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.
 """
 
 
-def generar() -> Dict[str, object]:
+def generar() -> dict[str, object]:
     salida = REPO / "salidas"
     salida.mkdir(exist_ok=True)
 

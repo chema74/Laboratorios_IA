@@ -1,6 +1,5 @@
 ﻿from servicios.pipeline_rag import ejecutar_pipeline
 
-
 if __name__ == "__main__":
     consulta = input("Consulta corporativa: ").strip()
     resultado = ejecutar_pipeline(consulta)

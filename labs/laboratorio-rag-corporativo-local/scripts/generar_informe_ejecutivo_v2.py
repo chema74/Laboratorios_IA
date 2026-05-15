@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """
 Generador de informe ejecutivo V2 del laboratorio RAG corporativo local.
 
@@ -16,9 +15,8 @@ from __future__ import annotations
 import argparse
 import json
 import re
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from pathlib import Path
-
 
 DOCUMENTOS_CLAVE = [
     "docs/PLAN_V2_LABORATORIO_RAG.md",
@@ -122,7 +120,7 @@ def construir_informe(base: Path) -> str:
     scripts_ok = sum(1 for item in scripts if item["existe"])
     salidas_ok = sum(1 for item in salidas if item["existe"])
 
-    fecha = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+    fecha = datetime.now(UTC).strftime("%Y-%m-%d %H:%M UTC")
 
     lineas = [
         "# 📌 INFORME EJECUTIVO V2 — LABORATORIO RAG CORPORATIVO LOCAL",

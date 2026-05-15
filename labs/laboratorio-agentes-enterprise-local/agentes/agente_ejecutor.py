@@ -5,12 +5,12 @@ from herramientas.gestor_tickets_simulado import buscar_tickets
 from orquestacion.limites_accion import validar_accion
 
 
-def ejecutar_plan(plan: dict) -> dict:
+def ejecutar_plan(plan: dict, politicas: dict | None = None) -> dict:
     resultados = []
     bloqueos = []
     for p in plan["pasos"]:
         accion = p["accion"]
-        ok, motivo = validar_accion(accion)
+        ok, motivo = validar_accion(accion, politicas)
         if not ok:
             bloqueos.append({"paso": p["paso"], "accion": accion, "motivo": motivo})
             continue

@@ -1,10 +1,9 @@
 ﻿import json
 import os
+from collections.abc import Callable
 from dataclasses import dataclass
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from pathlib import Path
-from typing import Callable
-
 
 DEFAULT_GROQ_MODEL = "llama-3.1-8b-instant"
 CRITERIOS_DISPONIBLES = [
@@ -202,7 +201,7 @@ def evaluar_respuesta_llm(
     media = round(sum(puntuaciones_filtradas.values()) / max(1, len(puntuaciones_filtradas)), 4)
 
     return {
-        "fecha_utc": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "fecha_utc": datetime.now(UTC).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "escenario": escenario,
         "pregunta": pregunta,
         "contexto": contexto,

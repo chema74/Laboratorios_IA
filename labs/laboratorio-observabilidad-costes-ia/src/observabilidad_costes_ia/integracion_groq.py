@@ -2,11 +2,9 @@
 
 import json
 import os
-import socket
 from dataclasses import dataclass
 from typing import Any
 from urllib import error, request
-
 
 GROQ_URL = "https://api.groq.com/openai/v1/chat/completions"
 MODELO_POR_DEFECTO = "llama-3.1-8b-instant"
@@ -98,7 +96,7 @@ def analizar_con_groq(metrica: dict[str, Any], timeout: int = 12) -> dict[str, A
         if detalle:
             mensaje = f"{mensaje} Detalle: {detalle}"
         raise GroqError(categoria=categoria, mensaje_seguro=mensaje, http_status=exc.code, modelo=model) from exc
-    except (TimeoutError, socket.timeout) as exc:
+    except TimeoutError as exc:
         raise GroqError(categoria="timeout_red", mensaje_seguro="Timeout de red al invocar Groq.", modelo=model) from exc
     except error.URLError as exc:
         raise GroqError(

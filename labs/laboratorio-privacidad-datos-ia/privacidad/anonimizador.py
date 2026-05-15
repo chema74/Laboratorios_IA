@@ -1,6 +1,5 @@
 ﻿from privacidad.detector_pii import detectar_pii
 
-
 REEMPLAZOS = {
     "nombre": "[NOMBRE]",
     "email": "[EMAIL]",

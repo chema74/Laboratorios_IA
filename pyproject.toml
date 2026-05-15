@@ -11,7 +11,13 @@ exclude = [
 
 [tool.ruff.lint]
 select = ["E", "F", "I", "UP", "B"]
-ignore = ["E501"]
+ignore = ["E501", "E741", "UP038"]
+
+[tool.ruff.lint.per-file-ignores]
+"**/scripts/*.py" = ["E402"]
+"**/tests/*.py" = ["E402"]
+"**/ejecutar_demo.py" = ["E402"]
+"**/evaluacion/*.py" = ["E402"]
 
 [tool.ruff.format]
 quote-style = "double"

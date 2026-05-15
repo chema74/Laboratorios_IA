@@ -1,7 +1,7 @@
 ﻿import json
 import os
 from typing import Any
-from urllib import error, request
+from urllib import request
 
 URL_GROQ = "https://api.groq.com/openai/v1/chat/completions"
 MODELO_POR_DEFECTO = "llama-3.1-8b-instant"

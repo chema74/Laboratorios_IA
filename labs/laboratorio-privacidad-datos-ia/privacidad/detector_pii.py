@@ -1,6 +1,5 @@
 ﻿import re
 
-
 PATRONES = {
     "email": re.compile(r"[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"),
     "telefono": re.compile(r"\b(?:\+34\s?)?[6789]\d{8}\b"),

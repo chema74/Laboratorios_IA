@@ -3,7 +3,7 @@ from __future__ import annotations
 import json
 import os
 import sys
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from pathlib import Path
 
 BASE = Path(__file__).resolve().parents[1]
@@ -39,7 +39,7 @@ def generar_evidencias(escenario: str = "uso_normal_controlado") -> dict[str, Pa
     eventos = obtener_escenario(escenario)
     metrica = analizar_eventos(eventos)
     analisis = generar_analisis_ejecutivo(metrica)
-    marca_tiempo = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    marca_tiempo = datetime.now(UTC).strftime("%Y-%m-%dT%H:%M:%SZ")
 
     diagnostico = analisis.get("diagnostico_groq") or {
         "solicitado": False,

@@ -3,7 +3,6 @@
 Demo rápido: ingesta de un PDF público real en el pipeline RAG.
 Objetivo: demostrar que el laboratorio procesa documentos externos sin configuración extra.
 """
-import os
 import urllib.request
 from pathlib import Path
 

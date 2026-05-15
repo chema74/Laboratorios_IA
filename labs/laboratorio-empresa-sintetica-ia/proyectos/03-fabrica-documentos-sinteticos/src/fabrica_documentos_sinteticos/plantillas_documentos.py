@@ -4,7 +4,6 @@ from __future__ import annotations
 
 from typing import Any
 
-
 MAPA_CARPETAS = {
     "propuesta_comercial": "propuestas_comerciales",
     "contrato_simulado": "contratos_simulados",

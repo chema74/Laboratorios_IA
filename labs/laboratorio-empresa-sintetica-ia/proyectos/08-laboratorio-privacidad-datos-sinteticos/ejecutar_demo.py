@@ -14,7 +14,6 @@ if str(RUTA_SRC) not in sys.path:
 # Paso 2: reutilizar la CLI del módulo principal.
 from laboratorio_privacidad_datos_sinteticos.cli import main
 
-
 if __name__ == "__main__":
     # Paso 3: ejecutar flujo completo de privacidad simulada.
     main()

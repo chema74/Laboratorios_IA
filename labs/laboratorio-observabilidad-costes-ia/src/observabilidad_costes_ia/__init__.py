@@ -1,7 +1,7 @@
 ﻿"""Paquete V2.1 de observabilidad y costes de IA."""
 
-from .motor import analizar_eventos
 from .escenarios import ESCENARIOS_PREDEFINIDOS, obtener_escenario
+from .motor import analizar_eventos
 from .orquestador import generar_analisis_ejecutivo
 
 __all__ = [

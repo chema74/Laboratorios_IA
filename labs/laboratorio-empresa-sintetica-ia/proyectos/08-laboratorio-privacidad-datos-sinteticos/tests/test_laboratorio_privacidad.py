@@ -18,7 +18,11 @@ from laboratorio_privacidad_datos_sinteticos.clasificador_sensibilidad import (
     construir_inventario_datos,
 )
 from laboratorio_privacidad_datos_sinteticos.cli import _expediente, _resumen
-from laboratorio_privacidad_datos_sinteticos.evaluador_riesgos import ESTADOS_RIESGO, SEVERIDADES, construir_riesgos_privacidad_simulados
+from laboratorio_privacidad_datos_sinteticos.evaluador_riesgos import (
+    ESTADOS_RIESGO,
+    SEVERIDADES,
+    construir_riesgos_privacidad_simulados,
+)
 from laboratorio_privacidad_datos_sinteticos.exportador import exportar_resultados
 from laboratorio_privacidad_datos_sinteticos.matriz_permisos import NIVELES_ACCESO, construir_matriz_permisos_simulados
 from laboratorio_privacidad_datos_sinteticos.minimizador_datos import construir_dataset_minimizado

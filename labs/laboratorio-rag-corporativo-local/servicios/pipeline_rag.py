@@ -2,13 +2,14 @@
 from dataclasses import asdict
 
 from app.config import RUTA_DATOS_BRUTOS, TOP_K_RECUPERACION
-from componentes.segmentador import segmentar_documentos
 from componentes.recuperador_hibrido import recuperar_hibrido
 from componentes.reordenador_resultados import reordenar_resultados
+from componentes.segmentador import segmentar_documentos
 from observabilidad.costes_simulados import estimar_coste_simulado
 from observabilidad.trazas import crear_traza
 from seguridad.filtro_salida import validar_salida_con_citas
 from seguridad.guardia_entrada import validar_consulta
+
 from servicios.generador_respuesta import generar_respuesta_extractiva
 
 

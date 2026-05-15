@@ -12,6 +12,5 @@ if str(SRC_DIR) not in sys.path:
 
 from demo_narrativa_empresa_completa.cli import main
 
-
 if __name__ == "__main__":
     main()

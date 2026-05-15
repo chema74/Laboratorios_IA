@@ -1,7 +1,7 @@
 ﻿import unittest
 
-from componentes.segmentador import segmentar_documentos
 from componentes.recuperador_hibrido import recuperar_hibrido
+from componentes.segmentador import segmentar_documentos
 
 
 class TestRecuperacion(unittest.TestCase):

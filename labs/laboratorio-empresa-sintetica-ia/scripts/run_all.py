@@ -10,6 +10,15 @@ def _run(cmd: list[str]) -> int:
     return subprocess.run(cmd, cwd=BASE).returncode
 
 
+def _project_test_steps() -> list[tuple[str, list[str]]]:
+    steps: list[tuple[str, list[str]]] = []
+    for tests_dir in sorted((BASE / "proyectos").glob("**/tests")):
+        if any(tests_dir.glob("test_*.py")):
+            rel = tests_dir.relative_to(BASE).as_posix()
+            steps.append((f"tests:{rel}", [sys.executable, "-m", "pytest", rel, "-q"]))
+    return steps
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--with-demo", action="store_true")
@@ -19,6 +28,7 @@ def main() -> None:
     tests_dir = BASE / "tests"
     if tests_dir.exists():
         steps.append(("tests", [sys.executable, "-m", "unittest", "discover", "tests", "-v"]))
+    steps.extend(_project_test_steps())
     demo_proyecto = BASE / "proyectos" / "10-demo-narrativa-empresa-completa" / "ejecutar_demo.py"
     if args.with_demo and demo_proyecto.exists():
         steps.append(

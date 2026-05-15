@@ -3,9 +3,9 @@ from statistics import mean
 
 from app.config import RUTA_DATASET, RUTA_PROMPTS, RUTA_RESPUESTAS
 from evaluadores.alucinaciones_sinteticas import evaluar_alucinaciones
+from evaluadores.cobertura import evaluar_cobertura
 from evaluadores.comparador_respuestas import ordenar_respuestas
 from evaluadores.consistencia import evaluar_consistencia
-from evaluadores.cobertura import evaluar_cobertura
 from evaluadores.regresion_prompts import evaluar_regresion
 from evaluadores.rubricas import puntuar_rubricas
 from observabilidad.costes_simulados import coste_total

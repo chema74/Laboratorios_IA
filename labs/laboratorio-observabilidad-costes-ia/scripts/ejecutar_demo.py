@@ -6,9 +6,10 @@ if str(BASE) not in sys.path:
     sys.path.insert(0, str(BASE))
 
 from app.config import RUTA_INFORME
-from scripts.generar_panel import main as generar_panel
 from servicios.generador_informes import generar_informe
 from servicios.motor_observabilidad import ejecutar_motor_observabilidad
+
+from scripts.generar_panel import main as generar_panel
 
 
 def main() -> None:

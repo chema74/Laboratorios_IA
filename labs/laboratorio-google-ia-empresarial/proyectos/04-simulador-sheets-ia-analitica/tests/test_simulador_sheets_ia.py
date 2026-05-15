@@ -9,11 +9,11 @@ if str(BASE_DIR) not in sys.path:
     sys.path.insert(0, str(BASE_DIR))
 
 from src.simulador_sheets_ia import (
-    construir_resultado,
-    cargar_config,
-    cargar_csv,
     calcular_distribuciones,
     calcular_indicadores,
+    cargar_config,
+    cargar_csv,
+    construir_resultado,
     detectar_senales,
     generar_informe_markdown,
     guardar_hoja_enriquecida,

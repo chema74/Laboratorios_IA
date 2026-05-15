@@ -1,7 +1,8 @@
 ﻿import unittest
 
-from scripts.sembrar_datos import main as sembrar
 from servicios.pipeline_rag import ejecutar_pipeline
+
+from scripts.sembrar_datos import main as sembrar
 
 
 class TestPipelineRag(unittest.TestCase):
