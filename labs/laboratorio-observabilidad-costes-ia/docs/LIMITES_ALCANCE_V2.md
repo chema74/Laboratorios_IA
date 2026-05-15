@@ -1,4 +1,4 @@
-# ⚠️ LÍMITES Y ALCANCE V2 — LABORATORIO OBSERVABILIDAD Y COSTES IA
+﻿# ️ LÍMITES Y ALCANCE V2 - LABORATORIO OBSERVABILIDAD Y COSTES IA
 
 ## Declaración de alcance técnico
 
@@ -6,7 +6,7 @@
 
 ## 1. Objetivo
 
-Este documento define los límites de la V2 (Version 2 – Versión 2) del laboratorio de observabilidad y costes de IA (Artificial Intelligence – Inteligencia Artificial).
+Este documento define los límites de la V2 (Version 2 - Versión 2) del laboratorio de observabilidad y costes de IA (Artificial Intelligence - Inteligencia Artificial).
 
 Su función es evitar exageraciones, separar laboratorio de producto y mantener una narrativa técnica honesta.
 
@@ -23,7 +23,7 @@ El laboratorio demuestra:
 - Tests automatizados.
 - Enfoque free-first y local-first.
 - Ausencia de claves reales.
-- Ausencia de APIs (Application Programming Interfaces – Interfaces de Programación de Aplicaciones) de pago obligatorias.
+- Ausencia de APIs (Application Programming Interfaces - Interfaces de Programación de Aplicaciones) de pago obligatorias.
 
 ---
 
@@ -39,7 +39,7 @@ El laboratorio no demuestra todavía:
 - Control presupuestario real con facturación.
 - Observabilidad distribuida completa.
 - Despliegue cloud.
-- Producto SaaS (Software as a Service – Software como Servicio).
+- Producto SaaS (Software as a Service - Software como Servicio).
 
 ---
 
@@ -73,6 +73,6 @@ La V2 reconoce estos riesgos y los limita a un laboratorio local controlado.
 
 ---
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.

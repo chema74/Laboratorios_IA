@@ -1,4 +1,4 @@
-# Informe Google IA Empresarial Simulado
+﻿# Informe Google IA Empresarial Simulado
 
 **Fecha de generación:** 2026-05-11T09:08:45
 
@@ -66,6 +66,6 @@ Consolidación local del laboratorio Google IA empresarial con evaluación de ma
 - fallback_local
 - revision_humana
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.  
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.

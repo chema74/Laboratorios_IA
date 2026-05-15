@@ -1,4 +1,4 @@
-# 01 - Inventario de Riesgos de Agentes (V1 local funcional mínima)
+﻿# 01 - Inventario de Riesgos de Agentes (V1 local funcional mínima)
 
 ## Objetivo
 Inventariar riesgos defensivos sintéticos de agentes de IA para priorizar controles y trazabilidad en entorno local, sin IA real ni servicios externos.
@@ -16,6 +16,7 @@ Inventariar riesgos defensivos sintéticos de agentes de IA para priorizar contr
 python .\proyectos\01-inventario-riesgos-agentes\src\inventario_riesgos.py --risks .\proyectos\01-inventario-riesgos-agentes\datos_ejemplo\riesgos_agentes_sinteticos.json --config .\proyectos\01-inventario-riesgos-agentes\datos_ejemplo\configuracion_inventario_riesgos.json --output-md .\proyectos\01-inventario-riesgos-agentes\informes\informe_inventario_riesgos.md --output-json .\proyectos\01-inventario-riesgos-agentes\informes\inventario_riesgos_validado.json
 ```
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.  
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

@@ -1,4 +1,4 @@
-# Mapa de Evidencias de Portfolio
+﻿# Mapa de Evidencias de Portfolio
 
 ## Carpetas principales
 
@@ -17,6 +17,7 @@
 
 Comenzar por `demo_narrativa_empresa_completa/` para obtener visión global y después profundizar por módulo.
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.  
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

@@ -1,4 +1,4 @@
-# 🧭 PLAN V2 — LABORATORIO AGENTES ENTERPRISE LOCAL
+﻿#  PLAN V2 - LABORATORIO AGENTES ENTERPRISE LOCAL
 
 ## Evolución técnica del laboratorio
 
@@ -6,9 +6,9 @@
 
 ## 1. Objetivo
 
-Este documento define el plan V2 (Version 2 – Versión 2) del repositorio `laboratorio-agentes-enterprise-local`.
+Este documento define el plan V2 (Version 2 - Versión 2) del repositorio `laboratorio-agentes-enterprise-local`.
 
-El objetivo es reforzar el laboratorio como evidencia profesional de agentes de IA (Artificial Intelligence – Inteligencia Artificial) en entorno empresarial local, sin servicios cloud obligatorios, sin claves reales y sin APIs (Application Programming Interfaces – Interfaces de Programación de Aplicaciones) de pago obligatorias.
+El objetivo es reforzar el laboratorio como evidencia profesional de agentes de IA (Artificial Intelligence - Inteligencia Artificial) en entorno empresarial local, sin servicios cloud obligatorios, sin claves reales y sin APIs (Application Programming Interfaces - Interfaces de Programación de Aplicaciones) de pago obligatorias.
 
 ---
 
@@ -32,7 +32,7 @@ La V2 refuerza:
 - Lectura profesional del caso de uso.
 - Límites claros entre laboratorio, piloto y producto.
 
-El laboratorio debe demostrar agentes enterprise locales como arquitectura evaluable, no como producto SaaS (Software as a Service – Software como Servicio) final.
+El laboratorio debe demostrar agentes enterprise locales como arquitectura evaluable, no como producto SaaS (Software as a Service - Software como Servicio) final.
 
 ---
 
@@ -48,6 +48,6 @@ El laboratorio debe demostrar agentes enterprise locales como arquitectura evalu
 
 ---
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.

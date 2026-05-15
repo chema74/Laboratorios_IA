@@ -1,10 +1,10 @@
-# Plan V2 — Laboratorio backend IA empresarial
+﻿# Plan V2 - Laboratorio backend IA empresarial
 
 ## 1. Propósito
 
-Esta V2 (Version 2 – Versión 2) consolida el repositorio `laboratorio-backend-ia-empresarial` como una pieza técnica de portfolio orientada a backend empresarial con IA (Artificial Intelligence – Inteligencia Artificial), integración local-first y trazabilidad operativa.
+Esta V2 (Version 2 - Versión 2) consolida el repositorio `laboratorio-backend-ia-empresarial` como una pieza técnica de portfolio orientada a backend empresarial con IA (Artificial Intelligence - Inteligencia Artificial), integración local-first y trazabilidad operativa.
 
-El objetivo no es construir un SaaS (Software as a Service – Software como Servicio) productivo ni simular una plataforma cloud. El objetivo es demostrar que una arquitectura backend para IA puede documentarse, validarse y revisarse con evidencias reproducibles sin depender de servicios externos obligatorios.
+El objetivo no es construir un SaaS (Software as a Service - Software como Servicio) productivo ni simular una plataforma cloud. El objetivo es demostrar que una arquitectura backend para IA puede documentarse, validarse y revisarse con evidencias reproducibles sin depender de servicios externos obligatorios.
 
 ## 2. Principios de diseño
 
@@ -15,7 +15,7 @@ El laboratorio se mantiene bajo las reglas maestras del portfolio:
 - Sin tarjeta bancaria.
 - Sin claves reales.
 - Sin servicios cloud obligatorios.
-- Sin APIs (Application Programming Interfaces – Interfaces de Programación de Aplicaciones) de pago obligatorias.
+- Sin APIs (Application Programming Interfaces - Interfaces de Programación de Aplicaciones) de pago obligatorias.
 - Documentación en castellano.
 - Evidencias reproducibles.
 - Separación clara entre demostración técnica y producción real.
@@ -50,7 +50,7 @@ Casos representados:
 
 Esta V2 no despliega infraestructura productiva.
 
-No incluye autenticación empresarial real, gestión avanzada de usuarios, despliegue cloud, monitorización productiva, SLA (Service Level Agreement – Acuerdo de Nivel de Servicio) ni conexión obligatoria a modelos comerciales.
+No incluye autenticación empresarial real, gestión avanzada de usuarios, despliegue cloud, monitorización productiva, SLA (Service Level Agreement - Acuerdo de Nivel de Servicio) ni conexión obligatoria a modelos comerciales.
 
 Marcadores de control:
 
@@ -70,8 +70,9 @@ MERGE_A_MAIN: NO_REALIZADO
 
 BACKEND_IA_EMPRESARIAL_V2: OK
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.
 
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

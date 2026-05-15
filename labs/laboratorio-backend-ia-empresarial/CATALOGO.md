@@ -66,8 +66,9 @@ Evidencia: coste operativo ficticio por ejecución.
 - Scripts: `scripts/sembrar_datos.py`, `scripts/comprobar_salud.py`, `scripts/ejecutar_demo.py`, `scripts/ejecutar_backend_local.py`, `scripts/procesar_cola.py`.
 - Pruebas: `tests/`.
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.
 
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

@@ -1,7 +1,7 @@
 ﻿# 03-fabrica-documentos-sinteticos
 
 ## Objetivo
-Fábrica de Documentos Sintéticos con alcance V1 (Version 1 – Versión 1) local mínimo. Genera documentos empresariales ficticios reutilizables para pruebas internas del laboratorio.
+Fábrica de Documentos Sintéticos con alcance V1 (Version 1 - Versión 1) local mínimo. Genera documentos empresariales ficticios reutilizables para pruebas internas del laboratorio.
 
 ## Implementado en esta V1 local mínima
 - Carga de contexto desde:
@@ -59,11 +59,12 @@ pytest proyectos/03-fabrica-documentos-sinteticos/tests -q
 ## Límites actuales
 - Los documentos son sintéticos y de uso técnico interno.
 - No son documentos reales ni jurídicamente válidos.
-- No hay IA (Artificial Intelligence – Inteligencia Artificial) real implementada.
-- No hay API (Application Programming Interface – Interfaz de Programación de Aplicaciones) productiva ni llamadas externas.
+- No hay IA (Artificial Intelligence - Inteligencia Artificial) real implementada.
+- No hay API (Application Programming Interface - Interfaz de Programación de Aplicaciones) productiva ni llamadas externas.
 - No hay datos reales, integraciones externas ni servicios de pago.
 - En esta fase no se generan PDF ni DOCX.
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.  
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

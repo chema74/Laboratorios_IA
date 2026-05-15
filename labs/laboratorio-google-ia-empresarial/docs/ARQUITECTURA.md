@@ -17,6 +17,7 @@
 
 ## Resultado esperado
 Arquitectura comprensible, auditable y portable, preparada para evolucionar sin bloquearse por costes, credenciales o dependencias de terceros.
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.  
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

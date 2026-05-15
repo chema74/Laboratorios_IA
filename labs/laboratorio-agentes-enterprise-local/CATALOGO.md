@@ -66,8 +66,9 @@ Evidencia: auditoría de flujo y coste ficticio.
 - `scripts/ejecutar_escenario_multiagente.py`: ejecución de escenario de coordinación.
 - `tests/`: validación unitaria de agentes, límites, herramientas y evaluación.
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.
 
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

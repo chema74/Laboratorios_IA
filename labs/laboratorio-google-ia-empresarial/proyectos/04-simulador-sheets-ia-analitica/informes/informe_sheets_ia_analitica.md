@@ -1,4 +1,4 @@
-# Informe de Simulación Sheets IA Analítica (Local)
+﻿# Informe de Simulación Sheets IA Analítica (Local)
 
 **Fecha de generación:** 2026-05-11T08:50:26
 
@@ -63,6 +63,6 @@ Sin Sheets real, sin OAuth real, sin APIs externas, sin Google Cloud y sin IA re
 2. Cruzar métricas con simuladores 02 y 03.
 3. Definir conector V2 opcional por `.env` con fallback local.
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.  
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.

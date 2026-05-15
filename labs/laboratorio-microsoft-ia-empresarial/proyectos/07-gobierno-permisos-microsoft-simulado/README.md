@@ -1,4 +1,4 @@
-# 07 - Gobierno de Permisos Microsoft Simulado
+﻿# 07 - Gobierno de Permisos Microsoft Simulado
 
 ## Objetivo
 Simular gobierno de permisos en entorno Microsoft empresarial ficticio aplicando mínimo privilegio.
@@ -21,6 +21,7 @@ V1 local funcional mínima implementada.
 ## Límites
 Sin Microsoft real, sin Microsoft Graph API real, sin OAuth real, sin Azure obligatorio y sin IA real.
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.  
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

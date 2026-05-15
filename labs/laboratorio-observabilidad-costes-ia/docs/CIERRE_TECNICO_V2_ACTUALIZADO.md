@@ -1,4 +1,4 @@
-# ✅ CIERRE TÉCNICO V2 ACTUALIZADO — LABORATORIO OBSERVABILIDAD Y COSTES IA
+﻿#  CIERRE TÉCNICO V2 ACTUALIZADO - LABORATORIO OBSERVABILIDAD Y COSTES IA
 
 ## Estado de cierre técnico de la rama V2
 
@@ -6,7 +6,7 @@
 
 ## 1. Objetivo
 
-Este documento registra el cierre técnico actualizado de la V2 (Version 2 – Versión 2) del repositorio `laboratorio-observabilidad-costes-ia`.
+Este documento registra el cierre técnico actualizado de la V2 (Version 2 - Versión 2) del repositorio `laboratorio-observabilidad-costes-ia`.
 
 El objetivo es dejar constancia del estado alcanzado por la rama `v2-laboratorio-observabilidad-costes-ia`, incluyendo documentación V2, validación operativa, informe ejecutivo, guía de revisión de evidencias y trazabilidad remota.
 
@@ -14,7 +14,7 @@ No modifica la web pública `chema74.github.io`.
 
 No modifica la rama `main`.
 
-No convierte el laboratorio en producto SaaS (Software as a Service – Software como Servicio).
+No convierte el laboratorio en producto SaaS (Software as a Service - Software como Servicio).
 
 ---
 
@@ -88,6 +88,6 @@ El valor principal está en demostrar:
 
 ---
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.

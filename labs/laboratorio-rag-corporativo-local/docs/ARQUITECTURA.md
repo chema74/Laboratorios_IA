@@ -41,8 +41,9 @@ Registro de trazas de etapa y coste simulado por consulta.
 
 Estas restricciones son intencionales para mantener coste cero operativo, ejecución local y revisión técnica reproducible.
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.
 
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

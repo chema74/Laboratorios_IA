@@ -1,4 +1,4 @@
-# 🧭 PLAN V2 — LABORATORIO GOBERNANZA AI ACT LOCAL
+﻿#  PLAN V2 - LABORATORIO GOBERNANZA AI ACT LOCAL
 
 ## Evolución técnica del laboratorio
 
@@ -6,9 +6,9 @@
 
 ## 1. Objetivo
 
-Este documento define el plan V2 (Version 2 – Versión 2) del repositorio `laboratorio-gobernanza-ai-act-local`.
+Este documento define el plan V2 (Version 2 - Versión 2) del repositorio `laboratorio-gobernanza-ai-act-local`.
 
-El objetivo es reforzar el laboratorio como evidencia profesional de gobernanza de IA (Artificial Intelligence – Inteligencia Artificial) alineada de forma orientativa con el AI Act (Artificial Intelligence Act – Reglamento Europeo de Inteligencia Artificial), en entorno local, sin servicios cloud obligatorios, sin claves reales y sin APIs (Application Programming Interfaces – Interfaces de Programación de Aplicaciones) de pago obligatorias.
+El objetivo es reforzar el laboratorio como evidencia profesional de gobernanza de IA (Artificial Intelligence - Inteligencia Artificial) alineada de forma orientativa con el AI Act (Artificial Intelligence Act - Reglamento Europeo de Inteligencia Artificial), en entorno local, sin servicios cloud obligatorios, sin claves reales y sin APIs (Application Programming Interfaces - Interfaces de Programación de Aplicaciones) de pago obligatorias.
 
 Este laboratorio no constituye asesoría legal. Es una pieza técnica y documental de portfolio para demostrar criterio sobre inventario, clasificación, límites, evidencias y trazabilidad de sistemas de IA.
 
@@ -50,6 +50,6 @@ La V2 refuerza:
 
 ---
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.

@@ -1,4 +1,4 @@
-# Mapa de Componentes Microsoft IA (Demo)
+﻿# Mapa de Componentes Microsoft IA (Demo)
 
 ## Componentes representados
 - 01-mapa-ecosistema-microsoft-ia
@@ -15,6 +15,7 @@
 ## Flujo
 01 -> 02 -> 03 -> 04 -> 05 -> 06 -> 07 -> 08 -> 09 -> 10
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.  
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

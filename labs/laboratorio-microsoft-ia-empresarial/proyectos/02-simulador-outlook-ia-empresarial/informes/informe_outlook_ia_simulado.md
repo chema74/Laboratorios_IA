@@ -1,4 +1,4 @@
-# Informe de Simulador Outlook IA Empresarial (V1 Local)
+﻿# Informe de Simulador Outlook IA Empresarial (V1 Local)
 
 Fecha de generacion: 2026-05-11 09:28:23
 
@@ -57,6 +57,7 @@ Simulacion local de bandeja Outlook empresarial con clasificacion, priorizacion 
 - Versionar reglas de clasificacion para comparar resultados.
 - Preparar interfaz opcional V2 con .env y fallback local.
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.  
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

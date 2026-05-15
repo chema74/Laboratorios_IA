@@ -26,8 +26,9 @@ Los contratos de esta V1 son **locales y sintéticos**. Se usan para validar la 
 - No hay autenticación real.
 - No hay servidor HTTP de producción.
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.
 
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

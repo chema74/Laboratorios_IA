@@ -1,4 +1,4 @@
-# Informe de Mapa del Ecosistema Microsoft IA (Simulado)
+﻿# Informe de Mapa del Ecosistema Microsoft IA (Simulado)
 
 Fecha de generacion: 2026-05-11 09:28:23
 
@@ -78,6 +78,7 @@ Se mapearon 13 componentes sinteticos del ecosistema Microsoft IA empresarial en
 - Diseñar contratos de integracion opcionales por componente.
 - Definir pruebas de regresion para las salidas JSON y Markdown.
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.  
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

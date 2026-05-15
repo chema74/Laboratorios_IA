@@ -1,4 +1,4 @@
-# ⚠️ LÍMITES Y ALCANCE V2 — LABORATORIO GOBERNANZA AI ACT LOCAL
+﻿# ️ LÍMITES Y ALCANCE V2 - LABORATORIO GOBERNANZA AI ACT LOCAL
 
 ## Declaración de alcance técnico
 
@@ -6,7 +6,7 @@
 
 ## 1. Objetivo
 
-Este documento define los límites de la V2 (Version 2 – Versión 2) del laboratorio `laboratorio-gobernanza-ai-act-local`.
+Este documento define los límites de la V2 (Version 2 - Versión 2) del laboratorio `laboratorio-gobernanza-ai-act-local`.
 
 Su función es evitar exageraciones y separar laboratorio técnico de asesoría legal o cumplimiento normativo certificado.
 
@@ -22,7 +22,7 @@ El laboratorio demuestra:
 - Scripts y tests locales.
 - Enfoque free-first y local-first.
 - Ausencia de claves reales.
-- Ausencia de APIs (Application Programming Interfaces – Interfaces de Programación de Aplicaciones) de pago obligatorias.
+- Ausencia de APIs (Application Programming Interfaces - Interfaces de Programación de Aplicaciones) de pago obligatorias.
 
 ---
 
@@ -37,7 +37,7 @@ El laboratorio no demuestra todavía:
 - Evaluación formal de proveedores.
 - Sistema productivo de gobernanza.
 - Despliegue cloud.
-- Producto SaaS (Software as a Service – Software como Servicio).
+- Producto SaaS (Software as a Service - Software como Servicio).
 
 ---
 
@@ -55,6 +55,6 @@ El laboratorio no demuestra todavía:
 
 ---
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.

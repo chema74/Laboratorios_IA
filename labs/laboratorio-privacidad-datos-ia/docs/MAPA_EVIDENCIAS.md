@@ -41,8 +41,9 @@ Relación entre capacidades del laboratorio y artefactos reales generados.
 
 No se incluyen evidencias de certificación legal o cumplimiento RGPD definitivo porque no forman parte del alcance implementado.
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.
 
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

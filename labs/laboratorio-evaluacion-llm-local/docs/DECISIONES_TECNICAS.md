@@ -31,8 +31,9 @@ Este laboratorio no sustituye evaluaciones semánticas profundas ni juicio exper
 
 Se prioriza librería estándar y `unittest` para simplificar instalación y mantener el laboratorio portable.
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.
 
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

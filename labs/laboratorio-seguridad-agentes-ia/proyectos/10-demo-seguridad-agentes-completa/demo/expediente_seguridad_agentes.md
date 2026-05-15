@@ -1,4 +1,4 @@
-# Expediente de Seguridad Defensiva de Agentes
+﻿# Expediente de Seguridad Defensiva de Agentes
 
 Fecha: 2026-05-10T21:01:47
 
@@ -29,6 +29,7 @@ Fecha: 2026-05-10T21:01:47
 - sin red
 - sin servicios externos
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.  
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

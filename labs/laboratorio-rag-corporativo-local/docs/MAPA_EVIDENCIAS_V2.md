@@ -1,4 +1,4 @@
-# 🧪 MAPA DE EVIDENCIAS V2 — LABORATORIO RAG CORPORATIVO LOCAL
+﻿#  MAPA DE EVIDENCIAS V2 - LABORATORIO RAG CORPORATIVO LOCAL
 
 ## Evidencias revisables del laboratorio
 
@@ -6,9 +6,9 @@
 
 ## 1. Objetivo
 
-Este documento define las evidencias que deben permitir revisar la V2 (Version 2 – Versión 2) del laboratorio RAG (Retrieval-Augmented Generation – Generación Aumentada por Recuperación) corporativo local.
+Este documento define las evidencias que deben permitir revisar la V2 (Version 2 - Versión 2) del laboratorio RAG (Retrieval-Augmented Generation - Generación Aumentada por Recuperación) corporativo local.
 
-La finalidad es que una empresa, consultor TIC (Information and Communication Technologies – Tecnologías de la Información y la Comunicación) o evaluador técnico pueda entender qué demuestra el repositorio y qué límites mantiene.
+La finalidad es que una empresa, consultor TIC (Information and Communication Technologies - Tecnologías de la Información y la Comunicación) o evaluador técnico pueda entender qué demuestra el repositorio y qué límites mantiene.
 
 ---
 
@@ -95,6 +95,6 @@ No debe presentarse como producto final listo para producción.
 
 ---
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.

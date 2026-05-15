@@ -1,7 +1,7 @@
 ﻿# 09-comparador-agente-proceso
 
 ## Objetivo
-Comparador entre Agente y Proceso con alcance V1 (Version 1 – Versión 1) local mínimo. Compara flujos manual, automatizado clásico y asistido por agente simulado sobre procesos empresariales ficticios.
+Comparador entre Agente y Proceso con alcance V1 (Version 1 - Versión 1) local mínimo. Compara flujos manual, automatizado clásico y asistido por agente simulado sobre procesos empresariales ficticios.
 
 ## Implementado en esta V1 local mínima
 - Carga de contexto multi-proyecto desde JSON con fallback interno.
@@ -64,13 +64,14 @@ pytest proyectos/09-comparador-agente-proceso/tests -q
 - No hay benchmark real.
 - No hay recomendación empresarial real.
 - No se ejecutan agentes reales.
-- No hay IA (Artificial Intelligence – Inteligencia Artificial) real implementada.
-- No hay API (Application Programming Interface – Interfaz de Programación de Aplicaciones) productiva ni llamadas externas.
+- No hay IA (Artificial Intelligence - Inteligencia Artificial) real implementada.
+- No hay API (Application Programming Interface - Interfaz de Programación de Aplicaciones) productiva ni llamadas externas.
 - No hay datos reales ni integraciones externas ni servicios de pago.
 
 ## Propósito de esta base
 Este proyecto prepara la base para evaluación de agentes, AgentOps, consultoría técnica simulada y demo narrativa completa.
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.  
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

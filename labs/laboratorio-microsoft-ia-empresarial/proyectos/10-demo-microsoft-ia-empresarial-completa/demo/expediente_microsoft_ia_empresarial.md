@@ -1,4 +1,4 @@
-# Expediente Microsoft IA Empresarial (Demo Local)
+﻿# Expediente Microsoft IA Empresarial (Demo Local)
 
 Fecha: 2026-05-11 10:13:11
 
@@ -24,6 +24,7 @@ Fecha: 2026-05-11 10:13:11
 ## Conclusión ejecutiva
 La V1 local simulada es demostrable y reproducible para portfolio técnico.
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.  
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

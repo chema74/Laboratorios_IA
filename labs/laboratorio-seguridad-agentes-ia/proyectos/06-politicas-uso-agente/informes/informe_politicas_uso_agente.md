@@ -1,4 +1,4 @@
-# Informe de Evaluación de Políticas de Uso de Agente
+﻿# Informe de Evaluación de Políticas de Uso de Agente
 
 Fecha de generación: 2026-05-10T20:15:36
 
@@ -46,6 +46,7 @@ Análisis por reglas locales en casos ficticios; no aplica a producción.
 2. Revisar periódicamente casos con incumplimientos simulados.
 3. Vincular decisiones con matriz de riesgo global.
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.  
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

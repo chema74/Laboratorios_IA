@@ -1,4 +1,4 @@
-# ✅ CIERRE TÉCNICO V2 ACTUALIZADO — LABORATORIO AGENTES ENTERPRISE LOCAL
+﻿#  CIERRE TÉCNICO V2 ACTUALIZADO - LABORATORIO AGENTES ENTERPRISE LOCAL
 
 ## Estado de cierre técnico de la rama V2
 
@@ -6,13 +6,13 @@
 
 ## 1. Objetivo
 
-Este documento registra el cierre técnico actualizado de la V2 (Version 2 – Versión 2) del repositorio `laboratorio-agentes-enterprise-local`.
+Este documento registra el cierre técnico actualizado de la V2 (Version 2 - Versión 2) del repositorio `laboratorio-agentes-enterprise-local`.
 
 No modifica la web pública `chema74.github.io`.
 
 No modifica la rama `main`.
 
-No convierte el laboratorio en producto SaaS (Software as a Service – Software como Servicio).
+No convierte el laboratorio en producto SaaS (Software as a Service - Software como Servicio).
 
 ---
 
@@ -68,6 +68,6 @@ Durante esta fase se han consolidado:
 
 ---
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.

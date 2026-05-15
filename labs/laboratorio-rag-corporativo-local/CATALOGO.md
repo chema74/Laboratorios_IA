@@ -58,8 +58,9 @@ Evidencia: `evaluacion/resultados/demo_rag_corporativo.md`.
 
 Este laboratorio demuestra un patrón RAG corporativo local reproducible con datos sintéticos y controles básicos de calidad. No incorpora cloud, LLM externos ni vector database real.
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.
 
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

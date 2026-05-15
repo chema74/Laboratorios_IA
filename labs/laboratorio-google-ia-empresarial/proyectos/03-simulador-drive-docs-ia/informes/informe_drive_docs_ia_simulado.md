@@ -1,4 +1,4 @@
-# Informe de Simulación Drive/Docs IA (Local)
+﻿# Informe de Simulación Drive/Docs IA (Local)
 
 **Fecha de generación:** 2026-05-11T08:50:26
 
@@ -57,6 +57,6 @@ Sin uso de Drive real, Docs real, OAuth real, APIs reales, Google Cloud ni IA re
 2. Integrar trazabilidad cruzada con los módulos 01 y 02.
 3. Definir interfaz V2 opcional por `.env` con fallback local.
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.  
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.

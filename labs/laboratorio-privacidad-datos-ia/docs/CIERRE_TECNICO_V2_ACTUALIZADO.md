@@ -1,8 +1,8 @@
-# Cierre técnico V2 actualizado — Laboratorio privacidad datos IA
+﻿# Cierre técnico V2 actualizado - Laboratorio privacidad datos IA
 
 ## 1. Estado
 
-El laboratorio `laboratorio-privacidad-datos-ia` queda cerrado como V2 (Version 2 – Versión 2) técnica documentada dentro del portfolio de IA (Artificial Intelligence – Inteligencia Artificial).
+El laboratorio `laboratorio-privacidad-datos-ia` queda cerrado como V2 (Version 2 - Versión 2) técnica documentada dentro del portfolio de IA (Artificial Intelligence - Inteligencia Artificial).
 
 ## 2. Rama de trabajo
 
@@ -41,7 +41,7 @@ No usa datos personales reales.
 
 No exige cloud.
 
-No exige APIs (Application Programming Interfaces – Interfaces de Programación de Aplicaciones) de pago.
+No exige APIs (Application Programming Interfaces - Interfaces de Programación de Aplicaciones) de pago.
 
 No modifica la web pública.
 
@@ -67,8 +67,9 @@ MERGE_A_MAIN: NO_REALIZADO
 
 PRIVACIDAD_DATOS_IA_V2: OK
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.
 
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

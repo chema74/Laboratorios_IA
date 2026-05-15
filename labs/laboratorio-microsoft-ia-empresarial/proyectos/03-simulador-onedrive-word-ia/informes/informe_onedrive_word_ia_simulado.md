@@ -1,4 +1,4 @@
-# Informe Simulador OneDrive y Word IA (V1 Local)
+﻿# Informe Simulador OneDrive y Word IA (V1 Local)
 
 Fecha de generación: 2026-05-11 09:36:16
 
@@ -59,6 +59,7 @@ Simulación local de flujos documentales OneDrive/Word con acciones IA simuladas
 - Versionar criterios de etiquetado por tipo de documento.
 - Diseñar integración V2 opcional mediante .env con fallback local.
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.  
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

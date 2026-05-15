@@ -1,6 +1,6 @@
 ﻿# laboratorio-rag-corporativo-local
 
-> **Estado**: V2.1 Ready · ✅ 20 tests passing · 🌍 PDF público integrado · 📄 Docs en castellano
+> **Estado**: V2.1 Ready ·  20 tests passing ·  PDF público integrado ·  Docs en castellano
 
 Laboratorio **local, gratuito y reproducible** de RAG corporativo en castellano. La V2.1 mantiene el flujo local V2 y añade una capa LLM opcional con Groq, fallback determinista, evidencias rápidas y demo interactiva local.
 
@@ -102,4 +102,5 @@ python -m unittest discover tests -v
 ## Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.
 
-© 2026 – Txema Ríos.
+© 2026 - Txema Ríos.
+

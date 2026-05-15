@@ -1,4 +1,4 @@
-# Informe de Simulación Defensiva de Prompt Injection (Sintética)
+﻿# Informe de Simulación Defensiva de Prompt Injection (Sintética)
 
 Fecha de generación: 2026-05-10T19:56:11
 
@@ -45,6 +45,7 @@ No incluye ataques reales, explotación, IA real, APIs externas, cloud ni datos 
 2. Revisar políticas con mayor frecuencia en severidad crítica.
 3. Mejorar trazabilidad de decisiones para auditoría defensiva.
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.  
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

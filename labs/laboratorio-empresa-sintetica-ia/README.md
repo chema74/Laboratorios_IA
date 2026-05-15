@@ -38,20 +38,21 @@ python .\proyectos\10-demo-narrativa-empresa-completa\ejecutar_demo.py --seed 42
 ```
 
 ## Qué no contiene
-- No hay IA (Artificial Intelligence – Inteligencia Artificial) real en ejecución.
-- No hay API (Application Programming Interface – Interfaz de Programación de Aplicaciones) externa ni productiva.
+- No hay IA (Artificial Intelligence - Inteligencia Artificial) real en ejecución.
+- No hay API (Application Programming Interface - Interfaz de Programación de Aplicaciones) externa ni productiva.
 - No hay datos reales ni cliente real.
 - No hay agentes reales en ejecución.
 - No hay sistema productivo.
 - No hay integración real con Google Workspace o Microsoft 365.
 
 ## Uso en el portfolio técnico
-El repositorio alimenta áreas futuras de evaluación técnica: Big Data empresarial, evaluación de agentes, seguridad defensiva y demos empresariales integradas para contexto PYME (Small and Medium-sized Enterprise – Pequeña y Mediana Empresa).
+El repositorio alimenta áreas futuras de evaluación técnica: Big Data empresarial, evaluación de agentes, seguridad defensiva y demos empresariales integradas para contexto PYME (Small and Medium-sized Enterprise - Pequeña y Mediana Empresa).
 
 ## Evolución prevista
 - V1: base local completa e integrada (estado actual).
-- V2 (Version 2 – Versión 2): evolución profesional futura documentada con capacidades ampliadas fuera del alcance actual.
+- V2 (Version 2 - Versión 2): evolución profesional futura documentada con capacidades ampliadas fuera del alcance actual.
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.  
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

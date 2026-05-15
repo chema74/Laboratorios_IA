@@ -1,4 +1,4 @@
-# Informe Microsoft IA Empresarial (Consolidado V1 Local)
+﻿# Informe Microsoft IA Empresarial (Consolidado V1 Local)
 
 Fecha de generación: 2026-05-11 10:13:11
 
@@ -78,6 +78,7 @@ V1 robusta; habilitar planificación de V2 opcional con .env y fallback local.
 - formalizar_controles_previos_v2
 - reforzar_trazabilidad_operativa
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.  
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

@@ -43,6 +43,7 @@ python .\proyectos\10-demo-narrativa-empresa-completa\ejecutar_demo.py --seed 42
 - No constituye auditoría legal real, predicción real, benchmark real ni recomendación empresarial real.
 - No representa un sistema productivo.
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.  
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

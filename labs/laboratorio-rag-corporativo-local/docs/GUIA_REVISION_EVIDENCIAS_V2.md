@@ -1,4 +1,4 @@
-# 🧪 GUÍA DE REVISIÓN EJECUTIVA DE EVIDENCIAS V2 — LABORATORIO RAG CORPORATIVO LOCAL
+﻿#  GUÍA DE REVISIÓN EJECUTIVA DE EVIDENCIAS V2 - LABORATORIO RAG CORPORATIVO LOCAL
 
 ## Documento de apoyo para evaluación profesional
 
@@ -6,11 +6,11 @@
 
 ## 1. Objetivo
 
-Esta guía explica cómo revisar las evidencias generadas por la V2 (Version 2 – Versión 2) del repositorio `laboratorio-rag-corporativo-local`.
+Esta guía explica cómo revisar las evidencias generadas por la V2 (Version 2 - Versión 2) del repositorio `laboratorio-rag-corporativo-local`.
 
-Su finalidad es ayudar a una empresa, consultor TIC (Information and Communication Technologies – Tecnologías de la Información y la Comunicación) o evaluador técnico a entender qué demuestra el laboratorio y qué no debe interpretarse como producto final.
+Su finalidad es ayudar a una empresa, consultor TIC (Information and Communication Technologies - Tecnologías de la Información y la Comunicación) o evaluador técnico a entender qué demuestra el laboratorio y qué no debe interpretarse como producto final.
 
-El laboratorio se centra en RAG (Retrieval-Augmented Generation – Generación Aumentada por Recuperación) corporativo local: recuperación documental, trazabilidad, validación y lectura profesional de evidencias.
+El laboratorio se centra en RAG (Retrieval-Augmented Generation - Generación Aumentada por Recuperación) corporativo local: recuperación documental, trazabilidad, validación y lectura profesional de evidencias.
 
 ---
 
@@ -20,7 +20,7 @@ Las evidencias deben leerse como señales de madurez técnica local, no como pro
 
 Este laboratorio demuestra una base reproducible y documentada para trabajar con documentación corporativa mediante recuperación de contexto.
 
-No debe presentarse como SaaS (Software as a Service – Software como Servicio), plataforma cerrada ni sistema listo para producción.
+No debe presentarse como SaaS (Software as a Service - Software como Servicio), plataforma cerrada ni sistema listo para producción.
 
 ---
 
@@ -52,7 +52,7 @@ Debe revisarse:
 - Que los scripts base existen.
 - Que los tests base existen.
 - Que los documentos V2 contienen licencia y autoría.
-- Que no aparecen patrones visibles de mojibake UTF-8 (Unicode Transformation Format 8-bit – Formato de Transformación Unicode de 8 bits).
+- Que no aparecen patrones visibles de mojibake UTF-8 (Unicode Transformation Format 8-bit - Formato de Transformación Unicode de 8 bits).
 - Que la web pública `chema74.github.io` no ha sido modificada.
 - Que la rama `main` no ha sido modificada.
 
@@ -101,7 +101,7 @@ Se consideran señales positivas:
 - Informe ejecutivo generado por script.
 - Documentación de límites explícita.
 - Separación entre laboratorio y producto.
-- Sin APIs (Application Programming Interfaces – Interfaces de Programación de Aplicaciones) de pago obligatorias.
+- Sin APIs (Application Programming Interfaces - Interfaces de Programación de Aplicaciones) de pago obligatorias.
 - Sin claves reales.
 - Sin modificación de la web pública.
 - Sin modificación de `main`.
@@ -133,7 +133,7 @@ El laboratorio puede explicarse como una base para conversaciones sobre:
 - Reducción de búsqueda manual.
 - Diseño de pilotos RAG internos.
 - Evaluación de trazabilidad documental.
-- Gobernanza inicial de sistemas de IA (Artificial Intelligence – Inteligencia Artificial) aplicados a documentación.
+- Gobernanza inicial de sistemas de IA (Artificial Intelligence - Inteligencia Artificial) aplicados a documentación.
 
 Su fortaleza está en ser comprensible, local y verificable.
 
@@ -153,6 +153,6 @@ Su función es mejorar la revisión profesional de las evidencias V2.
 
 ---
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.

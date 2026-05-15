@@ -1,4 +1,4 @@
-# 🧭 PLAN V2 — LABORATORIO OBSERVABILIDAD Y COSTES IA
+﻿#  PLAN V2 - LABORATORIO OBSERVABILIDAD Y COSTES IA
 
 ## Evolución técnica del laboratorio
 
@@ -6,11 +6,11 @@
 
 ## 1. Objetivo
 
-Este documento define el plan V2 (Version 2 – Versión 2) del repositorio `laboratorio-observabilidad-costes-ia`.
+Este documento define el plan V2 (Version 2 - Versión 2) del repositorio `laboratorio-observabilidad-costes-ia`.
 
-El objetivo es reforzar el laboratorio como evidencia profesional de observabilidad, control de costes y operación de IA (Artificial Intelligence – Inteligencia Artificial) en entornos locales o reproducibles.
+El objetivo es reforzar el laboratorio como evidencia profesional de observabilidad, control de costes y operación de IA (Artificial Intelligence - Inteligencia Artificial) en entornos locales o reproducibles.
 
-La V2 mantiene enfoque free-first y local-first: sin servicios cloud obligatorios, sin claves reales y sin APIs (Application Programming Interfaces – Interfaces de Programación de Aplicaciones) de pago obligatorias.
+La V2 mantiene enfoque free-first y local-first: sin servicios cloud obligatorios, sin claves reales y sin APIs (Application Programming Interfaces - Interfaces de Programación de Aplicaciones) de pago obligatorias.
 
 ---
 
@@ -74,7 +74,7 @@ Durante esta V2 se mantienen estas reglas:
 - No exigir APIs de pago.
 - No afirmar capacidades no implementadas.
 - No convertir resultados locales en promesas de producción.
-- Mantener codificación UTF-8 (Unicode Transformation Format 8-bit – Formato de Transformación Unicode de 8 bits).
+- Mantener codificación UTF-8 (Unicode Transformation Format 8-bit - Formato de Transformación Unicode de 8 bits).
 - Mantener licencia y autoría en documentos Markdown.
 
 ---
@@ -91,6 +91,6 @@ Durante esta V2 se mantienen estas reglas:
 
 ---
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.

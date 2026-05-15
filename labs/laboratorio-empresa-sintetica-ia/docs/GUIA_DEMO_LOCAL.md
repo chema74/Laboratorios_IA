@@ -58,6 +58,7 @@ python .\proyectos\10-demo-narrativa-empresa-completa\ejecutar_demo.py --seed 42
 - No hay integración real con Google Workspace o Microsoft 365.
 - No hay benchmark real, predicción real ni recomendación empresarial real.
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.  
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

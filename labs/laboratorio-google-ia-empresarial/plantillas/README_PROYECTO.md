@@ -20,6 +20,7 @@ Aclarar restricciones de V1 y riesgos de interpretación.
 
 ## 7. Evolución futura
 Indicar posibles mejoras en V2/V3 sin afirmar implementación actual.
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.  
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

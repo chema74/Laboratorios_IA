@@ -3,7 +3,7 @@
 Este catálogo describe los módulos del laboratorio y su estado real de implementación.
 
 ## Proyectos
-1. **01-generador-empresa-sintetica**: V1 (Version 1 – Versión 1) local mínima implementada. Genera empresa ficticia reproducible y exporta JSON/CSV.
+1. **01-generador-empresa-sintetica**: V1 (Version 1 - Versión 1) local mínima implementada. Genera empresa ficticia reproducible y exporta JSON/CSV.
 2. **02-simulador-eventos-negocio**: V1 local mínima implementada. Simula eventos operativos ficticios reproducibles y exporta JSON/CSV + resumen.
 3. **03-fabrica-documentos-sinteticos**: V1 local mínima implementada. Genera documentos sintéticos en Markdown + índice/resumen JSON.
 4. **04-generador-escenarios-prueba-agentes**: V1 local mínima implementada. Genera escenarios sintéticos para evaluación futura de agentes y exporta JSON/CSV/Markdown.
@@ -16,17 +16,18 @@ Este catálogo describe los módulos del laboratorio y su estado real de impleme
 
 ## Estado y alcance
 - Las implementaciones actuales son locales, gratuitas y reproducibles.
-- No hay IA (Artificial Intelligence – Inteligencia Artificial) real en producción.
-- No hay API (Application Programming Interface – Interfaz de Programación de Aplicaciones) productiva activa.
+- No hay IA (Artificial Intelligence - Inteligencia Artificial) real en producción.
+- No hay API (Application Programming Interface - Interfaz de Programación de Aplicaciones) productiva activa.
 - No se usan datos reales ni servicios de pago.
 - No se ejecutan agentes reales.
 - No hay benchmark real ni recomendación empresarial real.
 
 ## Notas de evolución
 - V1: base local reproducible por módulos, ya integrada de 01 a 10.
-- V2 (Version 2 – Versión 2): evolución futura profesional documentada y opcional.
-- Enfoque orientado a entornos PYME (Small and Medium-sized Enterprise – Pequeña y Mediana Empresa).
+- V2 (Version 2 - Versión 2): evolución futura profesional documentada y opcional.
+- Enfoque orientado a entornos PYME (Small and Medium-sized Enterprise - Pequeña y Mediana Empresa).
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.  
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

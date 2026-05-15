@@ -1,4 +1,4 @@
-# 10 - Demo Microsoft IA Empresarial Completa
+﻿# 10 - Demo Microsoft IA Empresarial Completa
 
 ## Objetivo
 Construir una demo local completa del laboratorio Microsoft IA empresarial simulado.
@@ -22,6 +22,7 @@ V1 local funcional mínima implementada.
 ## Límites
 Sin Microsoft real, sin Microsoft Graph API real, sin OAuth real, sin Azure obligatorio, sin IA real y sin datos reales.
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.  
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

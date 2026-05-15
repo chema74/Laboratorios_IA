@@ -32,8 +32,9 @@ Este mapa vincula cada capacidad declarada en la V1 con artefactos reales del re
 
 No se listan evidencias de cloud, embeddings externos, LLM externo ni vector database real porque esas capacidades no forman parte de la V1.
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.
 
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

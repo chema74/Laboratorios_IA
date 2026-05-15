@@ -18,6 +18,7 @@ Este repositorio está dedicado a evaluación, prevención, detección y documen
 ## Criterio metodológico
 Cada artefacto debe poder revisarse, reproducirse localmente y auditarse sin dependencia de servicios externos ni uso de datos reales.
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.  
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

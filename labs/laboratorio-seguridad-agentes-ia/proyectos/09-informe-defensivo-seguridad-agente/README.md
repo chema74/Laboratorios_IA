@@ -1,4 +1,4 @@
-# 09 - Informe Defensivo de Seguridad de Agente (V1 local funcional mínima)
+﻿# 09 - Informe Defensivo de Seguridad de Agente (V1 local funcional mínima)
 
 ## Objetivo
 Generar un informe defensivo consolidado con métricas sintéticas de los módulos 01 a 08.
@@ -20,6 +20,7 @@ python .\proyectos\09-informe-defensivo-seguridad-agente\src\generador_informe_d
 - V1: consolidación local con datos sintéticos.
 - V2 futura (no implementada): integración opcional con APIs gratuitas vía `.env` y fallback local.
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.  
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

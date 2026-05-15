@@ -36,8 +36,9 @@ Vinculación entre capacidades declaradas y artefactos reales generados por el l
 
 No se incluyen evidencias de métricas reales de proveedor, cloud ni herramientas externas de observabilidad porque no forman parte de la implementación actual.
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.
 
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

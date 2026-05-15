@@ -1,4 +1,4 @@
-# Demo LLM Groq V2.1
+﻿# Demo LLM Groq V2.1
 
 - Fecha UTC: 2026-05-13T07:01:02.779628+00:00
 - Proveedor: fallback_local
@@ -34,4 +34,4 @@ Fallback local activo. Casos=2, hallazgos_pii=9, riesgo=critico.
 ## Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.
 
-© 2026 – Txema Ríos.
+© 2026 - Txema Ríos.

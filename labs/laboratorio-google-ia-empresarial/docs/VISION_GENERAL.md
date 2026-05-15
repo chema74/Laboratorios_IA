@@ -12,6 +12,7 @@ El área “Laboratorio Google de IA Empresarial” define un marco técnico par
 - free-first;
 - documentación honesta sobre límites;
 - reproducibilidad sin dependencia de cloud obligatoria.
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.  
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

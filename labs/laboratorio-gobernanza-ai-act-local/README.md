@@ -57,8 +57,9 @@ python -m unittest discover tests -v
 - Mapa de evidencias: [docs/MAPA_EVIDENCIAS.md](docs/MAPA_EVIDENCIAS.md)
 - Límites legales y supuestos: [docs/LIMITES_LEGALES_Y_SUPUESTOS.md](docs/LIMITES_LEGALES_Y_SUPUESTOS.md)
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.
 
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

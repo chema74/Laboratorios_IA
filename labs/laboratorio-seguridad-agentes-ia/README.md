@@ -1,4 +1,4 @@
-# Laboratorio de Seguridad Defensiva para Agentes de IA
+﻿# Laboratorio de Seguridad Defensiva para Agentes de IA
 
 ## Estado actual de la V1
 - V1 documental completa.
@@ -23,6 +23,7 @@
 - V1: operación local y reproducible.
 - V2 futura (no implementada): APIs gratuitas opcionales con `.env` y fallback local.
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.  
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

@@ -1,4 +1,4 @@
-# Informe Simulador Excel IA Analítica (V1 Local)
+﻿# Informe Simulador Excel IA Analítica (V1 Local)
 
 Fecha de generación: 2026-05-11 09:36:16
 
@@ -52,6 +52,7 @@ Total registros: 24. Importe total simulado: 23380.00 EUR. Margen porcentual sim
 - Versionar reglas de revisión y priorización.
 - Mantener integración V2 opcional vía .env con fallback local.
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.  
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

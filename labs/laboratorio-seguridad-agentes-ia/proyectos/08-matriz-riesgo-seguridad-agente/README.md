@@ -1,4 +1,4 @@
-# 08 - Matriz de Riesgo de Seguridad del Agente (V1 local funcional mínima)
+﻿# 08 - Matriz de Riesgo de Seguridad del Agente (V1 local funcional mínima)
 
 ## Objetivo
 Construir una matriz local de riesgo de seguridad para agentes con escenarios sintéticos, severidad y controles defensivos.
@@ -21,6 +21,7 @@ python .\proyectos\08-matriz-riesgo-seguridad-agente\src\matriz_riesgo_seguridad
 - V1: matriz local defensiva con datos sintéticos.
 - V2 futura (no implementada): evaluación opcional con APIs gratuitas vía `.env` y fallback local.
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.  
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

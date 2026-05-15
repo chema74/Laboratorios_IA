@@ -20,6 +20,7 @@ Todo el contenido se diseña para aprendizaje defensivo, reducción de riesgo y 
 ## Criterio de aceptación
 Cualquier artefacto que contradiga estos límites queda fuera de alcance de la V1.
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.  
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

@@ -1,4 +1,4 @@
-# Informe de Trazabilidad de Automatizaciones Google Simuladas
+﻿# Informe de Trazabilidad de Automatizaciones Google Simuladas
 
 **Fecha de generación:** 2026-05-11T09:03:34
 
@@ -52,6 +52,6 @@ Sin Google real, OAuth real, APIs reales, Google Cloud ni IA real.
 2. Alinear decisiones con módulo 07.
 3. Definir esquema V2 opcional por `.env` con fallback local.
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.  
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.

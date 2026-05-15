@@ -1,7 +1,7 @@
 ﻿# Caso de Uso de 01-generador-empresa-sintetica
 
 ## Situación
-Se requiere modelar un flujo empresarial ficticio para evaluación de IA (Artificial Intelligence – Inteligencia Artificial) sin datos reales.
+Se requiere modelar un flujo empresarial ficticio para evaluación de IA (Artificial Intelligence - Inteligencia Artificial) sin datos reales.
 
 ## Actor principal
 Equipo técnico del laboratorio.
@@ -18,6 +18,7 @@ Capacidad de prueba reproducible y trazable, apta para fases posteriores.
 ## Estado
 Caso de uso en fase documental.
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.  
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

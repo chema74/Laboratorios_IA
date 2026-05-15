@@ -37,8 +37,9 @@ Generación de `informes/informe_privacidad_datos_ia.md`.
 - Sin datos reales.
 - Sin certificación de cumplimiento RGPD.
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.
 
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

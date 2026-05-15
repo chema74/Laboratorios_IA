@@ -31,8 +31,9 @@ Este laboratorio no sustituye una plataforma agentic de producción con integrac
 
 Se usan dependencias mínimas y ejecución local para mantener coste cero y portabilidad en contexto de portfolio técnico.
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.
 
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

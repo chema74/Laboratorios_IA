@@ -1,7 +1,7 @@
 ﻿# 08-laboratorio-privacidad-datos-sinteticos
 
 ## Objetivo
-Laboratorio de Privacidad con Datos Sintéticos con alcance V1 (Version 1 – Versión 1) local mínimo. Analiza sensibilidad ficticia, permisos simulados, minimización, anonimización demostrativa y riesgos de exposición sobre artefactos sintéticos del laboratorio.
+Laboratorio de Privacidad con Datos Sintéticos con alcance V1 (Version 1 - Versión 1) local mínimo. Analiza sensibilidad ficticia, permisos simulados, minimización, anonimización demostrativa y riesgos de exposición sobre artefactos sintéticos del laboratorio.
 
 ## Implementado en esta V1 local mínima
 - Inspección y carga de artefactos previos (empresa, eventos, documentos, escenarios, crisis, revisiones, estado operativo) desde JSON.
@@ -60,13 +60,14 @@ pytest proyectos/08-laboratorio-privacidad-datos-sinteticos/tests -q
 - No hay cumplimiento real.
 - No hay anonimización certificada.
 - No se ejecutan agentes reales.
-- No hay IA (Artificial Intelligence – Inteligencia Artificial) real implementada.
-- No hay API (Application Programming Interface – Interfaz de Programación de Aplicaciones) productiva ni llamadas externas.
+- No hay IA (Artificial Intelligence - Inteligencia Artificial) real implementada.
+- No hay API (Application Programming Interface - Interfaz de Programación de Aplicaciones) productiva ni llamadas externas.
 - No hay integraciones externas ni servicios de pago.
 
 ## Propósito de esta base
 Este proyecto prepara la base para seguridad defensiva, evaluación de agentes, gobierno de datos y futuras demos empresariales.
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.  
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

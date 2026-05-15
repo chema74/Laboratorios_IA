@@ -1,4 +1,4 @@
-# Resumen Web Portfolio
+﻿# Resumen Web Portfolio
 
 ## 1) Título corto para web
 Laboratorio de Empresa Sintética para IA Empresarial
@@ -67,6 +67,7 @@ python .\proyectos\10-demo-narrativa-empresa-completa\ejecutar_demo.py --seed 42
 En entrevista o revisión técnica, presentar este proyecto como laboratorio local integrador para demostrar criterio de ingeniería y capacidad de orquestación documental/técnica sin sobredimensionar alcance.  
 El enfoque recomendado es mostrar primero validación objetiva (tests y demo final), luego arquitectura por módulos y, por último, límites explícitos para diferenciar claramente una V1 técnica de un sistema productivo.
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.  
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

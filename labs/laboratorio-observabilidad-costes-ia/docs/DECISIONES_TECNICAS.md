@@ -28,8 +28,9 @@ Este laboratorio no sustituye una plataforma de observabilidad productiva con te
 
 Se prioriza librería estándar y `unittest` para minimizar fricción de uso y asegurar reproducibilidad en cualquier equipo local.
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.
 
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

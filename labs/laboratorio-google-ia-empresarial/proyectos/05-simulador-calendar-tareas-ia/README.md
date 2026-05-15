@@ -23,6 +23,7 @@ python -m unittest discover .\proyectos\05-simulador-calendar-tareas-ia\tests -v
 ## Límites
 Sin Calendar real, sin OAuth real, sin Calendar API, sin cloud obligatorio y sin IA real.
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.  
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

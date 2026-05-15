@@ -1,4 +1,4 @@
-# Informe de Mapa del Ecosistema Google IA (Simulado)
+﻿# Informe de Mapa del Ecosistema Google IA (Simulado)
 
 **Fecha de generación:** 2026-05-11T08:36:07
 
@@ -57,6 +57,6 @@ Sin OAuth real, sin APIs reales, sin Google Cloud obligatorio, sin datos reales 
 2. Añadir validaciones adicionales de trazabilidad cruzada entre módulos.
 3. Incorporar métricas de madurez por capa arquitectónica.
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.  
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.

@@ -1,4 +1,4 @@
-# Límites de alcance V2 — Laboratorio backend IA empresarial
+﻿# Límites de alcance V2 - Laboratorio backend IA empresarial
 
 ## 1. Límite principal
 
@@ -22,7 +22,7 @@ Todo debe poder revisarse en local.
 
 ## 3. Modelos y APIs
 
-La V2 no obliga a usar APIs (Application Programming Interfaces – Interfaces de Programación de Aplicaciones) de pago ni claves reales.
+La V2 no obliga a usar APIs (Application Programming Interfaces - Interfaces de Programación de Aplicaciones) de pago ni claves reales.
 
 Las integraciones con proveedores externos quedan como posibilidad futura documentable mediante `.env` y siempre con fallback local.
 
@@ -54,8 +54,9 @@ WEB_PUBLICA: NO_MODIFICADA
 
 MERGE_A_MAIN: NO_REALIZADO
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.
 
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

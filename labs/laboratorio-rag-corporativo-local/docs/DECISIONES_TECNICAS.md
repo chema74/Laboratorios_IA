@@ -32,8 +32,9 @@ Se mantiene un dataset dorado y una evaluación offline para medir consistencia 
 
 Se usa `unittest` y utilidades estándar para reducir fricción de instalación y mantener el laboratorio portable.
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.
 
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

@@ -24,6 +24,7 @@ La carpeta `evidencias/` reúne documentación para revisar, de forma técnica y
 2. Revisar artefactos por módulo en orden funcional.
 3. Contrastar resultados con límites declarados del laboratorio.
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.  
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

@@ -1,4 +1,4 @@
-# Informe Trazabilidad de Automatizaciones Microsoft (Simulado)
+﻿# Informe Trazabilidad de Automatizaciones Microsoft (Simulado)
 
 Fecha de generación: 2026-05-11 09:56:57
 
@@ -45,6 +45,7 @@ Registro local de trazas, hash y evidencia para automatizaciones ficticias del e
 - Aumentar validaciones de evidencia para estados de error.
 - Integrar decisiones de gobierno del módulo 07.
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.  
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

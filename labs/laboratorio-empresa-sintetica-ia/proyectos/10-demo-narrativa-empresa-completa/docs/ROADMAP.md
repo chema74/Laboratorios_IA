@@ -1,7 +1,7 @@
 ﻿# Roadmap de 10-demo-narrativa-empresa-completa
 
 ## Estado actual
-V1 (Version 1 – Versión 1) local mínima implementada como cierre integrador de la fase local del laboratorio.
+V1 (Version 1 - Versión 1) local mínima implementada como cierre integrador de la fase local del laboratorio.
 
 ## Alcance implementado en V1
 - Integración local de artefactos de proyectos 01 a 09.
@@ -15,14 +15,15 @@ V1 (Version 1 – Versión 1) local mínima implementada como cierre integrador 
 - Mejorar trazabilidad cruzada entre episodios y decisiones simuladas.
 
 ## Evolución futura
-- V2 (Version 2 – Versión 2): integración opcional profesional, más profundidad de análisis y empaquetado para demostraciones avanzadas en entornos PYME (Small and Medium-sized Enterprise – Pequeña y Mediana Empresa).
+- V2 (Version 2 - Versión 2): integración opcional profesional, más profundidad de análisis y empaquetado para demostraciones avanzadas en entornos PYME (Small and Medium-sized Enterprise - Pequeña y Mediana Empresa).
 
 ## Límites
-- No hay IA (Artificial Intelligence – Inteligencia Artificial) real en ejecución.
-- No hay API (Application Programming Interface – Interfaz de Programación de Aplicaciones) productiva ni integraciones externas.
+- No hay IA (Artificial Intelligence - Inteligencia Artificial) real en ejecución.
+- No hay API (Application Programming Interface - Interfaz de Programación de Aplicaciones) productiva ni integraciones externas.
 - No hay datos reales ni cliente real.
 - No es un sistema productivo.
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.  
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

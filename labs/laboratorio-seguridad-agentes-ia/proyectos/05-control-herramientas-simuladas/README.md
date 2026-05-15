@@ -1,4 +1,4 @@
-# 05 - Control de Herramientas Simuladas (V1 local funcional mínima)
+﻿# 05 - Control de Herramientas Simuladas (V1 local funcional mínima)
 
 ## Objetivo
 Controlar el uso simulado de herramientas por agentes en entorno local defensivo.
@@ -20,6 +20,7 @@ python .\proyectos\05-control-herramientas-simuladas\src\control_herramientas_si
 - V1: simulación defensiva 100% local, sin herramientas reales ni red.
 - V2 futura (no implementada): APIs gratuitas opcionales vía `.env` y fallback local.
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.  
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

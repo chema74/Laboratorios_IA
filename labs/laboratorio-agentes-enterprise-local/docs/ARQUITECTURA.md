@@ -42,8 +42,9 @@ Generación de `informes/demo_agentes_enterprise.md` y `informes/escenario_multi
 - Sin CRM/correo/calendario reales.
 - Sin datos reales y sin automatización productiva.
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.
 
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

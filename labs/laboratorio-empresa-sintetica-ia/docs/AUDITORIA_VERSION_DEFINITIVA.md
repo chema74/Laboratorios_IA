@@ -1,4 +1,4 @@
-# Auditoría de Versión Definitiva
+﻿# Auditoría de Versión Definitiva
 
 ## Estado definitivo auditado
 
@@ -11,8 +11,8 @@
 
 - Uso exclusivo de datos sintéticos.
 - Sin datos reales ni clientes reales.
-- Sin IA (Artificial Intelligence – Inteligencia Artificial) real en ejecución.
-- Sin APIs (Application Programming Interfaces – Interfaces de Programación de Aplicaciones) externas obligatorias.
+- Sin IA (Artificial Intelligence - Inteligencia Artificial) real en ejecución.
+- Sin APIs (Application Programming Interfaces - Interfaces de Programación de Aplicaciones) externas obligatorias.
 - Sin cloud obligatorio.
 - Sin servicios de pago obligatorios.
 
@@ -25,6 +25,7 @@
 
 El repositorio queda preparado como versión definitiva de portfolio técnico local, manteniendo intacta la V1 funcional validada.
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.  
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

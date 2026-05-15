@@ -1,4 +1,4 @@
-# Informe del Detector Defensivo de Entradas de Riesgo
+﻿# Informe del Detector Defensivo de Entradas de Riesgo
 
 Fecha de generación: 2026-05-10T20:05:09
 
@@ -52,6 +52,7 @@ Clasificación basada en reglas simples y placeholders sintéticos, no aplicable
 2. Reforzar cobertura de políticas de revisión humana.
 3. Integrar resultados con matriz de riesgo del proyecto 08.
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.  
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

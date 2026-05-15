@@ -61,8 +61,9 @@ Evidencia: estimación local sin proveedores externos.
 - `scripts/generar_informe_privacidad.py`: emisión de informe final.
 - `tests/`: validación unitaria de detector, transformadores, validador y motor.
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.
 
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

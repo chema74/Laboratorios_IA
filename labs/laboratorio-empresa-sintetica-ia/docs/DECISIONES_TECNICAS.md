@@ -1,4 +1,4 @@
-# Decisiones Técnicas
+﻿# Decisiones Técnicas
 
 ## Python local
 
@@ -24,6 +24,7 @@ python -m pytest .\proyectos -q
 
 No se incorpora IA real, cloud obligatorio, APIs externas obligatorias ni servicios de pago. Esas capacidades quedan fuera de esta versión local.
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.  
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

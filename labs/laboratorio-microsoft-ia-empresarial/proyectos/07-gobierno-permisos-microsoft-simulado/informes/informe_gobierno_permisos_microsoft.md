@@ -1,4 +1,4 @@
-# Informe Gobierno de Permisos Microsoft (Simulado)
+﻿# Informe Gobierno de Permisos Microsoft (Simulado)
 
 Fecha de generación: 2026-05-11 09:56:57
 
@@ -54,6 +54,7 @@ Evaluación local de permisos simulados aplicando mínimo privilegio y decisione
 - Formalizar excepciones temporales con caducidad simulada.
 - Integrar trazabilidad de decisiones con el módulo 08.
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.  
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

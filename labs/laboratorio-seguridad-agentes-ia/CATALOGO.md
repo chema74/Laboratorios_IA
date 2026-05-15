@@ -1,4 +1,4 @@
-# Catálogo de Proyectos Internos
+﻿# Catálogo de Proyectos Internos
 
 ## Objetivo del catálogo
 Lista de proyectos y su contribución defensiva dentro del laboratorio.
@@ -14,6 +14,7 @@ Lista de proyectos y su contribución defensiva dentro del laboratorio.
 9. **09-informe-defensivo-seguridad-agente**: generador local funcional de informe defensivo consolidado y madurez de seguridad.
 10. **10-demo-seguridad-agentes-completa**: demo local funcional integradora de la cadena defensiva completa.
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.  
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

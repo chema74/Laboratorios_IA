@@ -38,8 +38,9 @@ Registro de trazas de ejecución y coste estimado local.
 
 Estas restricciones son deliberadas para mantener coste cero, control local y reproducibilidad documental en V1.
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.
 
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

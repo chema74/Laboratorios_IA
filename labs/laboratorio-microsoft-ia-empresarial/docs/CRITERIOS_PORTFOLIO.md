@@ -11,6 +11,7 @@
 
 ## Criterio de calidad transversal
 Cada entrega debe priorizar claridad arquitectónica, trazabilidad y control de riesgos frente a promesas de integración no ejecutadas.
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.  
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

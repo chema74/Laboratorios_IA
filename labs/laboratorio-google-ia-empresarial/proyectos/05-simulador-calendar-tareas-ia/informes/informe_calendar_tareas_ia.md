@@ -1,4 +1,4 @@
-# Informe de Simulación Calendar y Tareas IA
+﻿# Informe de Simulación Calendar y Tareas IA
 
 **Fecha de generación:** 2026-05-11T08:55:31
 
@@ -50,6 +50,6 @@ Sin Calendar real, sin OAuth real, sin Calendar API, sin Google Cloud y sin IA r
 2. Cruzar prioridades con el módulo de Gmail simulado.
 3. Definir V2 opcional por `.env` con fallback local.
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.  
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.

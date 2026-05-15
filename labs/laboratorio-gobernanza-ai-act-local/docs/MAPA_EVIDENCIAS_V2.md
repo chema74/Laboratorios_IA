@@ -1,4 +1,4 @@
-# 🧪 MAPA DE EVIDENCIAS V2 — LABORATORIO GOBERNANZA AI ACT LOCAL
+﻿#  MAPA DE EVIDENCIAS V2 - LABORATORIO GOBERNANZA AI ACT LOCAL
 
 ## Evidencias revisables del laboratorio
 
@@ -6,7 +6,7 @@
 
 ## 1. Objetivo
 
-Este documento define las evidencias V2 (Version 2 – Versión 2) del laboratorio de gobernanza local de IA (Artificial Intelligence – Inteligencia Artificial) con referencia orientativa al AI Act (Artificial Intelligence Act – Reglamento Europeo de Inteligencia Artificial).
+Este documento define las evidencias V2 (Version 2 - Versión 2) del laboratorio de gobernanza local de IA (Artificial Intelligence - Inteligencia Artificial) con referencia orientativa al AI Act (Artificial Intelligence Act - Reglamento Europeo de Inteligencia Artificial).
 
 ---
 
@@ -50,6 +50,6 @@ El laboratorio debe evidenciar:
 
 ---
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.

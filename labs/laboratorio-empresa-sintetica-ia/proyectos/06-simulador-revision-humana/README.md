@@ -1,7 +1,7 @@
 ﻿# 06-simulador-revision-humana
 
 ## Objetivo
-Simulador de Revisión Humana con alcance V1 (Version 1 – Versión 1) local mínimo. Simula decisiones de revisión sobre artefactos sintéticos del laboratorio con trazabilidad reproducible.
+Simulador de Revisión Humana con alcance V1 (Version 1 - Versión 1) local mínimo. Simula decisiones de revisión sobre artefactos sintéticos del laboratorio con trazabilidad reproducible.
 
 ## Implementado en esta V1 local mínima
 - Lectura de entradas (si existen):
@@ -62,14 +62,15 @@ pytest proyectos/06-simulador-revision-humana/tests -q
 - No hay revisión humana real.
 - No hay validación profesional real.
 - No se ejecutan agentes reales.
-- No hay IA (Artificial Intelligence – Inteligencia Artificial) real implementada.
-- No hay API (Application Programming Interface – Interfaz de Programación de Aplicaciones) productiva ni llamadas externas.
+- No hay IA (Artificial Intelligence - Inteligencia Artificial) real implementada.
+- No hay API (Application Programming Interface - Interfaz de Programación de Aplicaciones) productiva ni llamadas externas.
 - No hay datos reales ni integraciones externas.
 - No hay servicios de pago.
 
 ## Propósito de esta base
 Este proyecto prepara la base para evaluación futura de agentes, trazabilidad, auditoría simulada y demos narrativas futuras.
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.  
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

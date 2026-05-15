@@ -1,4 +1,4 @@
-# Informe de Clasificación de Sensibilidad de Datos Sintéticos
+﻿# Informe de Clasificación de Sensibilidad de Datos Sintéticos
 
 Fecha de generación: 2026-05-10T20:05:09
 
@@ -45,6 +45,7 @@ Reglas simples por placeholders sintéticos; no aplica a datos reales ni operaci
 2. Integrar salida con políticas del proyecto 06.
 3. Cruzar hallazgos con informe defensivo del proyecto 09.
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.  
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

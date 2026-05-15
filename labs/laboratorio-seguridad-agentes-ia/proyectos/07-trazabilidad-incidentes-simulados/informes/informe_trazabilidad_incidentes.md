@@ -1,4 +1,4 @@
-# Informe de Trazabilidad de Incidentes Simulados
+﻿# Informe de Trazabilidad de Incidentes Simulados
 
 Fecha de generación: 2026-05-10T20:31:41
 
@@ -44,6 +44,7 @@ Solo escenarios sintéticos, sin datos reales ni servicios externos.
 2. Cerrar incidentes abiertos con evidencia completa.
 3. Integrar tendencias con la matriz de riesgo.
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.  
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

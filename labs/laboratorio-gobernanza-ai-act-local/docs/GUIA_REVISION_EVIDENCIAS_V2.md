@@ -1,4 +1,4 @@
-# 🧪 GUÍA DE REVISIÓN EJECUTIVA DE EVIDENCIAS V2 — LABORATORIO GOBERNANZA AI ACT LOCAL
+﻿#  GUÍA DE REVISIÓN EJECUTIVA DE EVIDENCIAS V2 - LABORATORIO GOBERNANZA AI ACT LOCAL
 
 ## Documento de apoyo para evaluación profesional
 
@@ -6,7 +6,7 @@
 
 ## 1. Objetivo
 
-Esta guía explica cómo revisar las evidencias generadas por la V2 (Version 2 – Versión 2) del repositorio `laboratorio-gobernanza-ai-act-local`.
+Esta guía explica cómo revisar las evidencias generadas por la V2 (Version 2 - Versión 2) del repositorio `laboratorio-gobernanza-ai-act-local`.
 
 ---
 
@@ -14,7 +14,7 @@ Esta guía explica cómo revisar las evidencias generadas por la V2 (Version 2 �
 
 Las evidencias deben leerse como señales de madurez técnica local, no como promesa de cumplimiento legal certificado.
 
-Este laboratorio demuestra una base reproducible y documentada para revisar gobernanza de IA (Artificial Intelligence – Inteligencia Artificial) con referencia orientativa al AI Act (Artificial Intelligence Act – Reglamento Europeo de Inteligencia Artificial).
+Este laboratorio demuestra una base reproducible y documentada para revisar gobernanza de IA (Artificial Intelligence - Inteligencia Artificial) con referencia orientativa al AI Act (Artificial Intelligence Act - Reglamento Europeo de Inteligencia Artificial).
 
 ---
 
@@ -63,6 +63,6 @@ No sustituye asesoría legal.
 
 ---
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.

@@ -1,4 +1,4 @@
-# 04 - Clasificador de Datos Sensibles Sintéticos (V1 local funcional mínima)
+﻿# 04 - Clasificador de Datos Sensibles Sintéticos (V1 local funcional mínima)
 
 ## Objetivo
 Clasificar sensibilidad de datos sintéticos para aplicar controles defensivos de minimización, enmascarado y revisión humana.
@@ -23,6 +23,7 @@ python .\proyectos\04-clasificador-datos-sensibles-sinteticos\src\clasificador_d
 - V1 actual: ejecución 100% local con reglas defensivas sintéticas.
 - V2 futura (no implementada): evaluación opcional con APIs gratuitas usando `.env`, con fallback local si no hay variables o conectividad.
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.  
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

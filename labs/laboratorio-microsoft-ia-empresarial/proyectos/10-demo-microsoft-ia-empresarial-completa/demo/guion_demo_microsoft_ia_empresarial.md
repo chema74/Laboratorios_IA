@@ -1,4 +1,4 @@
-# Guion Demo Microsoft IA Empresarial
+﻿# Guion Demo Microsoft IA Empresarial
 
 ## Resumen ejecutivo
 Demostración local de Laboratorio Microsoft IA Empresarial Simulado en cadena completa de 10 módulos simulados.
@@ -34,6 +34,7 @@ mapa del ecosistema -> Outlook simulado -> OneDrive/Word simulados -> Excel anal
 ## Relación con V2 futura opcional
 - Posible integración real vía .env, manteniendo fallback local obligatorio.
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.  
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

@@ -1,7 +1,7 @@
 ﻿# 02-simulador-eventos-negocio
 
 ## Objetivo
-Simulador de Eventos de Negocio con alcance V1 (Version 1 – Versión 1) local mínimo. Convierte una empresa sintética en secuencias de actividad operativa ficticia.
+Simulador de Eventos de Negocio con alcance V1 (Version 1 - Versión 1) local mínimo. Convierte una empresa sintética en secuencias de actividad operativa ficticia.
 
 ## Implementado en esta V1 local mínima
 - Lectura de empresa sintética desde:
@@ -45,16 +45,17 @@ pytest proyectos/02-simulador-eventos-negocio/tests -q
 `
 
 ## Límites actuales
-- No hay IA (Artificial Intelligence – Inteligencia Artificial) real implementada.
-- No hay API (Application Programming Interface – Interfaz de Programación de Aplicaciones) productiva ni llamadas externas.
+- No hay IA (Artificial Intelligence - Inteligencia Artificial) real implementada.
+- No hay API (Application Programming Interface - Interfaz de Programación de Aplicaciones) productiva ni llamadas externas.
 - No hay datos reales.
 - No hay integraciones externas.
 - No hay servicios de pago.
 - No hay uso de claves.
 
 ## Relación con el laboratorio
-Este proyecto alimenta escenarios para evaluación operativa de agentes y módulos posteriores del laboratorio orientado a PYME (Small and Medium-sized Enterprise – Pequeña y Mediana Empresa).
+Este proyecto alimenta escenarios para evaluación operativa de agentes y módulos posteriores del laboratorio orientado a PYME (Small and Medium-sized Enterprise - Pequeña y Mediana Empresa).
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.  
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

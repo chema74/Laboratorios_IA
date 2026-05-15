@@ -1,7 +1,7 @@
 ﻿# 07-gemelo-digital-operativo-ligero
 
 ## Objetivo
-Gemelo Digital Operativo Ligero con alcance V1 (Version 1 – Versión 1) local mínimo. Consolida artefactos sintéticos previos en un estado operativo unificado, reproducible y orientado a portfolio técnico.
+Gemelo Digital Operativo Ligero con alcance V1 (Version 1 - Versión 1) local mínimo. Consolida artefactos sintéticos previos en un estado operativo unificado, reproducible y orientado a portfolio técnico.
 
 ## Implementado en esta V1 local mínima
 - Carga de entradas previas (si existen): empresa, eventos, documentos, escenarios, crisis, revisiones y registro de decisiones.
@@ -61,13 +61,14 @@ pytest proyectos/07-gemelo-digital-operativo-ligero/tests -q
 - No hay monitorización real.
 - No hay toma de decisiones empresarial real.
 - No se ejecutan agentes reales.
-- No hay IA (Artificial Intelligence – Inteligencia Artificial) real implementada.
-- No hay API (Application Programming Interface – Interfaz de Programación de Aplicaciones) productiva ni llamadas externas.
+- No hay IA (Artificial Intelligence - Inteligencia Artificial) real implementada.
+- No hay API (Application Programming Interface - Interfaz de Programación de Aplicaciones) productiva ni llamadas externas.
 - No hay datos reales, integraciones externas ni servicios de pago.
 
 ## Propósito de esta base
 Este proyecto prepara la base para dashboards locales futuros, evaluación de agentes, seguridad defensiva, Big Data empresarial y demo narrativa completa.
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.  
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

@@ -1,4 +1,4 @@
-# Informe Conector Copilot con Fallback Local (V1)
+﻿# Informe Conector Copilot con Fallback Local (V1)
 
 Fecha de generación: 2026-05-11 09:51:08
 
@@ -60,6 +60,7 @@ Conector conceptual ejecutado en modo fallback-local determinista, sin Copilot r
 - Añadir validaciones de contrato para integración opcional V2.
 - Mantener trazabilidad por solicitud.
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.  
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

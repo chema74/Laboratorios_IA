@@ -1,4 +1,4 @@
-# 03 - Detector de Entradas de Riesgo (V1 local funcional mínima)
+﻿# 03 - Detector de Entradas de Riesgo (V1 local funcional mínima)
 
 ## Objetivo
 Detectar entradas sintéticas de riesgo en interacciones simuladas para activar políticas defensivas, bloqueo y revisión humana cuando corresponda.
@@ -21,6 +21,7 @@ python .\proyectos\03-detector-entradas-riesgo\src\detector_entradas_riesgo.py -
 - V1 actual: local-first, sin APIs externas, sin cloud, sin IA real.
 - V2 futura (no implementada): integración opcional con APIs gratuitas controladas por `.env`, manteniendo fallback local obligatorio.
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.  
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

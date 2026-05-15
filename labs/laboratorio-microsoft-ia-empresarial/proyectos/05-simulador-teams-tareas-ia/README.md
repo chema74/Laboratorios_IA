@@ -1,4 +1,4 @@
-# 05 - Simulador Teams y Tareas IA
+﻿# 05 - Simulador Teams y Tareas IA
 
 ## Objetivo
 Simular Teams, conversaciones, reuniones y tareas empresariales con IA simulada en entorno local.
@@ -21,6 +21,7 @@ V1 local funcional mínima implementada.
 ## Límites
 Sin Teams real, sin Planner real, sin To Do real, sin Microsoft Graph API real, sin OAuth real, sin Azure obligatorio y sin IA real.
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.  
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

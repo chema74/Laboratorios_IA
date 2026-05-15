@@ -1,4 +1,4 @@
-# 07 - Trazabilidad de Incidentes Simulados (V1 local funcional mínima)
+﻿# 07 - Trazabilidad de Incidentes Simulados (V1 local funcional mínima)
 
 ## Objetivo
 Registrar y trazar incidentes defensivos simulados con evidencias sintéticas y controles asociados.
@@ -21,6 +21,7 @@ python .\proyectos\07-trazabilidad-incidentes-simulados\src\trazabilidad_inciden
 - V1: trazabilidad local defensiva sin servicios externos.
 - V2 futura (no implementada): APIs gratuitas opcionales con `.env` y fallback local.
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.  
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

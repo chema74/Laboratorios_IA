@@ -52,8 +52,9 @@ Evidencia: `informes/informe_observabilidad_costes_ia.md`.
 - `scripts/generar_panel.py`: generación/reconstrucción del panel local.
 - `tests/`: validación unitaria de análisis y motor.
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.
 
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

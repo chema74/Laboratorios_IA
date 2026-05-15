@@ -65,6 +65,7 @@ Plan recomendado para documentar visualmente la V1 local integradora sin alterar
 ## Nota de uso
 Este plan no genera imágenes automáticamente. Las capturas deben realizarse manualmente y validarse antes de su publicación.
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.  
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

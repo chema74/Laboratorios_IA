@@ -16,6 +16,7 @@ Este repositorio complementa iniciativas previas de datos, APIs y evaluación op
 ## Resultado esperado de la V1
 Contar con una arquitectura conceptual, modelo de amenazas simuladas, catálogo de proyectos internos y plantillas defensivas que permitan evolucionar hacia implementación local controlada en fases posteriores.
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.  
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

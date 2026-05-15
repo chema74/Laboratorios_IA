@@ -1,4 +1,4 @@
-# Guía de Ejecución Completa
+﻿# Guía de Ejecución Completa
 
 ## Validación global
 
@@ -24,6 +24,7 @@ python .\proyectos\10-demo-narrativa-empresa-completa\ejecutar_demo.py --seed 42
 
 Las evidencias principales están en `datos_ejemplo/`. La demo final está en `datos_ejemplo/demo_narrativa_empresa_completa/`.
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.  
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

@@ -1,4 +1,4 @@
-# 02 - Simulador Outlook IA Empresarial
+﻿# 02 - Simulador Outlook IA Empresarial
 
 ## Objetivo
 Simular una bandeja Outlook empresarial con clasificacion, priorizacion y acciones sugeridas usando solo datos sinteticos.
@@ -21,6 +21,7 @@ V1 local funcional minima implementada.
 ## Limites
 Sin Outlook real, sin Microsoft Graph API real, sin OAuth real, sin Azure obligatorio y sin IA real.
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.  
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

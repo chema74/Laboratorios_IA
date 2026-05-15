@@ -1,4 +1,4 @@
-# Guion Demo Google IA Empresarial
+﻿# Guion Demo Google IA Empresarial
 
 ## Resumen ejecutivo
 Demo integradora local de los 10 módulos del laboratorio Google IA empresarial.
@@ -18,6 +18,6 @@ Demo integradora local de los 10 módulos del laboratorio Google IA empresarial.
 ## Límites
 - Sin Google real, sin OAuth real, sin APIs reales, sin cloud real, sin IA real.
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.  
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.

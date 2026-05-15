@@ -1,4 +1,4 @@
-# Laboratorio Microsoft de IA Empresarial
+﻿# Laboratorio Microsoft de IA Empresarial
 
 ## Qué es este repositorio
 Laboratorio técnico avanzado de IA empresarial en ecosistema Microsoft, 100% local, sintético y reproducible.
@@ -26,6 +26,7 @@ V1 local funcional cerrada con 10 módulos:
 - Informe empresarial consolidado (módulo 09).
 - Demo local completa end-to-end (módulo 10).
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.  
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

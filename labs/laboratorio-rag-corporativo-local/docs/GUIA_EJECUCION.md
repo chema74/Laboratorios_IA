@@ -44,8 +44,9 @@ python -m unittest discover tests -v
 - Si faltan resultados, repetir primero la siembra de datos y la comprobación de salud.
 - La ejecución es 100% local, sin cloud ni APIs externas.
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.
 
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

@@ -1,4 +1,4 @@
-# 02 - Simulador Defensivo de Prompt Injection (V1 local funcional mínima)
+﻿# 02 - Simulador Defensivo de Prompt Injection (V1 local funcional mínima)
 
 ## Objetivo
 Simular entradas sintéticas no accionables tipo prompt injection para evaluar clasificación defensiva, políticas y necesidad de revisión humana.
@@ -17,6 +17,7 @@ Simular entradas sintéticas no accionables tipo prompt injection para evaluar c
 python .\proyectos\02-simulador-prompt-injection-defensivo\src\simulador_prompt_injection_defensivo.py --inputs .\proyectos\02-simulador-prompt-injection-defensivo\datos_ejemplo\entradas_prompt_injection_sinteticas.json --config .\proyectos\02-simulador-prompt-injection-defensivo\datos_ejemplo\configuracion_simulador_defensivo.json --output-md .\proyectos\02-simulador-prompt-injection-defensivo\informes\informe_simulacion_prompt_injection.md --output-json .\proyectos\02-simulador-prompt-injection-defensivo\informes\resultado_simulacion_prompt_injection.json
 ```
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.  
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

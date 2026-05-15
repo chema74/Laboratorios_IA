@@ -1,8 +1,8 @@
-# Mapa de evidencias V2 — Laboratorio privacidad datos IA
+﻿# Mapa de evidencias V2 - Laboratorio privacidad datos IA
 
 ## 1. Finalidad
 
-Este documento enumera las evidencias mínimas que permiten revisar la V2 (Version 2 – Versión 2) del laboratorio `laboratorio-privacidad-datos-ia`.
+Este documento enumera las evidencias mínimas que permiten revisar la V2 (Version 2 - Versión 2) del laboratorio `laboratorio-privacidad-datos-ia`.
 
 Las evidencias se centran en reproducibilidad local, trazabilidad documental y ausencia de dependencias obligatorias externas.
 
@@ -41,7 +41,7 @@ Estos tests comprueban que los scripts se ejecutan correctamente y generan salid
 
 No se exige integración con servicios cloud.
 
-No se exige conexión a APIs (Application Programming Interfaces – Interfaces de Programación de Aplicaciones) externas.
+No se exige conexión a APIs (Application Programming Interfaces - Interfaces de Programación de Aplicaciones) externas.
 
 No se usan datos personales reales.
 
@@ -61,8 +61,9 @@ API_PAGO_OBLIGATORIA: NO
 
 WEB_PUBLICA: NO_MODIFICADA
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.
 
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

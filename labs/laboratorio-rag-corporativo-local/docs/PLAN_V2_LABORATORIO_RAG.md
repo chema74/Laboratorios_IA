@@ -1,4 +1,4 @@
-# 🧭 PLAN V2 — LABORATORIO RAG CORPORATIVO LOCAL
+﻿#  PLAN V2 - LABORATORIO RAG CORPORATIVO LOCAL
 
 ## Evolución técnica del laboratorio
 
@@ -6,11 +6,11 @@
 
 ## 1. Objetivo
 
-Este documento define el plan V2 (Version 2 – Versión 2) del repositorio `laboratorio-rag-corporativo-local`.
+Este documento define el plan V2 (Version 2 - Versión 2) del repositorio `laboratorio-rag-corporativo-local`.
 
-El objetivo es reforzar el laboratorio como evidencia profesional de RAG (Retrieval-Augmented Generation – Generación Aumentada por Recuperación) corporativo, ejecutable en local, sin servicios cloud obligatorios, sin claves reales y sin APIs (Application Programming Interfaces – Interfaces de Programación de Aplicaciones) de pago obligatorias.
+El objetivo es reforzar el laboratorio como evidencia profesional de RAG (Retrieval-Augmented Generation - Generación Aumentada por Recuperación) corporativo, ejecutable en local, sin servicios cloud obligatorios, sin claves reales y sin APIs (Application Programming Interfaces - Interfaces de Programación de Aplicaciones) de pago obligatorias.
 
-La V2 no busca convertir el laboratorio en un producto SaaS (Software as a Service – Software como Servicio), sino en una base técnica más evaluable, trazable y defendible para empresa, consultoría TIC (Information and Communication Technologies – Tecnologías de la Información y la Comunicación) y portfolio profesional.
+La V2 no busca convertir el laboratorio en un producto SaaS (Software as a Service - Software como Servicio), sino en una base técnica más evaluable, trazable y defendible para empresa, consultoría TIC (Information and Communication Technologies - Tecnologías de la Información y la Comunicación) y portfolio profesional.
 
 ---
 
@@ -72,10 +72,10 @@ Durante la V2 se mantienen estas reglas:
 - No tocar `chema74.github.io`.
 - No introducir claves reales.
 - No exigir servicios cloud.
-- No exigir APIs (Application Programming Interfaces – Interfaces de Programación de Aplicaciones) de pago.
+- No exigir APIs (Application Programming Interfaces - Interfaces de Programación de Aplicaciones) de pago.
 - No afirmar capacidades no implementadas.
 - No convertir salidas locales en promesas de producción.
-- Mantener codificación UTF-8 (Unicode Transformation Format 8-bit – Formato de Transformación Unicode de 8 bits).
+- Mantener codificación UTF-8 (Unicode Transformation Format 8-bit - Formato de Transformación Unicode de 8 bits).
 - Mantener licencia y autoría en documentos Markdown.
 
 ---
@@ -96,6 +96,6 @@ Resultado esperado:
 
 ---
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.

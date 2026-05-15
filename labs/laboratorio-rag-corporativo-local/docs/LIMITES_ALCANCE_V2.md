@@ -1,4 +1,4 @@
-# ⚠️ LÍMITES Y ALCANCE V2 — LABORATORIO RAG CORPORATIVO LOCAL
+﻿# ️ LÍMITES Y ALCANCE V2 - LABORATORIO RAG CORPORATIVO LOCAL
 
 ## Declaración de alcance técnico
 
@@ -6,7 +6,7 @@
 
 ## 1. Objetivo
 
-Este documento define los límites de la V2 (Version 2 – Versión 2) del laboratorio RAG (Retrieval-Augmented Generation – Generación Aumentada por Recuperación) corporativo local.
+Este documento define los límites de la V2 (Version 2 - Versión 2) del laboratorio RAG (Retrieval-Augmented Generation - Generación Aumentada por Recuperación) corporativo local.
 
 Su función es evitar exageraciones, separar laboratorio de producto y mantener una narrativa técnica honesta.
 
@@ -23,7 +23,7 @@ El laboratorio demuestra:
 - Tests automatizados.
 - Enfoque free-first y local-first.
 - Ausencia de claves reales.
-- Ausencia de APIs (Application Programming Interfaces – Interfaces de Programación de Aplicaciones) de pago obligatorias.
+- Ausencia de APIs (Application Programming Interfaces - Interfaces de Programación de Aplicaciones) de pago obligatorias.
 
 ---
 
@@ -38,8 +38,8 @@ El laboratorio no demuestra todavía:
 - Observabilidad completa.
 - Seguridad productiva integral.
 - Evaluación masiva con datasets reales.
-- Integración con un LLM (Large Language Model – Gran Modelo de Lenguaje) cloud obligatorio.
-- Producto SaaS (Software as a Service – Software como Servicio).
+- Integración con un LLM (Large Language Model - Gran Modelo de Lenguaje) cloud obligatorio.
+- Producto SaaS (Software as a Service - Software como Servicio).
 
 ---
 
@@ -63,7 +63,7 @@ La V2 debe reconocer estos riesgos y documentar qué parte está cubierta en loc
 
 El laboratorio sirve como evidencia de portfolio para demostrar criterio técnico en:
 
-- IA (Artificial Intelligence – Inteligencia Artificial) aplicada a documentación corporativa.
+- IA (Artificial Intelligence - Inteligencia Artificial) aplicada a documentación corporativa.
 - Arquitecturas RAG.
 - Automatización local.
 - Validación de laboratorio.
@@ -86,6 +86,6 @@ El laboratorio sirve como evidencia de portfolio para demostrar criterio técnic
 
 ---
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.

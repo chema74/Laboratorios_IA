@@ -1,4 +1,4 @@
-# 06 - Conector Copilot con Fallback Local
+﻿# 06 - Conector Copilot con Fallback Local
 
 ## Objetivo
 Implementar un conector conceptual de Copilot que opera siempre en fallback local determinista.
@@ -21,6 +21,7 @@ V1 local funcional mínima implementada.
 ## Límites
 Sin Copilot real, sin Microsoft Graph API real, sin OAuth real, sin Azure obligatorio, sin red y sin IA real.
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.  
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

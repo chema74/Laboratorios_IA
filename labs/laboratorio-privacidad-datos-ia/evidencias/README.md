@@ -18,4 +18,5 @@ python scripts\generar_panel_demo.py
 ## Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.
 
-© 2026 – Txema Ríos.
+© 2026 - Txema Ríos.
+

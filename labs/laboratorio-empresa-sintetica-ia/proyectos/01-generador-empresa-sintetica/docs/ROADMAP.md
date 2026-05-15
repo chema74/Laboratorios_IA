@@ -3,7 +3,7 @@
 ## Fase documental
 - Alcance, estructura y límites definidos.
 
-## V1 (Version 1 – Versión 1) local mínima (implementada)
+## V1 (Version 1 - Versión 1) local mínima (implementada)
 - Generador determinista de empresa ficticia.
 - Exportación JSON y CSV básica.
 - CLI local para parametrización.
@@ -14,10 +14,10 @@
 - Validaciones de consistencia más estrictas.
 - Escenarios de datos anómalos controlados.
 
-## V2 (Version 2 – Versión 2) profesional futura
+## V2 (Version 2 - Versión 2) profesional futura
 - Integraciones avanzadas opcionales y desacopladas.
 - Conectores externos documentados, nunca obligatorios para modo local.
-- Capacidades extendidas para ecosistemas de IA (Artificial Intelligence – Inteligencia Artificial) empresarial y API (Application Programming Interface – Interfaz de Programación de Aplicaciones).
+- Capacidades extendidas para ecosistemas de IA (Artificial Intelligence - Inteligencia Artificial) empresarial y API (Application Programming Interface - Interfaz de Programación de Aplicaciones).
 
 ## Límites vigentes
 - Sin API externa activa.
@@ -25,6 +25,7 @@
 - Sin servicios de pago.
 - Sin proveedores LLM en esta fase.
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.  
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

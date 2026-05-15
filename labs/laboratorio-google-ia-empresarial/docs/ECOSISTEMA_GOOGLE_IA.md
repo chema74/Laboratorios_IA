@@ -16,6 +16,7 @@ Este documento describe componentes del ecosistema Google relevantes para IA emp
 - **V1**: simulación local reproducible.
 - **V2**: integración opcional con Gemini API por `.env`, manteniendo fallback local.
 - **V3**: posible extensión con Workspace real o Google Cloud, siempre como evolución opcional y documentada.
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.  
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

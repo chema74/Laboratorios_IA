@@ -18,6 +18,7 @@ Describir trazas, registros y resultados documentales.
 ## Límites de seguridad
 Recordar explícitamente restricciones de no ataque real, no datos reales y no servicios externos.
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.  
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

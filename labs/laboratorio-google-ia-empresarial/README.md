@@ -19,6 +19,7 @@ Sin datos reales, sin OAuth real, sin APIs reales obligatorias, sin Google Cloud
 - `proyectos/`: módulos internos documentales y funcionales por fases.
 - `CATALOGO.md`: índice resumido y estado por proyecto.
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.  
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

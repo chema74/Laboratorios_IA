@@ -1,4 +1,4 @@
-# 01 - Mapa Ecosistema Microsoft IA
+﻿# 01 - Mapa Ecosistema Microsoft IA
 
 ## Objetivo
 Definir y generar localmente un mapa tecnico del ecosistema Microsoft orientado a IA empresarial usando componentes sinteticos.
@@ -20,6 +20,7 @@ V1 local funcional minima implementada.
 ## Limites
 Sin Microsoft 365 real, sin OAuth real, sin Microsoft Graph API real, sin Azure obligatorio y sin IA real.
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.  
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

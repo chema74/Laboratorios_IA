@@ -1,8 +1,8 @@
-# Guía de revisión de evidencias V2 — Laboratorio privacidad datos IA
+﻿# Guía de revisión de evidencias V2 - Laboratorio privacidad datos IA
 
 ## 1. Objetivo
 
-Esta guía permite revisar de forma rápida si la V2 (Version 2 – Versión 2) del laboratorio `laboratorio-privacidad-datos-ia` está correctamente preparada para portfolio.
+Esta guía permite revisar de forma rápida si la V2 (Version 2 - Versión 2) del laboratorio `laboratorio-privacidad-datos-ia` está correctamente preparada para portfolio.
 
 ## 2. Revisión inicial
 
@@ -67,8 +67,9 @@ SIN_DATOS_PERSONALES_REALES: SI
 
 WEB_PUBLICA: NO_MODIFICADA
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.
 
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

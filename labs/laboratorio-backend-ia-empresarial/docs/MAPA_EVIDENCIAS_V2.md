@@ -1,8 +1,8 @@
-# Mapa de evidencias V2 — Laboratorio backend IA empresarial
+﻿# Mapa de evidencias V2 - Laboratorio backend IA empresarial
 
 ## 1. Finalidad
 
-Este documento enumera las evidencias mínimas que permiten revisar la V2 (Version 2 – Versión 2) del laboratorio `laboratorio-backend-ia-empresarial`.
+Este documento enumera las evidencias mínimas que permiten revisar la V2 (Version 2 - Versión 2) del laboratorio `laboratorio-backend-ia-empresarial`.
 
 Las evidencias se centran en reproducibilidad local, claridad documental, ausencia de dependencias cloud obligatorias y trazabilidad de los resultados.
 
@@ -59,8 +59,9 @@ API_PAGO_OBLIGATORIA: NO
 
 WEB_PUBLICA: NO_MODIFICADA
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.
 
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

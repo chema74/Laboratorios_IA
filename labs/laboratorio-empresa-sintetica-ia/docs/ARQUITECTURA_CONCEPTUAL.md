@@ -11,13 +11,14 @@
 8. **Narrativa de demo**: hilo conductor para presentar resultados técnicos.
 
 ## Flujo conceptual
-Empresa sintética -> datos y documentos -> eventos -> escenarios -> respuestas de IA (Artificial Intelligence – Inteligencia Artificial) -> revisión humana simulada -> evidencias -> informe narrativo.
+Empresa sintética -> datos y documentos -> eventos -> escenarios -> respuestas de IA (Artificial Intelligence - Inteligencia Artificial) -> revisión humana simulada -> evidencias -> informe narrativo.
 
 ## Estado actual
-Arquitectura en fase documental. Sin implementación de API (Application Programming Interface – Interfaz de Programación de Aplicaciones), sin conectores reales y sin servicios externos obligatorios.
+Arquitectura en fase documental. Sin implementación de API (Application Programming Interface - Interfaz de Programación de Aplicaciones), sin conectores reales y sin servicios externos obligatorios.
 
 $lic
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.  
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

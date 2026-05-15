@@ -1,4 +1,4 @@
-# ⚠️ LÍMITES Y ALCANCE V2 — LABORATORIO AGENTES ENTERPRISE LOCAL
+﻿# ️ LÍMITES Y ALCANCE V2 - LABORATORIO AGENTES ENTERPRISE LOCAL
 
 ## Declaración de alcance técnico
 
@@ -6,7 +6,7 @@
 
 ## 1. Objetivo
 
-Este documento define los límites de la V2 (Version 2 – Versión 2) del laboratorio `laboratorio-agentes-enterprise-local`.
+Este documento define los límites de la V2 (Version 2 - Versión 2) del laboratorio `laboratorio-agentes-enterprise-local`.
 
 Su función es evitar exageraciones y separar laboratorio local de producto empresarial final.
 
@@ -16,13 +16,13 @@ Su función es evitar exageraciones y separar laboratorio local de producto empr
 
 El laboratorio demuestra:
 
-- Base local de agentes de IA (Artificial Intelligence – Inteligencia Artificial).
+- Base local de agentes de IA (Artificial Intelligence - Inteligencia Artificial).
 - Organización técnica de componentes.
 - Scripts y tests locales.
 - Documentación revisable.
 - Enfoque free-first y local-first.
 - Ausencia de claves reales.
-- Ausencia de APIs (Application Programming Interfaces – Interfaces de Programación de Aplicaciones) de pago obligatorias.
+- Ausencia de APIs (Application Programming Interfaces - Interfaces de Programación de Aplicaciones) de pago obligatorias.
 
 ---
 
@@ -36,7 +36,7 @@ El laboratorio no demuestra todavía:
 - Control avanzado de permisos.
 - Observabilidad productiva completa.
 - Despliegue cloud.
-- Producto SaaS (Software as a Service – Software como Servicio).
+- Producto SaaS (Software as a Service - Software como Servicio).
 
 ---
 
@@ -54,6 +54,6 @@ El laboratorio no demuestra todavía:
 
 ---
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.

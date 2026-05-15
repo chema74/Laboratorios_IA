@@ -1,8 +1,8 @@
-# Guía de revisión de evidencias V2 — Laboratorio backend IA empresarial
+﻿# Guía de revisión de evidencias V2 - Laboratorio backend IA empresarial
 
 ## 1. Objetivo
 
-Esta guía permite revisar la V2 (Version 2 – Versión 2) del laboratorio `laboratorio-backend-ia-empresarial` sin tocar `main` y sin modificar la web pública.
+Esta guía permite revisar la V2 (Version 2 - Versión 2) del laboratorio `laboratorio-backend-ia-empresarial` sin tocar `main` y sin modificar la web pública.
 
 ## 2. Revisión recomendada
 
@@ -53,8 +53,9 @@ WEB_PUBLICA: NO_MODIFICADA
 
 MERGE_A_MAIN: NO_REALIZADO
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.
 
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

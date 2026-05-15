@@ -19,6 +19,7 @@
 ## Nota de alcance
 La V1 actual se mantiene como laboratorio local, gratuito, reproducible y sintético para IA empresarial. No es un sistema productivo.
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.  
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

@@ -58,8 +58,9 @@ Evidencia: estimación local de coste de proceso.
 - `scripts/generar_informe_gobernanza.py`: informe completo de gobernanza.
 - `tests/`: pruebas unitarias de clasificación, inventario, evidencias, shadow IA y motor.
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.
 
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

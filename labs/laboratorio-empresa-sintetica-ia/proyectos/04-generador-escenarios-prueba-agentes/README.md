@@ -1,7 +1,7 @@
 ﻿# 04-generador-escenarios-prueba-agentes
 
 ## Objetivo
-Generador de Escenarios de Prueba para Agentes con alcance V1 (Version 1 – Versión 1) local mínimo. Produce casos sintéticos evaluables sin ejecutar agentes reales.
+Generador de Escenarios de Prueba para Agentes con alcance V1 (Version 1 - Versión 1) local mínimo. Produce casos sintéticos evaluables sin ejecutar agentes reales.
 
 ## Implementado en esta V1 local mínima
 - Lectura de entradas (si existen):
@@ -62,8 +62,8 @@ pytest proyectos/04-generador-escenarios-prueba-agentes/tests -q
 ## Límites actuales
 - Escenarios sintéticos para evaluación interna.
 - No se ejecutan agentes reales.
-- No hay IA (Artificial Intelligence – Inteligencia Artificial) real implementada.
-- No hay API (Application Programming Interface – Interfaz de Programación de Aplicaciones) productiva ni llamadas externas.
+- No hay IA (Artificial Intelligence - Inteligencia Artificial) real implementada.
+- No hay API (Application Programming Interface - Interfaz de Programación de Aplicaciones) productiva ni llamadas externas.
 - No hay datos reales.
 - No hay integraciones externas.
 - No hay servicios de pago.
@@ -71,6 +71,7 @@ pytest proyectos/04-generador-escenarios-prueba-agentes/tests -q
 ## Propósito de esta base
 Este proyecto prepara la base técnica para evaluación futura de agentes en entorno controlado y reproducible.
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.  
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

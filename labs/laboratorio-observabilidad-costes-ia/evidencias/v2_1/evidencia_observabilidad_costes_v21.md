@@ -1,4 +1,4 @@
-# Evidencia V2.1 - Observabilidad y Costes IA
+﻿# Evidencia V2.1 - Observabilidad y Costes IA
 
 - Escenario: `uso_normal_controlado`
 - Modo: `fallback_local`
@@ -61,4 +61,5 @@ Se analizaron 3 eventos con coste total estimado de 0.0370 EUR, latencia media d
 
 
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.
-© 2025 - Txema Rios. Todos los derechos compartidos.
+(c) 2026 - Txema Rios. Todos los derechos compartidos.
+

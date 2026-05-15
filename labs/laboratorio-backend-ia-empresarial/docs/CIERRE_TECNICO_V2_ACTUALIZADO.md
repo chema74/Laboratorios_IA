@@ -1,8 +1,8 @@
-# Cierre técnico V2 actualizado — Laboratorio backend IA empresarial
+﻿# Cierre técnico V2 actualizado - Laboratorio backend IA empresarial
 
 ## 1. Estado
 
-El laboratorio `laboratorio-backend-ia-empresarial` queda cerrado como V2 (Version 2 – Versión 2) técnica documentada dentro del portfolio de IA (Artificial Intelligence – Inteligencia Artificial).
+El laboratorio `laboratorio-backend-ia-empresarial` queda cerrado como V2 (Version 2 - Versión 2) técnica documentada dentro del portfolio de IA (Artificial Intelligence - Inteligencia Artificial).
 
 ## 2. Rama de trabajo
 
@@ -39,7 +39,7 @@ Esta V2 no constituye despliegue productivo.
 
 No exige cloud.
 
-No exige APIs (Application Programming Interfaces – Interfaces de Programación de Aplicaciones) de pago.
+No exige APIs (Application Programming Interfaces - Interfaces de Programación de Aplicaciones) de pago.
 
 No usa claves reales.
 
@@ -69,8 +69,9 @@ MERGE_A_MAIN: NO_REALIZADO
 
 BACKEND_IA_EMPRESARIAL_V2: OK
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.
 
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

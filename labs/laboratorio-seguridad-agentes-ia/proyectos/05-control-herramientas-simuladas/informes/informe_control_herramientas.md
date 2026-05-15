@@ -1,4 +1,4 @@
-# Informe de Control Defensivo de Herramientas Simuladas
+﻿# Informe de Control Defensivo de Herramientas Simuladas
 
 Fecha de generación: 2026-05-10T20:15:36
 
@@ -45,6 +45,7 @@ No ejecuta herramientas reales ni comandos del sistema; solo escenarios sintéti
 2. Reforzar revisión en sensibilidad alta.
 3. Auditar registros periódicamente.
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.  
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

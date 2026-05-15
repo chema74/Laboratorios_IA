@@ -10,11 +10,12 @@ Definir estructura lógica, entradas y salidas del módulo sin código.
 
 ## Integración prevista
 - Consumo interno en modo local.
-- Conector opcional futuro por API (Application Programming Interface – Interfaz de Programación de Aplicaciones) mediante .env.
+- Conector opcional futuro por API (Application Programming Interface - Interfaz de Programación de Aplicaciones) mediante .env.
 
 ## Estado
 Documento de referencia para fase previa a implementación.
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.  
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

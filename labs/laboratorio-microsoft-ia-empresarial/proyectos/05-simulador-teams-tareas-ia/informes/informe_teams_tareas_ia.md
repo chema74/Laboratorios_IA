@@ -1,4 +1,4 @@
-# Informe Simulador Teams y Tareas IA (V1 Local)
+﻿# Informe Simulador Teams y Tareas IA (V1 Local)
 
 Fecha de generación: 2026-05-11 09:51:08
 
@@ -54,6 +54,7 @@ Simulación local de conversaciones, reuniones y tareas con salidas sintéticas 
 - Versionar umbrales de riesgo de bloqueo simulado.
 - Preparar V2 opcional con .env y fallback local.
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.  
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

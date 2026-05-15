@@ -1,4 +1,4 @@
-# 🧪 MAPA DE EVIDENCIAS V2 — LABORATORIO AGENTES ENTERPRISE LOCAL
+﻿#  MAPA DE EVIDENCIAS V2 - LABORATORIO AGENTES ENTERPRISE LOCAL
 
 ## Evidencias revisables del laboratorio
 
@@ -6,9 +6,9 @@
 
 ## 1. Objetivo
 
-Este documento define las evidencias V2 (Version 2 – Versión 2) del laboratorio de agentes enterprise locales.
+Este documento define las evidencias V2 (Version 2 - Versión 2) del laboratorio de agentes enterprise locales.
 
-La finalidad es facilitar una revisión profesional del repositorio por empresas, consultores TIC (Information and Communication Technologies – Tecnologías de la Información y la Comunicación) o evaluadores técnicos.
+La finalidad es facilitar una revisión profesional del repositorio por empresas, consultores TIC (Information and Communication Technologies - Tecnologías de la Información y la Comunicación) o evaluadores técnicos.
 
 ---
 
@@ -51,6 +51,6 @@ El laboratorio debe evidenciar:
 
 ---
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.

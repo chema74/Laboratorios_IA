@@ -1,7 +1,7 @@
 ﻿# 05-motor-simulacion-crisis
 
 ## Objetivo
-Motor de Simulación de Crisis con alcance V1 (Version 1 – Versión 1) local mínimo. Genera crisis empresariales ficticias para evaluación técnica y narrativa de laboratorio, sin uso operativo real.
+Motor de Simulación de Crisis con alcance V1 (Version 1 - Versión 1) local mínimo. Genera crisis empresariales ficticias para evaluación técnica y narrativa de laboratorio, sin uso operativo real.
 
 ## Implementado en esta V1 local mínima
 - Lectura de entradas (si existen):
@@ -60,8 +60,8 @@ pytest proyectos/05-motor-simulacion-crisis/tests -q
 ## Límites actuales
 - Crisis sintéticas para pruebas internas del laboratorio.
 - No se ejecutan agentes reales.
-- No hay IA (Artificial Intelligence – Inteligencia Artificial) real implementada.
-- No hay API (Application Programming Interface – Interfaz de Programación de Aplicaciones) productiva ni llamadas externas.
+- No hay IA (Artificial Intelligence - Inteligencia Artificial) real implementada.
+- No hay API (Application Programming Interface - Interfaz de Programación de Aplicaciones) productiva ni llamadas externas.
 - No hay datos reales ni integraciones externas.
 - No hay servicios de pago.
 - No existe predicción real ni análisis empresarial real.
@@ -69,6 +69,7 @@ pytest proyectos/05-motor-simulacion-crisis/tests -q
 ## Propósito de esta base
 Este proyecto prepara base para simulaciones más avanzadas, evaluación de agentes, seguridad defensiva y demos narrativas futuras.
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.  
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

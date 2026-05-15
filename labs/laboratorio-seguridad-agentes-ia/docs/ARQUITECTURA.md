@@ -18,6 +18,7 @@ La arquitectura propuesta es local, modular y orientada a seguridad defensiva. N
 ## Flujo documental esperado
 Escenario sintético -> evaluación de entrada -> clasificación de sensibilidad -> validación de políticas -> decisión de control -> trazabilidad -> actualización de matriz -> informe defensivo.
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.  
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

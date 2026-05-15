@@ -20,6 +20,7 @@ Este documento describe componentes del ecosistema Microsoft desde una perspecti
 
 ## Principio de implementación
 Toda integración real queda diferida y condicionada a activación opcional, siempre con fallback local y sin romper el enfoque free-first/local-first.
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.  
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

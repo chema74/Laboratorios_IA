@@ -13,7 +13,7 @@
 [Incidente o cambio operativo]
 
 ## Respuesta esperada del agente
-[Qué debería proponer la IA (Artificial Intelligence – Inteligencia Artificial)]
+[Qué debería proponer la IA (Artificial Intelligence - Inteligencia Artificial)]
 
 ## Revisión humana simulada
 [Aceptar, rechazar, corregir, escalar]
@@ -26,6 +26,7 @@
 
 $lic
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.  
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

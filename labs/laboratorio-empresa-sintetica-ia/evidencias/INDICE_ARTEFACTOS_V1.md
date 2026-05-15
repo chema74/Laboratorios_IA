@@ -75,6 +75,7 @@ Este índice lista, por proyecto, los artefactos sintéticos esperados en V1 y l
 ## Nota de interpretación
 Toda la evidencia de V1 debe leerse como resultado técnico de laboratorio local, con datos sintéticos y alcance de portfolio profesional.
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.  
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

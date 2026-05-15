@@ -1,4 +1,4 @@
-# 🧪 GUÍA DE REVISIÓN EJECUTIVA DE EVIDENCIAS V2 — LABORATORIO EVALUACIÓN LLM LOCAL
+﻿#  GUÍA DE REVISIÓN EJECUTIVA DE EVIDENCIAS V2 - LABORATORIO EVALUACIÓN LLM LOCAL
 
 ## Documento de apoyo para evaluación profesional
 
@@ -6,9 +6,9 @@
 
 ## 1. Objetivo
 
-Esta guía explica cómo revisar las evidencias generadas por la V2 (Version 2 – Versión 2) del repositorio `laboratorio-evaluacion-llm-local`.
+Esta guía explica cómo revisar las evidencias generadas por la V2 (Version 2 - Versión 2) del repositorio `laboratorio-evaluacion-llm-local`.
 
-Su finalidad es ayudar a una empresa, consultor TIC (Information and Communication Technologies – Tecnologías de la Información y la Comunicación) o evaluador técnico a entender qué demuestra el laboratorio y qué no debe interpretarse como sistema productivo.
+Su finalidad es ayudar a una empresa, consultor TIC (Information and Communication Technologies - Tecnologías de la Información y la Comunicación) o evaluador técnico a entender qué demuestra el laboratorio y qué no debe interpretarse como sistema productivo.
 
 ---
 
@@ -16,9 +16,9 @@ Su finalidad es ayudar a una empresa, consultor TIC (Information and Communicati
 
 Las evidencias deben leerse como señales de madurez técnica local, no como promesa de evaluación empresarial completa.
 
-Este laboratorio demuestra una base reproducible y documentada para revisar criterios de calidad en LLM (Large Language Model – Gran Modelo de Lenguaje).
+Este laboratorio demuestra una base reproducible y documentada para revisar criterios de calidad en LLM (Large Language Model - Gran Modelo de Lenguaje).
 
-No debe presentarse como SaaS (Software as a Service – Software como Servicio), plataforma cerrada ni benchmark industrial definitivo.
+No debe presentarse como SaaS (Software as a Service - Software como Servicio), plataforma cerrada ni benchmark industrial definitivo.
 
 ---
 
@@ -112,6 +112,6 @@ Su función es mejorar la revisión profesional de las evidencias V2.
 
 ---
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.

@@ -91,4 +91,5 @@ python -m pytest -q
 El repositorio queda preparado como demo técnica empresarial de observabilidad y costes de IA con operación local, capa LLM opcional y evidencias reproducibles.
 
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.  
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

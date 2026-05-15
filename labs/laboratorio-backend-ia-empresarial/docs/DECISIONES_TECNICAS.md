@@ -28,8 +28,9 @@ El registro de peticiones y trazas facilita análisis de decisiones de acceso, r
 
 Este laboratorio no sustituye un backend empresarial productivo con API pública, seguridad avanzada, despliegue distribuido, observabilidad en tiempo real y operación 24/7.
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.
 
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

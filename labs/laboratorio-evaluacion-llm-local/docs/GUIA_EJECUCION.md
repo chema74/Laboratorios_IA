@@ -40,8 +40,9 @@ python -m unittest discover tests -v
 - Toda la ejecución es local y offline.
 - Si hay incoherencias, repetir primero siembra de datos y chequeo de salud.
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.
 
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

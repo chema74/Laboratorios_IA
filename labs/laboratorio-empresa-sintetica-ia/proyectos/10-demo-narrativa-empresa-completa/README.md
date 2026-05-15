@@ -4,7 +4,7 @@
 Construir una demo narrativa local de una semana operativa de empresa ficticia, integrando artefactos de los proyectos 01 a 09.
 
 ## Estado actual
-V1 (Version 1 – Versión 1) local mínima implementada.
+V1 (Version 1 - Versión 1) local mínima implementada.
 
 ## Qué se ha implementado
 - Carga de contexto desde salidas previas del laboratorio (con fallback interno para pruebas).
@@ -61,18 +61,19 @@ pytest proyectos/10-demo-narrativa-empresa-completa/tests -q
 ```
 
 ## Límites explícitos
-- No hay IA (Artificial Intelligence – Inteligencia Artificial) real en ejecución.
-- No hay API (Application Programming Interface – Interfaz de Programación de Aplicaciones) externa ni productiva.
+- No hay IA (Artificial Intelligence - Inteligencia Artificial) real en ejecución.
+- No hay API (Application Programming Interface - Interfaz de Programación de Aplicaciones) externa ni productiva.
 - No hay datos reales ni cliente real.
 - No se ejecutan agentes reales.
 - No hay sistema productivo, monitorización real ni recomendación empresarial real.
 - No hay servicios de pago.
-- Esta demo se orienta a un uso técnico de portfolio para entorno PYME (Small and Medium-sized Enterprise – Pequeña y Mediana Empresa).
+- Esta demo se orienta a un uso técnico de portfolio para entorno PYME (Small and Medium-sized Enterprise - Pequeña y Mediana Empresa).
 
 ## Evolución
 - V1: integración narrativa local mínima.
-- V2 (Version 2 – Versión 2): evolución futura profesional documentada (fuera de esta implementación).
+- V2 (Version 2 - Versión 2): evolución futura profesional documentada (fuera de esta implementación).
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.  
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

@@ -1,4 +1,4 @@
-# Expediente Google IA Empresarial
+﻿# Expediente Google IA Empresarial
 
 ## Narrativa empresarial de uso
 PYME simulada con procesos de comunicación, documentación, analítica y coordinación.
@@ -13,6 +13,6 @@ PYME simulada con procesos de comunicación, documentación, analítica y coordi
 - mejorar_controles
 - documentar_v2_opcional
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.  
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.

@@ -1,8 +1,8 @@
-# Plan V2 — Laboratorio privacidad datos IA
+﻿# Plan V2 - Laboratorio privacidad datos IA
 
 ## 1. Propósito
 
-Esta V2 (Version 2 – Versión 2) consolida el laboratorio `laboratorio-privacidad-datos-ia` como una pieza técnica de portfolio orientada a privacidad práctica en sistemas de IA (Artificial Intelligence – Inteligencia Artificial).
+Esta V2 (Version 2 - Versión 2) consolida el laboratorio `laboratorio-privacidad-datos-ia` como una pieza técnica de portfolio orientada a privacidad práctica en sistemas de IA (Artificial Intelligence - Inteligencia Artificial).
 
 El objetivo no es simular asesoría legal ni prometer cumplimiento normativo. El objetivo es demostrar que un sistema de IA puede diseñarse con criterios de minimización, trazabilidad, anonimización sintética, control documental y validación reproducible desde un enfoque local-first.
 
@@ -15,7 +15,7 @@ El laboratorio se mantiene bajo las reglas maestras del portfolio:
 - Sin tarjeta bancaria.
 - Sin claves reales.
 - Sin servicios cloud obligatorios.
-- Sin APIs (Application Programming Interfaces – Interfaces de Programación de Aplicaciones) de pago obligatorias.
+- Sin APIs (Application Programming Interfaces - Interfaces de Programación de Aplicaciones) de pago obligatorias.
 - Datos sintéticos o anonimizados por diseño.
 - Documentación en castellano.
 - Evidencias reproducibles.
@@ -36,7 +36,7 @@ Incluye:
 
 ## 4. Casos de uso que representa
 
-Este laboratorio sirve para explicar, sin datos reales, cómo una PYME (Small and Medium-sized Enterprise – Pequeña y Mediana Empresa) podría revisar un sistema de IA desde una perspectiva de privacidad.
+Este laboratorio sirve para explicar, sin datos reales, cómo una PYME (Small and Medium-sized Enterprise - Pequeña y Mediana Empresa) podría revisar un sistema de IA desde una perspectiva de privacidad.
 
 Los casos representados son:
 
@@ -48,7 +48,7 @@ Los casos representados son:
 
 ## 5. Relación con normativa
 
-El laboratorio menciona conceptos relacionados con RGPD (General Data Protection Regulation – Reglamento General de Protección de Datos), DPIA (Data Protection Impact Assessment – Evaluación de Impacto relativa a la Protección de Datos) y AI Act (Artificial Intelligence Act – Reglamento de Inteligencia Artificial) únicamente como contexto técnico de gobernanza y privacidad.
+El laboratorio menciona conceptos relacionados con RGPD (General Data Protection Regulation - Reglamento General de Protección de Datos), DPIA (Data Protection Impact Assessment - Evaluación de Impacto relativa a la Protección de Datos) y AI Act (Artificial Intelligence Act - Reglamento de Inteligencia Artificial) únicamente como contexto técnico de gobernanza y privacidad.
 
 No sustituye el trabajo de un delegado de protección de datos, asesoría jurídica, auditoría certificada ni evaluación legal formal.
 
@@ -68,8 +68,9 @@ WEB_PUBLICA: NO_MODIFICADA
 
 MERGE_A_MAIN: NO_REALIZADO
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.
 
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

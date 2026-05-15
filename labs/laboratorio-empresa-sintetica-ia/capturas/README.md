@@ -18,6 +18,7 @@ Actualmente no se incluyen capturas si no existen archivos de imagen en esta car
 - `PLAN_CAPTURAS_V1.md`: listado recomendado de capturas para documentar la V1.
 - `GUIA_CAPTURAS_PORTFOLIO.md`: criterios y procedimiento para capturas útiles de portfolio técnico.
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.  
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

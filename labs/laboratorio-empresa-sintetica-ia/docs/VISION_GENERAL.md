@@ -8,7 +8,7 @@ El Laboratorio de Empresa Sintética para IA Empresarial es un entorno local, gr
 - Permitir evaluación técnica con evidencia rastreable y reutilizable.
 
 ## Papel dentro del portfolio
-Este repositorio funciona como proveedor transversal para iniciativas futuras de analítica, automatización orientada a API (Application Programming Interface – Interfaz de Programación de Aplicaciones), seguridad y evaluación operativa.
+Este repositorio funciona como proveedor transversal para iniciativas futuras de analítica, automatización orientada a API (Application Programming Interface - Interfaz de Programación de Aplicaciones), seguridad y evaluación operativa.
 
 ## Estado actual de la V1
 - V1 local integradora completada.
@@ -20,6 +20,7 @@ Este repositorio funciona como proveedor transversal para iniciativas futuras de
 - Sin IA funcional real todavía.
 - Sin sistema productivo.
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.  
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

@@ -1,4 +1,4 @@
-# 06 - Políticas de Uso de Agente (V1 local funcional mínima)
+﻿# 06 - Políticas de Uso de Agente (V1 local funcional mínima)
 
 ## Objetivo
 Evaluar casos sintéticos de uso de agentes contra políticas internas ficticias de seguridad defensiva.
@@ -21,6 +21,7 @@ python .\proyectos\06-politicas-uso-agente\src\evaluador_politicas_uso.py --case
 - V1: evaluación local sin IA real, sin APIs externas y sin cloud.
 - V2 futura (no implementada): APIs gratuitas opcionales gestionadas por `.env`, con fallback local.
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.  
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

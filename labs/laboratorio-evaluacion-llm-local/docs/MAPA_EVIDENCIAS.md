@@ -36,8 +36,9 @@ Mapa de trazabilidad entre capacidades declaradas y artefactos reales del reposi
 
 No se incluyen evidencias de cloud, embeddings ni LLM externo porque no forman parte de la implementación actual.
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.
 
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

@@ -23,6 +23,7 @@ python -m unittest discover .\proyectos\03-simulador-drive-docs-ia\tests -v
 ## Límites
 Sin Drive real, sin Docs real, sin OAuth real, sin APIs externas y sin IA real.
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.  
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

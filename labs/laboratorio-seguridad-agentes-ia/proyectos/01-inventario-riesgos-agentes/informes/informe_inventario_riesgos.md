@@ -1,4 +1,4 @@
-# Informe de Inventario Defensivo de Riesgos de Agentes
+﻿# Informe de Inventario Defensivo de Riesgos de Agentes
 
 Fecha de generación: 2026-05-10T19:56:11
 
@@ -49,6 +49,7 @@ Solo contempla escenarios sintéticos no accionables y no representa operación 
 2. Ampliar evidencias de trazabilidad por riesgo.
 3. Revisar umbrales y pesos del modelo simulado.
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.  
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+

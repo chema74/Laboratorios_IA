@@ -1,4 +1,4 @@
-# 03 - Simulador OneDrive y Word IA
+﻿# 03 - Simulador OneDrive y Word IA
 
 ## Objetivo
 Simular flujos empresariales documentales de OneDrive y Word con acciones IA simuladas, sin integraciones reales.
@@ -21,6 +21,7 @@ V1 local funcional mínima implementada.
 ## Límites
 Sin OneDrive real, sin Word real, sin Microsoft Graph API real, sin OAuth real, sin Azure obligatorio y sin IA real.
 
-## 🪪 Licencia y Autoría
+##  Licencia y Autoría
 Publicado bajo licencia Creative Commons CC BY-SA 4.0 International.  
-© 2025 – Txema Ríos. Todos los derechos compartidos.
+(c) 2026 - Txema Ríos. Todos los derechos compartidos.
+
