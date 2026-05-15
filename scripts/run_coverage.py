@@ -21,7 +21,7 @@ def _coverage_steps_for_lab(lab: Path) -> list[list[str]]:
 
     project_tests = sorted(tests_dir for tests_dir in (lab / "proyectos").glob("**/tests") if any(tests_dir.glob("test_*.py")))
     if lab.name == "laboratorio-empresa-sintetica-ia" and project_tests:
-        steps.append([sys.executable, "-m", "pytest", "proyectos", "-q"])
+        steps.append([sys.executable, str(REPO_ROOT / "scripts" / "run_function_tests.py"), "proyectos"])
     else:
         for tests_dir in project_tests:
             rel = tests_dir.relative_to(lab).as_posix()
@@ -54,8 +54,10 @@ def main() -> None:
 
     for lab in labs_with_tests:
         print(f"=== COVERAGE: {lab.name} ===")
+        lab_env = env.copy()
+        lab_env["ARTIFACTS_DIR"] = str(REPO_ROOT / "artifacts" / lab.name)
         for step in _coverage_steps_for_lab(lab):
-            rc = run([sys.executable, "-m", "coverage", "run", "--append", *step[1:]], lab, env)
+            rc = run([sys.executable, "-m", "coverage", "run", "--append", *step[1:]], lab, lab_env)
             if rc != 0:
                 raise SystemExit(rc)
 

@@ -4,6 +4,8 @@ import sys
 from pathlib import Path
 
 BASE = Path(__file__).resolve().parents[1]
+REPO_ROOT = BASE.parents[1]
+FUNCTION_TEST_RUNNER = REPO_ROOT / "scripts" / "run_function_tests.py"
 
 
 def _run(cmd: list[str]) -> int:
@@ -15,7 +17,7 @@ def _project_test_steps() -> list[tuple[str, list[str]]]:
     for tests_dir in sorted((BASE / "proyectos").glob("**/tests")):
         if any(tests_dir.glob("test_*.py")):
             rel = tests_dir.relative_to(BASE).as_posix()
-            steps.append((f"tests:{rel}", [sys.executable, "-m", "pytest", rel, "-q"]))
+            steps.append((f"tests:{rel}", [sys.executable, str(FUNCTION_TEST_RUNNER), rel]))
     return steps
 
 
